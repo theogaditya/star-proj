@@ -1,0 +1,50 @@
+67s         Normal    Created                        pod/cpu-app-7644f97777-g6d92      Created container cpu
+67s         Normal    Created                        pod/cpu-app-7644f97777-vfwvn      Created container cpu
+66s         Normal    Started                        pod/cpu-app-7644f97777-798xc      Started container cpu
+66s         Normal    Created                        pod/cpu-app-7644f97777-tl5qq      Created container cpu
+66s         Normal    Started                        pod/cpu-app-7644f97777-vfwvn      Started container cpu
+66s         Normal    Created                        pod/cpu-app-7644f97777-798xc      Created container cpu
+66s         Normal    Pulled                         pod/cpu-app-7644f97777-tl5qq      Successfully pulled image "polinux/stress" in 1.549s (2.51s including waiting). Image size: 4041495 bytes.
+66s         Normal    Pulling                        pod/cpu-app-7644f97777-rr7r9      Pulling image "polinux/stress"
+66s         Normal    Pulled                         pod/cpu-app-7644f97777-798xc      Successfully pulled image "polinux/stress" in 1.427s (3.712s including waiting). Image size: 4041495 bytes.
+65s         Normal    Started                        pod/cpu-app-7644f97777-tl5qq      Started container cpu
+65s         Normal    Created                        pod/cpu-app-7644f97777-x9nl4      Created container cpu
+65s         Normal    Pulled                         pod/cpu-app-7644f97777-579bw      Successfully pulled image "polinux/stress" in 1.578s (5.29s including waiting). Image size: 4041495 bytes.
+65s         Normal    Created                        pod/cpu-app-7644f97777-579bw      Created container cpu
+65s         Warning   BackOff                        pod/cpu-app-7644f97777-w2m4m      Back-off restarting failed container cpu in pod cpu-app-7644f97777-w2m4m_default(7397df9b-51f7-417f-840c-ff7dbc150c26)
+65s         Normal    Pulled                         pod/cpu-app-7644f97777-x9nl4      Successfully pulled image "polinux/stress" in 1.69s (2.607s including waiting). Image size: 4041495 bytes.
+64s         Normal    Started                        pod/cpu-app-7644f97777-x9nl4      Started container cpu
+64s         Normal    Started                        pod/cpu-app-7644f97777-579bw      Started container cpu
+63s         Normal    Created                        pod/cpu-app-7644f97777-fftpf      Created container cpu
+63s         Normal    Started                        pod/cpu-app-7644f97777-fftpf      Started container cpu
+63s         Normal    Pulled                         pod/cpu-app-7644f97777-fftpf      Successfully pulled image "polinux/stress" in 1.591s (4.199s including waiting). Image size: 4041495 bytes.
+62s         Normal    Pulled                         pod/cpu-app-7644f97777-rr7r9      Successfully pulled image "polinux/stress" in 1.732s (3.931s including waiting). Image size: 4041495 bytes.
+62s         Normal    Created                        pod/cpu-app-7644f97777-rr7r9      Created container cpu
+61s         Normal    Started                        pod/cpu-app-7644f97777-rr7r9      Started container cpu
+58s         Warning   BackOff                        pod/cpu-app-7644f97777-kdp48      Back-off restarting failed container cpu in pod cpu-app-7644f97777-kdp48_default(6f0fde56-e5b9-4f6d-b2d0-d641152a8d47)
+58s         Warning   BackOff                        pod/cpu-app-7644f97777-zzsjp      Back-off restarting failed container cpu in pod cpu-app-7644f97777-zzsjp_default(af6216d2-433f-4a36-ac27-91677083747c)
+56s         Normal    Pulling                        pod/cpu-app-7644f97777-sfzkn      Pulling image "polinux/stress"
+56s         Warning   BackOff                        pod/cpu-app-7644f97777-n42xv      Back-off restarting failed container cpu in pod cpu-app-7644f97777-n42xv_default(0cdedecc-2031-4d73-812f-54cfbe9695b0)
+54s         Normal    Created                        pod/cpu-app-7644f97777-sfzkn      Created container cpu
+54s         Normal    Pulled                         pod/cpu-app-7644f97777-sfzkn      Successfully pulled image "polinux/stress" in 1.604s (1.604s including waiting). Image size: 4041495 bytes.
+53s         Normal    Started                        pod/cpu-app-7644f97777-sfzkn      Started container cpu
+53s         Normal    Pulling                        pod/cpu-app-7644f97777-ngmnt      Pulling image "polinux/stress"
+52s         Normal    Pulling                        pod/cpu-app-7644f97777-w2m4m      Pulling image "polinux/stress"
+51s         Normal    Created                        pod/cpu-app-7644f97777-ngmnt      Created container cpu
+51s         Normal    Pulled                         pod/cpu-app-7644f97777-w2m4m      Successfully pulled image "polinux/stress" in 1.616s (1.616s including waiting). Image size: 4041495 bytes.
+51s         Normal    Pulled                         pod/cpu-app-7644f97777-ngmnt      Successfully pulled image "polinux/stress" in 1.609s (1.609s including waiting). Image size: 4041495 bytes.
+51s         Normal    Created                        pod/cpu-app-7644f97777-w2m4m      Created container cpu
+50s         Normal    Started                        pod/cpu-app-7644f97777-w2m4m      Started container cpu
+50s         Normal    Started                        pod/cpu-app-7644f97777-ngmnt      Started container cpu
+46s         Normal    Pulling                        pod/cpu-app-7644f97777-kdp48      Pulling image "polinux/stress"
+44s         Normal    Started                        pod/cpu-app-7644f97777-kdp48      Started container cpu
+44s         Normal    Created                        pod/cpu-app-7644f97777-kdp48      Created container cpu
+44s         Normal    Pulling                        pod/cpu-app-7644f97777-zzsjp      Pulling image "polinux/stress"
+44s         Normal    Pulled                         pod/cpu-app-7644f97777-kdp48      Successfully pulled image "polinux/stress" in 1.563s (1.563s including waiting). Image size: 4041495 bytes.
+42s         Normal    Pulling                        pod/cpu-app-7644f97777-n42xv      Pulling image "polinux/stress"
+42s         Normal    Pulled                         pod/cpu-app-7644f97777-zzsjp      Successfully pulled image "polinux/stress" in 1.704s (1.704s including waiting). Image size: 4041495 bytes.
+42s         Normal    Started                        pod/cpu-app-7644f97777-zzsjp      Started container cpu
+42s         Normal    Created                        pod/cpu-app-7644f97777-zzsjp      Created container cpu
+39s         Normal    Created                        pod/cpu-app-7644f97777-n42xv      Created container cpu
+39s         Normal    Pulled                         pod/cpu-app-7644f97777-n42xv      Successfully pulled image "polinux/stress" in 2.47s (2.47s including waiting). Image size: 4041495 bytes.
+39s         Normal    Started                        pod/cpu-app-7644f97777-n42xv      Started container cpu

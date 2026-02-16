@@ -1,0 +1,54 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"autoscaling/v2","kind":"HorizontalPodAutoscaler","metadata":{"annotations":{},"name":"cpu-hpa","namespace":"default"},"spec":{"maxReplicas":24,"metrics":[{"resource":{"name":"cpu","target":{"averageUtilization":60,"type":"Utilization"}},"type":"Resource"}],"minReplicas":4,"scaleTargetRef":{"apiVersion":"apps/v1","kind":"Deployment","name":"cpu-app"}}}
+  creationTimestamp: "2026-02-16T15:23:34Z"
+  name: cpu-hpa
+  namespace: default
+  resourceVersion: "11718"
+  uid: 0888de60-366c-4609-b040-6fd194376e7b
+spec:
+  maxReplicas: 24
+  metrics:
+  - resource:
+      name: cpu
+      target:
+        averageUtilization: 60
+        type: Utilization
+    type: Resource
+  minReplicas: 4
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: cpu-app
+status:
+  conditions:
+  - lastTransitionTime: "2026-02-16T15:23:49Z"
+    message: recent recommendations were higher than current one, applying the highest
+      recent recommendation
+    reason: ScaleDownStabilized
+    status: "True"
+    type: AbleToScale
+  - lastTransitionTime: "2026-02-16T15:39:51Z"
+    message: the HPA was able to successfully calculate a replica count from cpu resource
+      utilization (percentage of request)
+    reason: ValidMetricFound
+    status: "True"
+    type: ScalingActive
+  - lastTransitionTime: "2026-02-16T15:24:34Z"
+    message: the desired replica count is more than the maximum replica count
+    reason: TooManyReplicas
+    status: "True"
+    type: ScalingLimited
+  currentMetrics:
+  - resource:
+      current:
+        averageUtilization: 200
+        averageValue: 200m
+      name: cpu
+    type: Resource
+  currentReplicas: 24
+  desiredReplicas: 24
+  lastScaleTime: "2026-02-16T15:24:34Z"

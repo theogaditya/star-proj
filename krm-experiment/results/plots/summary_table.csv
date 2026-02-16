@@ -1,0 +1,4 @@
+metric_resolution,time_to_stabilize_s,max_replicas,avg_cpu_util,overshoot_undershoot_area,pod_seconds
+60s,11.0,24.0,198.1,114335.0,16730.0
+30s,86.0,24.0,199.1,106178.0,19560.0
+15s,70.0,24.0,199.2,119877.0,20540.0
