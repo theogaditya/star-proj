@@ -1,0 +1,21 @@
+# HPA — Prometheus Custom Metric: HTTP request rate only (PCM-H)
+# Scales based on per-pod HTTP request rate.
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: cpu-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: cpu-app
+  minReplicas: 4
+  maxReplicas: 24
+  metrics:
+  - type: Pods
+    pods:
+      metric:
+        name: http_requests_per_second
+      target:
+        type: AverageValue
+        averageValue: "3"

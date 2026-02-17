@@ -38,7 +38,7 @@ The experiment was conducted on a local **Kind (Kubernetes-in-Docker)** cluster 
 We developed a synthetic workload-generator using `stress` to simulate CPU-bound processing.
 - **Image**: `polinux/stress`
 - **Command**: `stress --cpu 1`
-- **Constraints**: 
+- **Constraints**:
   - Requests: `100m`
   - Limits: `200m`
   - HPA Target: `60%`
@@ -95,7 +95,7 @@ spec:
           requests:
             cpu: "100m"
           limits:
-            cpu: "200m" 
+            cpu: "200m"
 ```
 
 ### 3.3 Kind Cluster Config

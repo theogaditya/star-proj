@@ -1,0 +1,36 @@
+ts=2026-02-17T09:23:58.406Z caller=main.go:617 level=info msg="Starting Prometheus Server" mode=server version="(version=2.51.0, branch=HEAD, revision=c05c15512acb675e3f6cd662a6727854e93fc024)"
+ts=2026-02-17T09:23:58.406Z caller=main.go:622 level=info build_context="(go=go1.22.1, platform=linux/amd64, user=root@b5723e458358, date=20240319-10:54:45, tags=netgo,builtinassets,stringlabels)"
+ts=2026-02-17T09:23:58.406Z caller=main.go:623 level=info host_details="(Linux 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2 x86_64 prometheus-5d65879bcc-4zqts (none))"
+ts=2026-02-17T09:23:58.406Z caller=main.go:624 level=info fd_limits="(soft=1048576, hard=1048576)"
+ts=2026-02-17T09:23:58.407Z caller=main.go:625 level=info vm_limits="(soft=unlimited, hard=unlimited)"
+ts=2026-02-17T09:23:58.414Z caller=web.go:568 level=info component=web msg="Start listening for connections" address=0.0.0.0:9090
+ts=2026-02-17T09:23:58.415Z caller=main.go:1129 level=info msg="Starting TSDB ..."
+ts=2026-02-17T09:23:58.422Z caller=tls_config.go:313 level=info component=web msg="Listening on" address=[::]:9090
+ts=2026-02-17T09:23:58.422Z caller=tls_config.go:316 level=info component=web msg="TLS is disabled." http2=false address=[::]:9090
+ts=2026-02-17T09:23:58.426Z caller=head.go:616 level=info component=tsdb msg="Replaying on-disk memory mappable chunks if any"
+ts=2026-02-17T09:23:58.427Z caller=head.go:698 level=info component=tsdb msg="On-disk memory mappable chunks replay completed" duration=1.391451ms
+ts=2026-02-17T09:23:58.427Z caller=head.go:706 level=info component=tsdb msg="Replaying WAL, this may take a while"
+ts=2026-02-17T09:23:58.433Z caller=head.go:778 level=info component=tsdb msg="WAL segment loaded" segment=0 maxSegment=2
+ts=2026-02-17T09:23:58.461Z caller=head.go:778 level=info component=tsdb msg="WAL segment loaded" segment=1 maxSegment=2
+ts=2026-02-17T09:23:58.462Z caller=head.go:778 level=info component=tsdb msg="WAL segment loaded" segment=2 maxSegment=2
+ts=2026-02-17T09:23:58.462Z caller=head.go:815 level=info component=tsdb msg="WAL replay completed" checkpoint_replay_duration=53.597µs wal_replay_duration=34.437066ms wbl_replay_duration=257ns total_replay_duration=35.92566ms
+ts=2026-02-17T09:23:58.465Z caller=main.go:1150 level=info fs_type=EXT4_SUPER_MAGIC
+ts=2026-02-17T09:23:58.465Z caller=main.go:1153 level=info msg="TSDB started"
+ts=2026-02-17T09:23:58.465Z caller=main.go:1335 level=info msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+ts=2026-02-17T09:23:58.467Z caller=kubernetes.go:331 level=info component="discovery manager scrape" discovery=kubernetes config=kubernetes-pods msg="Using pod service account via in-cluster config"
+ts=2026-02-17T09:23:58.471Z caller=main.go:1372 level=info msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml totalDuration=5.810117ms db_storage=1.318µs remote_storage=235.01µs web_handler=676ns query_engine=1.016µs scrape=662.653µs scrape_sd=4.421637ms notify=1.096µs notify_sd=1.307µs rules=5.888µs tracing=14.06µs
+ts=2026-02-17T09:23:58.471Z caller=main.go:1114 level=info msg="Server is ready to receive web requests."
+ts=2026-02-17T09:23:58.471Z caller=manager.go:163 level=info component="rule manager" msg="Starting rule manager..."
+ts=2026-02-17T09:24:28.475Z caller=klog.go:108 level=warn component=k8s_client_runtime func=Warningf msg="pkg/mod/k8s.io/client-go@v0.29.2/tools/cache/reflector.go:229: failed to list *v1.Pod: Get \"https://10.96.0.1:443/api/v1/pods?limit=500&resourceVersion=0\": dial tcp 10.96.0.1:443: i/o timeout"
+ts=2026-02-17T09:24:28.476Z caller=klog.go:116 level=error component=k8s_client_runtime func=ErrorDepth msg="pkg/mod/k8s.io/client-go@v0.29.2/tools/cache/reflector.go:229: Failed to watch *v1.Pod: failed to list *v1.Pod: Get \"https://10.96.0.1:443/api/v1/pods?limit=500&resourceVersion=0\": dial tcp 10.96.0.1:443: i/o timeout"
+ts=2026-02-17T09:24:59.289Z caller=compact.go:572 level=info component=tsdb msg="write block" mint=1771307695502 maxt=1771308000000 ulid=01KHNENKQRYW9RM5JA31J1MW9S duration=32.745905ms
+ts=2026-02-17T09:24:59.293Z caller=head.go:1338 level=info component=tsdb msg="Head GC completed" caller=truncateMemory duration=3.140172ms
+ts=2026-02-17T09:24:59.326Z caller=compact.go:572 level=info component=tsdb msg="write block" mint=1771308002555 maxt=1771315200000 ulid=01KHNENKRXAMS5R54ABTFYZGMF duration=33.590745ms
+ts=2026-02-17T09:24:59.328Z caller=db.go:1684 level=info component=tsdb msg="Deleting obsolete block" block=01KHNENKQRYW9RM5JA31J1MW9S
+ts=2026-02-17T09:24:59.332Z caller=head.go:1338 level=info component=tsdb msg="Head GC completed" caller=truncateMemory duration=3.8967ms
+ts=2026-02-17T11:00:02.432Z caller=compact.go:572 level=info component=tsdb msg="write block" mint=1771315200418 maxt=1771322400000 ulid=01KHNM3N6F2PQRS5HD5C0A3XEM duration=48.937741ms
+ts=2026-02-17T11:00:02.435Z caller=db.go:1684 level=info component=tsdb msg="Deleting obsolete block" block=01KHNENKRXAMS5R54ABTFYZGMF
+ts=2026-02-17T11:00:02.441Z caller=head.go:1338 level=info component=tsdb msg="Head GC completed" caller=truncateMemory duration=6.073934ms
+ts=2026-02-17T11:00:02.441Z caller=checkpoint.go:101 level=info component=tsdb msg="Creating checkpoint" from_segment=0 to_segment=1 mint=1771322400000
+ts=2026-02-17T11:00:02.455Z caller=head.go:1300 level=info component=tsdb msg="WAL checkpoint complete" first=0 last=1 duration=14.598117ms
+failed to create fsnotify watcher: too many open files

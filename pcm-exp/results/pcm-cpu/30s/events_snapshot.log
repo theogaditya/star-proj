@@ -1,0 +1,50 @@
+11m         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-9d2g5       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-vd8gj       Container started
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-9d2g5       Container started
+11m         Normal    Created                        pod/cpu-app-bcc7f4b9c-hwrvt       Container created
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-klvwz       Container started
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-cfwwj       Container started
+11m         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-pltcr       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+11m         Normal    Created                        pod/cpu-app-bcc7f4b9c-pltcr       Container created
+11m         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-klvwz       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-8gbmp       Container started
+11m         Normal    Created                        pod/cpu-app-bcc7f4b9c-9d2g5       Container created
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-s8htn       Container started
+11m         Normal    Created                        pod/cpu-app-bcc7f4b9c-klvwz       Container created
+11m         Normal    Created                        pod/cpu-app-bcc7f4b9c-vd8gj       Container created
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-pltcr       Container started
+11m         Normal    Created                        pod/cpu-app-bcc7f4b9c-stxjp       Container created
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-stxjp       Container started
+11m         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-cfwwj       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+11m         Normal    Created                        pod/cpu-app-bcc7f4b9c-cfwwj       Container created
+11m         Normal    Started                        pod/cpu-app-bcc7f4b9c-hwrvt       Container started
+9m48s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-vd8gj       Readiness probe failed: Get "http://10.244.2.21:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+8m51s       Normal    SuccessfulCreate               replicaset/cpu-app-bcc7f4b9c      (combined from similar events): Created pod: cpu-app-bcc7f4b9c-bhkrq
+8m51s       Normal    SuccessfulRescale              horizontalpodautoscaler/cpu-hpa   New size: 24; reason: pods metric http_requests_per_second above target
+8m51s       Normal    ScalingReplicaSet              deployment/cpu-app                Scaled up replica set cpu-app-bcc7f4b9c from 20 to 24
+8m50s       Normal    Created                        pod/cpu-app-bcc7f4b9c-hqw4r       Container created
+8m50s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-hqw4r       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+8m50s       Normal    Started                        pod/cpu-app-bcc7f4b9c-hqw4r       Container started
+8m50s       Normal    Created                        pod/cpu-app-bcc7f4b9c-bhkrq       Container created
+8m50s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-7mt7v       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+8m50s       Normal    Created                        pod/cpu-app-bcc7f4b9c-7mt7v       Container created
+8m50s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-582xn       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+8m50s       Normal    Created                        pod/cpu-app-bcc7f4b9c-582xn       Container created
+8m50s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-bhkrq       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+8m49s       Normal    Started                        pod/cpu-app-bcc7f4b9c-bhkrq       Container started
+8m49s       Normal    Started                        pod/cpu-app-bcc7f4b9c-7mt7v       Container started
+8m49s       Normal    Started                        pod/cpu-app-bcc7f4b9c-582xn       Container started
+8m38s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-j5cm6       Readiness probe failed: Get "http://10.244.1.20:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+8m33s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-4lx7p       Readiness probe failed: Get "http://10.244.2.19:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+8m22s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-pltcr       Readiness probe failed: Get "http://10.244.3.23:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+6m26s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-v9lp7       Readiness probe failed: Get "http://10.244.1.18:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+6m22s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-s8htn       Readiness probe failed: Get "http://10.244.3.22:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+6m18s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-cfwwj       Readiness probe failed: Get "http://10.244.1.24:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+5m27s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-9d2g5       Readiness probe failed: Get "http://10.244.3.24:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+5m13s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-stxjp       Readiness probe failed: Get "http://10.244.1.23:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+4m58s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-klvwz       Readiness probe failed: Get "http://10.244.2.23:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+3m8s        Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-8zl7g       Readiness probe failed: Get "http://10.244.3.20:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+3m7s        Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-5cppb       Readiness probe failed: Get "http://10.244.2.18:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m42s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-6q6qf       Readiness probe failed: Get "http://10.244.3.19:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m33s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-6nwdm       Readiness probe failed: Get "http://10.244.1.19:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m17s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-hqw4r       Readiness probe failed: Get "http://10.244.3.25:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
