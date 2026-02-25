@@ -33,8 +33,8 @@ try:
 except: pass
 " >> "$OUTFILE" 2>/dev/null
 
-    # Query rate of http_requests_total (per second, 2m window)
-    result=$(curl -s "${PROM_URL}/api/v1/query?query=sum(rate(http_requests_total[2m]))%20by%20(kubernetes_pod_name)" 2>/dev/null || echo '{"data":{"result":[]}}')
+    # Query rate of http_requests_total (per second, 30s window — responsive to load changes)
+    result=$(curl -s "${PROM_URL}/api/v1/query?query=sum(rate(http_requests_total%5B30s%5D))%20by%20(kubernetes_pod_name)" 2>/dev/null || echo '{"data":{"result":[]}}')
     echo "$result" | python3 -c "
 import sys, json
 try:

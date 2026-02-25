@@ -87,6 +87,10 @@ def load_all_runs():
             "prometheus": load_csv(run_dir, "prometheus_metrics.csv")
             if (run_dir / "prometheus_metrics.csv").exists()
             else pd.DataFrame(),
+            # Dedicated HTTP req/s collector output (new)
+            "http_rps": load_csv(run_dir, "http_rps.csv")
+            if (run_dir / "http_rps.csv").exists()
+            else pd.DataFrame(),
         }
     return data
 
@@ -158,23 +162,34 @@ def compute_derived_metrics(run_data: dict) -> dict:
             cpu_vals = cpu_col
         metrics["avg_cpu_util"] = round(cpu_vals.dropna().mean(), 1)
 
-    # Average HTTP requests/s
+    # Average HTTP requests/s — prefer dedicated http_rps.csv, then fall back
     avg_http_rps = None
-    if "httpRequestsPerSecond" in hpa.columns:
+
+    # 1. Best source: dedicated http_rps.csv (irate-based, cluster-wide total)
+    http_rps_df = run_data.get("http_rps", pd.DataFrame())
+    if not http_rps_df.empty and "total_rps" in http_rps_df.columns:
+        vals = pd.to_numeric(http_rps_df["total_rps"], errors="coerce").dropna()
+        if not vals.empty:
+            avg_http_rps = vals.mean()
+            metrics["peak_http_rps"] = round(float(vals.max()), 2)
+
+    # 2. Fallback: HPA custom metric field
+    if avg_http_rps is None and "httpRequestsPerSecond" in hpa.columns:
         http_col = pd.to_numeric(hpa["httpRequestsPerSecond"], errors="coerce")
         if not http_col.dropna().empty:
             avg_http_rps = http_col.dropna().mean()
 
-    if avg_http_rps is None and "prometheus" in run_data:
-        prom = run_data["prometheus"]
+    # 3. Fallback: prometheus_metrics.csv
+    if avg_http_rps is None:
+        prom = run_data.get("prometheus", pd.DataFrame())
         if not prom.empty and "metric" in prom.columns:
             prom_rates = prom[prom["metric"] == "http_requests_rate"]
             if not prom_rates.empty:
-                 vals = pd.to_numeric(prom_rates["value"], errors="coerce")
-                 avg_http_rps = vals.dropna().mean()
+                vals = pd.to_numeric(prom_rates["value"], errors="coerce")
+                avg_http_rps = vals.dropna().mean()
 
     if avg_http_rps is not None:
-        metrics["avg_http_rps"] = round(avg_http_rps, 2)
+        metrics["avg_http_rps"] = round(float(avg_http_rps), 2)
 
     # Overshoot/undershoot area (CPU)
     if "currentCPUUtilizationPercent" in hpa.columns:
@@ -295,55 +310,63 @@ def plot_cpu_over_time(data: dict):
 
 
 def plot_http_rate_over_time(data: dict):
-    """Plot HTTP request rate over time (PCM-specific)."""
+    """Plot HTTP request rate (req/s) over time for all experiments.
+
+    Data source priority:
+      1. http_rps.csv — dedicated irate collector (most accurate)
+      2. hpa_log.csv  — httpRequestsPerSecond from HPA custom metric
+      3. prometheus_metrics.csv — rate(http_requests_total[30s]) per pod
+    """
     fig, ax = plt.subplots(figsize=(14, 6))
     has_data = False
+
     for label, run_data in data.items():
-        # Try HPA log first
         hpa = run_data["hpa_log"]
+        http_rps_df = run_data.get("http_rps", pd.DataFrame())
         prom = run_data.get("prometheus", pd.DataFrame())
 
-        http_rps = None
+        rps_series = None
         times = None
 
-        if not hpa.empty and "httpRequestsPerSecond" in hpa.columns:
+        # ── Source 1: dedicated http_rps.csv (total_rps = irate sum) ──────────
+        if not http_rps_df.empty and "total_rps" in http_rps_df.columns:
+            series = pd.to_numeric(http_rps_df["total_rps"], errors="coerce")
+            if not series.dropna().empty:
+                rps_series = series
+                t0 = http_rps_df["timestamp"].iloc[0]
+                times = (http_rps_df["timestamp"] - t0).dt.total_seconds() / 60
+
+        # ── Source 2: HPA custom metric httpRequestsPerSecond ─────────────────
+        if rps_series is None and not hpa.empty and "httpRequestsPerSecond" in hpa.columns:
             series = pd.to_numeric(hpa["httpRequestsPerSecond"], errors="coerce")
             if not series.dropna().empty:
-                http_rps = series
+                rps_series = series
                 t0 = hpa["timestamp"].iloc[0]
                 times = (hpa["timestamp"] - t0).dt.total_seconds() / 60
 
-        # Fallback to Prometheus metrics if HPA log missing or empty
-        if http_rps is None and not prom.empty and "metric" in prom.columns:
-            # Filter for http_requests_rate
-            prom_rates = prom[prom["metric"] == "http_requests_rate"]
+        # ── Source 3: prometheus_metrics.csv — per-pod rate averaged ─────────
+        if rps_series is None and not prom.empty and "metric" in prom.columns:
+            prom_rates = prom[prom["metric"] == "http_requests_rate"].copy()
             if not prom_rates.empty:
-                # Average across pods for each timestamp
                 prom_rates["value"] = pd.to_numeric(prom_rates["value"], errors="coerce")
-                # Group by timestamp and mean
-                df_avg = prom_rates.groupby("timestamp")["value"].mean().reset_index()
+                df_avg = prom_rates.groupby("timestamp")["value"].sum().reset_index()
                 df_avg = df_avg.sort_values("timestamp")
-
                 if not df_avg.empty:
-                    http_rps = df_avg["value"]
-                    # Align time with HPA start if possible, else use own start
-                    if not hpa.empty:
-                        t0 = hpa["timestamp"].iloc[0]
-                    else:
-                        t0 = df_avg["timestamp"].iloc[0]
+                    rps_series = df_avg["value"]
+                    t0 = hpa["timestamp"].iloc[0] if not hpa.empty else df_avg["timestamp"].iloc[0]
                     times = (df_avg["timestamp"] - t0).dt.total_seconds() / 60
 
-        if http_rps is not None and times is not None:
+        if rps_series is not None and times is not None:
             has_data = True
-            ax.plot(times, http_rps, label=label, linewidth=1.5)
+            ax.plot(times, rps_series.values, label=label, linewidth=1.5)
 
     if not has_data:
         plt.close(fig)
-        print("  [SKIP] No HTTP rate data available")
+        print("  [SKIP] No HTTP req/s data available")
         return
 
     ax.set_xlabel("Time (minutes)")
-    ax.set_ylabel("HTTP Requests/sec (per pod avg)")
+    ax.set_ylabel("HTTP Requests / second (cluster total)")
     ax.set_title("HTTP Request Rate Over Time (PCM Experiments)")
     ax.legend()
     ax.grid(True, alpha=0.3)
@@ -521,7 +544,7 @@ def main():
     print("\n[PLOTS]")
     plot_replicas_over_time(data)
     plot_cpu_over_time(data)
-    # plot_http_rate_over_time(data)
+    plot_http_rate_over_time(data)
     plot_desired_vs_current(data)
     plot_efficiency_scatter(data)
     plot_pcm_h_vs_pcm_ch(data)

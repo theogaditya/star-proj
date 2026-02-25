@@ -68,6 +68,10 @@ start_collectors() {
     PROM_URL="http://localhost:9090" bash "$COLLECTORS/collect_prometheus_metrics.sh" "$outdir" &
     COLLECTOR_PIDS+=($!)
 
+    # Start dedicated HTTP req/s collector (needs port-forward)
+    PROM_URL="http://localhost:9090" bash "$COLLECTORS/collect_http_rps.sh" "$outdir" &
+    COLLECTOR_PIDS+=($!)
+
     echo "[✓] ${#COLLECTOR_PIDS[@]} collectors running (PIDs: ${COLLECTOR_PIDS[*]})"
 }
 

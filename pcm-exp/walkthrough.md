@@ -87,10 +87,16 @@ See [PCM-EXPERIMENT.md](file:///home/abhas/node/STAR/star-proj/pcm-exp/PCM-EXPER
 ```bash
 cd pcm-exp
 kind create cluster --config manifests/kind-config.yaml
-docker build -t cpu-http-app:latest app/
+# Build the image if you dont have it
+# docker build -t cpu-http-app:latest app/
 kind load docker-image cpu-http-app:latest
 
-# Run experiments (approx 90 mins)
+source venv/bin/activate
+
+# Ensure all scripts are executable
+chmod +x run-experiment.sh manifests/install-prometheus.sh workload/run-load-phase.sh collect-scripts/*.sh
+
+# Run the full suite!
 ./run-experiment.sh
 
 # Analyze results

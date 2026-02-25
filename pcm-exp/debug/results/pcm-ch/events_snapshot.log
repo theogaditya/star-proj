@@ -1,0 +1,50 @@
+3m51s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-k6pr2       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+3m51s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-29d4c       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+3m51s       Normal    Started                        pod/cpu-app-bcc7f4b9c-qt9jq       Container started
+3m51s       Normal    Started                        pod/cpu-app-bcc7f4b9c-k6pr2       Container started
+3m51s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-7xr2p       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+3m51s       Normal    Created                        pod/cpu-app-bcc7f4b9c-7xr2p       Container created
+3m51s       Normal    Started                        pod/cpu-app-bcc7f4b9c-7xr2p       Container started
+3m51s       Normal    Created                        pod/cpu-app-bcc7f4b9c-29d4c       Container created
+3m51s       Normal    Pulled                         pod/cpu-app-bcc7f4b9c-qt9jq       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+3m51s       Normal    Created                        pod/cpu-app-bcc7f4b9c-k6pr2       Container created
+2m59s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-29d4c       Readiness probe failed: Get "http://10.244.2.10:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m48s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-k6pr2       Readiness probe failed: Get "http://10.244.4.10:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m44s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-7xr2p       Readiness probe failed: Get "http://10.244.1.13:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m44s       Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/cpu-hpa   invalid metrics (1 invalid out of 1), first error is: failed to get pods metric value: unable to get metric http_requests_per_second: unable to fetch metrics from custom metrics API: the server could not find the metric http_requests_per_second for pods
+2m44s       Warning   FailedGetPodsMetric            horizontalpodautoscaler/cpu-hpa   unable to get metric http_requests_per_second: unable to fetch metrics from custom metrics API: the server could not find the metric http_requests_per_second for pods
+2m39s       Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-qt9jq       Readiness probe failed: Get "http://10.244.1.12:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2m11s       Normal    Killing                        pod/cpu-app-bcc7f4b9c-7xr2p       Stopping container cpu-http
+2m11s       Normal    Killing                        pod/cpu-app-bcc7f4b9c-29d4c       Stopping container cpu-http
+2m11s       Normal    Killing                        pod/cpu-app-bcc7f4b9c-k6pr2       Stopping container cpu-http
+2m11s       Normal    Killing                        pod/cpu-app-bcc7f4b9c-qt9jq       Stopping container cpu-http
+98s         Normal    ScalingReplicaSet              deployment/cpu-app                Scaled up replica set cpu-app-bcc7f4b9c from 0 to 4
+97s         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-hwvql       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+97s         Normal    Started                        pod/cpu-app-bcc7f4b9c-gxmd2       Container started
+97s         Normal    Started                        pod/cpu-app-bcc7f4b9c-j2qww       Container started
+97s         Normal    Created                        pod/cpu-app-bcc7f4b9c-j2qww       Container created
+97s         Normal    SuccessfulCreate               replicaset/cpu-app-bcc7f4b9c      Created pod: cpu-app-bcc7f4b9c-5mpf5
+97s         Normal    SuccessfulCreate               replicaset/cpu-app-bcc7f4b9c      Created pod: cpu-app-bcc7f4b9c-gxmd2
+97s         Normal    SuccessfulCreate               replicaset/cpu-app-bcc7f4b9c      Created pod: cpu-app-bcc7f4b9c-hwvql
+97s         Normal    SuccessfulCreate               replicaset/cpu-app-bcc7f4b9c      Created pod: cpu-app-bcc7f4b9c-j2qww
+97s         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-gxmd2       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+97s         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-j2qww       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+97s         Normal    Scheduled                      pod/cpu-app-bcc7f4b9c-j2qww       Successfully assigned default/cpu-app-bcc7f4b9c-j2qww to kind-worker2
+97s         Normal    Created                        pod/cpu-app-bcc7f4b9c-gxmd2       Container created
+97s         Normal    Started                        pod/cpu-app-bcc7f4b9c-hwvql       Container started
+97s         Normal    Scheduled                      pod/cpu-app-bcc7f4b9c-hwvql       Successfully assigned default/cpu-app-bcc7f4b9c-hwvql to kind-worker3
+97s         Normal    Started                        pod/cpu-app-bcc7f4b9c-5mpf5       Container started
+97s         Normal    Created                        pod/cpu-app-bcc7f4b9c-5mpf5       Container created
+97s         Normal    Pulled                         pod/cpu-app-bcc7f4b9c-5mpf5       Container image "cpu-http-app:latest" already present on machine and can be accessed by the pod
+97s         Normal    Scheduled                      pod/cpu-app-bcc7f4b9c-5mpf5       Successfully assigned default/cpu-app-bcc7f4b9c-5mpf5 to kind-worker2
+97s         Normal    Created                        pod/cpu-app-bcc7f4b9c-hwvql       Container created
+97s         Normal    Scheduled                      pod/cpu-app-bcc7f4b9c-gxmd2       Successfully assigned default/cpu-app-bcc7f4b9c-gxmd2 to kind-worker
+45s         Warning   FailedGetResourceMetric        horizontalpodautoscaler/cpu-hpa   failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+45s         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/cpu-hpa   invalid metrics (2 invalid out of 2), first error is: failed to get cpu resource metric value: failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+30s         Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-hwvql       Readiness probe failed: Get "http://10.244.2.11:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+30s         Warning   FailedGetPodsMetric            horizontalpodautoscaler/cpu-hpa   unable to get metric http_requests_per_second: no metrics returned from custom metrics API
+30s         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/cpu-hpa   invalid metrics (2 invalid out of 2), first error is: failed to get cpu resource metric value: failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+25s         Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-gxmd2       Readiness probe failed: Get "http://10.244.4.11:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+24s         Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-5mpf5       Readiness probe failed: Get "http://10.244.1.15:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+24s         Warning   Unhealthy                      pod/cpu-app-bcc7f4b9c-j2qww       Readiness probe failed: Get "http://10.244.1.14:8080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+15s         Warning   FailedGetResourceMetric        horizontalpodautoscaler/cpu-hpa   failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)

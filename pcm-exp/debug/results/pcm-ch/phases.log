@@ -1,0 +1,5 @@
+timestamp,phase,action
+2026-02-25T13:15:28+05:30,high,start
+2026-02-25T13:15:53+05:30,high,end
+2026-02-25T13:15:53+05:30,low,start
+2026-02-25T13:16:18+05:30,low,end

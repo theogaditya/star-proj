@@ -1,0 +1,22 @@
+Name:                                  cpu-hpa
+Namespace:                             default
+Labels:                                <none>
+Annotations:                           <none>
+CreationTimestamp:                     Wed, 25 Feb 2026 13:13:01 +0530
+Reference:                             Deployment/cpu-app
+Metrics:                               ( current / target )
+  "http_requests_per_second" on pods:  2343m / 3
+Min replicas:                          4
+Max replicas:                          24
+Deployment pods:                       4 current / 4 desired
+Conditions:
+  Type            Status  Reason              Message
+  ----            ------  ------              -------
+  AbleToScale     True    ReadyForNewScale    recommended size matches current size
+  ScalingActive   True    ValidMetricFound    the HPA was able to successfully calculate a replica count from pods metric http_requests_per_second
+  ScalingLimited  False   DesiredWithinRange  the desired count is within the acceptable range
+Events:
+  Type     Reason                        Age                From                       Message
+  ----     ------                        ----               ----                       -------
+  Warning  FailedGetPodsMetric           33s (x2 over 48s)  horizontal-pod-autoscaler  unable to get metric http_requests_per_second: unable to fetch metrics from custom metrics API: the server could not find the metric http_requests_per_second for pods
+  Warning  FailedComputeMetricsReplicas  33s (x2 over 48s)  horizontal-pod-autoscaler  invalid metrics (1 invalid out of 1), first error is: failed to get pods metric value: unable to get metric http_requests_per_second: unable to fetch metrics from custom metrics API: the server could not find the metric http_requests_per_second for pods

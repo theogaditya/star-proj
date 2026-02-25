@@ -1,0 +1,22 @@
+ts=2026-02-25T07:07:39.707Z caller=main.go:617 level=info msg="Starting Prometheus Server" mode=server version="(version=2.51.0, branch=HEAD, revision=c05c15512acb675e3f6cd662a6727854e93fc024)"
+ts=2026-02-25T07:07:39.707Z caller=main.go:622 level=info build_context="(go=go1.22.1, platform=linux/amd64, user=root@b5723e458358, date=20240319-10:54:45, tags=netgo,builtinassets,stringlabels)"
+ts=2026-02-25T07:07:39.707Z caller=main.go:623 level=info host_details="(Linux 6.17.0-14-generic #14~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jan 15 15:52:10 UTC 2 x86_64 prometheus-bc9c9ffc8-wmmqq (none))"
+ts=2026-02-25T07:07:39.707Z caller=main.go:624 level=info fd_limits="(soft=1048576, hard=1048576)"
+ts=2026-02-25T07:07:39.707Z caller=main.go:625 level=info vm_limits="(soft=unlimited, hard=unlimited)"
+ts=2026-02-25T07:07:39.709Z caller=web.go:568 level=info component=web msg="Start listening for connections" address=0.0.0.0:9090
+ts=2026-02-25T07:07:39.709Z caller=main.go:1129 level=info msg="Starting TSDB ..."
+ts=2026-02-25T07:07:39.710Z caller=tls_config.go:313 level=info component=web msg="Listening on" address=[::]:9090
+ts=2026-02-25T07:07:39.710Z caller=tls_config.go:316 level=info component=web msg="TLS is disabled." http2=false address=[::]:9090
+ts=2026-02-25T07:07:39.712Z caller=head.go:616 level=info component=tsdb msg="Replaying on-disk memory mappable chunks if any"
+ts=2026-02-25T07:07:39.712Z caller=head.go:698 level=info component=tsdb msg="On-disk memory mappable chunks replay completed" duration=1.373µs
+ts=2026-02-25T07:07:39.712Z caller=head.go:706 level=info component=tsdb msg="Replaying WAL, this may take a while"
+ts=2026-02-25T07:07:39.712Z caller=head.go:778 level=info component=tsdb msg="WAL segment loaded" segment=0 maxSegment=0
+ts=2026-02-25T07:07:39.712Z caller=head.go:815 level=info component=tsdb msg="WAL replay completed" checkpoint_replay_duration=20.986µs wal_replay_duration=261.891µs wbl_replay_duration=110ns total_replay_duration=298.754µs
+ts=2026-02-25T07:07:39.714Z caller=main.go:1150 level=info fs_type=EXT4_SUPER_MAGIC
+ts=2026-02-25T07:07:39.714Z caller=main.go:1153 level=info msg="TSDB started"
+ts=2026-02-25T07:07:39.714Z caller=main.go:1335 level=info msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+ts=2026-02-25T07:07:39.714Z caller=kubernetes.go:331 level=info component="discovery manager scrape" discovery=kubernetes config=kubernetes-pods msg="Using pod service account via in-cluster config"
+ts=2026-02-25T07:07:39.714Z caller=main.go:1372 level=info msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml totalDuration=596.847µs db_storage=1.076µs remote_storage=994ns web_handler=341ns query_engine=575ns scrape=121.984µs scrape_sd=232.497µs notify=650ns notify_sd=1.055µs rules=980ns tracing=2.485µs
+ts=2026-02-25T07:07:39.714Z caller=main.go:1114 level=info msg="Server is ready to receive web requests."
+ts=2026-02-25T07:07:39.714Z caller=manager.go:163 level=info component="rule manager" msg="Starting rule manager..."
+failed to create fsnotify watcher: too many open files

@@ -1,0 +1,53 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"autoscaling/v2","kind":"HorizontalPodAutoscaler","metadata":{"annotations":{},"name":"cpu-hpa","namespace":"default"},"spec":{"maxReplicas":24,"metrics":[{"pods":{"metric":{"name":"http_requests_per_second"},"target":{"averageValue":"3","type":"AverageValue"}},"type":"Pods"}],"minReplicas":4,"scaleTargetRef":{"apiVersion":"apps/v1","kind":"Deployment","name":"cpu-app"}}}
+  creationTimestamp: "2026-02-25T07:43:01Z"
+  name: cpu-hpa
+  namespace: default
+  resourceVersion: "5697"
+  uid: d12649aa-2842-4a9f-84d5-37f273caab32
+spec:
+  maxReplicas: 24
+  metrics:
+  - pods:
+      metric:
+        name: http_requests_per_second
+      target:
+        averageValue: "3"
+        type: AverageValue
+    type: Pods
+  minReplicas: 4
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: cpu-app
+status:
+  conditions:
+  - lastTransitionTime: "2026-02-25T07:43:16Z"
+    message: recommended size matches current size
+    reason: ReadyForNewScale
+    status: "True"
+    type: AbleToScale
+  - lastTransitionTime: "2026-02-25T07:43:46Z"
+    message: the HPA was able to successfully calculate a replica count from pods
+      metric http_requests_per_second
+    reason: ValidMetricFound
+    status: "True"
+    type: ScalingActive
+  - lastTransitionTime: "2026-02-25T07:43:46Z"
+    message: the desired count is within the acceptable range
+    reason: DesiredWithinRange
+    status: "False"
+    type: ScalingLimited
+  currentMetrics:
+  - pods:
+      current:
+        averageValue: 2343m
+      metric:
+        name: http_requests_per_second
+    type: Pods
+  currentReplicas: 4
+  desiredReplicas: 4

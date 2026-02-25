@@ -23,7 +23,7 @@ kubectl apply -f /tmp/prometheus-rendered.yaml
 
 # 3. Wait for Prometheus to be ready
 echo "[*] Waiting for Prometheus deployment..."
-kubectl -n monitoring rollout status deployment/prometheus --timeout=120s
+kubectl -n monitoring rollout status deployment/prometheus --timeout=300s
 echo "[✓] Prometheus is ready"
 
 # 4. Install metrics-server (needed for PCM-CH which also uses Resource CPU)
@@ -43,7 +43,7 @@ if ! kubectl -n kube-system get deployment metrics-server &>/dev/null; then
       ]}
     ]'
     echo "[*] Waiting for metrics-server..."
-    kubectl -n kube-system rollout status deployment/metrics-server --timeout=120s
+    kubectl -n kube-system rollout status deployment/metrics-server --timeout=300s
     echo "[✓] metrics-server is ready"
 else
     echo "[✓] metrics-server already installed"
@@ -54,7 +54,7 @@ echo "[*] Applying Prometheus Adapter..."
 kubectl apply -f "$SCRIPT_DIR/prometheus-adapter.yaml"
 
 echo "[*] Waiting for Prometheus Adapter deployment..."
-kubectl -n monitoring rollout status deployment/prometheus-adapter --timeout=120s
+kubectl -n monitoring rollout status deployment/prometheus-adapter --timeout=300s
 echo "[✓] Prometheus Adapter is ready"
 
 # 6. Verify custom metrics API is registered

@@ -2,10 +2,10 @@ Name:                                  cpu-hpa
 Namespace:                             default
 Labels:                                <none>
 Annotations:                           <none>
-CreationTimestamp:                     Tue, 17 Feb 2026 16:25:55 +0530
+CreationTimestamp:                     Wed, 25 Feb 2026 16:52:00 +0530
 Reference:                             Deployment/cpu-app
 Metrics:                               ( current / target )
-  "http_requests_per_second" on pods:  701m / 3
+  "http_requests_per_second" on pods:  1015m / 3
 Min replicas:                          4
 Max replicas:                          24
 Deployment pods:                       24 current / 24 desired
@@ -18,11 +18,9 @@ Conditions:
 Events:
   Type     Reason                        Age                From                       Message
   ----     ------                        ----               ----                       -------
-  Warning  FailedGetPodsMetric           16m (x2 over 16m)  horizontal-pod-autoscaler  unable to get metric http_requests_per_second: no metrics returned from custom metrics API
-  Warning  FailedComputeMetricsReplicas  16m (x2 over 16m)  horizontal-pod-autoscaler  invalid metrics (1 invalid out of 1), first error is: failed to get pods metric value: unable to get metric http_requests_per_second: no metrics returned from custom metrics API
-  Normal   SuccessfulRescale             15m                horizontal-pod-autoscaler  New size: 6; reason: pods metric http_requests_per_second above target
-  Normal   SuccessfulRescale             15m                horizontal-pod-autoscaler  New size: 7; reason: pods metric http_requests_per_second above target
-  Normal   SuccessfulRescale             15m                horizontal-pod-autoscaler  New size: 10; reason: pods metric http_requests_per_second above target
-  Normal   SuccessfulRescale             14m                horizontal-pod-autoscaler  New size: 12; reason: pods metric http_requests_per_second above target
-  Normal   SuccessfulRescale             12m                horizontal-pod-autoscaler  New size: 20; reason: pods metric http_requests_per_second above target
-  Normal   SuccessfulRescale             11m                horizontal-pod-autoscaler  New size: 24; reason: pods metric http_requests_per_second above target
+  Warning  FailedGetPodsMetric           16m (x3 over 16m)  horizontal-pod-autoscaler  unable to get metric http_requests_per_second: no metrics returned from custom metrics API
+  Warning  FailedComputeMetricsReplicas  16m (x3 over 16m)  horizontal-pod-autoscaler  invalid metrics (1 invalid out of 1), first error is: failed to get pods metric value: unable to get metric http_requests_per_second: no metrics returned from custom metrics API
+  Normal   SuccessfulRescale             15m                horizontal-pod-autoscaler  New size: 8; reason: pods metric http_requests_per_second above target
+  Normal   SuccessfulRescale             12m                horizontal-pod-autoscaler  New size: 12; reason: pods metric http_requests_per_second above target
+  Normal   SuccessfulRescale             12m                horizontal-pod-autoscaler  New size: 15; reason: pods metric http_requests_per_second above target
+  Normal   SuccessfulRescale             8m52s              horizontal-pod-autoscaler  New size: 24; reason: pods metric http_requests_per_second above target
