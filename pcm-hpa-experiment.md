@@ -7,19 +7,19 @@
 
 ## 1. Goal
 
-Reproduce Prometheus-based Horizontal Pod Autoscaler behavior on a **Kind** cluster and measure how the **Prometheus Scrape Interval** (`scrape_interval`) affects scaling responsiveness ("The Staircase Effect"). Also evaluate the efficacy of HTTP-based scaling (`pcm-h`) and Hybrid High-Water Mark scaling (`pcm-ch`).
+Reproduce Prometheus-based Horizontal Pod Autoscaler behavior on a **Kind** cluster and measure how the **Prometheus Scrape Interval** (`scrape_interval`) affects scaling responsiveness ("The Staircase Effect"). Also evaluate HTTP-based scaling (`pcm-h`) and multi-metric max-selection hybrid scaling (`pcm-ch`).
 
 ---
 
 ## 2. Assumptions & notes
 
 * Target: local **Kind** cluster (Kubernetes-in-Docker).
-* Pipeline: **Prometheus** (Store) + **Prometheus Adapter** (API Adapter) + **Metrics Server** (Hybrid backup).
+* Pipeline: **Prometheus** (Store) + **Prometheus Adapter** (API Adapter) + **Metrics Server** (used for native CPU metric in hybrid configuration).
 * HPA sync period is 15s (default); Prometheus `scrape_interval` controls metric freshness.
 * Tests use:
     *   **PCM-CPU**: Scaling on CPU metrics routed via Prometheus (isolates scrape latency).
     *   **PCM-H**: Scaling on custom `http_requests_per_second` (direct traffic signal).
-    *   **PCM-CH**: Hybrid scaling (`max(CPU, HTTP)`).
+    *   **PCM-CH**: Hybrid scaling (`max(CPU_recommendation, HTTP_recommendation)`).
 
 ---
 
@@ -31,7 +31,7 @@ Reproduce Prometheus-based Horizontal Pod Autoscaler behavior on a **Kind** clus
 * `hpa-pcm-*.yaml` — HPA manifests for different scenarios.
 * `collect-scripts/collect_*` — Scripts to poll Pod metrics, HPA status, and Prometheus query results.
 * `run-experiment.sh` — Orchestrator for full suite.
-* `analysis/analysis.py` — Python script to plot Time-to-Scale and Latency effects.
+* `analysis/analysis.py` — Python script to plot Time-to-Scale and latency effects.
 
 ---
 
@@ -61,7 +61,7 @@ kind load docker-image cpu-http-app:latest
 Use the helper script which installs:
 1.  **Prometheus Server** (ConfigMap with variable `scrape_interval`).
 2.  **Prometheus Adapter** (Rules to expose `http_requests_per_second`).
-3.  **Metrics Server** (For baseline CPU fallback).
+3.  **Metrics Server** (used for hybrid CPU metric).
 
 ```bash
 # Example: Install with 15s scrape interval
@@ -71,6 +71,7 @@ bash manifests/install-prometheus.sh "15s"
 ### Step 3 — Deploy / Reset Workload
 
 `cpu-app.yaml` must include Prometheus annotations:
+
 ```yaml
 annotations:
   prometheus.io/scrape: "true"
@@ -93,22 +94,31 @@ kubectl get --raw "/apis/custom.metrics.k8s.io/v1beta1/namespaces/default/pods/*
 ### Step 5 — Apply HPA Scenario
 
 **Scenario A: PCM-CPU (Latency Test)**
+
 ```yaml
 type: Pods
-metric:
-  name: cpu_usage (via prometheus adapter rules)
-  target: 60 (average)
+pods:
+  metric:
+    name: cpu_usage
+  target:
+    type: AverageValue
+    averageValue: 60m
 ```
 
 **Scenario B: PCM-H (HTTP Rate)**
+
 ```yaml
 type: Pods
-metric:
-  name: http_requests_per_second
-  target: 3 (average value)
+pods:
+  metric:
+    name: http_requests_per_second
+  target:
+    type: AverageValue
+    averageValue: 3
 ```
 
 Apply:
+
 ```bash
 kubectl apply -f manifests/hpa-pcm-cpu.yaml
 ```
@@ -133,11 +143,11 @@ kubectl get hpa cpu-hpa -w
 
 The `run-experiment.sh` script automates the permutation:
 
-1.  **PCM-CPU-60s**: Prom scrape 60s. Expect "Staircase" response.
-2.  **PCM-CPU-30s**: Prom scrape 30s. Reduced alaising.
-3.  **PCM-CPU-15s**: Prom scrape 15s. "Nyquist Match" with HPA sync.
-4.  **PCM-H**: Scaling purely on Request Rate.
-5.  **PCM-CH**: Hybrid scaling (High-Water Mark).
+1.  **PCM-CPU-60s**: Prom scrape 60s. Expect visible staircase response due to coarse sampling.
+2.  **PCM-CPU-30s**: Prom scrape 30s. Reduced aliasing and improved responsiveness.
+3.  **PCM-CPU-15s**: Prom scrape 15s. Closely aligned with HPA sync cycle.
+4.  **PCM-H**: Scaling purely on request rate (leading indicator).
+5.  **PCM-CH**: Hybrid scaling (multi-metric max selection).
 
 ### Step 9 — Clean up
 
@@ -150,20 +160,25 @@ The `run-experiment.sh` script automates the permutation:
 ## 5. What to collect
 
 ### A — Poll HPA Status (Controller perspective)
-Records what the HPA *sees* and *does*.
+
+Records what the HPA computes and applies.
+
 ```bash
 # collect-scripts/collect_hpa_status.sh
-kubectl get hpa cpu-hpa -o jsonpath='{.status.currentReplicas},{.status.desiredReplicas}...'
+kubectl get hpa cpu-hpa -o jsonpath='{.status.currentReplicas},{.status.desiredReplicas}'
 ```
 
-### B — Poll Prometheus Stats (Source of truth)
-Records what Prometheus *has stored* (detects lag).
+### B — Poll Prometheus Stats (Metric source)
+
+Records what Prometheus has stored (detects scrape lag).
+
 ```bash
 # collect-scripts/collect_prometheus_metrics.sh
 curl -s "http://localhost:9090/api/v1/query?query=http_requests_rate"
 ```
 
-### C — Pod CPU (Real usage)
+### C — Pod CPU (Actual usage)
+
 ```bash
 # collect-scripts/collect_pod_cpu.sh
 kubectl top pods
@@ -175,8 +190,9 @@ kubectl top pods
 
 **Tool**: `hey` (HTTP Load Generator).
 **Pattern**: Square wave.
-*   **High Phase**: 50 req/sec (triggers ~100m CPU/pod → Scale Up).
-*   **Low Phase**: 2 req/sec (Base load → Scale Down).
+
+*   **High Phase**: 50 req/sec (induces CPU saturation beyond configured threshold → triggers scale up).
+*   **Low Phase**: 2 req/sec (base load → allows scale down).
 *   **Duration**: 100s per phase (allows stabilization).
 
 ---
@@ -184,26 +200,35 @@ kubectl top pods
 ## 7. Analysis & Metrics
 
 ### Key Plots
-1.  **Replicas Over Time**: Compare `pcm-cpu-60s` (laggy) vs `pcm-cpu-15s` (smooth) vs `pcm-h` (aggressive).
-2.  **Scraping Period Comparison**: Visualize the "Staircase Effect" where HPA waits for new Prom data.
-3.  **HPA Decision Latency**: Difference between `desiredReplicas` timestamp and actual scale event.
+
+1.  **Replicas Over Time**
+    Compare `pcm-cpu-60s` (coarse sampling) vs `pcm-cpu-15s` (fine sampling) vs `pcm-h` (aggressive response).
+
+2.  **Scraping Period Comparison**
+    Visualize the "Staircase Effect" where HPA may operate on unchanged Prometheus data for multiple sync cycles.
+
+3.  **Control-to-Actuation Latency**
+    Measure difference between:
+    - Time when `desiredReplicas` changes
+    - Time when `currentReplicas` converges
+
+    This captures autoscaling reaction delay including scheduling and container startup time.
 
 ---
 
 ## 8. Report Structure
 
-1.  **Methodology**: Defining the Prometheus Scrape Interval impact.
+1.  **Methodology**: Define impact of Prometheus Scrape Interval.
 2.  **Results**:
-    *   **Staircase Effect**: Evidence of 60s scrape causing delays.
-    *   **Traffic vs CPU**: Comparing `pcm-h` (leading indicator) vs `pcm-cpu` (lagging indicator).
+    *   **Staircase Effect**: Evidence of 60s scrape causing delayed scaling.
+    *   **Traffic vs CPU**: `pcm-h` (leading signal) vs `pcm-cpu` (lagging resource signal).
     *   **Cost**: Trade-off of storing high-resolution metrics.
-3.  **Discussion**: Architectural push (Metrics Server) vs pull (Prometheus) trade-offs.
+3.  **Discussion**: Architectural trade-offs between pull-based Prometheus metrics and HPA sync behavior.
 
 ---
 
 ## 9. Tips
 
 *   **Port Forwarding**: Ensure `kubectl port-forward svc/prometheus 9090:9090` is active for collectors.
-*   **Adapter Latency**: The Prometheus Adapter itself has a discovery interval (set to 5s in our config) which adds a small fixed delay.
-*   **Aliasing**: 60s scrape vs 15s HPA sync creates "beats" where HPA acts on old data 3 out of 4 times.
-
+*   **Adapter Latency**: Prometheus Adapter has a discovery interval (e.g., 5s) which introduces additional fixed delay.
+*   **Aliasing**: With 60s scrape and 15s HPA sync, up to three consecutive HPA cycles may operate on unchanged metric values, creating a visible staircase scaling effect.
