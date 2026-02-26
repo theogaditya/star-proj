@@ -238,6 +238,7 @@ else
 fi
 
 # Archive results
+mkdir -p "$SCRIPT_DIR/tgz"
 ARCHIVE_NAME="pcm_experiment_results_$(date +%Y%m%d%H%M%S).tgz"
-tar -czf "$SCRIPT_DIR/$ARCHIVE_NAME" -C "$RESULTS_BASE" .
-echo "[✓] Archived to $SCRIPT_DIR/$ARCHIVE_NAME"
+tar -czf "$SCRIPT_DIR/tgz/$ARCHIVE_NAME" -C "$RESULTS_BASE" .
+echo "[✓] Archived to $SCRIPT_DIR/tgz/$ARCHIVE_NAME"
