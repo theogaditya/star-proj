@@ -1,0 +1,40 @@
+---
+# Paper 2 -- MQTT-B statistical replication (5 independent runs).
+# Produces mean/std for Table 5 and the multi-run overlay figure.
+#
+# Run: ansible-playbook ansible/mqtt_b_replication.yml [-e runs=5]
+- name: MQTT-B five-run replication (Paper 2)
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  vars:
+    project_root: "{{ playbook_dir | dirname }}"
+    repo_root: "{{ project_root | dirname }}"
+    paper2_figs: "{{ repo_root }}/Paper-2-StatefulAutoscaler/figures"
+    log_dir: "{{ project_root }}/logs"
+    ts: "{{ ansible_date_time.iso8601_basic_short }}"
+    runs: 5
+  tasks:
+    - name: Ensure log directory exists
+      ansible.builtin.file:
+        path: "{{ log_dir }}"
+        state: directory
+        mode: "0755"
+
+    - name: Run MQTT-B {{ runs }} times (includes aggregation)
+      ansible.builtin.shell: |
+        set -o pipefail
+        RUNS={{ runs }} bash {{ project_root }}/scripts/run-mqtt-b-multi.sh 2>&1 \
+          | tee {{ log_dir }}/mqtt_b_multi_{{ ts }}.log
+      args:
+        executable: /bin/bash
+        chdir: "{{ project_root }}"
+
+    - name: Copy multi-run figure and stats into Paper-2 figures
+      ansible.builtin.shell: |
+        set -e
+        mkdir -p "{{ paper2_figs }}/processed-results-mqtt/experiment-b-multi"
+        cp -v {{ project_root }}/results/processed/mqtt/experiment-b-multi/* \
+              "{{ paper2_figs }}/processed-results-mqtt/experiment-b-multi/"
+      args:
+        executable: /bin/bash

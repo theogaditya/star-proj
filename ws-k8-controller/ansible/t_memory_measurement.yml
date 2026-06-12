@@ -1,0 +1,39 @@
+---
+# Paper 2 -- T-parameter derivation: measure memory per WebSocket connection
+# and compute T = floor(safety * memory_limit / memory_per_connection).
+#
+# Run: ansible-playbook ansible/t_memory_measurement.yml [-e limit_mib=512]
+- name: Per-connection memory measurement and T derivation (Paper 2)
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  vars:
+    project_root: "{{ playbook_dir | dirname }}"
+    log_dir: "{{ project_root }}/logs"
+    ts: "{{ ansible_date_time.iso8601_basic_short }}"
+    limit_mib: 512
+  tasks:
+    - name: Ensure log directory exists
+      ansible.builtin.file:
+        path: "{{ log_dir }}"
+        state: directory
+        mode: "0755"
+
+    - name: Measure memory per connection (includes T computation)
+      ansible.builtin.shell: |
+        set -o pipefail
+        bash {{ project_root }}/scripts/measure-connection-memory.sh --limit-mib {{ limit_mib }} 2>&1 \
+          | tee {{ log_dir }}/t_memory_{{ ts }}.log
+      args:
+        executable: /bin/bash
+        chdir: "{{ project_root }}"
+
+    - name: Show derived T
+      ansible.builtin.command:
+        cmd: cat {{ project_root }}/results/processed/websocket/memory/t_derivation.json
+      register: t_out
+      changed_when: false
+
+    - name: Print T derivation result
+      ansible.builtin.debug:
+        msg: "{{ t_out.stdout }}"
