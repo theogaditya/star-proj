@@ -1,0 +1,106 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Banks and Gupta(2014)}]{mqtt_v31}
+Banks A, Gupta R (2014) {MQTT} version 3.1.1. OASIS Standard,
+  \url{https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html},
+  accessed: 2026-05-01
+
+\bibitem[{Burns et~al.(2016)Burns, Grant, Oppenheimer, Brewer, and
+  Wilkes}]{burns2016borg}
+Burns B, Grant B, Oppenheimer D, Brewer E, Wilkes J (2016) Borg, omega, and
+  kubernetes. ACM Queue 14(1):70--93
+
+\bibitem[{Casalicchio and Perciballi(2019)}]{casalicchio2019auto}
+Casalicchio E, Perciballi V (2019) Auto-scaling of containers: the impact of
+  relative and absolute metrics. Future Generation Computer Systems 95:18--29
+
+\bibitem[{Dickel et~al.(2019)Dickel, Podolskiy, and
+  Gerndt}]{dickel2019stateful}
+Dickel H, Podolskiy V, Gerndt M (2019) Evaluation of autoscaling metrics for
+  (stateful) {IoT} gateways. In: Proceedings of the IEEE 12th Conference on
+  Service-Oriented Computing and Applications (SOCA), IEEE, pp 17--24,
+  \doi{10.1109/SOCA.2019.00011}
+
+\bibitem[{{DirectXMan12}(2024)}]{prometheus_adapter}
+{DirectXMan12} (2024) Prometheus adapter for {Kubernetes} metrics {APIs}.
+  \url{https://github.com/kubernetes-sigs/prometheus-adapter}, accessed:
+  2026-04-01
+
+\bibitem[{Fette and Melnikov(2011)}]{websocket_rfc}
+Fette I, Melnikov A (2011) {RFC} 6455: The {WebSocket} protocol.
+  \url{https://datatracker.ietf.org/doc/html/rfc6455}, internet Engineering
+  Task Force; Accessed: 2026-04-01
+
+\bibitem[{Imdoukh et~al.(2020)Imdoukh, Ahmad, and
+  Alfailakawi}]{imdoukh2020machine}
+Imdoukh M, Ahmad I, Alfailakawi MG (2020) Machine learning-based auto-scaling
+  for containerized applications. Neural Computing and Applications
+  32:9745--9760
+
+\bibitem[{{KEDA Authors}(2024)}]{keda_docs}
+{KEDA Authors} (2024) {KEDA}: Kubernetes event-driven autoscaling.
+  \url{https://keda.sh/docs/}, accessed: 2024
+
+\bibitem[{{Kubernetes Authors}(2024)}]{k8s_hpa_docs}
+{Kubernetes Authors} (2024) Horizontal pod autoscaling.
+  \url{https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/},
+  accessed: 2026-04-01
+
+\bibitem[{{Kubernetes SIG API Machinery}(2024)}]{kubebuilder_docs}
+{Kubernetes SIG API Machinery} (2024) Kubebuilder -- {SDK} for building
+  {Kubernetes} {APIs}. \url{https://book.kubebuilder.io/}, accessed: 2026-04-01
+
+\bibitem[{{Kubernetes SIG Testing}(2024)}]{kind_docs}
+{Kubernetes SIG Testing} (2024) {kind} -- kubernetes in docker.
+  \url{https://kind.sigs.k8s.io/}, accessed: 2026-04-01
+
+\bibitem[{Lorido-Botr{\'a}n et~al.(2014)Lorido-Botr{\'a}n, Miguel-Alonso, and
+  Lozano}]{lorido2014auto}
+Lorido-Botr{\'a}n T, Miguel-Alonso J, Lozano JA (2014) Auto-scaling techniques
+  for elastic applications in cloud environments. Journal of Grid Computing
+  12(4):559--592
+
+\bibitem[{Nguyen et~al.(2020)Nguyen, Yeom, Kim, Park, and Kim}]{nguyen2020hpa}
+Nguyen TT, Yeom YJ, Kim T, Park DH, Kim S (2020) Horizontal pod autoscaling in
+  {Kubernetes} for elastic container orchestration. Sensors 20(16):4621,
+  \doi{10.3390/s20164621}
+
+\bibitem[{Qu et~al.(2018)Qu, Calheiros, and Buyya}]{qu2018auto}
+Qu C, Calheiros RN, Buyya R (2018) Auto-scaling web applications in clouds: A
+  survey and taxonomy. ACM Computing Surveys 51(4):1--33
+
+\bibitem[{Rossi et~al.(2020)Rossi, Nardelli, and
+  Cardellini}]{rossi2020horizontal}
+Rossi F, Nardelli M, Cardellini V (2020) Horizontal and vertical scaling of
+  container-based applications using reinforcement learning. Future Generation
+  Computer Systems 109:125--138
+
+\bibitem[{Soni and Makwana(2017)}]{soni2017mqtt}
+Soni D, Makwana A (2017) A survey on {MQTT}: A protocol of {Internet of Things}
+  ({IoT}). In: Proceedings of the International Conference on
+  Telecommunication, Power Analysis and Computing Techniques (ICTPACT)
+
+\bibitem[{Toka et~al.(2021)Toka, Dobreff, Fodor, and Sonkoly}]{toka2021machine}
+Toka L, Dobreff G, Fodor B, Sonkoly B (2021) Machine learning-based scaling
+  management for {Kubernetes} edge clusters. In: 2021 IEEE Conference on
+  Network Function Virtualization and Software Defined Networks, IEEE, pp 1--7
+
+\bibitem[{Verma et~al.(2015)Verma, Pedrosa, Korupolu, Oppenheimer, Tune, and
+  Wilkes}]{verma2015large}
+Verma A, Pedrosa L, Korupolu M, Oppenheimer D, Tune E, Wilkes J (2015)
+  Large-scale cluster management at google with borg. In: Proceedings of the
+  Tenth European Conference on Computer Systems (EuroSys '15), ACM, pp 1--17
+
+\bibitem[{Zhong and Buyya(2020)}]{zhong2020machine}
+Zhong Z, Buyya R (2020) Machine learning-based orchestration of containers: A
+  taxonomy and future directions. ACM Computing Surveys 54(10s):1--35
+
+\end{thebibliography}

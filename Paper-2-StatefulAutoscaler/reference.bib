@@ -1,0 +1,146 @@
+%% =============================================================
+%% Paper 2: StatefulAutoscaler — Bibliography
+%% All entries used by main.tex
+%% =============================================================
+
+%% ---- Companion Paper (Paper 1) ----
+@article{behera2026hpa,
+  title   = {{CPU}-Based Autoscaling is Harmful for Stateful {WebSocket} Workloads:
+             An Empirical Characterization of {Kubernetes} {HPA} Failure Modes},
+  author  = {Behera, Abhash and Hota, Aditya and Naik, Suprit Kumar and Singh, Ritesh Kumar},
+  journal = {Submitted (companion paper)},
+  year    = {2026},
+  note    = {Under review}
+}
+
+%% ---- Kubernetes Core References ----
+@misc{k8s_hpa_docs,
+  author       = {{Kubernetes Authors}},
+  title        = {Horizontal Pod Autoscaling -- Kubernetes Documentation},
+  year         = {2024},
+  howpublished = {\url{https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/}},
+  note         = {Accessed: 2025}
+}
+
+@article{nguyen2020hpa,
+  author    = {Nguyen, Thanh-Tung and Yeom, Yu-Jin and Kim, Taehong and Park, Dae-Heon and Kim, Sehan},
+  title     = {Horizontal Pod Autoscaler in {Kubernetes} for Elastic Container Orchestration},
+  journal   = {Sensors},
+  volume    = {20},
+  number    = {16},
+  pages     = {4621},
+  year      = {2020},
+  publisher = {MDPI},
+  doi       = {10.3390/s20164621}
+}
+
+@misc{kubebuilder_docs,
+  title        = {Kubebuilder -- {SDK} for building {Kubernetes} {APIs}},
+  author       = {{Kubernetes SIG API Machinery}},
+  howpublished = {\url{https://book.kubebuilder.io/}},
+  year         = {2024},
+  note         = {Accessed: 2026-04-01}
+}
+
+@misc{prometheus_adapter,
+  title        = {Prometheus Adapter for {Kubernetes} Metrics {APIs}},
+  author       = {{DirectXMan12}},
+  howpublished = {\url{https://github.com/kubernetes-sigs/prometheus-adapter}},
+  year         = {2024},
+  note         = {Accessed: 2026-04-01}
+}
+
+@misc{keda_docs,
+  author       = {{KEDA Authors}},
+  title        = {{KEDA}: Kubernetes Event-Driven Autoscaling},
+  year         = {2024},
+  howpublished = {\url{https://keda.sh/docs/}},
+  note         = {Accessed: 2024}
+}
+
+@misc{kind_docs,
+  title        = {{kind} -- Kubernetes IN Docker},
+  author       = {{Kubernetes SIG Testing}},
+  howpublished = {\url{https://kind.sigs.k8s.io/}},
+  year         = {2024},
+  note         = {Accessed: 2026-04-01}
+}
+
+%% ---- Autoscaling Literature ----
+@article{qu2018auto,
+  author    = {Qu, Chenhao and Calheiros, Rodrigo N. and Buyya, Rajkumar},
+  title     = {Auto-Scaling Web Applications in Clouds: A Taxonomy and Survey},
+  journal   = {ACM Computing Surveys},
+  volume    = {51},
+  number    = {4},
+  pages     = {1--33},
+  year      = {2018},
+  publisher = {ACM},
+  doi       = {10.1145/3148149}
+}
+
+@article{rossi2020horizontal,
+  title     = {Horizontal and Vertical Scaling of Container-based Applications Using Reinforcement Learning},
+  author    = {Rossi, Fabiana and Nardelli, Matteo and Cardellini, Valeria},
+  journal   = {Future Generation Computer Systems},
+  volume    = {109},
+  pages     = {125--138},
+  year      = {2020},
+  publisher = {Elsevier}
+}
+
+@article{imdoukh2020machine,
+  title     = {Machine Learning-based Auto-scaling for Containerized Applications},
+  author    = {Imdoukh, Mohamad and Ahmad, Imtiaz and Alfailakawi, Mohammad Gh},
+  journal   = {Neural Computing and Applications},
+  volume    = {32},
+  pages     = {9745--9760},
+  year      = {2020},
+  publisher = {Springer}
+}
+
+@inproceedings{toka2021machine,
+  title        = {Machine Learning-based Scaling Management for {Kubernetes} Edge Clusters},
+  author       = {Toka, L{\'a}szl{\'o} and Dobreff, G{\'a}bor and Fodor, Bal{\'a}zs and Sonkoly, Bal{\'a}zs},
+  booktitle    = {2021 IEEE Conference on Network Function Virtualization and Software Defined Networks},
+  pages        = {1--7},
+  year         = {2021},
+  organization = {IEEE}
+}
+
+@article{zhong2020machine,
+  title     = {Machine Learning-based Orchestration of Containers: A Taxonomy and Future Directions},
+  author    = {Zhong, Zhiheng and Buyya, Rajkumar},
+  journal   = {ACM Computing Surveys},
+  volume    = {54},
+  number    = {10s},
+  pages     = {1--35},
+  year      = {2020}
+}
+
+%% ---- Stateful / IoT Autoscaling ----
+@inproceedings{dickel2019stateful,
+  title        = {Evaluation of Autoscaling Metrics for (Stateful) {IoT} Gateways},
+  author       = {Dickel, Henning and Podolskiy, Vladimir and Gerndt, Michael},
+  booktitle    = {Proceedings of the IEEE 12th Conference on Service-Oriented Computing and Applications (SOCA)},
+  pages        = {17--24},
+  year         = {2019},
+  organization = {IEEE},
+  doi          = {10.1109/SOCA.2019.00011}
+}
+
+%% ---- Protocol References ----
+@misc{mqtt_v31,
+  title        = {{MQTT} Version 3.1.1},
+  author       = {Banks, Andrew and Gupta, Rahul},
+  howpublished = {OASIS Standard, \url{https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html}},
+  year         = {2014},
+  note         = {Accessed: 2026-05-01}
+}
+
+@inproceedings{soni2017mqtt,
+  title     = {A Survey on {MQTT}: A Protocol of {Internet of Things} ({IoT})},
+  author    = {Soni, Dipa and Makwana, Ashwin},
+  booktitle = {Proceedings of the International Conference on Telecommunication, Power Analysis and Computing Techniques (ICTPACT)},
+  year      = {2017}
+}
