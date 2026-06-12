@@ -1,0 +1,122 @@
+LAST SEEN   TYPE     REASON                    OBJECT                                                MESSAGE
+11m         Normal   Starting                  node/exp-d-hpa-custom-control-plane                   Starting kubelet.
+11m         Normal   NodeAllocatableEnforced   node/exp-d-hpa-custom-control-plane                   Updated Node Allocatable limit across pods
+11m         Normal   NodeHasSufficientMemory   node/exp-d-hpa-custom-control-plane                   Node exp-d-hpa-custom-control-plane status is now: NodeHasSufficientMemory
+11m         Normal   NodeHasNoDiskPressure     node/exp-d-hpa-custom-control-plane                   Node exp-d-hpa-custom-control-plane status is now: NodeHasNoDiskPressure
+11m         Normal   NodeHasSufficientPID      node/exp-d-hpa-custom-control-plane                   Node exp-d-hpa-custom-control-plane status is now: NodeHasSufficientPID
+11m         Normal   RegisteredNode            node/exp-d-hpa-custom-control-plane                   Node exp-d-hpa-custom-control-plane event: Registered Node exp-d-hpa-custom-control-plane in Controller
+11m         Normal   Starting                  node/exp-d-hpa-custom-control-plane                   
+11m         Normal   NodeHasNoDiskPressure     node/exp-d-hpa-custom-worker                          Node exp-d-hpa-custom-worker status is now: NodeHasNoDiskPressure
+11m         Normal   NodeHasSufficientPID      node/exp-d-hpa-custom-worker                          Node exp-d-hpa-custom-worker status is now: NodeHasSufficientPID
+11m         Normal   Starting                  node/exp-d-hpa-custom-worker                          Starting kubelet.
+11m         Normal   NodeHasSufficientMemory   node/exp-d-hpa-custom-worker                          Node exp-d-hpa-custom-worker status is now: NodeHasSufficientMemory
+11m         Normal   NodeHasNoDiskPressure     node/exp-d-hpa-custom-worker                          Node exp-d-hpa-custom-worker status is now: NodeHasNoDiskPressure
+11m         Normal   NodeHasSufficientPID      node/exp-d-hpa-custom-worker                          Node exp-d-hpa-custom-worker status is now: NodeHasSufficientPID
+11m         Normal   NodeAllocatableEnforced   node/exp-d-hpa-custom-worker                          Updated Node Allocatable limit across pods
+11m         Normal   Starting                  node/exp-d-hpa-custom-worker                          
+11m         Normal   RegisteredNode            node/exp-d-hpa-custom-worker                          Node exp-d-hpa-custom-worker event: Registered Node exp-d-hpa-custom-worker in Controller
+11m         Normal   NodeReady                 node/exp-d-hpa-custom-control-plane                   Node exp-d-hpa-custom-control-plane status is now: NodeReady
+11m         Normal   NodeReady                 node/exp-d-hpa-custom-worker                          Node exp-d-hpa-custom-worker status is now: NodeReady
+9m40s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-x62xb                  Successfully assigned default/websocket-server-56c97f4c7-x62xb to exp-d-hpa-custom-worker
+9m40s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-x62xb
+9m40s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-7dzh4
+9m40s       Normal   Started                   pod/websocket-server-56c97f4c7-x62xb                  Started container websocket-server
+9m40s       Normal   Created                   pod/websocket-server-56c97f4c7-x62xb                  Created container: websocket-server
+9m40s       Normal   Pulled                    pod/websocket-server-56c97f4c7-x62xb                  Container image "websocket-server-instrumented:latest" already present on machine
+9m40s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-7dzh4                  Successfully assigned default/websocket-server-56c97f4c7-7dzh4 to exp-d-hpa-custom-worker
+9m40s       Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled up replica set websocket-server-56c97f4c7 to 2
+9m40s       Normal   Pulled                    pod/websocket-server-56c97f4c7-7dzh4                  Container image "websocket-server-instrumented:latest" already present on machine
+9m40s       Normal   Started                   pod/websocket-server-56c97f4c7-7dzh4                  Started container websocket-server
+9m40s       Normal   Created                   pod/websocket-server-56c97f4c7-7dzh4                  Created container: websocket-server
+9m31s       Normal   Scheduled                 pod/websocket-loadgen-5dn9x                           Successfully assigned default/websocket-loadgen-5dn9x to exp-d-hpa-custom-worker
+9m31s       Normal   SuccessfulCreate          job/websocket-loadgen                                 Created pod: websocket-loadgen-5dn9x
+9m30s       Normal   Created                   pod/websocket-loadgen-5dn9x                           Created container: websocket-loadgen
+9m30s       Normal   Started                   pod/websocket-loadgen-5dn9x                           Started container websocket-loadgen
+9m30s       Normal   Pulled                    pod/websocket-loadgen-5dn9x                           Container image "websocket-loadgen:latest" already present on machine
+8m49s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-mpnbs                  Successfully assigned default/websocket-server-56c97f4c7-mpnbs to exp-d-hpa-custom-worker
+8m49s       Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled up replica set websocket-server-56c97f4c7 to 4 from 2
+8m49s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-4694p                  Successfully assigned default/websocket-server-56c97f4c7-4694p to exp-d-hpa-custom-worker
+8m49s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-4694p
+8m49s       Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 4; reason: pods metric active_connections_per_pod above target
+8m49s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-mpnbs
+8m48s       Normal   Pulled                    pod/websocket-server-56c97f4c7-mpnbs                  Container image "websocket-server-instrumented:latest" already present on machine
+8m48s       Normal   Pulled                    pod/websocket-server-56c97f4c7-4694p                  Container image "websocket-server-instrumented:latest" already present on machine
+8m48s       Normal   Created                   pod/websocket-server-56c97f4c7-4694p                  Created container: websocket-server
+8m48s       Normal   Started                   pod/websocket-server-56c97f4c7-4694p                  Started container websocket-server
+8m48s       Normal   Created                   pod/websocket-server-56c97f4c7-mpnbs                  Created container: websocket-server
+8m48s       Normal   Started                   pod/websocket-server-56c97f4c7-mpnbs                  Started container websocket-server
+8m34s       Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 5; reason: pods metric active_connections_per_pod above target
+8m34s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-dcjbm                  Successfully assigned default/websocket-server-56c97f4c7-dcjbm to exp-d-hpa-custom-worker
+8m34s       Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled up replica set websocket-server-56c97f4c7 to 5 from 4
+8m34s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-dcjbm
+8m33s       Normal   Started                   pod/websocket-server-56c97f4c7-dcjbm                  Started container websocket-server
+8m33s       Normal   Created                   pod/websocket-server-56c97f4c7-dcjbm                  Created container: websocket-server
+8m33s       Normal   Pulled                    pod/websocket-server-56c97f4c7-dcjbm                  Container image "websocket-server-instrumented:latest" already present on machine
+8m19s       Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 6; reason: pods metric active_connections_per_pod above target
+8m19s       Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled up replica set websocket-server-56c97f4c7 to 6 from 5
+8m19s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-26czl
+8m19s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-26czl                  Successfully assigned default/websocket-server-56c97f4c7-26czl to exp-d-hpa-custom-worker
+8m18s       Normal   Pulled                    pod/websocket-server-56c97f4c7-26czl                  Container image "websocket-server-instrumented:latest" already present on machine
+8m18s       Normal   Started                   pod/websocket-server-56c97f4c7-26czl                  Started container websocket-server
+8m18s       Normal   Created                   pod/websocket-server-56c97f4c7-26czl                  Created container: websocket-server
+8m4s        Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-lx9h8
+8m4s        Normal   Scheduled                 pod/websocket-server-56c97f4c7-lx9h8                  Successfully assigned default/websocket-server-56c97f4c7-lx9h8 to exp-d-hpa-custom-worker
+3m33s       Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 8; reason: pods metric active_connections_per_pod above target
+8m4s        Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled up replica set websocket-server-56c97f4c7 to 8 from 6
+8m4s        Normal   Scheduled                 pod/websocket-server-56c97f4c7-5nl2p                  Successfully assigned default/websocket-server-56c97f4c7-5nl2p to exp-d-hpa-custom-worker
+8m4s        Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-5nl2p
+8m3s        Normal   Started                   pod/websocket-server-56c97f4c7-5nl2p                  Started container websocket-server
+8m3s        Normal   Started                   pod/websocket-server-56c97f4c7-lx9h8                  Started container websocket-server
+8m3s        Normal   Created                   pod/websocket-server-56c97f4c7-5nl2p                  Created container: websocket-server
+8m3s        Normal   Pulled                    pod/websocket-server-56c97f4c7-5nl2p                  Container image "websocket-server-instrumented:latest" already present on machine
+8m3s        Normal   Created                   pod/websocket-server-56c97f4c7-lx9h8                  Created container: websocket-server
+8m3s        Normal   Pulled                    pod/websocket-server-56c97f4c7-lx9h8                  Container image "websocket-server-instrumented:latest" already present on machine
+7m          Normal   Killing                   pod/websocket-loadgen-5dn9x                           Stopping container websocket-loadgen
+5m30s       Normal   Scheduled                 pod/websocket-loadgen-cpkk6                           Successfully assigned default/websocket-loadgen-cpkk6 to exp-d-hpa-custom-worker
+5m30s       Normal   SuccessfulCreate          job/websocket-loadgen                                 Created pod: websocket-loadgen-cpkk6
+5m30s       Normal   Started                   pod/websocket-loadgen-cpkk6                           Started container websocket-loadgen
+5m30s       Normal   Pulled                    pod/websocket-loadgen-cpkk6                           Container image "websocket-loadgen:latest" already present on machine
+5m30s       Normal   Created                   pod/websocket-loadgen-cpkk6                           Created container: websocket-loadgen
+4m33s       Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-26czl
+4m33s       Normal   Killing                   pod/websocket-server-56c97f4c7-4694p                  Stopping container websocket-server
+33s         Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled down replica set websocket-server-56c97f4c7 to 6 from 8
+33s         Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 6; reason: All metrics below target
+4m33s       Normal   Killing                   pod/websocket-server-56c97f4c7-26czl                  Stopping container websocket-server
+4m33s       Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-4694p
+4m18s       Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-5nl2p
+4m18s       Normal   Killing                   pod/websocket-server-56c97f4c7-5nl2p                  Stopping container websocket-server
+4m18s       Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled down replica set websocket-server-56c97f4c7 to 5 from 6
+4m18s       Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 5; reason: All metrics below target
+3m48s       Normal   Started                   pod/websocket-server-56c97f4c7-zztdw                  Started container websocket-server
+3m48s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 Created pod: websocket-server-56c97f4c7-k2s85
+3m48s       Normal   Pulled                    pod/websocket-server-56c97f4c7-zztdw                  Container image "websocket-server-instrumented:latest" already present on machine
+3m48s       Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled up replica set websocket-server-56c97f4c7 to 7 from 5
+3m48s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-zztdw                  Successfully assigned default/websocket-server-56c97f4c7-zztdw to exp-d-hpa-custom-worker
+3m48s       Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 7; reason: pods metric active_connections_per_pod above target
+3m48s       Normal   Created                   pod/websocket-server-56c97f4c7-zztdw                  Created container: websocket-server
+3m33s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                 (combined from similar events): Created pod: websocket-server-56c97f4c7-94jpr
+3m48s       Normal   Started                   pod/websocket-server-56c97f4c7-k2s85                  Started container websocket-server
+3m48s       Normal   Created                   pod/websocket-server-56c97f4c7-k2s85                  Created container: websocket-server
+3m48s       Normal   Pulled                    pod/websocket-server-56c97f4c7-k2s85                  Container image "websocket-server-instrumented:latest" already present on machine
+3m48s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-k2s85                  Successfully assigned default/websocket-server-56c97f4c7-k2s85 to exp-d-hpa-custom-worker
+3m33s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-94jpr                  Successfully assigned default/websocket-server-56c97f4c7-94jpr to exp-d-hpa-custom-worker
+3m33s       Normal   Created                   pod/websocket-server-56c97f4c7-94jpr                  Created container: websocket-server
+3m33s       Normal   Started                   pod/websocket-server-56c97f4c7-94jpr                  Started container websocket-server
+3m33s       Normal   ScalingReplicaSet         deployment/websocket-server                           Scaled up replica set websocket-server-56c97f4c7 to 8 from 7
+3m33s       Normal   Pulled                    pod/websocket-server-56c97f4c7-94jpr                  Container image "websocket-server-instrumented:latest" already present on machine
+3m          Normal   Killing                   pod/websocket-loadgen-cpkk6                           Stopping container websocket-loadgen
+33s         Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-k2s85
+33s         Normal   Killing                   pod/websocket-server-56c97f4c7-94jpr                  Stopping container websocket-server
+33s         Normal   Killing                   pod/websocket-server-56c97f4c7-k2s85                  Stopping container websocket-server
+33s         Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-94jpr
+18s         Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 4; reason: All metrics below target
+18s         Normal   Killing                   pod/websocket-server-56c97f4c7-lx9h8                  Stopping container websocket-server
+18s         Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-zztdw
+18s         Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-lx9h8
+18s         Normal   Killing                   pod/websocket-server-56c97f4c7-zztdw                  Stopping container websocket-server
+3s          Normal   ScalingReplicaSet         deployment/websocket-server                           (combined from similar events): Scaled down replica set websocket-server-56c97f4c7 to 2 from 4
+3s          Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-mpnbs
+3s          Normal   SuccessfulDelete          replicaset/websocket-server-56c97f4c7                 Deleted pod: websocket-server-56c97f4c7-dcjbm
+3s          Normal   SuccessfulRescale         horizontalpodautoscaler/websocket-hpa-custom-metric   New size: 2; reason: All metrics below target
+3s          Normal   Killing                   pod/websocket-server-56c97f4c7-mpnbs                  Stopping container websocket-server
+3s          Normal   Killing                   pod/websocket-server-56c97f4c7-dcjbm                  Stopping container websocket-server

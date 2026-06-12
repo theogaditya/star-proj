@@ -1,0 +1,26 @@
+apiVersion: autoscaling.star.local/v1alpha1
+kind: StatefulAutoscaler
+metadata:
+  name: mqtt-autoscaler
+  namespace: default
+spec:
+  targetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: mqtt-broker
+
+  minReplicas: 1
+  maxReplicas: 5
+
+  targetConnectionsPerPod: 150
+
+  maxScaleUpStep:   2
+  maxScaleDownStep: 1
+
+  scaleUpCooldownSeconds:   30
+  scaleDownCooldownSeconds: 120
+
+  drain:
+    enabled:             true
+    timeoutSeconds:      45
+    maxConcurrentDrains: 2

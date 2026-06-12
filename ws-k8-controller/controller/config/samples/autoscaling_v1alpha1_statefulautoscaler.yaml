@@ -1,0 +1,24 @@
+apiVersion: autoscaling.star.local/v1alpha1
+kind: StatefulAutoscaler
+metadata:
+  labels:
+    app.kubernetes.io/name: controller
+    app.kubernetes.io/managed-by: kustomize
+  name: statefulautoscaler-sample
+spec:
+  # TODO(user): Add fields here
+  targetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: websocket-server
+  minReplicas: 2
+  maxReplicas: 15
+  targetConnectionsPerPod: 200
+  maxScaleUpStep: 3
+  maxScaleDownStep: 2
+  scaleUpCooldownSeconds: 10
+  scaleDownCooldownSeconds: 30
+  drain:
+    enabled: false
+    timeoutSeconds: 60
+    maxConcurrentDrains: 1

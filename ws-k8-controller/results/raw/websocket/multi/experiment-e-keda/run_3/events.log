@@ -1,0 +1,86 @@
+LAST SEEN   TYPE     REASON                    OBJECT                                                   MESSAGE
+12m         Normal   NodeHasSufficientMemory   node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane status is now: NodeHasSufficientMemory
+12m         Normal   NodeHasNoDiskPressure     node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane status is now: NodeHasNoDiskPressure
+12m         Normal   NodeHasSufficientPID      node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane status is now: NodeHasSufficientPID
+12m         Normal   NodeAllocatableEnforced   node/exp-e-keda-control-plane                            Updated Node Allocatable limit across pods
+12m         Normal   Starting                  node/exp-e-keda-control-plane                            Starting kubelet.
+12m         Normal   NodeAllocatableEnforced   node/exp-e-keda-control-plane                            Updated Node Allocatable limit across pods
+12m         Normal   NodeHasSufficientMemory   node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane status is now: NodeHasSufficientMemory
+12m         Normal   NodeHasNoDiskPressure     node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane status is now: NodeHasNoDiskPressure
+12m         Normal   NodeHasSufficientPID      node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane status is now: NodeHasSufficientPID
+12m         Normal   RegisteredNode            node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane event: Registered Node exp-e-keda-control-plane in Controller
+12m         Normal   Starting                  node/exp-e-keda-control-plane                            
+12m         Normal   NodeAllocatableEnforced   node/exp-e-keda-worker                                   Updated Node Allocatable limit across pods
+12m         Normal   Starting                  node/exp-e-keda-worker                                   Starting kubelet.
+12m         Normal   NodeHasSufficientMemory   node/exp-e-keda-worker                                   Node exp-e-keda-worker status is now: NodeHasSufficientMemory
+12m         Normal   NodeHasNoDiskPressure     node/exp-e-keda-worker                                   Node exp-e-keda-worker status is now: NodeHasNoDiskPressure
+12m         Normal   NodeHasSufficientPID      node/exp-e-keda-worker                                   Node exp-e-keda-worker status is now: NodeHasSufficientPID
+12m         Normal   CIDRAssignmentFailed      node/exp-e-keda-worker                                   Node exp-e-keda-worker status is now: CIDRAssignmentFailed
+12m         Normal   Starting                  node/exp-e-keda-worker                                   
+12m         Normal   RegisteredNode            node/exp-e-keda-worker                                   Node exp-e-keda-worker event: Registered Node exp-e-keda-worker in Controller
+12m         Normal   NodeReady                 node/exp-e-keda-control-plane                            Node exp-e-keda-control-plane status is now: NodeReady
+12m         Normal   NodeReady                 node/exp-e-keda-worker                                   Node exp-e-keda-worker status is now: NodeReady
+9m44s       Normal   Created                   pod/websocket-server-56c97f4c7-7lfzh                     Created container: websocket-server
+9m44s       Normal   Started                   pod/websocket-server-56c97f4c7-7lfzh                     Started container websocket-server
+9m44s       Normal   ScalingReplicaSet         deployment/websocket-server                              Scaled up replica set websocket-server-56c97f4c7 to 2
+9m44s       Normal   Pulled                    pod/websocket-server-56c97f4c7-7lfzh                     Container image "websocket-server-instrumented:latest" already present on machine
+9m44s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-7lfzh                     Successfully assigned default/websocket-server-56c97f4c7-7lfzh to exp-e-keda-worker
+9m44s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-lgm8k                     Successfully assigned default/websocket-server-56c97f4c7-lgm8k to exp-e-keda-worker
+9m44s       Normal   Pulled                    pod/websocket-server-56c97f4c7-lgm8k                     Container image "websocket-server-instrumented:latest" already present on machine
+9m44s       Normal   Created                   pod/websocket-server-56c97f4c7-lgm8k                     Created container: websocket-server
+9m44s       Normal   Started                   pod/websocket-server-56c97f4c7-lgm8k                     Started container websocket-server
+9m44s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-7lfzh
+9m44s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-lgm8k
+9m43s       Normal   KEDAScalersStarted        scaledobject/websocket-keda-scaler                       Started scalers watch
+9m43s       Normal   KEDAScalersStarted        scaledobject/websocket-keda-scaler                       Scaler prometheus is built.
+9m43s       Normal   ScaledObjectReady         scaledobject/websocket-keda-scaler                       ScaledObject is ready for scaling
+9m30s       Normal   Created                   pod/websocket-loadgen-822ld                              Created container: websocket-loadgen
+9m30s       Normal   Started                   pod/websocket-loadgen-822ld                              Started container websocket-loadgen
+9m30s       Normal   Scheduled                 pod/websocket-loadgen-822ld                              Successfully assigned default/websocket-loadgen-822ld to exp-e-keda-worker
+9m30s       Normal   SuccessfulCreate          job/websocket-loadgen                                    Created pod: websocket-loadgen-822ld
+9m30s       Normal   Pulled                    pod/websocket-loadgen-822ld                              Container image "websocket-loadgen:latest" already present on machine
+8m43s       Normal   Pulled                    pod/websocket-server-56c97f4c7-x2wd5                     Container image "websocket-server-instrumented:latest" already present on machine
+8m43s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-x2wd5                     Successfully assigned default/websocket-server-56c97f4c7-x2wd5 to exp-e-keda-worker
+8m43s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-d6ltf
+8m43s       Normal   Created                   pod/websocket-server-56c97f4c7-x2wd5                     Created container: websocket-server
+8m43s       Normal   Started                   pod/websocket-server-56c97f4c7-x2wd5                     Started container websocket-server
+8m43s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-x2wd5
+8m43s       Normal   ScalingReplicaSet         deployment/websocket-server                              Scaled up replica set websocket-server-56c97f4c7 to 4 from 2
+8m43s       Normal   SuccessfulRescale         horizontalpodautoscaler/keda-hpa-websocket-keda-scaler   New size: 4; reason: external metric s0-prometheus(&LabelSelector{MatchLabels:map[string]string{scaledobject.keda.sh/name: websocket-keda-scaler,},MatchExpressions:[]LabelSelectorRequirement{},}) above target
+8m43s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-d6ltf                     Successfully assigned default/websocket-server-56c97f4c7-d6ltf to exp-e-keda-worker
+8m43s       Normal   Pulled                    pod/websocket-server-56c97f4c7-d6ltf                     Container image "websocket-server-instrumented:latest" already present on machine
+8m43s       Normal   Created                   pod/websocket-server-56c97f4c7-d6ltf                     Created container: websocket-server
+8m43s       Normal   Started                   pod/websocket-server-56c97f4c7-d6ltf                     Started container websocket-server
+8m28s       Normal   Started                   pod/websocket-server-56c97f4c7-vw6gd                     Started container websocket-server
+8m28s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-vw6gd                     Successfully assigned default/websocket-server-56c97f4c7-vw6gd to exp-e-keda-worker
+8m28s       Normal   ScalingReplicaSet         deployment/websocket-server                              Scaled up replica set websocket-server-56c97f4c7 to 5 from 4
+8m28s       Normal   SuccessfulRescale         horizontalpodautoscaler/keda-hpa-websocket-keda-scaler   New size: 5; reason: external metric s0-prometheus(&LabelSelector{MatchLabels:map[string]string{scaledobject.keda.sh/name: websocket-keda-scaler,},MatchExpressions:[]LabelSelectorRequirement{},}) above target
+8m28s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-vw6gd
+8m28s       Normal   Created                   pod/websocket-server-56c97f4c7-vw6gd                     Created container: websocket-server
+8m28s       Normal   Pulled                    pod/websocket-server-56c97f4c7-vw6gd                     Container image "websocket-server-instrumented:latest" already present on machine
+8m13s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-r7hqb
+8m13s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-wrvt8
+8m13s       Normal   Created                   pod/websocket-server-56c97f4c7-r7hqb                     Created container: websocket-server
+8m13s       Normal   Pulled                    pod/websocket-server-56c97f4c7-r7hqb                     Container image "websocket-server-instrumented:latest" already present on machine
+8m13s       Normal   ScalingReplicaSet         deployment/websocket-server                              Scaled up replica set websocket-server-56c97f4c7 to 7 from 5
+8m13s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-wrvt8                     Successfully assigned default/websocket-server-56c97f4c7-wrvt8 to exp-e-keda-worker
+8m13s       Normal   Pulled                    pod/websocket-server-56c97f4c7-wrvt8                     Container image "websocket-server-instrumented:latest" already present on machine
+8m13s       Normal   Created                   pod/websocket-server-56c97f4c7-wrvt8                     Created container: websocket-server
+8m13s       Normal   Started                   pod/websocket-server-56c97f4c7-wrvt8                     Started container websocket-server
+8m13s       Normal   SuccessfulRescale         horizontalpodautoscaler/keda-hpa-websocket-keda-scaler   New size: 7; reason: external metric s0-prometheus(&LabelSelector{MatchLabels:map[string]string{scaledobject.keda.sh/name: websocket-keda-scaler,},MatchExpressions:[]LabelSelectorRequirement{},}) above target
+8m13s       Normal   Started                   pod/websocket-server-56c97f4c7-r7hqb                     Started container websocket-server
+8m13s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-r7hqb                     Successfully assigned default/websocket-server-56c97f4c7-r7hqb to exp-e-keda-worker
+7m43s       Normal   SuccessfulCreate          replicaset/websocket-server-56c97f4c7                    Created pod: websocket-server-56c97f4c7-68k76
+7m43s       Normal   ScalingReplicaSet         deployment/websocket-server                              Scaled up replica set websocket-server-56c97f4c7 to 8 from 7
+7m43s       Normal   Scheduled                 pod/websocket-server-56c97f4c7-68k76                     Successfully assigned default/websocket-server-56c97f4c7-68k76 to exp-e-keda-worker
+7m43s       Normal   Created                   pod/websocket-server-56c97f4c7-68k76                     Created container: websocket-server
+7m43s       Normal   SuccessfulRescale         horizontalpodautoscaler/keda-hpa-websocket-keda-scaler   New size: 8; reason: external metric s0-prometheus(&LabelSelector{MatchLabels:map[string]string{scaledobject.keda.sh/name: websocket-keda-scaler,},MatchExpressions:[]LabelSelectorRequirement{},}) above target
+7m43s       Normal   Pulled                    pod/websocket-server-56c97f4c7-68k76                     Container image "websocket-server-instrumented:latest" already present on machine
+7m43s       Normal   Started                   pod/websocket-server-56c97f4c7-68k76                     Started container websocket-server
+7m          Normal   Killing                   pod/websocket-loadgen-822ld                              Stopping container websocket-loadgen
+5m30s       Normal   SuccessfulCreate          job/websocket-loadgen                                    Created pod: websocket-loadgen-lzgr4
+5m30s       Normal   Started                   pod/websocket-loadgen-lzgr4                              Started container websocket-loadgen
+5m30s       Normal   Created                   pod/websocket-loadgen-lzgr4                              Created container: websocket-loadgen
+5m30s       Normal   Scheduled                 pod/websocket-loadgen-lzgr4                              Successfully assigned default/websocket-loadgen-lzgr4 to exp-e-keda-worker
+5m30s       Normal   Pulled                    pod/websocket-loadgen-lzgr4                              Container image "websocket-loadgen:latest" already present on machine
+3m          Normal   Killing                   pod/websocket-loadgen-lzgr4                              Stopping container websocket-loadgen

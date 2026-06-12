@@ -1,0 +1,2 @@
+scenario,pod_seconds,scale_up_reaction_s,scale_down_reaction_s,peak_connections,peak_replicas
+failure-3-prometheus-outage,4667.0,21.0,118.0,921.0,10.0

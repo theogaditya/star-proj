@@ -1,0 +1,28 @@
+PROCESSED_DIR: /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda
+PLOTS_DIR:     /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda/plots
+  Generated: connections.png
+  Generated: replicas.png
+  Generated: combined.png
+
+  --- Experiment-E Summary ---
+  Peak connections: 800
+  Peak replicas:    8
+  Min replicas:     2
+  Scaling events:   4
+  Duration:         572s
+
+  Plots saved to: /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda/plots
+PROCESSED_DIR: /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda
+PLOTS_DIR:     /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda/plots
+  Generated: connections.png
+  Generated: replicas.png
+  Generated: combined.png
+
+  --- Experiment-E Summary ---
+  Peak connections: 800
+  Peak replicas:    8
+  Min replicas:     2
+  Scaling events:   4
+  Duration:         573s
+
+  Plots saved to: /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda/plots

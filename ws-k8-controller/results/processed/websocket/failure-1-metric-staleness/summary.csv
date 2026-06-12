@@ -1,0 +1,2 @@
+scenario,pod_seconds,scale_up_reaction_s,scale_down_reaction_s,peak_connections,peak_replicas
+failure-1-metric-staleness,4470.0,25.0,112.0,1082.0,11.0

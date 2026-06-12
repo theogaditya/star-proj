@@ -1,0 +1,7 @@
+RAW_DIR:       /home/abhas/node/STAR/future-work/results/raw/websocket/experiment-d-hpa-custom-metric
+PROCESSED_DIR: /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-d-hpa-custom-metric
+  Parsed replicas.csv: 78 rows
+  Parsed connections.csv: 114 rows
+  Wrote summary.csv → /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-d-hpa-custom-metric/summary.csv
+  Summary: pod_seconds=4046.0  scale_up=54.0s  peak_replicas=8.0
+Done.

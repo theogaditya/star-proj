@@ -1,0 +1,24 @@
+%% Mermaid diagram: Control loop with delays
+graph LR
+  subgraph Observability
+    Prometheus[Prometheus\nscrape interval T]
+  end
+  subgraph Controller
+    SA[StatefulAutoscaler\nreconcile Tr]
+    HPA[HPA / KEDA]
+  end
+  subgraph Actuation
+    Deployment[Deployment.spec.replicas]
+    Pods[Pods (websocket-server)]
+  end
+  Prometheus -->|sum(active_connections)| SA
+  SA -->|patch replicas / set floor| Deployment
+  HPA -->|reconciles| Deployment
+  Deployment --> Pods
+  Pods -->|metrics (active_connections, new_connections_total)| Prometheus
+  classDef delay fill:#fff3cd,stroke:#f6c;
+  Prometheus:::delay
+  SA:::delay
+  note right of Prometheus: scrape delay T (e.g., 15s)
+  note right of SA: reconcile + query latency Tr (≈5–15s)
+  note right of Pods: TCP RST propagation ≈30s after SIGKILL

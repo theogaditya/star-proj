@@ -1,0 +1,362 @@
+============================================================
+ Running FULL EXPERIMENT DEBUG (1 cycle, 10s phases)
+ Output: /home/abhas/node/STAR/star-proj/pcm-exp/debug/results
+============================================================
+[*] Creating temporary modified run script for fast debug...
+[*] Starting fast debug run...
+============================================================
+ PCM HPA Experiment
+ Scenarios: pcm-cpu pcm-h pcm-ch
+ Cycles: 1 × 25s high / 25s low
+============================================================
+
+
+------------------------------------------------------------
+ Running: pcm-cpu-15s (scrape_interval=15s)
+ Output:  /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s
+------------------------------------------------------------
+============================================================
+ Installing Prometheus Stack (scrape_interval=15s)
+============================================================
+[*] Generating Prometheus config with scrape_interval=15s...
+[*] Applying Prometheus manifests...
+namespace/monitoring unchanged
+serviceaccount/prometheus unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus unchanged
+configmap/prometheus-config configured
+deployment.apps/prometheus unchanged
+service/prometheus unchanged
+[*] Waiting for Prometheus deployment...
+deployment "prometheus" successfully rolled out
+[✓] Prometheus is ready
+[*] Checking metrics-server...
+[✓] metrics-server already installed
+[*] Applying Prometheus Adapter...
+serviceaccount/prometheus-adapter unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus-adapter unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus-adapter unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus-adapter:system:auth-delegator unchanged
+clusterrolebinding.rbac.authorization.k8s.io/hpa-custom-metrics-reader unchanged
+rolebinding.rbac.authorization.k8s.io/prometheus-adapter-auth-reader unchanged
+configmap/prometheus-adapter-config unchanged
+deployment.apps/prometheus-adapter unchanged
+service/prometheus-adapter unchanged
+apiservice.apiregistration.k8s.io/v1beta1.custom.metrics.k8s.io unchanged
+apiservice.apiregistration.k8s.io/v1beta2.custom.metrics.k8s.io unchanged
+[*] Waiting for Prometheus Adapter deployment...
+deployment "prometheus-adapter" successfully rolled out
+[✓] Prometheus Adapter is ready
+[*] Waiting for custom metrics API to be available (up to 90s)...
+[✓] custom.metrics.k8s.io API is available
+
+============================================================
+ Prometheus Stack Installed Successfully
+  - Prometheus: monitoring/prometheus (port 9090)
+  - Adapter:    monitoring/prometheus-adapter
+  - Scrape interval: 15s
+============================================================
+[*] Deploying cpu-app and service...
+deployment.apps/cpu-app created
+service/cpu-app-svc created
+[*] Waiting for pods to be ready...
+pod/cpu-app-bcc7f4b9c-dnbjn condition met
+pod/cpu-app-bcc7f4b9c-ggj2f condition met
+pod/cpu-app-bcc7f4b9c-vwcv5 condition met
+pod/cpu-app-bcc7f4b9c-w6wzd condition met
+[✓] cpu-app deployed and ready
+[*] Waiting for Prometheus to discover pods (30s warm-up)...
+[*] Waiting for custom metrics to become available (up to 120s)...
+[✓] Custom metric http_requests_per_second is available
+[*] Applying HPA: /home/abhas/node/STAR/star-proj/pcm-exp/debug/../manifests/hpa-pcm-cpu.yaml
+horizontalpodautoscaler.autoscaling/cpu-hpa created
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+cpu-hpa   Deployment/cpu-app   <unknown>/3   4         24        0          0s
+[*] Setting up Prometheus port-forward...
+[✓] Port-forward active (PID: 99741)
+[*] Starting collectors → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s
+[✓] 6 collectors running (PIDs: 99760 99761 99762 99763 99764 99765)
+[*] Running workload pattern...
+[collector] hpa_status → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s/hpa_log.csv (every 5s)
+[collector] pod_cpu: waiting for kubectl top to become available...
+[collector] prometheus logs → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s/prometheus.log (continuous)
+[collector] pod_count → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s/podcount.csv (every 5s)
+[collector] prometheus_metrics → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s/prometheus_metrics.csv (every 5s)
+  Prometheus URL: http://localhost:9090
+[collector] http_rps → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s/http_rps.csv (every 5s)
+  Prometheus URL: http://localhost:9090
+=== PCM Workload Pattern ===
+  Target: http://172.18.0.5:30080/
+  Cycles: 1 × 25s high (200 rps) / 25s low (2 rps)
+
+--- Cycle 1/1 ---
+[2026-02-25T13:11:00+05:30] HIGH phase start (cycle 1) — 200 rps
+[collector] pod_cpu: kubectl top is ready (attempt 1)
+[collector] pod_cpu → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s/pod_cpu.csv (every 5s)
+[2026-02-25T13:11:25+05:30] HIGH phase end (cycle 1)
+[2026-02-25T13:11:25+05:30] LOW phase start (cycle 1) — 2 rps
+[2026-02-25T13:11:50+05:30] LOW phase end (cycle 1)
+=== Workload pattern complete ===
+[*] Stopping collectors...
+[✓] All collectors stopped
+[✓] Port-forward stopped
+[*] Capturing final state...
+[*] Cleaning up workload...
+horizontalpodautoscaler.autoscaling "cpu-hpa" deleted from default namespace
+deployment.apps "cpu-app" deleted from default namespace
+service "cpu-app-svc" deleted from default namespace
+pod/cpu-app-bcc7f4b9c-dnbjn condition met
+pod/cpu-app-bcc7f4b9c-ggj2f condition met
+pod/cpu-app-bcc7f4b9c-vwcv5 condition met
+pod/cpu-app-bcc7f4b9c-w6wzd condition met
+[✓] Workload cleaned up
+[✓] Experiment complete: pcm-cpu-15s → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/15s
+
+------------------------------------------------------------
+ Running: pcm-h (scrape_interval=60s)
+ Output:  /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h
+------------------------------------------------------------
+============================================================
+ Installing Prometheus Stack (scrape_interval=60s)
+============================================================
+[*] Generating Prometheus config with scrape_interval=60s...
+[*] Applying Prometheus manifests...
+namespace/monitoring unchanged
+serviceaccount/prometheus unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus unchanged
+configmap/prometheus-config configured
+deployment.apps/prometheus unchanged
+service/prometheus unchanged
+[*] Waiting for Prometheus deployment...
+deployment "prometheus" successfully rolled out
+[✓] Prometheus is ready
+[*] Checking metrics-server...
+[✓] metrics-server already installed
+[*] Applying Prometheus Adapter...
+serviceaccount/prometheus-adapter unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus-adapter unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus-adapter unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus-adapter:system:auth-delegator unchanged
+clusterrolebinding.rbac.authorization.k8s.io/hpa-custom-metrics-reader unchanged
+rolebinding.rbac.authorization.k8s.io/prometheus-adapter-auth-reader unchanged
+configmap/prometheus-adapter-config unchanged
+deployment.apps/prometheus-adapter unchanged
+service/prometheus-adapter unchanged
+apiservice.apiregistration.k8s.io/v1beta1.custom.metrics.k8s.io unchanged
+apiservice.apiregistration.k8s.io/v1beta2.custom.metrics.k8s.io unchanged
+[*] Waiting for Prometheus Adapter deployment...
+deployment "prometheus-adapter" successfully rolled out
+[✓] Prometheus Adapter is ready
+[*] Waiting for custom metrics API to be available (up to 90s)...
+[✓] custom.metrics.k8s.io API is available
+
+============================================================
+ Prometheus Stack Installed Successfully
+  - Prometheus: monitoring/prometheus (port 9090)
+  - Adapter:    monitoring/prometheus-adapter
+  - Scrape interval: 60s
+============================================================
+[*] Deploying cpu-app and service...
+deployment.apps/cpu-app created
+service/cpu-app-svc created
+[*] Waiting for pods to be ready...
+pod/cpu-app-bcc7f4b9c-29d4c condition met
+pod/cpu-app-bcc7f4b9c-7xr2p condition met
+pod/cpu-app-bcc7f4b9c-k6pr2 condition met
+pod/cpu-app-bcc7f4b9c-qt9jq condition met
+[✓] cpu-app deployed and ready
+[*] Waiting for Prometheus to discover pods (30s warm-up)...
+[*] Waiting for custom metrics to become available (up to 120s)...
+[✓] Custom metric http_requests_per_second is available
+[*] Applying HPA: /home/abhas/node/STAR/star-proj/pcm-exp/debug/../manifests/hpa-pcm-http.yaml
+horizontalpodautoscaler.autoscaling/cpu-hpa created
+NAME      REFERENCE            TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+cpu-hpa   Deployment/cpu-app   <unknown>/3   4         24        0          0s
+[*] Setting up Prometheus port-forward...
+[✓] Port-forward active (PID: 102392)
+[*] Starting collectors → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h
+[✓] 6 collectors running (PIDs: 102413 102414 102415 102416 102417 102418)
+[*] Running workload pattern...
+[collector] pod_cpu: waiting for kubectl top to become available...
+[collector] hpa_status → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h/hpa_log.csv (every 5s)
+[collector] prometheus logs → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h/prometheus.log (continuous)
+[collector] pod_count → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h/podcount.csv (every 5s)
+[collector] prometheus_metrics → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h/prometheus_metrics.csv (every 5s)
+  Prometheus URL: http://localhost:9090
+[collector] http_rps → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h/http_rps.csv (every 5s)
+  Prometheus URL: http://localhost:9090
+[collector] pod_cpu: kubectl top is ready (attempt 1)
+[collector] pod_cpu → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h/pod_cpu.csv (every 5s)
+=== PCM Workload Pattern ===
+  Target: http://172.18.0.5:30080/
+  Cycles: 1 × 25s high (200 rps) / 25s low (2 rps)
+
+--- Cycle 1/1 ---
+[2026-02-25T13:13:14+05:30] HIGH phase start (cycle 1) — 200 rps
+[2026-02-25T13:13:39+05:30] HIGH phase end (cycle 1)
+[2026-02-25T13:13:39+05:30] LOW phase start (cycle 1) — 2 rps
+[2026-02-25T13:14:04+05:30] LOW phase end (cycle 1)
+=== Workload pattern complete ===
+[*] Stopping collectors...
+[✓] All collectors stopped
+[✓] Port-forward stopped
+[*] Capturing final state...
+[*] Cleaning up workload...
+horizontalpodautoscaler.autoscaling "cpu-hpa" deleted from default namespace
+deployment.apps "cpu-app" deleted from default namespace
+service "cpu-app-svc" deleted from default namespace
+pod/cpu-app-bcc7f4b9c-29d4c condition met
+pod/cpu-app-bcc7f4b9c-7xr2p condition met
+pod/cpu-app-bcc7f4b9c-k6pr2 condition met
+pod/cpu-app-bcc7f4b9c-qt9jq condition met
+[✓] Workload cleaned up
+[✓] Experiment complete: pcm-h → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-h
+
+------------------------------------------------------------
+ Running: pcm-ch (scrape_interval=60s)
+ Output:  /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch
+------------------------------------------------------------
+============================================================
+ Installing Prometheus Stack (scrape_interval=60s)
+============================================================
+[*] Generating Prometheus config with scrape_interval=60s...
+[*] Applying Prometheus manifests...
+namespace/monitoring unchanged
+serviceaccount/prometheus unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus unchanged
+configmap/prometheus-config unchanged
+deployment.apps/prometheus unchanged
+service/prometheus unchanged
+[*] Waiting for Prometheus deployment...
+deployment "prometheus" successfully rolled out
+[✓] Prometheus is ready
+[*] Checking metrics-server...
+[✓] metrics-server already installed
+[*] Applying Prometheus Adapter...
+serviceaccount/prometheus-adapter unchanged
+clusterrole.rbac.authorization.k8s.io/prometheus-adapter unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus-adapter unchanged
+clusterrolebinding.rbac.authorization.k8s.io/prometheus-adapter:system:auth-delegator unchanged
+clusterrolebinding.rbac.authorization.k8s.io/hpa-custom-metrics-reader unchanged
+rolebinding.rbac.authorization.k8s.io/prometheus-adapter-auth-reader unchanged
+configmap/prometheus-adapter-config unchanged
+deployment.apps/prometheus-adapter unchanged
+service/prometheus-adapter unchanged
+apiservice.apiregistration.k8s.io/v1beta1.custom.metrics.k8s.io unchanged
+apiservice.apiregistration.k8s.io/v1beta2.custom.metrics.k8s.io unchanged
+[*] Waiting for Prometheus Adapter deployment...
+deployment "prometheus-adapter" successfully rolled out
+[✓] Prometheus Adapter is ready
+[*] Waiting for custom metrics API to be available (up to 90s)...
+[✓] custom.metrics.k8s.io API is available
+
+============================================================
+ Prometheus Stack Installed Successfully
+  - Prometheus: monitoring/prometheus (port 9090)
+  - Adapter:    monitoring/prometheus-adapter
+  - Scrape interval: 60s
+============================================================
+[*] Deploying cpu-app and service...
+deployment.apps/cpu-app created
+service/cpu-app-svc created
+[*] Waiting for pods to be ready...
+pod/cpu-app-bcc7f4b9c-5mpf5 condition met
+pod/cpu-app-bcc7f4b9c-gxmd2 condition met
+pod/cpu-app-bcc7f4b9c-hwvql condition met
+pod/cpu-app-bcc7f4b9c-j2qww condition met
+[✓] cpu-app deployed and ready
+[*] Waiting for Prometheus to discover pods (30s warm-up)...
+[*] Waiting for custom metrics to become available (up to 120s)...
+[✓] Custom metric http_requests_per_second is available
+[*] Applying HPA: /home/abhas/node/STAR/star-proj/pcm-exp/debug/../manifests/hpa-pcm-cpu-http.yaml
+horizontalpodautoscaler.autoscaling/cpu-hpa created
+NAME      REFERENCE            TARGETS                           MINPODS   MAXPODS   REPLICAS   AGE
+cpu-hpa   Deployment/cpu-app   cpu: <unknown>/50%, <unknown>/3   4         24        0          0s
+[*] Setting up Prometheus port-forward...
+[✓] Port-forward active (PID: 105151)
+[*] Starting collectors → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch
+[✓] 6 collectors running (PIDs: 105177 105178 105179 105180 105181 105182)
+[*] Running workload pattern...
+[collector] pod_cpu: waiting for kubectl top to become available...
+[collector] hpa_status → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch/hpa_log.csv (every 5s)
+[collector] pod_count → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch/podcount.csv (every 5s)
+[collector] prometheus logs → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch/prometheus.log (continuous)
+[collector] prometheus_metrics → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch/prometheus_metrics.csv (every 5s)
+  Prometheus URL: http://localhost:9090
+[collector] http_rps → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch/http_rps.csv (every 5s)
+  Prometheus URL: http://localhost:9090
+=== PCM Workload Pattern ===
+  Target: http://172.18.0.5:30080/
+  Cycles: 1 × 25s high (200 rps) / 25s low (2 rps)
+
+--- Cycle 1/1 ---
+[2026-02-25T13:15:28+05:30] HIGH phase start (cycle 1) — 200 rps
+[collector] pod_cpu: kubectl top is ready (attempt 4)
+[collector] pod_cpu → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch/pod_cpu.csv (every 5s)
+[2026-02-25T13:15:53+05:30] HIGH phase end (cycle 1)
+[2026-02-25T13:15:53+05:30] LOW phase start (cycle 1) — 2 rps
+[2026-02-25T13:16:18+05:30] LOW phase end (cycle 1)
+=== Workload pattern complete ===
+[*] Stopping collectors...
+[✓] All collectors stopped
+[✓] Port-forward stopped
+[*] Capturing final state...
+[*] Cleaning up workload...
+horizontalpodautoscaler.autoscaling "cpu-hpa" deleted from default namespace
+deployment.apps "cpu-app" deleted from default namespace
+service "cpu-app-svc" deleted from default namespace
+pod/cpu-app-bcc7f4b9c-5mpf5 condition met
+pod/cpu-app-bcc7f4b9c-gxmd2 condition met
+pod/cpu-app-bcc7f4b9c-hwvql condition met
+pod/cpu-app-bcc7f4b9c-j2qww condition met
+[✓] Workload cleaned up
+[✓] Experiment complete: pcm-ch → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-ch
+
+============================================================
+ All PCM experiments complete!
+ Results in: /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/
+============================================================
+[*] Running analysis and generating plots...
+/home/abhas/node/STAR/star-proj/pcm-exp/debug/../analysis/analysis.py:481: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax.legend()
+PCM HPA Experiment Analysis
+Results directory: /home/abhas/node/STAR/star-proj/pcm-exp/debug/results
+
+[SKIP] No data for pcm-cpu-60s (/home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/60s)
+[SKIP] No data for pcm-cpu-30s (/home/abhas/node/STAR/star-proj/pcm-exp/debug/results/pcm-cpu/30s)
+[LOAD] pcm-cpu-15s...
+[LOAD] pcm-h...
+[LOAD] pcm-ch...
+
+[PLOTS]
+  → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots/replicas_over_time.png
+  → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots/cpu_over_time.png
+  → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots/http_rate_over_time.png
+  → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots/desired_vs_current.png
+  → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots/efficiency_scatter.png
+  → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots/pcm_h_vs_pcm_ch.png
+  [SKIP] Need ≥2 PCM-CPU scraping period runs for comparison
+
+[DERIVED METRICS]
+  pcm-cpu-15s: {'max_replicas': 4, 'avg_cpu_util': nan, 'peak_http_rps': 4.28, 'avg_http_rps': 4.28, 'overshoot_undershoot_area': 0.0, 'pod_seconds': 180, 'pod_cpu_std_dev': np.float64(28.1)}
+  pcm-h: {'max_replicas': 4, 'avg_cpu_util': nan, 'peak_http_rps': 9.75, 'avg_http_rps': 7.69, 'overshoot_undershoot_area': 0.0, 'pod_seconds': 180, 'pod_cpu_std_dev': np.float64(15.8)}
+  pcm-ch: {'max_replicas': 4, 'avg_cpu_util': nan, 'peak_http_rps': 13.27, 'avg_http_rps': 7.37, 'overshoot_undershoot_area': 0.0, 'pod_seconds': 180, 'pod_cpu_std_dev': np.float64(13.3)}
+
+=== Summary Table ===
+             max_replicas  avg_cpu_util  peak_http_rps  avg_http_rps  overshoot_undershoot_area  pod_seconds  pod_cpu_std_dev
+experiment                                                                                                                   
+pcm-cpu-15s           4.0           NaN           4.28          4.28                        0.0        180.0             28.1
+pcm-h                 4.0           NaN           9.75          7.69                        0.0        180.0             15.8
+pcm-ch                4.0           NaN          13.27          7.37                        0.0        180.0             13.3
+
+  → /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots/summary_table.csv
+
+[DONE] All outputs in: /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots
+[✓] Plots generated in /home/abhas/node/STAR/star-proj/pcm-exp/debug/results/plots
+[✓] Archived to /home/abhas/node/STAR/star-proj/pcm-exp/debug/../pcm_experiment_results_20260225131652.tgz
+============================================================
+ DEBUG RUN COMPLETE
+ Check /home/abhas/node/STAR/star-proj/pcm-exp/debug/results for CSVs and Plots!
+============================================================

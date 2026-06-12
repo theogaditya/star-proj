@@ -1,0 +1,87 @@
+---
+# mqtt_all.yml — Master playbook: runs all MQTT experiments + analysis
+#
+# Usage:
+#   ansible-playbook scripts/ansi/mqtt_all.yml
+#
+# Runs: Exp A → Exp B → Exp C → Parse & Plot
+#
+- name: "MQTT Experiment Suite — Run All"
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  vars:
+    project_root: "{{ playbook_dir }}/../.."
+
+  tasks:
+    - name: "╔══ Run Experiment A: HPA Baseline ══╗"
+      ansible.builtin.debug:
+        msg: "Starting Experiment A..."
+
+- import_playbook: mqtt_experiment_a.yml
+- import_playbook: mqtt_experiment_b.yml
+- import_playbook: mqtt_experiment_c.yml
+
+# ── Post: parse logs and generate plots ──────────────────────────
+- name: "MQTT Analysis — Parse & Plot"
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  vars:
+    project_root: "{{ playbook_dir }}/../.."
+
+  tasks:
+    - name: "Parse Experiment A logs"
+      ansible.builtin.command: >
+        python3 {{ project_root }}/analysis/mqtt/parse_logs_mqtt.py
+        {{ project_root }}/results/raw/mqtt/experiment-a-hpa
+        {{ project_root }}/results/raw/mqtt/experiment-a-hpa/out.csv
+
+    - name: "Plot Experiment A"
+      ansible.builtin.command: >
+        python3 {{ project_root }}/analysis/mqtt/plot_experiment_mqtt.py
+        --csv {{ project_root }}/results/raw/mqtt/experiment-a-hpa/out.csv
+        --title "Exp-A: HPA Baseline (MQTT)"
+        --out {{ project_root }}/results/raw/mqtt/experiment-a-hpa/plot.png
+
+    - name: "Parse Experiment B logs"
+      ansible.builtin.command: >
+        python3 {{ project_root }}/analysis/mqtt/parse_logs_mqtt.py
+        {{ project_root }}/results/raw/mqtt/experiment-b-stateful
+        {{ project_root }}/results/raw/mqtt/experiment-b-stateful/out.csv
+
+    - name: "Plot Experiment B"
+      ansible.builtin.command: >
+        python3 {{ project_root }}/analysis/mqtt/plot_experiment_mqtt.py
+        --csv {{ project_root }}/results/raw/mqtt/experiment-b-stateful/out.csv
+        --title "Exp-B: STAR Controller (MQTT)"
+        --out {{ project_root }}/results/raw/mqtt/experiment-b-stateful/plot.png
+
+    - name: "Parse Experiment C HPA logs"
+      ansible.builtin.command: >
+        python3 {{ project_root }}/analysis/mqtt/parse_logs_mqtt.py
+        {{ project_root }}/results/raw/mqtt/experiment-c-idle-hpa
+        {{ project_root }}/results/raw/mqtt/experiment-c-idle-hpa/out.csv
+
+    - name: "Parse Experiment C STAR logs"
+      ansible.builtin.command: >
+        python3 {{ project_root }}/analysis/mqtt/parse_logs_mqtt.py
+        {{ project_root }}/results/raw/mqtt/experiment-c-idle-star
+        {{ project_root }}/results/raw/mqtt/experiment-c-idle-star/out.csv
+
+    - name: "Plot Experiment C comparison"
+      ansible.builtin.command: >
+        python3 {{ project_root }}/analysis/mqtt/plot_experiment_mqtt.py
+        --csv-hpa {{ project_root }}/results/raw/mqtt/experiment-c-idle-hpa/out.csv
+        --csv-star {{ project_root }}/results/raw/mqtt/experiment-c-idle-star/out.csv
+        --out {{ project_root }}/results/raw/mqtt/experiment-c-comparison.png
+
+    - name: "✓ All MQTT experiments and analysis complete"
+      ansible.builtin.debug:
+        msg: |
+          Results:
+            Exp A plot: results/raw/mqtt/experiment-a-hpa/plot.png
+            Exp B plot: results/raw/mqtt/experiment-b-stateful/plot.png
+            Exp C plot: results/raw/mqtt/experiment-c-comparison.png

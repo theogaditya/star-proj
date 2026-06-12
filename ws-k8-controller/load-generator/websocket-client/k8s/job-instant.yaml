@@ -1,0 +1,21 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: websocket-loadgen
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: websocket-loadgen
+          image: websocket-loadgen:latest
+          imagePullPolicy: IfNotPresent
+          command: ["python", "client.py"]
+          args:
+            - "ws://websocket-service:8765"
+            - "800"
+            - "120"
+          env:
+            - name: RAMP_UP_DURATION
+              value: "0"

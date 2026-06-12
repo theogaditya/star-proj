@@ -1,0 +1,25 @@
+---
+# Prometheus Adapter ConfigMap: exposes active_connections as a custom pod metric
+# Name MUST match the volume mount in prometheus-adapter.yaml (prometheus-adapter-config)
+# Apply with: kubectl apply -f prometheus-adapter-configmap.yaml
+#
+# Label names match what the Prometheus kubernetes-pods scrape job writes:
+#   kubernetes_namespace  <- __meta_kubernetes_namespace
+#   kubernetes_pod_name   <- __meta_kubernetes_pod_name
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-adapter-config
+  namespace: monitoring
+data:
+  config.yaml: |
+    rules:
+      - seriesQuery: 'active_connections{kubernetes_namespace!="",kubernetes_pod_name!=""}'
+        resources:
+          overrides:
+            kubernetes_namespace: {resource: "namespace"}
+            kubernetes_pod_name: {resource: "pod"}
+        name:
+          matches: "active_connections"
+          as: "active_connections_per_pod"
+        metricsQuery: 'sum(active_connections{<<.LabelMatchers>>}) by (<<.GroupBy>>)'

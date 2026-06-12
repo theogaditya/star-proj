@@ -1,0 +1,234 @@
+---
+# mqtt_experiment_a.yml — Experiment A: HPA Baseline — 3 Failure Modes
+#
+# Phase 1: Scale-up Blindness (0–240s)
+# Phase 2: No Connection-Aware Redistribution (240–420s)
+# Phase 3: Violent Disconnection (420–600s)
+#
+# Usage:
+#   ansible-playbook scripts/ansi/mqtt_experiment_a.yml
+#
+- name: "Experiment-A MQTT: HPA Baseline — 3 Failure Modes"
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  vars:
+    project_root: "{{ playbook_dir }}/../.."
+    cluster_name: mqtt-exp-a
+    result_dir: "{{ project_root }}/results/raw/mqtt/experiment-a-hpa"
+    # Phase 1
+    phase1_clients: 1000
+    phase1_ramp_seconds: 60
+    phase1_duration: 240
+    # Phase 2
+    phase2_clients: 300
+    phase2_ramp_seconds: 30
+    phase2_duration: 180
+    phase2_replicas: 3
+    # Phase 3
+    phase3_duration: 180
+    # Shared
+    ping_interval: 30
+
+  tasks:
+    # ── Stage 0: Archive previous results ────────────────────────
+    - name: "Stage 0 — check for previous results"
+      ansible.builtin.find:
+        paths: "{{ result_dir }}"
+        file_type: file
+      register: prev_results
+      ignore_errors: true
+
+    - name: "Stage 0 — archive previous results"
+      ansible.builtin.shell: |
+        mkdir -p {{ project_root }}/results/tar
+        tar -czf {{ project_root }}/results/tar/experiment-a-mqtt_$(date +%Y%m%d_%H%M%S).tgz -C {{ result_dir }} .
+        rm -rf {{ result_dir }}
+      when: prev_results.matched | default(0) > 0
+
+    - name: "Stage 0 — create result directory"
+      ansible.builtin.file:
+        path: "{{ result_dir }}"
+        state: directory
+        mode: "0755"
+
+    # ── Stage 1+2: Import common infra ───────────────────────────
+    - name: "Stage 1+2 — setup infrastructure and images"
+      ansible.builtin.import_tasks: mqtt_common.yml
+
+    # ── Stage 3: Deploy workloads ────────────────────────────────
+    - name: "Stage 3 — deploy broker + HPA"
+      ansible.builtin.shell: |
+        kubectl apply -f {{ project_root }}/workloads/mqtt/k8s/deployment.yml
+        kubectl apply -f {{ project_root }}/workloads/mqtt/k8s/service.yml
+        kubectl apply -f {{ project_root }}/workloads/mqtt/k8s/hpa.yml
+
+    - name: "Stage 3 — wait for broker readiness"
+      ansible.builtin.command: >
+        kubectl wait --for=condition=ready pod -l app=mqtt-broker --timeout=300s
+
+    # ── Stage 3b: Verify Prometheus scrape ───────────────────────
+    - name: "Stage 3b — start Prometheus port-forward"
+      ansible.builtin.shell: |
+        nohup kubectl port-forward svc/prometheus -n monitoring 9090:9090 \
+          >/tmp/pf-prometheus.log 2>&1 &
+        echo $!
+      register: pf_result
+
+    - name: "Stage 3b — wait for port-forward to bind"
+      ansible.builtin.pause:
+        seconds: 4
+
+    - name: "Stage 3b — verify port-forward is listening"
+      ansible.builtin.shell: |
+        curl -sf --max-time 3 "http://localhost:9090/api/v1/query?query=up" \
+          | python3 -c "import sys,json; d=json.load(sys.stdin); print('ok' if d.get('status')=='success' else 'fail')" 2>/dev/null || echo fail
+      register: pf_check
+      until: "pf_check.stdout == 'ok'"
+      retries: 15
+      delay: 2
+      ignore_errors: true
+
+    - name: "Stage 3b — wait for Prometheus to scrape active_connections"
+      ansible.builtin.shell: |
+        curl -sf "http://localhost:9090/api/v1/query?query=active_connections" \
+          | python3 -c "import sys,json; d=json.load(sys.stdin); r=d['data']['result']; print(len(r))" 2>/dev/null || echo 0
+      register: prom_scrape
+      until: "prom_scrape.stdout | int > 0"
+      retries: 24
+      delay: 5
+      ignore_errors: true
+
+    # ── Stage 4: Start all collectors ────────────────────────────
+    - name: "Stage 4 — start pod collector"
+      ansible.builtin.shell: |
+        nohup bash -c 'while true; do echo "$(date +%s)" >> {{ result_dir }}/pods.log; kubectl get pods -l app=mqtt-broker --no-headers >> {{ result_dir }}/pods.log 2>/dev/null || true; sleep 5; done' &>/dev/null &
+        echo $!
+      register: pods_pid
+
+    - name: "Stage 4 — start HPA collector"
+      ansible.builtin.shell: |
+        nohup bash -c 'while true; do echo "$(date +%s)" >> {{ result_dir }}/hpa.log; kubectl get hpa mqtt-hpa --no-headers >> {{ result_dir }}/hpa.log 2>/dev/null || true; sleep 5; done' &>/dev/null &
+        echo $!
+      register: hpa_pid
+
+    - name: "Stage 4 — start CPU collector"
+      ansible.builtin.shell: |
+        nohup bash -c 'while true; do echo "$(date +%s)" >> {{ result_dir }}/cpu.log; kubectl top pods -l app=mqtt-broker --no-headers 2>/dev/null >> {{ result_dir }}/cpu.log || true; sleep 5; done' &>/dev/null &
+        echo $!
+      register: cpu_pid
+
+    - name: "Stage 4 — start memory collector"
+      ansible.builtin.shell: |
+        nohup bash -c 'while true; do echo "$(date +%s)" >> {{ result_dir }}/memory.log; kubectl top pods -l app=mqtt-broker --no-headers 2>/dev/null | awk "{gsub(/Mi/,\"\",\$3); total+=\$3} END{print (total?total:0)}" >> {{ result_dir }}/memory.log || echo "0" >> {{ result_dir }}/memory.log; sleep 5; done' &>/dev/null &
+        echo $!
+      register: mem_pid
+
+    - name: "Stage 4 — start connection collector"
+      ansible.builtin.shell: |
+        nohup bash -c 'while true; do echo "$(date +%s)" >> {{ result_dir }}/active_connections.log; curl -s "http://localhost:9090/api/v1/query?query=sum(active_connections)" | python3 -c "import sys,json; d=json.load(sys.stdin); r=d[\"data\"][\"result\"]; print(r[0][\"value\"][1] if r else \"0\")" >> {{ result_dir }}/active_connections.log 2>/dev/null || echo "0" >> {{ result_dir }}/active_connections.log; sleep 5; done' &>/dev/null &
+        echo $!
+      register: conn_pid
+
+    - name: "Stage 4 — start per-pod connection collector"
+      ansible.builtin.shell: |
+        nohup bash -c 'while true; do echo "$(date +%s)" >> {{ result_dir }}/perpod_connections.log; curl -s "http://localhost:9090/api/v1/query?query=active_connections" | python3 -c "import sys,json; d=json.load(sys.stdin); out={}; [out.update({((r.get(\"metric\",{}).get(\"pod\") or r.get(\"metric\",{}).get(\"kubernetes_pod_name\") or r.get(\"metric\",{}).get(\"instance\") or \"unknown\")): int(float(r[\"value\"][1]))}) for r in d.get(\"data\",{}).get(\"result\",[])]; print(json.dumps(out))" >> {{ result_dir }}/perpod_connections.log 2>/dev/null || echo "{}" >> {{ result_dir }}/perpod_connections.log; sleep 5; done' &>/dev/null &
+        echo $!
+      register: perpod_pid
+
+    # ═══════════════════════════════════════════════════════════════
+    # PHASE 1: Scale-up Blindness
+    # ═══════════════════════════════════════════════════════════════
+    - name: "▶ PHASE 1: Scale-up Blindness — ramp {{ phase1_clients }} clients"
+      ansible.builtin.shell: |
+        echo "PHASE1_START $(date +%s)" >> {{ result_dir }}/phases.log
+        kubectl run mqtt-loadgen-p1 \
+          --image=mqtt-loadgen:latest --restart=Never --image-pull-policy=Never \
+          --env="BROKER_HOST=mqtt-service" --env="CLIENTS={{ phase1_clients }}" \
+          --env="RAMP_SECONDS={{ phase1_ramp_seconds }}" --env="PING_INTERVAL={{ ping_interval }}"
+
+    - name: "Phase 1 — wait {{ phase1_duration }}s"
+      ansible.builtin.pause:
+        seconds: "{{ phase1_duration }}"
+
+    - name: "Phase 1 — collect logs"
+      ansible.builtin.shell: |
+        kubectl logs mqtt-loadgen-p1 >> {{ result_dir }}/loadgen-phase1.log 2>/dev/null || true
+        echo "PHASE1_END $(date +%s)" >> {{ result_dir }}/phases.log
+
+    # ═══════════════════════════════════════════════════════════════
+    # PHASE 2: No Connection-Aware Redistribution
+    # ═══════════════════════════════════════════════════════════════
+    - name: "▶ PHASE 2: No Redistribution — scale to {{ phase2_replicas }} replicas"
+      ansible.builtin.shell: |
+        echo "PHASE2_START $(date +%s)" >> {{ result_dir }}/phases.log
+        kubectl delete hpa mqtt-hpa --ignore-not-found
+        kubectl scale deployment mqtt-broker --replicas={{ phase2_replicas }}
+
+    - name: "Phase 2 — wait for new pods"
+      ansible.builtin.command: >
+        kubectl wait --for=condition=ready pod -l app=mqtt-broker --timeout=120s
+
+    - name: "Phase 2 — start new clients ({{ phase2_clients }})"
+      ansible.builtin.shell: |
+        kubectl run mqtt-loadgen-p2 \
+          --image=mqtt-loadgen:latest --restart=Never --image-pull-policy=Never \
+          --env="BROKER_HOST=mqtt-service" --env="CLIENTS={{ phase2_clients }}" \
+          --env="RAMP_SECONDS={{ phase2_ramp_seconds }}" --env="PING_INTERVAL={{ ping_interval }}"
+
+    - name: "Phase 2 — wait {{ phase2_duration }}s"
+      ansible.builtin.pause:
+        seconds: "{{ phase2_duration }}"
+
+    - name: "Phase 2 — collect logs"
+      ansible.builtin.shell: |
+        kubectl logs mqtt-loadgen-p2 >> {{ result_dir }}/loadgen-phase2.log 2>/dev/null || true
+        echo "PHASE2_END $(date +%s)" >> {{ result_dir }}/phases.log
+
+    # ═══════════════════════════════════════════════════════════════
+    # PHASE 3: Violent Disconnection
+    # ═══════════════════════════════════════════════════════════════
+    - name: "▶ PHASE 3: Violent Disconnection — scale back to 1"
+      ansible.builtin.shell: |
+        echo "PHASE3_START $(date +%s)" >> {{ result_dir }}/phases.log
+        kubectl scale deployment mqtt-broker --replicas=1
+        kubectl apply -f {{ project_root }}/workloads/mqtt/k8s/hpa.yml
+
+    - name: "Phase 3 — wait {{ phase3_duration }}s"
+      ansible.builtin.pause:
+        seconds: "{{ phase3_duration }}"
+
+    - name: "Phase 3 — final log collection"
+      ansible.builtin.shell: |
+        kubectl logs mqtt-loadgen-p1 >> {{ result_dir }}/loadgen-phase1-final.log 2>/dev/null || true
+        kubectl logs mqtt-loadgen-p2 >> {{ result_dir }}/loadgen-phase2-final.log 2>/dev/null || true
+        echo "PHASE3_END $(date +%s)" >> {{ result_dir }}/phases.log
+
+    # ── Stage 5: Cleanup ─────────────────────────────────────────
+    - name: "Stage 5 — kill background collectors"
+      ansible.builtin.shell: |
+        kill {{ pods_pid.stdout }} {{ hpa_pid.stdout }} {{ cpu_pid.stdout }} {{ mem_pid.stdout }} {{ conn_pid.stdout }} {{ perpod_pid.stdout }} {{ pf_result.stdout }} 2>/dev/null || true
+      ignore_errors: true
+
+    - name: "Stage 5 — delete load generator pods"
+      ansible.builtin.shell: |
+        kubectl delete pod mqtt-loadgen-p1 --ignore-not-found 2>/dev/null || true
+        kubectl delete pod mqtt-loadgen-p2 --ignore-not-found 2>/dev/null || true
+      ignore_errors: true
+
+    - name: "Stage 5 — delete Kind cluster"
+      ansible.builtin.command: "kind delete cluster --name {{ cluster_name }}"
+      ignore_errors: true
+
+    - name: "Stage 5 — print result summary"
+      ansible.builtin.shell: "wc -l {{ result_dir }}/*.log 2>/dev/null || true"
+      register: summary
+
+    - name: "Result summary"
+      ansible.builtin.debug:
+        msg: "{{ summary.stdout_lines }}"
+
+    - name: "✓ Experiment-A MQTT complete — 3 HPA failure modes captured"
+      ansible.builtin.debug:
+        msg: "Results in {{ result_dir }}"

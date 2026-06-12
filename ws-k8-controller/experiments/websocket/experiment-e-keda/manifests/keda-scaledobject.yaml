@@ -1,0 +1,22 @@
+---
+# KEDA ScaledObject: scales websocket-server based on Prometheus active_connections metric
+# cooldownPeriod=120 matches StatefulAutoscaler's scaleDownCooldownSeconds=120 for fair comparison
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: websocket-keda-scaler
+  namespace: default
+spec:
+  scaleTargetRef:
+    name: websocket-server
+  minReplicaCount: 2
+  maxReplicaCount: 15
+  cooldownPeriod: 120      # seconds: matches StatefulAutoscaler scaleDownCooldownSeconds
+  pollingInterval: 15      # seconds: matches Prometheus scrape interval
+  triggers:
+    - type: prometheus
+      metadata:
+        serverAddress: http://prometheus.monitoring.svc.cluster.local:9090
+        metricName: active_connections
+        threshold: "100"
+        query: sum(active_connections)

@@ -1,0 +1,38 @@
+apiVersion: autoscaling.star.local/v1alpha1
+kind: StatefulAutoscaler
+metadata:
+  name: mqtt-autoscaler
+  namespace: default
+spec:
+  targetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: mqtt-broker
+
+  # Warm pool: start with 2 replicas so initial burst has somewhere to land
+  # 2 pods × 150 target = 300 clients absorbed before reactive scaling kicks in
+  minReplicas: 2
+  maxReplicas: 10
+
+  # Scale up when avg connections per pod exceeds 150
+  # With 1000 clients → ceil(1000/150) = 7 pods
+  # Compare to Exp A: HPA stayed at 1 pod and refused 661 clients
+  targetConnectionsPerPod: 150
+
+  # Allow aggressive scale-up, conservative scale-down
+  maxScaleUpStep:   3
+  maxScaleDownStep: 1
+
+  # Scale-up: react quickly so clients are never refused
+  # Scale-down: cooldown 120s to avoid thrashing + allow drain
+  scaleUpCooldownSeconds:   20
+  scaleDownCooldownSeconds: 120
+
+  drain:
+    # Graceful drain before pod termination
+    # Controller calls /drain on victim pod → broker nudges clients with DISCONNECT
+    # Clients reconnect to healthy pods via Service load balancer
+    # Controller polls /drain/status until remaining=0 or timeout
+    enabled:             true
+    timeoutSeconds:      45
+    maxConcurrentDrains: 2

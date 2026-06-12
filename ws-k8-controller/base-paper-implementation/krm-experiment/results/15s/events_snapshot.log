@@ -1,0 +1,50 @@
+47s         Normal    Created                        pod/cpu-app-7644f97777-hjv6v      Created container cpu
+47s         Normal    Created                        pod/cpu-app-7644f97777-28gzr      Created container cpu
+47s         Normal    Started                        pod/cpu-app-7644f97777-28gzr      Started container cpu
+46s         Normal    Pulled                         pod/cpu-app-7644f97777-th9lf      Successfully pulled image "polinux/stress" in 1.62s (4.75s including waiting). Image size: 4041495 bytes.
+46s         Normal    Started                        pod/cpu-app-7644f97777-th9lf      Started container cpu
+46s         Normal    Started                        pod/cpu-app-7644f97777-hjv6v      Started container cpu
+46s         Normal    Created                        pod/cpu-app-7644f97777-th9lf      Created container cpu
+45s         Normal    Pulling                        pod/cpu-app-7644f97777-pvfdt      Pulling image "polinux/stress"
+45s         Normal    Pulled                         pod/cpu-app-7644f97777-sdj4p      Successfully pulled image "polinux/stress" in 1.696s (5.331s including waiting). Image size: 4041495 bytes.
+45s         Normal    Created                        pod/cpu-app-7644f97777-sdj4p      Created container cpu
+45s         Normal    Pulled                         pod/cpu-app-7644f97777-s5lp6      Successfully pulled image "polinux/stress" in 1.51s (6.26s including waiting). Image size: 4041495 bytes.
+45s         Normal    Created                        pod/cpu-app-7644f97777-s5lp6      Created container cpu
+45s         Normal    Started                        pod/cpu-app-7644f97777-sdj4p      Started container cpu
+44s         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/cpu-hpa   invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+44s         Warning   FailedGetResourceMetric        horizontalpodautoscaler/cpu-hpa   failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+44s         Normal    Started                        pod/cpu-app-7644f97777-s5lp6      Started container cpu
+43s         Normal    Started                        pod/cpu-app-7644f97777-ghppp      Started container cpu
+43s         Normal    Pulled                         pod/cpu-app-7644f97777-ghppp      Successfully pulled image "polinux/stress" in 1.879s (6.21s including waiting). Image size: 4041495 bytes.
+43s         Normal    Created                        pod/cpu-app-7644f97777-ghppp      Created container cpu
+42s         Normal    Pulled                         pod/cpu-app-7644f97777-pvfdt      Successfully pulled image "polinux/stress" in 1.616s (2.825s including waiting). Image size: 4041495 bytes.
+42s         Normal    Pulling                        pod/cpu-app-7644f97777-lztvr      Pulling image "polinux/stress"
+42s         Normal    Created                        pod/cpu-app-7644f97777-pvfdt      Created container cpu
+41s         Normal    Pulling                        pod/cpu-app-7644f97777-5jdtg      Pulling image "polinux/stress"
+41s         Normal    Started                        pod/cpu-app-7644f97777-pvfdt      Started container cpu
+41s         Normal    Pulling                        pod/cpu-app-7644f97777-rsl2m      Pulling image "polinux/stress"
+41s         Normal    Pulling                        pod/cpu-app-7644f97777-cqrm4      Pulling image "polinux/stress"
+40s         Normal    Pulling                        pod/cpu-app-7644f97777-wjn5s      Pulling image "polinux/stress"
+40s         Normal    Pulling                        pod/cpu-app-7644f97777-vtvwz      Pulling image "polinux/stress"
+39s         Normal    Pulled                         pod/cpu-app-7644f97777-rsl2m      Successfully pulled image "polinux/stress" in 1.728s (1.728s including waiting). Image size: 4041495 bytes.
+39s         Normal    Pulled                         pod/cpu-app-7644f97777-5jdtg      Successfully pulled image "polinux/stress" in 1.849s (1.849s including waiting). Image size: 4041495 bytes.
+39s         Normal    Pulled                         pod/cpu-app-7644f97777-lztvr      Successfully pulled image "polinux/stress" in 2.452s (2.452s including waiting). Image size: 4041495 bytes.
+39s         Normal    Started                        pod/cpu-app-7644f97777-5jdtg      Started container cpu
+39s         Normal    Created                        pod/cpu-app-7644f97777-5jdtg      Created container cpu
+39s         Normal    Started                        pod/cpu-app-7644f97777-rsl2m      Started container cpu
+39s         Normal    Created                        pod/cpu-app-7644f97777-lztvr      Created container cpu
+39s         Normal    Created                        pod/cpu-app-7644f97777-rsl2m      Created container cpu
+38s         Normal    Created                        pod/cpu-app-7644f97777-vtvwz      Created container cpu
+38s         Normal    Pulled                         pod/cpu-app-7644f97777-vtvwz      Successfully pulled image "polinux/stress" in 1.553s (2.404s including waiting). Image size: 4041495 bytes.
+38s         Normal    Started                        pod/cpu-app-7644f97777-lztvr      Started container cpu
+38s         Normal    Pulled                         pod/cpu-app-7644f97777-cqrm4      Successfully pulled image "polinux/stress" in 1.496s (3.225s including waiting). Image size: 4041495 bytes.
+38s         Normal    Created                        pod/cpu-app-7644f97777-cqrm4      Created container cpu
+37s         Normal    Pulling                        pod/cpu-app-7644f97777-8279t      Pulling image "polinux/stress"
+37s         Normal    Started                        pod/cpu-app-7644f97777-vtvwz      Started container cpu
+37s         Normal    Started                        pod/cpu-app-7644f97777-cqrm4      Started container cpu
+36s         Normal    Created                        pod/cpu-app-7644f97777-wjn5s      Created container cpu
+36s         Normal    Started                        pod/cpu-app-7644f97777-wjn5s      Started container cpu
+36s         Normal    Pulled                         pod/cpu-app-7644f97777-wjn5s      Successfully pulled image "polinux/stress" in 1.603s (3.83s including waiting). Image size: 4041495 bytes.
+35s         Normal    Created                        pod/cpu-app-7644f97777-8279t      Created container cpu
+35s         Normal    Started                        pod/cpu-app-7644f97777-8279t      Started container cpu
+35s         Normal    Pulled                         pod/cpu-app-7644f97777-8279t      Successfully pulled image "polinux/stress" in 1.604s (1.604s including waiting). Image size: 4041495 bytes.

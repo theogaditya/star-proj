@@ -1,0 +1,69 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"autoscaling/v2","kind":"HorizontalPodAutoscaler","metadata":{"annotations":{},"name":"websocket-hpa-custom-metric","namespace":"default"},"spec":{"behavior":{"scaleDown":{"policies":[{"periodSeconds":15,"type":"Pods","value":2}],"stabilizationWindowSeconds":120},"scaleUp":{"policies":[{"periodSeconds":15,"type":"Pods","value":3}],"stabilizationWindowSeconds":0}},"maxReplicas":15,"metrics":[{"pods":{"metric":{"name":"active_connections_per_pod"},"target":{"averageValue":"100","type":"AverageValue"}},"type":"Pods"}],"minReplicas":2,"scaleTargetRef":{"apiVersion":"apps/v1","kind":"Deployment","name":"websocket-server"}}}
+  creationTimestamp: "2026-04-28T17:56:03Z"
+  name: websocket-hpa-custom-metric
+  namespace: default
+  resourceVersion: "1975"
+  uid: c4eedcfe-1006-4f17-847f-a422a942bc3b
+spec:
+  behavior:
+    scaleDown:
+      policies:
+      - periodSeconds: 15
+        type: Pods
+        value: 2
+      selectPolicy: Max
+      stabilizationWindowSeconds: 120
+    scaleUp:
+      policies:
+      - periodSeconds: 15
+        type: Pods
+        value: 3
+      selectPolicy: Max
+      stabilizationWindowSeconds: 0
+  maxReplicas: 15
+  metrics:
+  - pods:
+      metric:
+        name: active_connections_per_pod
+      target:
+        averageValue: "100"
+        type: AverageValue
+    type: Pods
+  minReplicas: 2
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: websocket-server
+status:
+  conditions:
+  - lastTransitionTime: "2026-04-28T17:56:18Z"
+    message: the HPA controller was able to update the target scale to 2
+    reason: SucceededRescale
+    status: "True"
+    type: AbleToScale
+  - lastTransitionTime: "2026-04-28T17:56:18Z"
+    message: the HPA was able to successfully calculate a replica count from pods
+      metric active_connections_per_pod
+    reason: ValidMetricFound
+    status: "True"
+    type: ScalingActive
+  - lastTransitionTime: "2026-04-28T18:05:04Z"
+    message: the desired replica count is less than the minimum replica count
+    reason: TooFewReplicas
+    status: "True"
+    type: ScalingLimited
+  currentMetrics:
+  - pods:
+      current:
+        averageValue: "0"
+      metric:
+        name: active_connections_per_pod
+    type: Pods
+  currentReplicas: 4
+  desiredReplicas: 2
+  lastScaleTime: "2026-04-28T18:05:34Z"

@@ -1,0 +1,121 @@
+---
+# mqtt_common.yml — Shared tasks for MQTT experiments
+# Import this file using `import_tasks` from experiment-specific playbooks.
+
+# ─── Pre-flight checks ──────────────────────────────────────────
+- name: "Preflight — check required tools"
+  ansible.builtin.command: "which {{ item }}"
+  loop:
+    - docker
+    - kind
+    - kubectl
+    - curl
+    - python3
+    - make
+  changed_when: false
+
+- name: "Preflight — check Docker daemon"
+  ansible.builtin.command: docker info
+  changed_when: false
+
+- name: "Preflight — check available memory"
+  ansible.builtin.shell: free -m | awk '/^Mem:/{print $7}'
+  register: free_mem
+  changed_when: false
+
+- name: "Preflight — warn if low memory"
+  ansible.builtin.debug:
+    msg: "WARNING: Only {{ free_mem.stdout }}MB available. Recommend >= 2000MB."
+  when: free_mem.stdout | int < 1500
+
+- name: "Preflight — check for conflicting clusters"
+  ansible.builtin.shell: kind get clusters 2>/dev/null || true
+  register: existing_clusters
+  changed_when: false
+
+# ─── Kind cluster ────────────────────────────────────────────────
+- name: "Infra — delete existing cluster (if any)"
+  ansible.builtin.command: "kind delete cluster --name {{ cluster_name }}"
+  ignore_errors: true
+  changed_when: true
+
+- name: "Infra — create Kind cluster"
+  ansible.builtin.command: >
+    kind create cluster --name {{ cluster_name }}
+    --config {{ project_root }}/scripts/kind.yml
+  changed_when: true
+
+# ─── Metrics server ─────────────────────────────────────────────
+- name: "Infra — deploy metrics-server"
+  ansible.builtin.command: >
+    kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+
+- name: "Infra — patch metrics-server for Kind"
+  ansible.builtin.shell: |
+    kubectl -n kube-system patch deployment metrics-server --type='json' -p='[
+      {"op":"replace","path":"/spec/template/spec/containers/0/args","value":[
+        "--cert-dir=/tmp","--secure-port=10250",
+        "--kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname",
+        "--kubelet-use-node-status-port","--metric-resolution=15s",
+        "--kubelet-insecure-tls"]}]'
+
+- name: "Infra — wait for metrics-server rollout"
+  ansible.builtin.command: >
+    kubectl -n kube-system rollout status deployment/metrics-server --timeout=300s
+
+- name: "Infra — wait for metrics API"
+  ansible.builtin.shell: kubectl top pods 2>/dev/null
+  register: metrics_result
+  until: metrics_result.rc == 0
+  retries: 30
+  delay: 5
+
+# ─── Prometheus ──────────────────────────────────────────────────
+- name: "Infra — deploy Prometheus"
+  ansible.builtin.shell: |
+    kubectl apply -f {{ project_root }}/monitoring/prometheus/namespace.yaml
+    kubectl apply -f {{ project_root }}/monitoring/prometheus/rbac.yaml
+    kubectl apply -f {{ project_root }}/monitoring/prometheus/configmap.yaml
+    kubectl apply -f {{ project_root }}/monitoring/prometheus/deployment.yaml
+    kubectl apply -f {{ project_root }}/monitoring/prometheus/service.yaml
+
+- name: "Infra — wait for Prometheus rollout"
+  ansible.builtin.command: >
+    kubectl -n monitoring rollout status deployment/prometheus --timeout=300s
+
+# ─── Image build & load ─────────────────────────────────────────
+- name: "Images — build mqtt-broker"
+  ansible.builtin.command: >
+    docker build --provenance=false -t mqtt-broker:latest
+    {{ project_root }}/workloads/mqtt/app
+
+- name: "Images — build mqtt-loadgen"
+  ansible.builtin.command: >
+    docker build --provenance=false -t mqtt-loadgen:latest
+    {{ project_root }}/load-generator/mqtt-client
+
+- name: "Images — create temp dir"
+  ansible.builtin.tempfile:
+    state: directory
+  register: img_tmpdir
+
+- name: "Images — save broker to archive"
+  ansible.builtin.command: >
+    docker save mqtt-broker:latest -o {{ img_tmpdir.path }}/mqtt-broker.tar
+
+- name: "Images — save loadgen to archive"
+  ansible.builtin.command: >
+    docker save mqtt-loadgen:latest -o {{ img_tmpdir.path }}/mqtt-loadgen.tar
+
+- name: "Images — load broker into Kind"
+  ansible.builtin.command: >
+    kind load image-archive {{ img_tmpdir.path }}/mqtt-broker.tar --name {{ cluster_name }}
+
+- name: "Images — load loadgen into Kind"
+  ansible.builtin.command: >
+    kind load image-archive {{ img_tmpdir.path }}/mqtt-loadgen.tar --name {{ cluster_name }}
+
+- name: "Images — cleanup temp dir"
+  ansible.builtin.file:
+    path: "{{ img_tmpdir.path }}"
+    state: absent

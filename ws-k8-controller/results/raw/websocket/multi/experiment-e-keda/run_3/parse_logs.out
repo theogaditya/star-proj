@@ -1,0 +1,9 @@
+  MULTI_RUN detected: preserving existing PROCESSED_DIR
+RAW_DIR:       /home/abhas/node/STAR/future-work/results/raw/websocket/experiment-e-keda
+PROCESSED_DIR: /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda
+  Parsed replicas.csv: 113 rows
+  Parsed connections.csv: 114 rows
+  Parsed keda.csv: 114 rows
+  Wrote summary.csv → /home/abhas/node/STAR/future-work/results/processed/websocket/experiment-e-keda/summary.csv
+  Summary: pod_seconds=4145.0  scale_up=22.0s  peak_replicas=8.0
+Done.

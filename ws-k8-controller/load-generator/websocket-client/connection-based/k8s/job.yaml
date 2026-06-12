@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ws-conn-loadgen
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: ws-conn-loadgen
+          image: ws-conn-loadgen:latest
+          imagePullPolicy: IfNotPresent
+          command: ["python", "client.py"]
+          args:
+            - "ws://websocket-service:8765"
+            - "600"

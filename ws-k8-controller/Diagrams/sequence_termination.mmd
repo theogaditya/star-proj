@@ -1,0 +1,20 @@
+%% Mermaid sequence diagram: Pod termination and TCP RST propagation
+sequenceDiagram
+    participant K8s as Kubelet
+    participant Pod as App Pod
+    participant OS as Host TCP Stack
+    participant Client as Remote Client
+
+    Note over K8s,Pod: Scale-down decision (HPA/Controller)
+    K8s->>Pod: SIGTERM
+    Pod->>Client: Optional preStop drain (graceful close)
+    par Grace period
+        Pod-->>OS: close sockets / cleanup
+        OS-->>Client: FIN (if graceful)
+    and Kill
+        K8s->>Pod: SIGKILL (after grace period)
+        Pod-->>OS: (immediate termination)
+        OS-->>Client: TCP RST propagation (~30s)
+    end
+    Client->>Client: detect broken socket (after RST)
+    Client->>Service: reconnect attempt(s)

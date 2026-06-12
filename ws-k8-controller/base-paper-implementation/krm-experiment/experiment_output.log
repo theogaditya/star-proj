@@ -1,0 +1,282 @@
+nohup: ignoring input
+============================================================
+ KRM HPA Experiment
+ Resolutions: 60s 30s 15s
+ Cycles: 5 × 100s high / 100s low
+============================================================
+
+
+============================================================
+ Experiment run: metric-resolution=60s
+============================================================
+[*] Patching metrics-server → --metric-resolution=60s
+deployment.apps/metrics-server patched (no change)
+[*] Restarting metrics-server...
+deployment.apps/metrics-server restarted
+Waiting for deployment "metrics-server" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "metrics-server" rollout to finish: 1 old replicas are pending termination...
+deployment "metrics-server" successfully rolled out
+[✓] metrics-server patched and ready (resolution=60s)
+[*] Waiting for metrics-server rollout...
+deployment "metrics-server" successfully rolled out
+[*] Waiting for metrics to become available (up to 90s)...
+[✓] kubectl top nodes works
+[*] Deploying cpu-app and HPA...
+deployment.apps/cpu-app created
+horizontalpodautoscaler.autoscaling/cpu-hpa created
+[*] Waiting for pods to be ready...
+pod/cpu-app-7644f97777-6gkxz condition met
+pod/cpu-app-7644f97777-7mwm6 condition met
+pod/cpu-app-7644f97777-cgh4r condition met
+pod/cpu-app-7644f97777-lrjr7 condition met
+[*] Starting collectors → /home/aditya/cvraman/star/code/krm-experiment/results/60s
+[✓] 4 collectors running (PIDs: 24654 24655 24656 24657)
+[*] Running workload pattern...
+[collector] metrics-server logs → /home/aditya/cvraman/star/code/krm-experiment/results/60s/metrics-server.log (continuous)
+=== Workload pattern: 5 cycles, 100s high / 100s low ===
+[collector] pod_cpu → /home/aditya/cvraman/star/code/krm-experiment/results/60s/pod_cpu.csv (every 5s)
+[collector] hpa_status → /home/aditya/cvraman/star/code/krm-experiment/results/60s/hpa_log.csv (every 5s)
+[collector] pod_count → /home/aditya/cvraman/star/code/krm-experiment/results/60s/podcount.csv (every 5s)
+--- Cycle 1/5 ---
+[2026-02-16T20:17:48+05:30] HIGH phase start (cycle 1)
+[2026-02-16T20:19:28+05:30] HIGH phase end (cycle 1)
+[2026-02-16T20:19:28+05:30] LOW phase start (cycle 1)
+[2026-02-16T20:21:08+05:30] LOW phase end (cycle 1)
+--- Cycle 2/5 ---
+[2026-02-16T20:21:08+05:30] HIGH phase start (cycle 2)
+[2026-02-16T20:22:49+05:30] HIGH phase end (cycle 2)
+[2026-02-16T20:22:49+05:30] LOW phase start (cycle 2)
+[2026-02-16T20:24:29+05:30] LOW phase end (cycle 2)
+--- Cycle 3/5 ---
+[2026-02-16T20:24:29+05:30] HIGH phase start (cycle 3)
+[2026-02-16T20:26:09+05:30] HIGH phase end (cycle 3)
+[2026-02-16T20:26:09+05:30] LOW phase start (cycle 3)
+[2026-02-16T20:27:49+05:30] LOW phase end (cycle 3)
+--- Cycle 4/5 ---
+[2026-02-16T20:27:49+05:30] HIGH phase start (cycle 4)
+[2026-02-16T20:29:30+05:30] HIGH phase end (cycle 4)
+[2026-02-16T20:29:30+05:30] LOW phase start (cycle 4)
+[2026-02-16T20:31:10+05:30] LOW phase end (cycle 4)
+--- Cycle 5/5 ---
+[2026-02-16T20:31:10+05:30] HIGH phase start (cycle 5)
+[2026-02-16T20:32:50+05:30] HIGH phase end (cycle 5)
+[2026-02-16T20:32:50+05:30] LOW phase start (cycle 5)
+[2026-02-16T20:34:30+05:30] LOW phase end (cycle 5)
+=== Workload pattern complete ===
+[*] Stopping collectors...
+[✓] All collectors stopped
+[*] Capturing final state...
+[*] Cleaning up workload...
+horizontalpodautoscaler.autoscaling "cpu-hpa" deleted from default namespace
+deployment.apps "cpu-app" deleted from default namespace
+pod/cpu-app-7644f97777-579bw condition met
+pod/cpu-app-7644f97777-6gkxz condition met
+pod/cpu-app-7644f97777-798xc condition met
+pod/cpu-app-7644f97777-7mwm6 condition met
+pod/cpu-app-7644f97777-bqhw2 condition met
+pod/cpu-app-7644f97777-c67cn condition met
+pod/cpu-app-7644f97777-c8k8p condition met
+pod/cpu-app-7644f97777-cgh4r condition met
+pod/cpu-app-7644f97777-fftpf condition met
+pod/cpu-app-7644f97777-g6d92 condition met
+pod/cpu-app-7644f97777-kdp48 condition met
+pod/cpu-app-7644f97777-lrjr7 condition met
+pod/cpu-app-7644f97777-n42xv condition met
+pod/cpu-app-7644f97777-ngmnt condition met
+pod/cpu-app-7644f97777-r9966 condition met
+pod/cpu-app-7644f97777-rr7r9 condition met
+pod/cpu-app-7644f97777-sfzkn condition met
+pod/cpu-app-7644f97777-tl5qq condition met
+pod/cpu-app-7644f97777-vfw22 condition met
+pod/cpu-app-7644f97777-vfwvn condition met
+pod/cpu-app-7644f97777-w2m4m condition met
+pod/cpu-app-7644f97777-x9nl4 condition met
+pod/cpu-app-7644f97777-xpcm5 condition met
+pod/cpu-app-7644f97777-zzsjp condition met
+[✓] Run complete for 60s → /home/aditya/cvraman/star/code/krm-experiment/results/60s
+
+
+============================================================
+ Experiment run: metric-resolution=30s
+============================================================
+[*] Patching metrics-server → --metric-resolution=30s
+deployment.apps/metrics-server patched
+[*] Restarting metrics-server...
+deployment.apps/metrics-server restarted
+Waiting for deployment "metrics-server" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "metrics-server" rollout to finish: 1 old replicas are pending termination...
+deployment "metrics-server" successfully rolled out
+[✓] metrics-server patched and ready (resolution=30s)
+[*] Waiting for metrics-server rollout...
+deployment "metrics-server" successfully rolled out
+[*] Waiting for metrics to become available (up to 90s)...
+[✓] kubectl top nodes works
+[*] Deploying cpu-app and HPA...
+deployment.apps/cpu-app created
+horizontalpodautoscaler.autoscaling/cpu-hpa created
+[*] Waiting for pods to be ready...
+pod/cpu-app-7644f97777-lq5dm condition met
+pod/cpu-app-7644f97777-pfdl4 condition met
+pod/cpu-app-7644f97777-phktm condition met
+pod/cpu-app-7644f97777-qkfks condition met
+[*] Starting collectors → /home/aditya/cvraman/star/code/krm-experiment/results/30s
+[✓] 4 collectors running (PIDs: 53271 53272 53273 53274)
+[*] Running workload pattern...
+[collector] pod_cpu → /home/aditya/cvraman/star/code/krm-experiment/results/30s/pod_cpu.csv (every 5s)
+[collector] pod_count → /home/aditya/cvraman/star/code/krm-experiment/results/30s/podcount.csv (every 5s)
+[collector] hpa_status → /home/aditya/cvraman/star/code/krm-experiment/results/30s/hpa_log.csv (every 5s)
+=== Workload pattern: 5 cycles, 100s high / 100s low ===
+[collector] metrics-server logs → /home/aditya/cvraman/star/code/krm-experiment/results/30s/metrics-server.log (continuous)
+--- Cycle 1/5 ---
+[2026-02-16T20:35:54+05:30] HIGH phase start (cycle 1)
+[2026-02-16T20:37:34+05:30] HIGH phase end (cycle 1)
+[2026-02-16T20:37:34+05:30] LOW phase start (cycle 1)
+[2026-02-16T20:39:14+05:30] LOW phase end (cycle 1)
+--- Cycle 2/5 ---
+[2026-02-16T20:39:14+05:30] HIGH phase start (cycle 2)
+[2026-02-16T20:40:55+05:30] HIGH phase end (cycle 2)
+[2026-02-16T20:40:55+05:30] LOW phase start (cycle 2)
+[2026-02-16T20:42:35+05:30] LOW phase end (cycle 2)
+--- Cycle 3/5 ---
+[2026-02-16T20:42:35+05:30] HIGH phase start (cycle 3)
+[2026-02-16T20:44:15+05:30] HIGH phase end (cycle 3)
+[2026-02-16T20:44:15+05:30] LOW phase start (cycle 3)
+[2026-02-16T20:45:55+05:30] LOW phase end (cycle 3)
+--- Cycle 4/5 ---
+[2026-02-16T20:45:55+05:30] HIGH phase start (cycle 4)
+[2026-02-16T20:47:36+05:30] HIGH phase end (cycle 4)
+[2026-02-16T20:47:36+05:30] LOW phase start (cycle 4)
+[2026-02-16T20:49:16+05:30] LOW phase end (cycle 4)
+--- Cycle 5/5 ---
+[2026-02-16T20:49:16+05:30] HIGH phase start (cycle 5)
+[2026-02-16T20:50:57+05:30] HIGH phase end (cycle 5)
+[2026-02-16T20:50:57+05:30] LOW phase start (cycle 5)
+[2026-02-16T20:52:37+05:30] LOW phase end (cycle 5)
+=== Workload pattern complete ===
+[*] Stopping collectors...
+[✓] All collectors stopped
+[*] Capturing final state...
+[*] Cleaning up workload...
+horizontalpodautoscaler.autoscaling "cpu-hpa" deleted from default namespace
+deployment.apps "cpu-app" deleted from default namespace
+pod/cpu-app-7644f97777-478vs condition met
+pod/cpu-app-7644f97777-5sjzj condition met
+pod/cpu-app-7644f97777-6tx4b condition met
+pod/cpu-app-7644f97777-7qg9k condition met
+pod/cpu-app-7644f97777-8f447 condition met
+pod/cpu-app-7644f97777-9rvmc condition met
+pod/cpu-app-7644f97777-b4h94 condition met
+pod/cpu-app-7644f97777-b9bvc condition met
+pod/cpu-app-7644f97777-dtmcl condition met
+pod/cpu-app-7644f97777-fxmwm condition met
+pod/cpu-app-7644f97777-gfs86 condition met
+pod/cpu-app-7644f97777-h546j condition met
+pod/cpu-app-7644f97777-k2j6j condition met
+pod/cpu-app-7644f97777-kvlwh condition met
+pod/cpu-app-7644f97777-lq5dm condition met
+pod/cpu-app-7644f97777-nnc7f condition met
+pod/cpu-app-7644f97777-pfdl4 condition met
+pod/cpu-app-7644f97777-phktm condition met
+pod/cpu-app-7644f97777-phxbl condition met
+pod/cpu-app-7644f97777-qkfks condition met
+pod/cpu-app-7644f97777-vg85w condition met
+pod/cpu-app-7644f97777-w7jmv condition met
+pod/cpu-app-7644f97777-wpwsj condition met
+pod/cpu-app-7644f97777-z8cfs condition met
+[✓] Run complete for 30s → /home/aditya/cvraman/star/code/krm-experiment/results/30s
+
+
+============================================================
+ Experiment run: metric-resolution=15s
+============================================================
+[*] Patching metrics-server → --metric-resolution=15s
+deployment.apps/metrics-server patched
+[*] Restarting metrics-server...
+deployment.apps/metrics-server restarted
+Waiting for deployment "metrics-server" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "metrics-server" rollout to finish: 1 old replicas are pending termination...
+deployment "metrics-server" successfully rolled out
+[✓] metrics-server patched and ready (resolution=15s)
+[*] Waiting for metrics-server rollout...
+deployment "metrics-server" successfully rolled out
+[*] Waiting for metrics to become available (up to 90s)...
+[✓] kubectl top nodes works
+[*] Deploying cpu-app and HPA...
+deployment.apps/cpu-app created
+horizontalpodautoscaler.autoscaling/cpu-hpa created
+[*] Waiting for pods to be ready...
+pod/cpu-app-7644f97777-5jnxn condition met
+pod/cpu-app-7644f97777-bcgqr condition met
+pod/cpu-app-7644f97777-bmbh2 condition met
+pod/cpu-app-7644f97777-dktlf condition met
+[*] Starting collectors → /home/aditya/cvraman/star/code/krm-experiment/results/15s
+[✓] 4 collectors running (PIDs: 82255 82256 82257 82258)
+[*] Running workload pattern...
+[collector] pod_count → /home/aditya/cvraman/star/code/krm-experiment/results/15s/podcount.csv (every 5s)
+=== Workload pattern: 5 cycles, 100s high / 100s low ===
+[collector] pod_cpu → /home/aditya/cvraman/star/code/krm-experiment/results/15s/pod_cpu.csv (every 5s)
+[collector] metrics-server logs → /home/aditya/cvraman/star/code/krm-experiment/results/15s/metrics-server.log (continuous)
+[collector] hpa_status → /home/aditya/cvraman/star/code/krm-experiment/results/15s/hpa_log.csv (every 5s)
+--- Cycle 1/5 ---
+[2026-02-16T20:53:40+05:30] HIGH phase start (cycle 1)
+[2026-02-16T20:55:20+05:30] HIGH phase end (cycle 1)
+[2026-02-16T20:55:20+05:30] LOW phase start (cycle 1)
+[2026-02-16T20:57:00+05:30] LOW phase end (cycle 1)
+--- Cycle 2/5 ---
+[2026-02-16T20:57:00+05:30] HIGH phase start (cycle 2)
+[2026-02-16T20:58:40+05:30] HIGH phase end (cycle 2)
+[2026-02-16T20:58:40+05:30] LOW phase start (cycle 2)
+[2026-02-16T21:00:20+05:30] LOW phase end (cycle 2)
+--- Cycle 3/5 ---
+[2026-02-16T21:00:20+05:30] HIGH phase start (cycle 3)
+[2026-02-16T21:02:01+05:30] HIGH phase end (cycle 3)
+[2026-02-16T21:02:01+05:30] LOW phase start (cycle 3)
+[2026-02-16T21:03:41+05:30] LOW phase end (cycle 3)
+--- Cycle 4/5 ---
+[2026-02-16T21:03:41+05:30] HIGH phase start (cycle 4)
+[2026-02-16T21:05:24+05:30] HIGH phase end (cycle 4)
+[2026-02-16T21:05:24+05:30] LOW phase start (cycle 4)
+[2026-02-16T21:07:04+05:30] LOW phase end (cycle 4)
+--- Cycle 5/5 ---
+[2026-02-16T21:07:04+05:30] HIGH phase start (cycle 5)
+[2026-02-16T21:08:45+05:30] HIGH phase end (cycle 5)
+[2026-02-16T21:08:45+05:30] LOW phase start (cycle 5)
+[2026-02-16T21:10:25+05:30] LOW phase end (cycle 5)
+=== Workload pattern complete ===
+[*] Stopping collectors...
+[✓] All collectors stopped
+[*] Capturing final state...
+[*] Cleaning up workload...
+horizontalpodautoscaler.autoscaling "cpu-hpa" deleted from default namespace
+deployment.apps "cpu-app" deleted from default namespace
+pod/cpu-app-7644f97777-28gzr condition met
+pod/cpu-app-7644f97777-4fds5 condition met
+pod/cpu-app-7644f97777-5jdtg condition met
+pod/cpu-app-7644f97777-5jnxn condition met
+pod/cpu-app-7644f97777-6czbq condition met
+pod/cpu-app-7644f97777-7fl64 condition met
+pod/cpu-app-7644f97777-7zblj condition met
+pod/cpu-app-7644f97777-8279t condition met
+pod/cpu-app-7644f97777-bcgqr condition met
+pod/cpu-app-7644f97777-bmbh2 condition met
+pod/cpu-app-7644f97777-cqrm4 condition met
+pod/cpu-app-7644f97777-dktlf condition met
+pod/cpu-app-7644f97777-ghppp condition met
+pod/cpu-app-7644f97777-hjv6v condition met
+pod/cpu-app-7644f97777-lztvr condition met
+pod/cpu-app-7644f97777-mppgz condition met
+pod/cpu-app-7644f97777-pvfdt condition met
+pod/cpu-app-7644f97777-rsl2m condition met
+pod/cpu-app-7644f97777-s5lp6 condition met
+pod/cpu-app-7644f97777-sdj4p condition met
+pod/cpu-app-7644f97777-th9lf condition met
+pod/cpu-app-7644f97777-vtvwz condition met
+pod/cpu-app-7644f97777-wjn5s condition met
+pod/cpu-app-7644f97777-zbblc condition met
+[✓] Run complete for 15s → /home/aditya/cvraman/star/code/krm-experiment/results/15s
+
+============================================================
+ All experiment runs complete!
+ Results in: /home/aditya/cvraman/star/code/krm-experiment/results/
+============================================================
+[✓] Archived to /home/aditya/cvraman/star/code/krm-experiment/krm_experiment_results_20260216211102.tgz

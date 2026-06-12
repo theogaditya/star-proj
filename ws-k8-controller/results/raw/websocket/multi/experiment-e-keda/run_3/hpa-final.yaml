@@ -1,0 +1,80 @@
+apiVersion: v1
+items:
+- apiVersion: autoscaling/v2
+  kind: HorizontalPodAutoscaler
+  metadata:
+    annotations:
+      kubectl.kubernetes.io/last-applied-configuration: |
+        {"apiVersion":"keda.sh/v1alpha1","kind":"ScaledObject","metadata":{"annotations":{},"name":"websocket-keda-scaler","namespace":"default"},"spec":{"cooldownPeriod":120,"maxReplicaCount":15,"minReplicaCount":2,"pollingInterval":15,"scaleTargetRef":{"name":"websocket-server"},"triggers":[{"metadata":{"metricName":"active_connections","query":"sum(active_connections)","serverAddress":"http://prometheus.monitoring.svc.cluster.local:9090","threshold":"100"},"type":"prometheus"}]}}
+    creationTimestamp: "2026-04-29T06:17:23Z"
+    labels:
+      app.kubernetes.io/managed-by: keda-operator
+      app.kubernetes.io/name: keda-hpa-websocket-keda-scaler
+      app.kubernetes.io/part-of: websocket-keda-scaler
+      app.kubernetes.io/version: 2.13.0
+      scaledobject.keda.sh/name: websocket-keda-scaler
+    name: keda-hpa-websocket-keda-scaler
+    namespace: default
+    ownerReferences:
+    - apiVersion: keda.sh/v1alpha1
+      blockOwnerDeletion: true
+      controller: true
+      kind: ScaledObject
+      name: websocket-keda-scaler
+      uid: 7bf7ba41-f650-4ed4-acca-289535f835b7
+    resourceVersion: "2133"
+    uid: 31ef6893-f82d-42fc-b103-134b9d8ce467
+  spec:
+    maxReplicas: 15
+    metrics:
+    - external:
+        metric:
+          name: s0-prometheus
+          selector:
+            matchLabels:
+              scaledobject.keda.sh/name: websocket-keda-scaler
+        target:
+          averageValue: "100"
+          type: AverageValue
+      type: External
+    minReplicas: 2
+    scaleTargetRef:
+      apiVersion: apps/v1
+      kind: Deployment
+      name: websocket-server
+  status:
+    conditions:
+    - lastTransitionTime: "2026-04-29T06:17:38Z"
+      message: recent recommendations were higher than current one, applying the highest
+        recent recommendation
+      reason: ScaleDownStabilized
+      status: "True"
+      type: AbleToScale
+    - lastTransitionTime: "2026-04-29T06:17:38Z"
+      message: 'the HPA was able to successfully calculate a replica count from external
+        metric s0-prometheus(&LabelSelector{MatchLabels:map[string]string{scaledobject.keda.sh/name:
+        websocket-keda-scaler,},MatchExpressions:[]LabelSelectorRequirement{},})'
+      reason: ValidMetricFound
+      status: "True"
+      type: ScalingActive
+    - lastTransitionTime: "2026-04-29T06:17:38Z"
+      message: the desired count is within the acceptable range
+      reason: DesiredWithinRange
+      status: "False"
+      type: ScalingLimited
+    currentMetrics:
+    - external:
+        current:
+          averageValue: "0"
+        metric:
+          name: s0-prometheus
+          selector:
+            matchLabels:
+              scaledobject.keda.sh/name: websocket-keda-scaler
+      type: External
+    currentReplicas: 8
+    desiredReplicas: 8
+    lastScaleTime: "2026-04-29T06:19:23Z"
+kind: List
+metadata:
+  resourceVersion: ""

@@ -1,0 +1,1158 @@
+1777402088
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          47s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          47s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402094
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          52s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          52s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402099
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          57s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          57s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402104
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          62s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          62s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402109
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          67s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          67s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402114
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          72s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          72s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402119
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          77s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          77s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402124
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          82s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          82s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402129
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          87s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          87s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402134
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          92s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          92s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402139
+NAME                               READY   STATUS    RESTARTS   AGE   IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          97s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          97s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402144
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          102s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          102s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402149
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          107s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          107s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402154
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          112s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          112s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402159
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          117s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          117s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402164
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m2s   10.244.1.6   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m2s   10.244.1.7   exp-failure-worker   <none>           <none>
+1777402169
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          4s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          4s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m7s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          4s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m7s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402174
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          9s      10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          9s      10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m12s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          9s      10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m12s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402179
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          14s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          14s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m17s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          14s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m17s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402184
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          19s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          19s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m22s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          19s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m22s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402189
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          25s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          25s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m28s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          25s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m28s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402195
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          30s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          30s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m33s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          30s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m33s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402200
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          35s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          35s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m38s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          35s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m38s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402205
+NAME                               READY   STATUS              RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running             0          40s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   0/1     ContainerCreating   0          0s      <none>        exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running             0          40s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running             0          2m43s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   0/1     ContainerCreating   0          0s      <none>        exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running             0          40s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running             0          2m43s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402210
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          45s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5s      10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          45s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m48s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          5s      10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          45s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m48s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402215
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          50s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          10s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          50s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m53s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          10s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          50s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m53s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402220
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          55s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          15s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          55s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          2m58s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          15s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          55s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          2m58s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402225
+NAME                               READY   STATUS              RESTARTS   AGE    IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running             0          60s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   0/1     ContainerCreating   0          0s     <none>        exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running             0          20s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running             0          60s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running             0          3m3s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running             0          20s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running             0          60s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running             0          3m3s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402230
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          65s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          25s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          65s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m8s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          25s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          65s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m8s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402235
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          70s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          10s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          30s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          70s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m13s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          30s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          70s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m13s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402240
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          75s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          15s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          35s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          75s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m18s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          35s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          75s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m18s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402245
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          80s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          20s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          40s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          80s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m23s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          40s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          80s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m23s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402250
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          85s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          25s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          45s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          85s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m28s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          45s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          85s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m28s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402255
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          90s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          30s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          50s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          90s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m33s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          50s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          90s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m33s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402260
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          95s     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          35s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          55s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          95s     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m38s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          55s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          95s     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m38s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402265
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          100s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          40s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          60s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          100s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m43s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          60s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          100s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m43s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402270
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          105s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          45s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          65s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          105s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m48s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          65s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          105s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m48s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402275
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          110s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          50s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          70s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          110s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m53s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          70s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          110s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m53s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402280
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          115s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          55s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          75s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          115s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          3m58s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          75s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          115s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          3m58s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402285
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m     10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          60s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          80s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m     10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m3s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          80s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m     10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m3s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402290
+NAME                               READY   STATUS    RESTARTS   AGE    IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m5s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          65s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          85s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m5s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m8s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          85s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m5s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m8s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402295
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m10s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          70s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          90s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m10s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m13s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          90s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m10s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m13s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402300
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m15s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          75s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          95s     10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m15s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m18s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          95s     10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m15s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m18s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402305
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m21s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          81s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          101s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m21s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m24s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          101s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m21s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m24s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402311
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m26s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          86s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          106s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m26s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m29s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          106s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m26s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m29s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402316
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m31s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          91s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          111s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m31s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m34s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          111s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m31s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m34s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402321
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m36s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          96s     10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          116s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m36s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m39s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          116s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m36s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m39s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402326
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m41s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          101s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m1s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m41s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m44s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m1s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m41s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m44s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402331
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m46s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          106s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m6s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m46s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m49s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m6s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m46s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m49s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402336
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m51s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          111s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m11s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m51s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m54s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m11s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m51s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m54s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402341
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          2m56s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          116s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m16s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          2m56s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          4m59s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m16s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          2m56s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          4m59s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402346
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m1s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m1s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m21s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m1s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m4s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m21s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m1s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m4s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402351
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m6s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m6s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m26s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m6s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m9s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m26s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m6s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m9s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402356
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m11s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m11s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m31s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m11s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m14s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m31s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m11s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m14s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402361
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m16s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m16s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m36s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m16s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m19s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m36s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m16s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m19s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402366
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m21s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m21s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m41s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m21s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m24s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m41s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m21s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m24s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402371
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m26s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m26s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m46s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m26s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m29s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m46s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m26s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m29s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402376
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m31s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m31s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m51s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m31s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m34s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m51s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m31s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m34s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402381
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m36s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m36s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          2m56s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m36s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m39s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          2m56s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m36s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m39s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402386
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m41s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m41s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          3m1s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m41s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m44s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          3m1s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m41s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m44s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402391
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m46s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m46s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          3m6s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m46s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m49s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          3m6s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m46s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m49s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402396
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Running   0          3m51s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running   0          2m51s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          3m11s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running   0          3m51s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          5m54s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running   0          3m11s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Running   0          3m51s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          5m54s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402401
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Terminating   0          3m56s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running       0          2m56s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m16s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Running       0          3m56s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          5m59s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running       0          3m16s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Terminating   0          3m56s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          5m59s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402406
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Terminating   0          4m1s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m1s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m21s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Terminating   0          4m1s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m4s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running       0          3m21s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Terminating   0          4m1s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m4s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402411
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Terminating   0          4m6s    10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m6s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m26s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Terminating   0          4m6s    10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m9s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running       0          3m26s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Terminating   0          4m6s    10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m9s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402416
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Terminating   0          4m12s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m12s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m32s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Terminating   0          4m12s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m15s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Running       0          3m32s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Terminating   0          4m12s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m15s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402422
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Terminating   0          4m17s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m17s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m37s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Terminating   0          4m17s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m20s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Terminating   0          3m37s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Terminating   0          4m17s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m20s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402427
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-2bxs9   1/1     Terminating   0          4m22s   10.244.1.10   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m22s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m42s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Terminating   0          4m22s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m25s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Terminating   0          3m42s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running       0          2s      10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          2s      10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-kht5l   1/1     Terminating   0          4m22s   10.244.1.11   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m25s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402432
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m27s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m47s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-88mhp   1/1     Terminating   0          4m27s   10.244.1.12   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m30s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Terminating   0          3m47s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running       0          7s      10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          7s      10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m30s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402437
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m32s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m52s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m35s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Terminating   0          3m52s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running       0          12s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          12s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m35s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402442
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m37s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          3m57s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m40s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Terminating   0          3m57s   10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running       0          17s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          17s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m40s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402447
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          3m42s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          4m2s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          6m45s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running       0          2s      10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running       0          2s      10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-f8jkn   1/1     Terminating   0          4m2s    10.244.1.13   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running       0          22s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          22s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          6m45s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402452
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          3m47s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m7s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          6m50s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          7s      10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          7s      10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          27s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          27s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          6m50s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402457
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          3m52s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m12s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          6m55s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          12s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          12s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          32s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          32s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          6m55s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402462
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          3m57s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m17s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m      10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          17s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          17s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          37s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          37s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m      10.244.1.7    exp-failure-worker   <none>           <none>
+1777402467
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m2s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m22s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2s      10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m5s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          22s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          22s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2s      10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          42s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          42s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m5s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402472
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m7s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m27s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          7s      10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m10s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          27s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          27s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          7s      10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          47s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          47s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m10s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402477
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m12s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m32s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          12s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m15s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          32s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          32s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          12s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          52s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          52s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m15s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402482
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m17s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m37s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          17s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m20s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          37s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          37s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          17s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          57s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          57s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m20s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402487
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m22s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m42s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          22s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m25s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          42s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          42s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          22s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          62s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          62s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m25s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402492
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m27s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m47s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          27s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m30s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          47s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          47s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          27s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          67s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          67s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          2s      10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m30s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402497
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m32s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m52s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          32s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m35s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          52s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          52s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          32s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          72s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          72s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          7s      10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m35s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402502
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m37s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          4m57s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          37s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m40s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          57s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          57s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          37s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          77s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          77s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          12s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m40s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402507
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m42s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m2s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          42s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m45s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          62s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          62s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          42s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          82s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          82s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          17s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m45s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402512
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m47s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m7s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          47s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m50s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          67s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          67s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          47s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          87s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          87s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          22s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m50s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402517
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m52s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m12s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          52s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          7m55s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          72s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          72s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          52s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          92s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          92s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          27s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          7m55s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402522
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          4m57s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m17s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          57s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m      10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          77s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          77s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          57s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          97s     10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          97s     10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          32s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m      10.244.1.7    exp-failure-worker   <none>           <none>
+1777402527
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m3s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m23s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          63s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m6s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          83s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          83s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          63s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          103s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          103s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          38s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m6s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402533
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m8s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m28s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          68s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m11s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          88s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          88s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          68s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          108s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          108s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          43s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m11s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402538
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m13s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m33s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          73s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m16s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          93s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          93s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          73s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          113s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          113s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          48s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m16s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402543
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m18s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m38s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          78s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m21s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          98s     10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          98s     10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          78s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          118s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          118s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          53s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m21s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402548
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m23s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m43s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          83s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m26s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          103s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          103s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          83s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m3s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m3s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          58s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m26s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402553
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m28s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m48s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          88s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m31s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          108s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          108s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          88s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m8s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m8s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          63s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m31s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402558
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m33s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m53s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          93s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m36s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          113s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          113s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          93s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m13s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m13s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          68s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m36s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402563
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m38s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          5m58s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          98s     10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m41s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          118s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          118s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          98s     10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m18s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m18s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          73s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m41s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402568
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m43s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m3s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          103s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m46s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m3s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m3s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          103s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m23s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m23s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          78s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m46s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402573
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m48s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m8s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          108s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m51s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m8s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m8s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          108s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m28s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m28s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          83s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m51s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402578
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m53s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m13s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          113s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          8m56s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m13s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m13s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          113s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m33s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m33s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          88s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          8m56s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402583
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          5m58s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m18s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          118s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m1s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m18s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m18s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          118s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m38s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m38s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          93s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m1s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402588
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m3s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m23s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m3s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m6s    10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m23s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m23s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m3s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m43s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m43s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          98s     10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m6s    10.244.1.7    exp-failure-worker   <none>           <none>
+1777402593
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m8s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m28s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m8s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m11s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m28s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m28s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m8s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m48s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m48s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          103s    10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m11s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402598
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m13s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m33s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m13s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m16s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m33s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m33s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m13s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m53s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m53s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          108s    10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m16s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402603
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m18s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m38s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m18s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m21s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m38s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m38s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m18s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          2m58s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          2m58s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          113s    10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m21s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402608
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m23s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m43s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m23s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m26s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m43s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m43s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m23s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          3m3s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          3m3s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          118s    10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m26s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402613
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m28s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m48s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m28s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m31s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m48s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m48s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m28s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          3m8s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          3m8s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          2m3s    10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m31s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402618
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m33s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m53s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m33s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m36s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m53s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m53s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m33s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          3m13s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          3m13s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          2m8s    10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m36s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402623
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m38s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          6m58s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m38s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m41s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          2m58s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          2m58s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m38s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          3m18s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          3m18s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          2m13s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m41s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402628
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m43s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          7m3s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m43s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m46s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          3m3s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          3m3s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m43s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          3m23s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          3m23s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          2m18s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m46s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402633
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m48s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          7m8s    10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m48s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m51s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          3m8s    10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          3m8s    10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m48s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          3m28s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          3m28s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          2m23s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m51s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402638
+NAME                               READY   STATUS    RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running   0          6m54s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running   0          7m14s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running   0          2m54s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running   0          9m57s   10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running   0          3m14s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running   0          3m14s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running   0          2m54s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Running   0          3m34s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running   0          3m34s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running   0          2m29s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running   0          9m57s   10.244.1.7    exp-failure-worker   <none>           <none>
+1777402644
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          6m59s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          7m19s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running       0          2m59s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          10m     10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Running       0          3m19s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running       0          3m19s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running       0          2m59s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Terminating   0          3m39s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          3m39s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running       0          2m34s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          10m     10.244.1.7    exp-failure-worker   <none>           <none>
+1777402649
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          7m4s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          7m24s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running       0          3m4s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          10m     10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Terminating   0          3m24s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running       0          3m24s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running       0          3m4s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Terminating   0          3m44s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          3m44s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running       0          2m39s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          10m     10.244.1.7    exp-failure-worker   <none>           <none>
+1777402654
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          7m9s    10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          7m29s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running       0          3m9s    10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          10m     10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Terminating   0          3m29s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running       0          3m29s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running       0          3m9s    10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Terminating   0          3m49s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          3m49s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running       0          2m44s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          10m     10.244.1.7    exp-failure-worker   <none>           <none>
+1777402659
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          7m14s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          7m34s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Running       0          3m14s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          10m     10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Terminating   0          3m34s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running       0          3m34s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running       0          3m14s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Terminating   0          3m54s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Running       0          3m54s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running       0          2m49s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          10m     10.244.1.7    exp-failure-worker   <none>           <none>
+1777402664
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          7m19s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          7m39s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Terminating   0          3m19s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          10m     10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Terminating   0          3m39s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Running       0          3m39s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running       0          3m19s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Terminating   0          3m59s   10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Terminating   0          3m59s   10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running       0          2m54s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          10m     10.244.1.7    exp-failure-worker   <none>           <none>
+1777402669
+NAME                               READY   STATUS        RESTARTS   AGE     IP            NODE                 NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-4trws   1/1     Running       0          7m24s   10.244.1.15   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-68ghf   1/1     Running       0          7m44s   10.244.1.14   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-8vbzt   1/1     Terminating   0          3m24s   10.244.1.21   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-9mxmt   1/1     Running       0          10m     10.244.1.6    exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-d2qw6   1/1     Terminating   0          3m44s   10.244.1.19   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-dr2rb   1/1     Terminating   0          3m44s   10.244.1.20   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gggjd   1/1     Running       0          3m24s   10.244.1.22   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-gw62d   1/1     Terminating   0          4m4s    10.244.1.17   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-jh5cv   1/1     Terminating   0          4m4s    10.244.1.18   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-w9r6c   1/1     Running       0          2m59s   10.244.1.23   exp-failure-worker   <none>           <none>
+websocket-server-56c97f4c7-xkzpt   1/1     Running       0          10m     10.244.1.7    exp-failure-worker   <none>           <none>

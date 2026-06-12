@@ -1,0 +1,4 @@
+experiment,max_replicas,avg_cpu_util,peak_http_rps,avg_http_rps,overshoot_undershoot_area,pod_seconds,pod_cpu_std_dev
+pcm-cpu-15s,4.0,,4.28,4.28,0.0,180.0,28.1
+pcm-h,4.0,,9.75,7.69,0.0,180.0,15.8
+pcm-ch,4.0,,13.27,7.37,0.0,180.0,13.3
