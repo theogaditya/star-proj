@@ -1,0 +1,42 @@
+---
+# Paper 2 -- Sensitivity Analysis (Tests 1-4): cooldown, T, scrape interval,
+# maxScaleDownStep. Logs everything to logs/ and copies tables + plots into
+# the Paper-2 figures directory.
+#
+# Run: ansible-playbook ansible/sensitivity.yml
+- name: Sensitivity analysis sweep (Paper 2)
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  vars:
+    project_root: "{{ playbook_dir | dirname }}"
+    repo_root: "{{ project_root | dirname }}"
+    paper2_figs: "{{ repo_root }}/Paper-2-StatefulAutoscaler/figures"
+    log_dir: "{{ project_root }}/logs"
+    ts: "{{ ansible_date_time.iso8601_basic_short }}"
+  tasks:
+    - name: Ensure log directory exists
+      ansible.builtin.file:
+        path: "{{ log_dir }}"
+        state: directory
+        mode: "0755"
+
+    - name: Run full sensitivity sweep (Tests 1-4, includes parse + plots)
+      ansible.builtin.shell: |
+        set -o pipefail
+        bash {{ project_root }}/scripts/run-sensitivity-sweep.sh 2>&1 \
+          | tee {{ log_dir }}/sensitivity_{{ ts }}.log
+      args:
+        executable: /bin/bash
+        chdir: "{{ project_root }}"
+
+    - name: Copy sensitivity plots and tables into Paper-2 figures
+      ansible.builtin.shell: |
+        set -e
+        mkdir -p "{{ paper2_figs }}/sensitivity"
+        cp -v {{ project_root }}/results/processed/websocket/sensitivity/plots/*.png \
+              "{{ paper2_figs }}/sensitivity/"
+        cp -v {{ project_root }}/results/processed/websocket/sensitivity/table_*.csv \
+              "{{ paper2_figs }}/sensitivity/"
+      args:
+        executable: /bin/bash

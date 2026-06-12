@@ -1,0 +1,14 @@
+---
+# Paper 2 -- run ALL revision experiments end to end:
+#   1. Sensitivity analysis (Tests 1-4)  ~6-8 h
+#   2. MQTT-B five-run replication       ~2 h
+#   3. T-parameter memory measurement    ~30 min
+#   4. Scalability (800/1600/3200)       ~1.5 h
+#
+# Run: ansible-playbook ansible/run_all.yml
+# All output is logged under ws-k8-controller/logs/ and figures/tables are
+# copied into Paper-2-StatefulAutoscaler/figures/.
+- import_playbook: sensitivity.yml
+- import_playbook: mqtt_b_replication.yml
+- import_playbook: t_memory_measurement.yml
+- import_playbook: scalability.yml

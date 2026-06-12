@@ -120,7 +120,7 @@ def analyse_run(d):
         row["scaledown_duration_s"] = (t_end[0] - t_fd) if t_end else ""
         post = [x for x in replicas if x[0] > t_fd]
         max_step = 0
-        for (..._ts1, r1), (_ts2, r2) in zip(post, post[1:]):
+        for (_ts1, r1), (_ts2, r2) in zip(post, post[1:]):
             max_step = max(max_step, r1 - r2)
         row["max_step_down"] = max_step
     else:

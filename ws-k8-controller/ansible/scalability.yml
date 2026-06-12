@@ -1,0 +1,42 @@
+---
+# Paper 2 -- Scalability validation: Experiment C at 800 / 1600 / 3200 clients.
+# Documents the Kind OS-level TCP ceiling (attempted vs achieved connections).
+#
+# Run: ansible-playbook ansible/scalability.yml [-e clients_list='800 1600 3200']
+- name: Scalability runs at higher client counts (Paper 2)
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  vars:
+    project_root: "{{ playbook_dir | dirname }}"
+    repo_root: "{{ project_root | dirname }}"
+    paper2_figs: "{{ repo_root }}/Paper-2-StatefulAutoscaler/figures"
+    log_dir: "{{ project_root }}/logs"
+    ts: "{{ ansible_date_time.iso8601_basic_short }}"
+    clients_list: "800 1600 3200"
+  tasks:
+    - name: Ensure log directory exists
+      ansible.builtin.file:
+        path: "{{ log_dir }}"
+        state: directory
+        mode: "0755"
+
+    - name: Run Experiment C at each client count (includes analysis)
+      ansible.builtin.shell: |
+        set -o pipefail
+        CLIENTS_LIST="{{ clients_list }}" bash {{ project_root }}/scripts/run-experiment-c-scale.sh 2>&1 \
+          | tee {{ log_dir }}/scalability_{{ ts }}.log
+      args:
+        executable: /bin/bash
+        chdir: "{{ project_root }}"
+
+    - name: Copy scalability plot and table into Paper-2 figures
+      ansible.builtin.shell: |
+        set -e
+        mkdir -p "{{ paper2_figs }}/scalability"
+        cp -v {{ project_root }}/results/processed/websocket/scalability/plots/*.png \
+              "{{ paper2_figs }}/scalability/"
+        cp -v {{ project_root }}/results/processed/websocket/scalability/table_scale.csv \
+              "{{ paper2_figs }}/scalability/"
+      args:
+        executable: /bin/bash
