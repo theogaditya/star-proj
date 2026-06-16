@@ -99,18 +99,18 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Head-to-Head Performance Comparison}{11}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Reproducibility: Five-Run Statistical Validation}{11}{}\protected@file@percent }
 \newlabel{sec:exp_c_multi}{{5.8}{11}{}{}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Scalability validation of the \texttt  {StatefulAutoscaler}: Experiment~C restorm simulation at 800, 1{,}600, and 3{,}200 concurrent clients. ``Expected replicas'' is $\lceil N / T \rceil $; ``Peak replicas'' is the maximum observed during CYCLE~1. ``Safe'' indicates whether all replicas were held through the 90-second DROP~1 gap (1~$=$~yes, 0~$=$~no). The achieved connection count at 3{,}200 clients documents the Kind OS-level TCP ceiling.}}{12}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Scalability validation of the \texttt  {StatefulAutoscaler}: Experiment~C restorm simulation at 800, 1{,}600, and 3{,}200 concurrent clients. ``Expected replicas'' is $\lceil N / T \rceil $; ``CYCLE~1 steady-state'' is the stable replica count held during active load; ``CYCLE~2 transient peak'' is the maximum reached during the CYCLE~2 reconnection surge; ``Safe'' indicates 100\% replica preservation through DROP~1. The peak connection count column shows the highest validated connection count established in the Kind environment (no transport-layer bottleneck was observed).}}{12}{}\protected@file@percent }
 \newlabel{tab:scalability}{{4}{12}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Experiment~C (\texttt  {StatefulAutoscaler}): overlay of active connections (orange, left axis) and replica count (blue, right axis) for runs~2--5 (run~1 excluded as outlined in Section~\ref {sec:exp_c_multi}). Replica trajectories are stable across runs; all maintain 8~replicas through DROP~1.}}{12}{}\protected@file@percent }
 \newlabel{fig:exp_c_multi}{{7}{12}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Scalability Validation: 800, 1{,}600, and 3{,}200 Clients}{12}{}\protected@file@percent }
 \newlabel{sec:scalability}{{5.9}{12}{}{}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.9.1}Results}{12}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Replica tracking with bounded transient overshoot.}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Exact CYCLE~1 targeting; bounded CYCLE~2 transient.}{12}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Scale-up reaction time.}{12}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Connection preservation.}{12}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{OS-level TCP ceiling.}{12}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Scalability validation across 800, 1{,}600, and 3{,}200 clients. Left: replica targeting --- achieved peak replicas (blue) track the expected $\lceil N/T \rceil $ (dashed) with a consistent $+2$ overshoot. Centre: scale-up reaction time increases modestly from 66~s to 86~s at $4\times $ the baseline client count. Right: achieved peak connections (red) meet or exceed the attempted count at all scales, confirming no OS-level TCP bottleneck for the WebSocket workload in the Kind environment.}}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Observed connection range --- no transport-layer bottleneck.}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Scalability validation across 800, 1{,}600, and 3{,}200 clients. Left: replica targeting --- CYCLE~1 steady-state (solid) matches the expected $\lceil N/T \rceil $ exactly; CYCLE~2 transient peak (dashed) overshoots by $+2$ due to the window-boundary artefact. Centre: scale-up reaction time increases modestly from 66~s to 86~s at $4\times $ the baseline client count. Right: achieved connection count (red) meets or exceeds the attempted count at all scales; no transport-layer bottleneck was encountered in the Kind environment.}}{13}{}\protected@file@percent }
 \newlabel{fig:scalability_summary}{{8}{13}{}{}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Baseline Comparisons: Experiments D and E}{13}{}\protected@file@percent }
 \newlabel{sec:baselines}{{6}{13}{}{}{}}
@@ -126,12 +126,12 @@
 \@writefile{toc}{\contentsline {paragraph}{Hypothesis.}{14}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Experimental Setup.}{14}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Results (5 independent runs).}{14}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Experiment~E (KEDA, \texttt  {cooldownPeriod}~$= 120$): five-run overlay of active connections (orange, left axis) and replica count (blue, right axis). Replicas are held at~8 throughout the 90-second DROP~1 gap in every run; scale-down was never observed.}}{14}{}\protected@file@percent }
-\newlabel{fig:exp_e_multi}{{10}{14}{}{}{}}
 \citation{behera2026hpa}
 \citation{behera2026hpa}
 \@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Quantitative comparison of all four scaler configurations under the two-cycle restorm simulation (WebSocket, 800 connections, \texttt  {CPU\_WORK}~$= 0$). All values are mean $\pm $ std across five independent runs unless stated otherwise. Experiment~B3 is a single run from the companion paper~\cite  {behera2026hpa}.}}{15}{}\protected@file@percent }
 \newlabel{tab:baseline_compare}{{5}{15}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Experiment~E (KEDA, \texttt  {cooldownPeriod}~$= 120$): five-run overlay of active connections (orange, left axis) and replica count (blue, right axis). Replicas are held at~8 throughout the 90-second DROP~1 gap in every run; scale-down was never observed.}}{15}{}\protected@file@percent }
+\newlabel{fig:exp_e_multi}{{10}{15}{}{}{}}
 \@writefile{toc}{\contentsline {paragraph}{Note on convergence after cooldown expiry.}{15}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Comparative Summary Across All Baselines}{15}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Sensitivity to HPA stabilization window configuration.}{15}{}\protected@file@percent }
@@ -139,10 +139,10 @@
 \newlabel{sec:failure_analysis}{{7}{15}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Failure Scenario 1: Metric Staleness Under Long Scrape Intervals}{15}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Setup.}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Finding.}{15}{}\protected@file@percent }
 \citation{behera2026hpa}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Representative side-by-side comparison of Experiment~C (\texttt  {StatefulAutoscaler}) and Experiment~D (HPA with custom connection metric). Both controllers scale to~8 replicas in CYCLE~1 and hold~8 replicas through DROP~1. Key differences: Experiment~C scales up faster (22~s vs.\ 54~s) but exhibits a brief CYCLE~2 transition dip to 5--6 replicas as the sliding window ages out; Experiment~D remains flat at~8 throughout owing to its wider 300-second stabilization window, but holds replicas $2.6\times $ longer during FINAL DROP.}}{16}{}\protected@file@percent }
 \newlabel{fig:comparison_c_vs_d}{{11}{16}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Finding.}{16}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Boundary condition.}{16}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Failure Scenario 2: Instantaneous Connection Spike (No Ramp Stagger)}{16}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Setup.}{16}{}\protected@file@percent }
@@ -151,34 +151,34 @@
 \@writefile{toc}{\contentsline {paragraph}{Setup.}{16}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Finding.}{16}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Remaining risk.}{16}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8}Discussion}{16}{}\protected@file@percent }
-\newlabel{sec:discussion}{{8}{16}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}The Correct Signal Changes Everything}{16}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Side-by-side comparison of all three failure scenarios. Left: Metric Staleness (\texttt  {scrape\_interval}~$= 60$~s) --- modest connection overshoot, 11~peak replicas, no connection loss. Centre: Instantaneous Spike (\texttt  {RAMP\_UP}~$= 0$~s) --- fastest scale-up (6~s), no overshoot, scheduling latency is the bottleneck. Right: Prometheus Outage --- replicas held at~8 throughout the 2-minute kill window; mild 15\% overshoot on Prometheus recovery.}}{17}{}\protected@file@percent }
 \newlabel{fig:failure_comparative}{{12}{17}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Discussion}{17}{}\protected@file@percent }
+\newlabel{sec:discussion}{{8}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}The Correct Signal Changes Everything}{17}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Stabilization Semantics as a First-Class Design Dimension}{17}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Step-Rate Limiting as a Safety Mechanism}{17}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Generalizability Beyond WebSocket}{17}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Operational and Fairness Considerations}{17}{}\protected@file@percent }
 \citation{mqtt_v31}
 \citation{soni2017mqtt}
 \citation{behera2026hpa}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Operational and Fairness Considerations}{18}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {9}MQTT Extension: Protocol Generalization}{18}{}\protected@file@percent }
 \newlabel{sec:mqtt_extension}{{9}{18}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.1}MQTT-A: CPU HPA Baseline}{18}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.2}MQTT-B: StatefulAutoscaler with Drain}{18}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {10}Limitations}{18}{}\protected@file@percent }
-\newlabel{sec:limitations}{{10}{18}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces MQTT-A (CPU HPA baseline): total MQTT connections, replicas, CPU, memory, and per-pod connection panel. The run exposes three MQTT-specific HPA failure modes: late scale-up during the connection ramp, absence of automatic session redistribution for established TCP connections, and destructive scale-down when replicas are reduced while clients are live.}}{19}{}\protected@file@percent }
 \newlabel{fig:mqtt_a_plot}{{13}{19}{}{}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces MQTT extension results: CPU HPA versus \texttt  {StatefulAutoscaler} with drain semantics. The 339-client ceiling is a transport-level OS limitation present in both runs.}}{19}{}\protected@file@percent }
 \newlabel{tab:mqtt_results}{{6}{19}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Limitations}{19}{}\protected@file@percent }
+\newlabel{sec:limitations}{{10}{19}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces MQTT-B (\texttt  {StatefulAutoscaler} with drain): the controller scales on \texttt  {sum(active\_connections)}, reaching 3~replicas at $t = 38$~s ($\lceil 339/150 \rceil $). Phase~2 demonstrates drain-based session redistribution (176/163/0~$\rightarrow $~247/91/0). Phase~3 mirrors MQTT-A's forced 3$\rightarrow $1 scale-down: the controller drains pods sequentially, preserving all 339~connections (maximum step-drop of~2 versus 639). Connections reach zero only after the load generator is deleted.}}{20}{}\protected@file@percent }
 \newlabel{fig:mqtt_b_plot}{{14}{20}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {11}Future Work}{20}{}\protected@file@percent }
-\newlabel{sec:future_work}{{11}{20}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}Overcoming the TCP/OS-Level Connection Ceiling}{20}{}\protected@file@percent }
 \citation{behera2026hpa}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Future Work}{21}{}\protected@file@percent }
+\newlabel{sec:future_work}{{11}{21}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}Overcoming the TCP/OS-Level Connection Ceiling}{21}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {11.2}MQTT: Future Optimizations and Open Problems}{21}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {11.3}WebSocket: Future Extensions and Research Directions}{21}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {12}Conclusion}{21}{}\protected@file@percent }

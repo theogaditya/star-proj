@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.9)  16 JUN 2026 10:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.9)  16 JUN 2026 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1186,8 +1186,8 @@ Underfull \vbox (badness 7168) has occurred while \output is active []
 <figures/scalability_summary.png, id=100, 1011.78pt x 325.215pt>
 File: figures/scalability_summary.png Graphic file (type png)
 <use figures/scalability_summary.png>
-Package pdftex.def Info: figures/scalability_summary.png  used on input line 97
-6.
+Package pdftex.def Info: figures/scalability_summary.png  used on input line 98
+5.
 (pdftex.def)             Requested size: 470.24849pt x 151.15393pt.
  [12 <./figures/experiment-c-multi/multi_timeseries.png>] [13 <./figures/scalab
 ility_summary.png>]
@@ -1196,33 +1196,34 @@ pt>
 File: figures/experiment-d-multi/multi_timeseries.png Graphic file (type png)
 <use figures/experiment-d-multi/multi_timeseries.png>
 Package pdftex.def Info: figures/experiment-d-multi/multi_timeseries.png  used 
-on input line 1057.
+on input line 1066.
 (pdftex.def)             Requested size: 238.96417pt x 187.65887pt.
 <figures/experiment-e-keda/multi_timeseries.png, id=112, 498.1812pt x 391.2216p
 t>
 File: figures/experiment-e-keda/multi_timeseries.png Graphic file (type png)
 <use figures/experiment-e-keda/multi_timeseries.png>
 Package pdftex.def Info: figures/experiment-e-keda/multi_timeseries.png  used o
-n input line 1113.
+n input line 1122.
 (pdftex.def)             Requested size: 238.96417pt x 187.65887pt.
- [14 <./figures/experiment-d-multi/multi_timeseries.png> <./figures/experiment-
-e-keda/multi_timeseries.png>]
-<figures/comparison-c-d/comparison_c_vs_d.png, id=118, 714.5094pt x 281.853pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./figures/experiment-d-multi/multi_timeseries.png>]
+<figures/comparison-c-d/comparison_c_vs_d.png, id=117, 714.5094pt x 281.853pt>
 File: figures/comparison-c-d/comparison_c_vs_d.png Graphic file (type png)
 <use figures/comparison-c-d/comparison_c_vs_d.png>
 Package pdftex.def Info: figures/comparison-c-d/comparison_c_vs_d.png  used on 
-input line 1177.
+input line 1186.
 (pdftex.def)             Requested size: 420.75302pt x 165.97357pt.
- [15]
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
+ [15 <./figures/experiment-e-keda/multi_timeseries.png>]
 <figures/failure-scenarios/failure_comparative.png, id=122, 935.1738pt x 286.18
 92pt>
 File: figures/failure-scenarios/failure_comparative.png Graphic file (type png)
 
 <use figures/failure-scenarios/failure_comparative.png>
 Package pdftex.def Info: figures/failure-scenarios/failure_comparative.png  use
-d on input line 1271.
+d on input line 1280.
 (pdftex.def)             Requested size: 495.0pt x 151.48303pt.
  [16 <./figures/comparison-c-d/comparison_c_vs_d.png>] [17 <./figures/failure-s
 cenarios/failure_comparative.png>]
@@ -1232,7 +1233,7 @@ File: figures/processed-results-mqtt/experiment-a-hpa/plot.png Graphic file (ty
 pe png)
 <use figures/processed-results-mqtt/experiment-a-hpa/plot.png>
 Package pdftex.def Info: figures/processed-results-mqtt/experiment-a-hpa/plot.p
-ng  used on input line 1376.
+ng  used on input line 1385.
 (pdftex.def)             Requested size: 336.59637pt x 274.056pt.
 <figures/processed-results-mqtt/experiment-b-stateful/plot.png, id=132, 1003.58
 94pt x 817.1328pt>
@@ -1240,15 +1241,15 @@ File: figures/processed-results-mqtt/experiment-b-stateful/plot.png Graphic fil
 e (type png)
 <use figures/processed-results-mqtt/experiment-b-stateful/plot.png>
 Package pdftex.def Info: figures/processed-results-mqtt/experiment-b-stateful/p
-lot.png  used on input line 1428.
+lot.png  used on input line 1437.
 (pdftex.def)             Requested size: 336.59637pt x 274.056pt.
  [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [19 <./figures/processed-results-mqtt/experiment-a-hpa/plot.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./figures/processed-results-mqtt/experiment-a-hpa/plot.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./figures/processed-results-mqtt/experiment-b-stateful/plot.png>] [21] (.
@@ -1262,13 +1263,13 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 36300 strings out of 476106
- 889838 string characters out of 5793934
+ 36307 strings out of 476106
+ 889995 string characters out of 5793934
  1947975 words of memory out of 5000000
- 57299 multiletter control sequences out of 15000+600000
+ 57306 multiletter control sequences out of 15000+600000
  617200 words of font info for 387 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 86i,14n,96p,1001b,1036s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,14n,96p,1001b,1035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
@@ -1281,7 +1282,7 @@ ts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (23 pages, 4173351 bytes).
+Output written on main.pdf (23 pages, 4174762 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

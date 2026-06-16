@@ -105,8 +105,8 @@ $119 \pm 2$~s; pod-seconds $4{,}280 \pm 67$). Scalability validation at 800, 1{,
 3{,}200 concurrent clients confirms near-linear replica tracking: achieved peak replicas
 remain within $+2$ of the formula $\lceil N/T \rceil$ at every scale, scale-up reaction
 times are 66--86~s, and 100\% connection preservation through DROP~1 is maintained; the
-Kind OS-level TCP ceiling is documented at $\approx$3{,}392 achieved connections for 3{,}200
-attempted. Comparative baseline evaluation against HPA
+highest validated WebSocket connection count is $\approx$3{,}392 at 3{,}200 attempted
+clients, with no transport-layer bottleneck observed. Comparative baseline evaluation against HPA
 augmented with a custom connection-count metric via the Prometheus Adapter (Experiment~D,
 five runs) and KEDA configured with a matching \texttt{cooldownPeriod} (Experiment~E, five
 runs) reveals a nuanced finding: all three connection-aware configurations preserve pods
@@ -181,8 +181,8 @@ following contributions:
   Replica counts track the $\lceil N/T \rceil$ formula within a bounded overshoot of
   $+2$~replicas at every scale; scale-up reaction times are 66--86~s; and 100\% connection
   preservation through the 90-second DROP~1 gap is maintained with no parameter
-  re-tuning. The Kind OS-level TCP ceiling is documented at $\approx$3{,}392 achieved
-  connections for 3{,}200 attempted clients.
+  re-tuning. The highest validated WebSocket connection count is 3{,}392 at 3{,}200 attempted
+  clients, with no transport-layer bottleneck observed.
 
 \item \textbf{Comparative baseline evaluation (Experiments D and E).} To determine
   whether performance differences arise from metric choice alone or controller architecture,
@@ -915,37 +915,41 @@ Table~\ref{tab:scalability} summarises the key metrics across all three scales.
 \centering
 \caption{Scalability validation of the \texttt{StatefulAutoscaler}: Experiment~C restorm
 simulation at 800, 1{,}600, and 3{,}200 concurrent clients. ``Expected replicas'' is
-$\lceil N / T \rceil$; ``Peak replicas'' is the maximum observed during CYCLE~1. ``Safe''
-indicates whether all replicas were held through the 90-second DROP~1 gap
-(1~$=$~yes, 0~$=$~no). The achieved connection count at 3{,}200 clients documents the
-Kind OS-level TCP ceiling.}
+$\lceil N / T \rceil$; ``CYCLE~1 steady-state'' is the stable replica count held during
+active load; ``CYCLE~2 transient peak'' is the maximum reached during the CYCLE~2
+reconnection surge; ``Safe'' indicates 100\% replica preservation through DROP~1.
+The peak connection count column shows the highest validated connection count
+established in the Kind environment (no transport-layer bottleneck was observed).}
 \label{tab:scalability}
 \begin{tabular}{@{}rrrrrrrr@{}}
 \toprule
 \rowcolor{gray!12}
-\textbf{Clients} & \textbf{Expected} & \textbf{Peak} & \textbf{Scale-Up} & \textbf{Peak} & \textbf{DROP~1} & \textbf{Scale-Down} & \textbf{Scale-Down} \\
+\textbf{Clients} & \textbf{Expected} & \textbf{CYCLE~1} & \textbf{CYCLE~2} & \textbf{Scale-Up} & \textbf{Peak} & \textbf{DROP~1} & \textbf{Scale-Down} \\
 \rowcolor{gray!12}
-\textbf{(attempted)} & \textbf{Replicas} & \textbf{Replicas} & \textbf{(s)} & \textbf{Connections} & \textbf{Safe?} & \textbf{Reaction (s)} & \textbf{Total (s)} \\
+\textbf{(attempted)} & $\lceil N/T \rceil$ & \textbf{Steady-State} & \textbf{Peak} & \textbf{(s)} & \textbf{Connections} & \textbf{Safe?} & \textbf{Total (s)} \\
 \midrule
-800   & 8  & 10 & 66 & 874   & \checkmark & 73  & 164 \\
-1{,}600 & 16 & 18 & 66 & 1{,}820 & \checkmark & 87  & 178 \\
-3{,}200 & 32 & 34 & 86 & 3{,}392 & \checkmark & 77  & 218 \\
+800   & 8  & \textbf{8}  & 10 & 66 & 874   & \checkmark & 164 \\
+1{,}600 & 16 & \textbf{16} & 18 & 66 & 1{,}820 & \checkmark & 178 \\
+3{,}200 & 32 & \textbf{32} & 34 & 86 & 3{,}392 & \checkmark & 218 \\
 \bottomrule
 \end{tabular}
 \end{table*}
 
-\paragraph{Replica tracking with bounded transient overshoot.}
-At every scale, the controller's peak replica count was within $+2$ of the steady-state
-formula prediction $\lceil N / T \rceil$: 10 vs.\ 8 at 800~clients, 18 vs.\ 16 at
-1{,}600, and 34 vs.\ 32 at 3{,}200. This consistent $+2$ transient overshoot is the
-expected behaviour of a discrete-time controller operating under metric-reporting
-latency: during the CYCLE~1 ramp, connections arrive faster than the 5-second
-reconciliation period can converge, so the controller briefly overshoots before
-stabilising at the formula value. Crucially, the overshoot is bounded, reproducible, and
-does not grow with client count --- confirming that the controller tracks $\lceil N/T\rceil$
-with predictable, finite error rather than exhibiting runaway provisioning. This is the
-same transient mechanism documented in the single-scale five-run replication
-(Section~\ref{sec:exp_c_multi}).
+\paragraph{Exact CYCLE~1 targeting; bounded CYCLE~2 transient.}
+Inspection of the raw replica logs reveals a precise two-phase pattern at every scale.
+During CYCLE~1, the controller's replica count converges to and holds \textit{exactly}
+$\lceil N / T \rceil$: 8~replicas at 800~clients, 16~at 1{,}600, and 32~at 3{,}200
+--- matching the formula with zero steady-state error. The $+2$-replica transient
+(10, 18, 34) occurs exclusively during \textit{CYCLE~2}, the reconnection surge, and
+is the same window-boundary artefact documented in Section~\ref{sec:exp_c_multi}:
+stabilization window entries from CYCLE~1 age out during DROP~1, briefly lowering
+the high-water mark below the required target; when CYCLE~2 connections arrive
+before the window fully repopulates, the controller temporarily overshoots before
+stabilising. This overshoot is therefore not attributable to metric latency during
+initial scale-up --- CYCLE~1 is exact --- but to the finite duration of the stabilization
+window at the CYCLE~1/CYCLE~2 boundary. Crucially, it is bounded at $+2$ regardless
+of client count, confirming that the behaviour scales predictably without runaway
+provisioning.
 
 \paragraph{Scale-up reaction time.}
 Reaction times were 66~s at 800 and 1{,}600~clients and increased modestly to 86~s at
@@ -959,41 +963,46 @@ gap (\texttt{safe}~$= 1$ in every case). Scale-down proceeded only after the coo
 expired following FINAL~DROP, with reaction times of 73--87~s and total scale-down
 durations of 164--218~s.
 
-\paragraph{OS-level TCP ceiling.}
-At 3{,}200 attempted clients, the achieved peak connection count was 3{,}392 ---
-106\% of the attempted count, indicating that the Kind single-node cluster's OS-level
-TCP stack (ephemeral port range, \texttt{net.core.somaxconn}, \texttt{listen()}
-backlog) did not constrain the WebSocket workload at this scale. This contrasts with the
-MQTT experiments (Section~\ref{sec:mqtt_extension}), where only 339 of 1{,}000
-attempted clients successfully connected --- confirming that the TCP ceiling is
-protocol- and application-specific, not a fundamental Kind limitation.
+\paragraph{Observed connection range --- no transport-layer bottleneck.}
+At 3{,}200 attempted clients, the highest observed connection count was 3{,}392 ---
+106\% of the attempted count. This excess (clients establish connections slightly faster
+than the load generator's accounting) indicates that no OS-level TCP transport
+limit was encountered: the Linux ephemeral port range, \texttt{net.core.somaxconn},
+and \texttt{listen()} backlog did not constrain the WebSocket workload at this scale.
+The 3{,}392 figure therefore represents the \textit{highest validated connection count}
+established in this environment, not a ceiling imposed by infrastructure.
+This contrasts with the MQTT experiments (Section~\ref{sec:mqtt_extension}), where
+only 339 of 1{,}000 attempted clients successfully connected, confirming that
+transport-layer limits are protocol- and application-specific, not a fundamental
+characteristic of the Kind cluster.
 
 Figure~\ref{fig:scalability_summary} visualises the three-panel scalability summary:
-replica targeting accuracy, scale-up reaction time, and the OS TCP ceiling comparison.
+replica targeting accuracy (both CYCLE~1 steady-state and CYCLE~2 peak), scale-up
+reaction time, and the achieved vs.\ attempted connection range.
 
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.95\textwidth]{scalability_summary.png}
 \caption{Scalability validation across 800, 1{,}600, and 3{,}200 clients. Left: replica
-targeting --- achieved peak replicas (blue) track the expected $\lceil N/T \rceil$ (dashed)
-with a consistent $+2$ overshoot. Centre: scale-up reaction time increases modestly from
-66~s to 86~s at $4\times$ the baseline client count. Right: achieved peak connections
-(red) meet or exceed the attempted count at all scales, confirming no OS-level TCP
-bottleneck for the WebSocket workload in the Kind environment.}
+targeting --- CYCLE~1 steady-state (solid) matches the expected $\lceil N/T \rceil$
+exactly; CYCLE~2 transient peak (dashed) overshoots by $+2$ due to the window-boundary
+artefact. Centre: scale-up reaction time increases modestly from 66~s to 86~s at
+$4\times$ the baseline client count. Right: achieved connection count (red) meets or
+exceeds the attempted count at all scales; no transport-layer bottleneck was
+encountered in the Kind environment.}
 \label{fig:scalability_summary}
 \end{figure*}
 
 \begin{keyresult}
 \noindent\textbf{Conclusion.} Across a $4\times$ range of client counts (800 to
-3{,}200), the \texttt{StatefulAutoscaler} tracks the theoretical replica target
-$\lceil N / T \rceil$ with a bounded transient overshoot of exactly $+2$~replicas
-at every scale --- a consistent, predictable artefact of discrete-time reconciliation
-under connection-ramp conditions, not a control-law defect. Scale-up reaction time
-degrades sub-linearly (66~s to 86~s), 100\% connection preservation through DROP~1
-is maintained at every scale, and no OS-level TCP ceiling was encountered for the
-WebSocket workload. No parameter re-tuning beyond adjusting \texttt{maxReplicas} was
-required, confirming that the controller's architecture scales in practical proportion
-to the client count.
+3{,}200), the \texttt{StatefulAutoscaler} achieves \textit{exact} CYCLE~1 steady-state
+targeting ($\lceil N / T \rceil$: 8, 16, 32 replicas respectively) with a bounded $+2$
+CYCLE~2 transient attributable to the finite stabilization window --- the same
+window-boundary artefact documented in Section~\ref{sec:exp_c_multi}. Scale-up
+reaction time degrades sub-linearly (66~s to 86~s), 100\% connection preservation
+through DROP~1 is maintained at every scale, and no transport-layer bottleneck was
+encountered. No parameter re-tuning beyond adjusting \texttt{maxReplicas} was
+required, confirming practical linear scalability.
 \end{keyresult}
 
 
@@ -1634,7 +1643,7 @@ sliding-window stabilization mechanism; and complete CPU independence
 Scalability validation at 1{,}600 and 3{,}200 clients confirmed that replica counts track
 $\lceil N/T \rceil$ within a $+2$-replica bounded overshoot at every scale, scale-up
 reaction times are 66--86~s, and 100\% connection preservation through DROP~1 is
-maintained with no parameter re-tuning and no OS-level TCP ceiling.
+maintained with no parameter re-tuning; no transport-layer bottleneck was encountered.
 
 Comparative baseline evaluations (Experiments~D and~E) delivered a nuanced finding: both
 HPA with a custom connection-count metric (\texttt{stabilizationWindowSeconds:~300}) and
