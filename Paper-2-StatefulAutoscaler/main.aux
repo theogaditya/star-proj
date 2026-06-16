@@ -3,17 +3,14 @@
 \citation{kubebuilder_docs}
 \citation{k8s_hpa_docs}
 \citation{behera2026hpa}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
-\newlabel{sec:intro}{{1}{1}{}{}{}}
 \citation{prometheus_adapter}
 \citation{keda_docs}
 \citation{kubebuilder_docs}
 \citation{prometheus_adapter}
 \citation{qu2018auto}
 \citation{rossi2020horizontal}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{}\protected@file@percent }
-\newlabel{sec:related}{{2}{2}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Kubernetes HPA with Custom Metrics}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{}\protected@file@percent }
+\newlabel{sec:intro}{{1}{2}{}{}{}}
 \citation{keda_docs}
 \citation{dickel2019stateful}
 \citation{behera2026hpa}
@@ -23,35 +20,38 @@
 \citation{mqtt_v31}
 \citation{soni2017mqtt}
 \citation{behera2026hpa}
-\citation{behera2026hpa}
-\citation{nguyen2020hpa}
-\citation{behera2026hpa}
-\citation{nguyen2020hpa}
-\citation{behera2026hpa}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{}\protected@file@percent }
+\newlabel{sec:related}{{2}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Kubernetes HPA with Custom Metrics}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Event-Driven Autoscaling: KEDA}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Stateful Workloads and Protocol-Aware Autoscaling}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Machine Learning and Predictive Autoscaling}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Custom Kubernetes Controllers}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.6}MQTT Autoscaling}{3}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Research Gap}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Background}{3}{}\protected@file@percent }
-\newlabel{sec:background}{{3}{3}{}{}{}}
 \citation{behera2026hpa}
-\citation{kind_docs}
+\citation{nguyen2020hpa}
+\citation{behera2026hpa}
+\citation{nguyen2020hpa}
+\citation{behera2026hpa}
+\citation{behera2026hpa}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Standard Kubernetes HPA feedback loop architecture, reproduced from Nguyen et al.~\cite  {nguyen2020hpa}. The HPA controller operates as a discrete-time proportional regulator: it periodically reads aggregated resource metrics from the API server and computes a desired replica count using Equation~\ref {eq:hpa}. A critical architectural constraint is that this loop assumes the observed metric faithfully represents current workload intensity --- an assumption that is violated for persistent-connection workloads where connections persist independently of CPU utilization. KRM and PCM pipeline baselines for stateless workloads, establishing HPA's correct behavior under CPU-proportional load, are documented in the companion paper~\cite  {behera2026hpa}.}}{4}{}\protected@file@percent }
 \newlabel{fig:hpa_arch}{{1}{4}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Background}{4}{}\protected@file@percent }
+\newlabel{sec:background}{{3}{4}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}The HPA Control Architecture}{4}{}\protected@file@percent }
 \newlabel{eq:hpa}{{1}{4}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}The Mismatch and Its Consequences}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Experimental Infrastructure}{4}{}\protected@file@percent }
+\citation{kind_docs}
 \citation{behera2026hpa}
 \citation{kubebuilder_docs}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Experimental Infrastructure}{5}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4}The \texttt  {StatefulAutoscaler} Controller: Design and Implementation}{5}{}\protected@file@percent }
 \newlabel{sec:controller}{{4}{5}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Design Principles}{5}{}\protected@file@percent }
 \newlabel{eq:stateful}{{2}{5}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Implementation Foundation: Kubebuilder SDK and the Operator Pattern}{5}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Why \texttt  {sum()} and not \texttt  {avg()}?}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Why \texttt  {sum()} and not \texttt  {avg()}?}{6}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Custom Resource Definition}{6}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \texttt  {StatefulAutoscaler} CRD specification: key fields and their operational purpose.}}{6}{}\protected@file@percent }
 \newlabel{tab:crd}{{1}{6}{}{}{}}
@@ -63,21 +63,21 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \texttt  {StatefulAutoscaler} system architecture and CRD example. The numbered flow shows: (1)~clients connect through the Kubernetes Service to WebSocket pods; (2)~pods expose \texttt  {active\_connections} via Prometheus \texttt  {/metrics} endpoints; (3)~the controller queries Prometheus for \texttt  {sum(active\_connections)}; (4)~operational parameters are read from the \texttt  {StatefulAutoscaler} Custom Resource; (5)~the controller patches \texttt  {Deployment.spec.replicas} to scale. CPU is explicitly excluded from the control path (crossed-out icon in the legend). The right panel shows a representative CRD manifest with all configurable fields from Table~\ref {tab:crd}.}}{7}{}\protected@file@percent }
 \newlabel{fig:system_arch}{{2}{7}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.6}The Stabilization Window: Mechanism and Correctness}{7}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Controller Design and Stability Properties}{7}{}\protected@file@percent }
-\newlabel{sec:controller_stability}{{4.7}{7}{}{}{}}
-\@writefile{toc}{\contentsline {paragraph}{Feedback loop framing.}{7}{}\protected@file@percent }
 \citation{behera2026hpa}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces UML activity diagram of the \texttt  {StatefulAutoscaler} reconciliation loop (Algorithm~\ref {alg:reconcile}). The flow begins with reading the CR and target Deployment, queries Prometheus for \texttt  {sum(active\_connections)}, and branches on query success. The central path computes the clamped desired count, updates the sliding window, and derives the stabilized replica target via \texttt  {max(window)}. The three-way comparison against current replicas applies step-size bounds before patching the Deployment. The safe-default branch (right) holds the current replica count when metrics are unavailable, preserving all live sessions through observability outages.}}{8}{}\protected@file@percent }
 \newlabel{fig:reconcile_uml}{{3}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Controller Design and Stability Properties}{8}{}\protected@file@percent }
+\newlabel{sec:controller_stability}{{4.7}{8}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Feedback loop framing.}{8}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Hysteresis mechanism.}{8}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Convergence bound.}{8}{}\protected@file@percent }
 \newlabel{eq:convergence}{{3}{8}{}{}{}}
 \@writefile{toc}{\contentsline {paragraph}{Parameter selection and sensitivity.}{8}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Delay margin and oscillation condition.}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Evaluation: Experiment~C}{8}{}\protected@file@percent }
-\newlabel{sec:evaluation}{{5}{8}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Experimental Configuration}{8}{}\protected@file@percent }
 \citation{behera2026hpa}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Evaluation: Experiment~C}{9}{}\protected@file@percent }
+\newlabel{sec:evaluation}{{5}{9}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Experimental Configuration}{9}{}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Experiment~C vs.\ B3: Parametric comparison. Differences highlighted in bold.}}{9}{}\protected@file@percent }
 \newlabel{tab:exp_c_setup}{{2}{9}{}{}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Load Pattern: Two-Cycle Reconnection Storm Simulation}{9}{}\protected@file@percent }
@@ -92,86 +92,97 @@
 \newlabel{fig:exp_c_replicas}{{5}{10}{}{}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.5}FINAL DROP: Controlled and Graceful Scale-Down}{10}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Combined View and Definitive Comparison}{10}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Head-to-Head Performance Comparison}{10}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Reproducibility: Five-Run Statistical Validation}{10}{}\protected@file@percent }
-\newlabel{sec:exp_c_multi}{{5.8}{10}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Experiment~C, combined signal view: Active connections (blue) drive the \texttt  {StatefulAutoscaler}'s replica decisions (green). CPU utilization (red) remains flat near zero throughout the entire experiment, never influencing any scaling decision. The flat bridge in the replica signal during DROP~1 ($t \approx 160$--$260$~s), when connections read zero and replicas hold at~8, is the definitive empirical proof that the sliding-window stabilization mechanism correctly prevents premature scale-down even under zero-connection, zero-CPU conditions.}}{11}{}\protected@file@percent }
 \newlabel{fig:exp_c_combined}{{6}{11}{}{}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Head-to-head quantitative comparison: CPU-based HPA (Experiment~B3) versus the \texttt  {StatefulAutoscaler} (Experiment~C). Metrics where the custom controller achieves a strictly superior outcome are denoted in \textbf  {bold}.}}{11}{}\protected@file@percent }
 \newlabel{tab:head_to_head}{{3}{11}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Baseline Comparisons: Experiments D and E}{11}{}\protected@file@percent }
-\newlabel{sec:baselines}{{6}{11}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Experiment D: HPA with Custom Connection-Count Metric}{11}{}\protected@file@percent }
-\newlabel{sec:experiment_d}{{6.1}{11}{}{}{}}
-\@writefile{toc}{\contentsline {paragraph}{Hypothesis.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Head-to-Head Performance Comparison}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Reproducibility: Five-Run Statistical Validation}{11}{}\protected@file@percent }
+\newlabel{sec:exp_c_multi}{{5.8}{11}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Scalability Validation: 800, 1{,}600, and 3{,}200 Clients}{11}{}\protected@file@percent }
+\newlabel{sec:scalability}{{5.9}{11}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Scalability validation of the \texttt  {StatefulAutoscaler}: Experiment~C restorm simulation at 800, 1{,}600, and 3{,}200 concurrent clients. ``Expected replicas'' is $\lceil N / T \rceil $; ``Peak replicas'' is the maximum observed during CYCLE~1. ``Safe'' indicates whether all replicas were held through the 90-second DROP~1 gap (1~$=$~yes, 0~$=$~no). The achieved connection count at 3{,}200 clients documents the Kind OS-level TCP ceiling.}}{12}{}\protected@file@percent }
+\newlabel{tab:scalability}{{4}{12}{}{}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Experiment~C (\texttt  {StatefulAutoscaler}): overlay of active connections (orange, left axis) and replica count (blue, right axis) for runs~2--5 (run~1 excluded as outlined in Section~\ref {sec:exp_c_multi}). Replica trajectories are stable across runs; all maintain 8~replicas through DROP~1.}}{12}{}\protected@file@percent }
 \newlabel{fig:exp_c_multi}{{7}{12}{}{}{}}
-\@writefile{toc}{\contentsline {paragraph}{Experimental Setup.}{12}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Results (5 independent runs).}{12}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Experiment~D (HPA + custom connection metric): five-run overlay of active connections (orange, left axis) and replica count (blue, right axis). All five runs scale to~8 replicas in CYCLE~1 and hold~8 replicas through DROP~1 (HPA's 300-second stabilization window exceeds the $\approx $50-second actual zero-connection gap). Scale-down during FINAL DROP is slower (mean~313~s) compared to the \texttt  {StatefulAutoscaler}'s 119~s.}}{12}{}\protected@file@percent }
-\newlabel{fig:exp_d_multi}{{8}{12}{}{}{}}
-\citation{behera2026hpa}
-\citation{behera2026hpa}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Experiment E: KEDA Baseline}{13}{}\protected@file@percent }
-\newlabel{sec:experiment_e}{{6.2}{13}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.9.1}Results}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Linear replica targeting.}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scale-up reaction time.}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Connection preservation.}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{OS-level TCP ceiling.}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Baseline Comparisons: Experiments D and E}{12}{}\protected@file@percent }
+\newlabel{sec:baselines}{{6}{12}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Scalability validation across 800, 1{,}600, and 3{,}200 clients. Left: replica targeting --- achieved peak replicas (blue) track the expected $\lceil N/T \rceil $ (dashed) with a consistent $+2$ overshoot. Centre: scale-up reaction time increases modestly from 66~s to 86~s at $4\times $ the baseline client count. Right: achieved peak connections (red) meet or exceed the attempted count at all scales, confirming no OS-level TCP bottleneck for the WebSocket workload in the Kind environment.}}{13}{}\protected@file@percent }
+\newlabel{fig:scalability_summary}{{8}{13}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Experiment D: HPA with Custom Connection-Count Metric}{13}{}\protected@file@percent }
+\newlabel{sec:experiment_d}{{6.1}{13}{}{}{}}
 \@writefile{toc}{\contentsline {paragraph}{Hypothesis.}{13}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Experimental Setup.}{13}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Results (5 independent runs).}{13}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Experiment~E (KEDA, \texttt  {cooldownPeriod}~$= 120$): five-run overlay of active connections (orange, left axis) and replica count (blue, right axis). Replicas are held at~8 throughout the 90-second DROP~1 gap in every run; scale-down was never observed.}}{13}{}\protected@file@percent }
-\newlabel{fig:exp_e_multi}{{9}{13}{}{}{}}
-\@writefile{toc}{\contentsline {paragraph}{Note on convergence after cooldown expiry.}{13}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Comparative Summary Across All Baselines}{13}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Sensitivity to HPA stabilization window configuration.}{13}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Quantitative comparison of all four scaler configurations under the two-cycle restorm simulation (WebSocket, 800 connections, \texttt  {CPU\_WORK}~$= 0$). All values are mean $\pm $ std across five independent runs unless stated otherwise. Experiment~B3 is a single run from the companion paper~\cite  {behera2026hpa}.}}{14}{}\protected@file@percent }
-\newlabel{tab:baseline_compare}{{4}{14}{}{}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Representative side-by-side comparison of Experiment~C (\texttt  {StatefulAutoscaler}) and Experiment~D (HPA with custom connection metric). Both controllers scale to~8 replicas in CYCLE~1 and hold~8 replicas through DROP~1. Key differences: Experiment~C scales up faster (22~s vs.\ 54~s) but exhibits a brief CYCLE~2 transition dip to 5--6 replicas as the sliding window ages out; Experiment~D remains flat at~8 throughout owing to its wider 300-second stabilization window, but holds replicas $2.6\times $ longer during FINAL DROP.}}{14}{}\protected@file@percent }
-\newlabel{fig:comparison_c_vs_d}{{10}{14}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Failure Analysis: Adversarial Scenarios}{14}{}\protected@file@percent }
-\newlabel{sec:failure_analysis}{{7}{14}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Failure Scenario 1: Metric Staleness Under Long Scrape Intervals}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Setup.}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Finding.}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Boundary condition.}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Experiment~D (HPA + custom connection metric): five-run overlay of active connections (orange, left axis) and replica count (blue, right axis). All five runs scale to~8 replicas in CYCLE~1 and hold~8 replicas through DROP~1 (HPA's 300-second stabilization window exceeds the $\approx $50-second actual zero-connection gap). Scale-down during FINAL DROP is slower (mean~313~s) compared to the \texttt  {StatefulAutoscaler}'s 119~s.}}{14}{}\protected@file@percent }
+\newlabel{fig:exp_d_multi}{{9}{14}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Experiment E: KEDA Baseline}{14}{}\protected@file@percent }
+\newlabel{sec:experiment_e}{{6.2}{14}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Hypothesis.}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Experimental Setup.}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Results (5 independent runs).}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Experiment~E (KEDA, \texttt  {cooldownPeriod}~$= 120$): five-run overlay of active connections (orange, left axis) and replica count (blue, right axis). Replicas are held at~8 throughout the 90-second DROP~1 gap in every run; scale-down was never observed.}}{14}{}\protected@file@percent }
+\newlabel{fig:exp_e_multi}{{10}{14}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Note on convergence after cooldown expiry.}{14}{}\protected@file@percent }
 \citation{behera2026hpa}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Failure Scenario 2: Instantaneous Connection Spike (No Ramp Stagger)}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Setup.}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Finding.}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Failure Scenario 3: Prometheus Unavailability During Active Load}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Setup.}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Finding.}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Remaining risk.}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8}Discussion}{15}{}\protected@file@percent }
-\newlabel{sec:discussion}{{8}{15}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}The Correct Signal Changes Everything}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Stabilization Semantics as a First-Class Design Dimension}{15}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Step-Rate Limiting as a Safety Mechanism}{15}{}\protected@file@percent }
+\citation{behera2026hpa}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Quantitative comparison of all four scaler configurations under the two-cycle restorm simulation (WebSocket, 800 connections, \texttt  {CPU\_WORK}~$= 0$). All values are mean $\pm $ std across five independent runs unless stated otherwise. Experiment~B3 is a single run from the companion paper~\cite  {behera2026hpa}.}}{15}{}\protected@file@percent }
+\newlabel{tab:baseline_compare}{{5}{15}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Representative side-by-side comparison of Experiment~C (\texttt  {StatefulAutoscaler}) and Experiment~D (HPA with custom connection metric). Both controllers scale to~8 replicas in CYCLE~1 and hold~8 replicas through DROP~1. Key differences: Experiment~C scales up faster (22~s vs.\ 54~s) but exhibits a brief CYCLE~2 transition dip to 5--6 replicas as the sliding window ages out; Experiment~D remains flat at~8 throughout owing to its wider 300-second stabilization window, but holds replicas $2.6\times $ longer during FINAL DROP.}}{15}{}\protected@file@percent }
+\newlabel{fig:comparison_c_vs_d}{{11}{15}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Comparative Summary Across All Baselines}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Sensitivity to HPA stabilization window configuration.}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Failure Analysis: Adversarial Scenarios}{15}{}\protected@file@percent }
+\newlabel{sec:failure_analysis}{{7}{15}{}{}{}}
+\citation{behera2026hpa}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Failure Scenario 1: Metric Staleness Under Long Scrape Intervals}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Setup.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Finding.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Boundary condition.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Failure Scenario 2: Instantaneous Connection Spike (No Ramp Stagger)}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Setup.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Finding.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Failure Scenario 3: Prometheus Unavailability During Active Load}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Setup.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Finding.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Remaining risk.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Discussion}{16}{}\protected@file@percent }
+\newlabel{sec:discussion}{{8}{16}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}The Correct Signal Changes Everything}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Stabilization Semantics as a First-Class Design Dimension}{16}{}\protected@file@percent }
 \citation{mqtt_v31}
 \citation{soni2017mqtt}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Side-by-side comparison of all three failure scenarios. Left: Metric Staleness (\texttt  {scrape\_interval}~$= 60$~s) --- modest connection overshoot, 11~peak replicas, no connection loss. Centre: Instantaneous Spike (\texttt  {RAMP\_UP}~$= 0$~s) --- fastest scale-up (6~s), no overshoot, scheduling latency is the bottleneck. Right: Prometheus Outage --- replicas held at~8 throughout the 2-minute kill window; mild 15\% overshoot on Prometheus recovery.}}{17}{}\protected@file@percent }
+\newlabel{fig:failure_comparative}{{12}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Step-Rate Limiting as a Safety Mechanism}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Generalizability Beyond WebSocket}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Operational and Fairness Considerations}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}MQTT Extension: Protocol Generalization}{17}{}\protected@file@percent }
+\newlabel{sec:mqtt_extension}{{9}{17}{}{}{}}
 \citation{behera2026hpa}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Side-by-side comparison of all three failure scenarios. Left: Metric Staleness (\texttt  {scrape\_interval}~$= 60$~s) --- modest connection overshoot, 11~peak replicas, no connection loss. Centre: Instantaneous Spike (\texttt  {RAMP\_UP}~$= 0$~s) --- fastest scale-up (6~s), no overshoot, scheduling latency is the bottleneck. Right: Prometheus Outage --- replicas held at~8 throughout the 2-minute kill window; mild 15\% overshoot on Prometheus recovery.}}{16}{}\protected@file@percent }
-\newlabel{fig:failure_comparative}{{11}{16}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Generalizability Beyond WebSocket}{16}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Operational and Fairness Considerations}{16}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {9}MQTT Extension: Protocol Generalization}{16}{}\protected@file@percent }
-\newlabel{sec:mqtt_extension}{{9}{16}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}MQTT-A: CPU HPA Baseline}{16}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces MQTT-A (CPU HPA baseline): total MQTT connections, replicas, CPU, memory, and per-pod connection panel. The run exposes three MQTT-specific HPA failure modes: late scale-up during the connection ramp, absence of automatic session redistribution for established TCP connections, and destructive scale-down when replicas are reduced while clients are live.}}{17}{}\protected@file@percent }
-\newlabel{fig:mqtt_a_plot}{{12}{17}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}MQTT-B: StatefulAutoscaler with Drain}{17}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces MQTT-B (\texttt  {StatefulAutoscaler} with drain): the controller scales on \texttt  {sum(active\_connections)}, reaching 3~replicas at $t = 38$~s ($\lceil 339/150 \rceil $). Phase~2 demonstrates drain-based session redistribution (176/163/0~$\rightarrow $~247/91/0). Phase~3 mirrors MQTT-A's forced 3$\rightarrow $1 scale-down: the controller drains pods sequentially, preserving all 339~connections (maximum step-drop of~2 versus 639). Connections reach zero only after the load generator is deleted.}}{18}{}\protected@file@percent }
-\newlabel{fig:mqtt_b_plot}{{13}{18}{}{}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces MQTT extension results: CPU HPA versus \texttt  {StatefulAutoscaler} with drain semantics. The 339-client ceiling is a transport-level OS limitation present in both runs.}}{18}{}\protected@file@percent }
-\newlabel{tab:mqtt_results}{{5}{18}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {10}Limitations}{18}{}\protected@file@percent }
-\newlabel{sec:limitations}{{10}{18}{}{}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {11}Future Work}{19}{}\protected@file@percent }
-\newlabel{sec:future_work}{{11}{19}{}{}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}Overcoming the TCP/OS-Level Connection Ceiling}{19}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2}MQTT: Future Optimizations and Open Problems}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces MQTT-A (CPU HPA baseline): total MQTT connections, replicas, CPU, memory, and per-pod connection panel. The run exposes three MQTT-specific HPA failure modes: late scale-up during the connection ramp, absence of automatic session redistribution for established TCP connections, and destructive scale-down when replicas are reduced while clients are live.}}{18}{}\protected@file@percent }
+\newlabel{fig:mqtt_a_plot}{{13}{18}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}MQTT-A: CPU HPA Baseline}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}MQTT-B: StatefulAutoscaler with Drain}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces MQTT-B (\texttt  {StatefulAutoscaler} with drain): the controller scales on \texttt  {sum(active\_connections)}, reaching 3~replicas at $t = 38$~s ($\lceil 339/150 \rceil $). Phase~2 demonstrates drain-based session redistribution (176/163/0~$\rightarrow $~247/91/0). Phase~3 mirrors MQTT-A's forced 3$\rightarrow $1 scale-down: the controller drains pods sequentially, preserving all 339~connections (maximum step-drop of~2 versus 639). Connections reach zero only after the load generator is deleted.}}{19}{}\protected@file@percent }
+\newlabel{fig:mqtt_b_plot}{{14}{19}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces MQTT extension results: CPU HPA versus \texttt  {StatefulAutoscaler} with drain semantics. The 339-client ceiling is a transport-level OS limitation present in both runs.}}{19}{}\protected@file@percent }
+\newlabel{tab:mqtt_results}{{6}{19}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Limitations}{19}{}\protected@file@percent }
+\newlabel{sec:limitations}{{10}{19}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Future Work}{20}{}\protected@file@percent }
+\newlabel{sec:future_work}{{11}{20}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}Overcoming the TCP/OS-Level Connection Ceiling}{20}{}\protected@file@percent }
 \citation{behera2026hpa}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.3}WebSocket: Future Extensions and Research Directions}{20}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {12}Conclusion}{20}{}\protected@file@percent }
-\newlabel{sec:conclusion}{{12}{20}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2}MQTT: Future Optimizations and Open Problems}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3}WebSocket: Future Extensions and Research Directions}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {12}Conclusion}{21}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{12}{21}{}{}{}}
 \bibstyle{spbasic}
 \bibdata{reference}
 \bibcite{mqtt_v31}{{1}{2014}{{Banks and Gupta}}{{}}}
@@ -189,4 +200,4 @@
 \bibcite{soni2017mqtt}{{13}{2017}{{Soni and Makwana}}{{}}}
 \bibcite{toka2021machine}{{14}{2021}{{Toka et~al.}}{{Toka, Dobreff, Fodor, and Sonkoly}}}
 \bibcite{zhong2020machine}{{15}{2020}{{Zhong and Buyya}}{{}}}
-\gdef \@abspage@last{21}
+\gdef \@abspage@last{23}

@@ -1,0 +1,7 @@
+{
+  "tag": "scale_cd120_T100_s15_st2_g90_c3200", "sweep": "scale",
+  "cooldown": 120, "target": 100, "scrape": 15, "step": 2,
+  "gap": 90, "clients": 3200,
+  "min_replicas": 2, "max_replicas": 34, "expected_replicas": 32,
+  "cycle1": 150, "cycle2": 150, "final_drop": 270
+}

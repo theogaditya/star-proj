@@ -40,6 +40,46 @@
 ./scripts/run-experiment-c.sh
 ```
 
+- **Experiment C — Scalability sweep (800 / 1600 / 3200 clients, single run):**
+	- Run:
+
+```bash
+./scripts/run-experiment-c-scale.sh
+```
+
+	- What it does: runs the two-cycle restorm scenario three times in sequence (once per client count) on a shared Kind cluster; calls `parse_sensitivity.py` + `plot_scalability.py`; leaves results under `results/raw/websocket/sensitivity/scale_*/` and `results/processed/websocket/scalability/`.
+
+- **Experiment C — Scalability sweep multi-run (N replicates):**
+	- Run:
+
+```bash
+N=3 ./scripts/run-experiment-c-scale-multi.sh
+# Optionally override client counts or wipe previous multi data:
+N=5 CLIENTS_LIST="800 1600 3200" ./scripts/run-experiment-c-scale-multi.sh
+CLEAN_MULTI=1 N=3 ./scripts/run-experiment-c-scale-multi.sh
+```
+
+	- **Result layout:**
+
+| Path | Contents |
+|------|----------|
+| `results/raw/websocket/experiment-c-scale/` | Raw logs for the *current* (last) single run |
+| `results/processed/websocket/experiment-c-scale/` | Parsed CSVs + plots for the current single run |
+| `results/tar/experiment-c-scale_run_<i>_<ts>.tgz` | Per-run archive (raw + processed bundled together) |
+| `results/raw/websocket/multi/experiment-c-scale/run_<i>/` | Saved raw logs for each replicate |
+| `results/processed/websocket/multi/experiment-c-scale/run_<i>/` | Saved processed results for each replicate |
+| `results/processed/websocket/multi/experiment-c-scale/aggregate_stats.csv` | Cross-run mean ± std per client count |
+| `results/processed/websocket/multi/experiment-c-scale/plots/scalability_aggregate.png` | Aggregate 3-panel summary plot |
+
+	- Each run archives itself to `results/tar/` **before** being moved into the multi-run store, so no data is ever lost between iterations.
+	- After all N runs `analysis/scalability/aggregate_scale.py` is called automatically to produce the aggregate CSV and plot.
+	- To re-run the aggregation manually on existing multi data:
+
+```bash
+python3 analysis/scalability/aggregate_scale.py \
+  --multi-proc-dir results/processed/websocket/multi/experiment-c-scale
+```
+
 - **Multi-run (N replicates):**
 	- Example:
 
