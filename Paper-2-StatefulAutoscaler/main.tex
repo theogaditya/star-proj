@@ -96,13 +96,15 @@ modes by scaling exclusively on \texttt{sum(active\_connections)} queried from P
 incorporating a sliding-window stabilization mechanism (\texttt{scaleDownCooldownSeconds}) to
 suppress premature scale-down during transient connection drops. Controlled experimental
 evaluation across a two-cycle reconnection storm simulation (Experiment~C, five independent
-runs) demonstrates exact replica targeting ($\lceil800/100\rceil = 8$ replicas, 0\% waste), zero
+runs) demonstrates near-exact replica targeting (steady-state convergence to
+$\lceil800/100\rceil = 8$ replicas with a transient overshoot bounded to $+2$ replicas during
+the ramp, versus CPU HPA's permanent 15-replica over-provisioning), zero
 connection loss across all observed scaling events, and complete pod preservation through a
 90-second disconnection gap via the stabilization window (scale-down reaction time
 $119 \pm 2$~s; pod-seconds $4{,}280 \pm 67$). Scalability validation at 800, 1{,}600, and
-3{,}200 concurrent clients confirms linear replica targeting ($\lceil N/T \rceil + 2$
-maxReplicas, achieved peak within 2 replicas of the formula prediction), scale-up reaction
-times of 66--86~s, and 100\% connection preservation through DROP~1 at every scale; the
+3{,}200 concurrent clients confirms near-linear replica tracking: achieved peak replicas
+remain within $+2$ of the formula $\lceil N/T \rceil$ at every scale, scale-up reaction
+times are 66--86~s, and 100\% connection preservation through DROP~1 is maintained; the
 Kind OS-level TCP ceiling is documented at $\approx$3{,}392 achieved connections for 3{,}200
 attempted. Comparative baseline evaluation against HPA
 augmented with a custom connection-count metric via the Prometheus Adapter (Experiment~D,
@@ -168,17 +170,19 @@ following contributions:
 
 \item \textbf{Controlled experimental validation with statistical replication (Experiment~C).}
   Under a two-cycle reconnection storm simulation with five independent runs, we
-  demonstrate exact replica targeting ($\lceil800/100\rceil = 8$, versus CPU HPA's~15),
-  complete pod preservation through a 90-second total disconnection gap, and zero
+  demonstrate near-exact replica targeting (steady-state at $\lceil800/100\rceil = 8$
+  replicas with transient overshoot $\leq +2$, versus CPU HPA's permanent 15-replica
+  waste), complete pod preservation through a 90-second total disconnection gap, and zero
   connection loss across all scaling events. Statistical reproducibility is confirmed
   (scale-down reaction $\sigma = 2$~s, pod-seconds $\sigma = 67$).
 
 \item \textbf{Scalability validation at 800, 1{,}600, and 3{,}200 clients.}
-  We replicate the Experiment~C two-cycle restorm at $4\times$ the baseline client count,
-  confirming linear replica targeting ($\lceil N/T \rceil$ replicas achieved within 2~replicas
-  of the formula prediction at every scale), scale-up reaction times of 66--86~s, and 100\%
-  connection preservation through the 90-second DROP~1 gap. The Kind OS-level TCP ceiling
-  is documented at $\approx$3{,}392 achieved connections for 3{,}200 attempted clients.
+  We replicate the Experiment~C two-cycle restorm at $4\times$ the baseline client count.
+  Replica counts track the $\lceil N/T \rceil$ formula within a bounded overshoot of
+  $+2$~replicas at every scale; scale-up reaction times are 66--86~s; and 100\% connection
+  preservation through the 90-second DROP~1 gap is maintained with no parameter
+  re-tuning. The Kind OS-level TCP ceiling is documented at $\approx$3{,}392 achieved
+  connections for 3{,}200 attempted clients.
 
 \item \textbf{Comparative baseline evaluation (Experiments D and E).} To determine
   whether performance differences arise from metric choice alone or controller architecture,
@@ -849,7 +853,7 @@ strictly superior outcome are denoted in \textbf{bold}.}
 \textbf{Performance Metric} & \textbf{HPA --- Experiment~B3} & \textbf{StatefulAutoscaler --- Exp.~C} \\
 \midrule
 Primary scaling signal & CPU utilization (\%) & \textbf{\texttt{sum(active\_connections)}} \\
-Replicas for 800 connections & 15 (87.5\% over-provisioned) & \textbf{8} (exact: $\lceil800/100\rceil$) \\
+Replicas for 800 connections & 15 (87.5\% over-provisioned) & \textbf{8--10} (target $\lceil800/100\rceil=8$; transient peak 10) \\
 Connections lost during scale-down & 800$\rightarrow$79 (staircase) & \textbf{0} \\
 Pods held through 90-second gap & 0 (all scaled down) & \textbf{8} (flat bridge) \\
 Reconnection storm generated & Yes (peak 1,400~conn/s) & \textbf{None} \\
@@ -930,14 +934,18 @@ Kind OS-level TCP ceiling.}
 \end{tabular}
 \end{table*}
 
-\paragraph{Linear replica targeting.}
-At every scale, the controller converged to a peak replica count within 2~replicas of the
-formula prediction $\lceil N / T \rceil$: 10~vs.~8 at 800~clients, 18~vs.~16 at 1{,}600, and
-34~vs.~32 at 3{,}200. The consistent $+2$ overshoot is attributable to discrete-step
-metric-to-decision latency during the CYCLE~1 ramp: because connections arrive faster
-than the 5-second reconciliation period can converge, the controller briefly overshoots
-before the window stabilises. This is the same mechanism observed in the single-scale
-five-run replication (Section~\ref{sec:exp_c_multi}).
+\paragraph{Replica tracking with bounded transient overshoot.}
+At every scale, the controller's peak replica count was within $+2$ of the steady-state
+formula prediction $\lceil N / T \rceil$: 10 vs.\ 8 at 800~clients, 18 vs.\ 16 at
+1{,}600, and 34 vs.\ 32 at 3{,}200. This consistent $+2$ transient overshoot is the
+expected behaviour of a discrete-time controller operating under metric-reporting
+latency: during the CYCLE~1 ramp, connections arrive faster than the 5-second
+reconciliation period can converge, so the controller briefly overshoots before
+stabilising at the formula value. Crucially, the overshoot is bounded, reproducible, and
+does not grow with client count --- confirming that the controller tracks $\lceil N/T\rceil$
+with predictable, finite error rather than exhibiting runaway provisioning. This is the
+same transient mechanism documented in the single-scale five-run replication
+(Section~\ref{sec:exp_c_multi}).
 
 \paragraph{Scale-up reaction time.}
 Reaction times were 66~s at 800 and 1{,}600~clients and increased modestly to 86~s at
@@ -976,13 +984,16 @@ bottleneck for the WebSocket workload in the Kind environment.}
 \end{figure*}
 
 \begin{keyresult}
-\noindent\textbf{Conclusion.} The \texttt{StatefulAutoscaler}'s connection-density formula
-($\lceil N / T \rceil$) produces correct replica targeting across a $4\times$ range of
-client counts (800 to 3{,}200). Scale-up reaction time degrades sub-linearly (66~s to 86~s),
-connection preservation through the 90-second DROP~1 gap is maintained at every scale
-(100\% safe), and no OS-level TCP ceiling was observed for the WebSocket workload.
-These results confirm that the controller's architecture scales without parameter
-re-tuning beyond adjusting \texttt{maxReplicas}.
+\noindent\textbf{Conclusion.} Across a $4\times$ range of client counts (800 to
+3{,}200), the \texttt{StatefulAutoscaler} tracks the theoretical replica target
+$\lceil N / T \rceil$ with a bounded transient overshoot of exactly $+2$~replicas
+at every scale --- a consistent, predictable artefact of discrete-time reconciliation
+under connection-ramp conditions, not a control-law defect. Scale-up reaction time
+degrades sub-linearly (66~s to 86~s), 100\% connection preservation through DROP~1
+is maintained at every scale, and no OS-level TCP ceiling was encountered for the
+WebSocket workload. No parameter re-tuning beyond adjusting \texttt{maxReplicas} was
+required, confirming that the controller's architecture scales in practical proportion
+to the client count.
 \end{keyresult}
 
 
@@ -1613,16 +1624,17 @@ scaling signal for persistent-connection workloads and cannot be remediated by H
 parameter tuning alone.
 
 Controlled experimental evaluation under a two-cycle reconnection storm simulation
-(Experiment~C, five independent runs, runs~2--5) yielded the following outcomes: exact
-replica targeting (8~replicas for 800~connections at a target density of 100~connections/pod,
-0\% waste); zero connection loss across all scaling events; all 8~pods maintained in warm
-state through a 90-second complete disconnection gap via the sliding-window stabilization
-mechanism; and complete CPU independence, with the controller operating correctly at
-\texttt{CPU\_WORK}~$= 0$ throughout (\textit{scale-down reaction} $119 \pm 2$~s;
-\textit{pod-seconds} $4{,}280 \pm 67$). Scalability validation at 1{,}600 and 3{,}200
-concurrent clients confirmed linear replica targeting ($\lceil N/T \rceil$ within 2~replicas
-at every scale), 66--86~s scale-up reaction times, and 100\% connection preservation through
-DROP~1, with no OS-level TCP ceiling observed for the WebSocket workload.
+(Experiment~C, five independent runs, runs~2--5) yielded the following outcomes:
+near-exact replica targeting (steady-state convergence to $\lceil800/100\rceil = 8$
+replicas with a transient ramp overshoot bounded to $+2$~replicas, versus CPU HPA's
+permanent 15-replica waste); zero connection loss across all scaling events; all 8~pods
+maintained in warm state through a 90-second complete disconnection gap via the
+sliding-window stabilization mechanism; and complete CPU independence
+(\textit{scale-down reaction} $119 \pm 2$~s; \textit{pod-seconds} $4{,}280 \pm 67$).
+Scalability validation at 1{,}600 and 3{,}200 clients confirmed that replica counts track
+$\lceil N/T \rceil$ within a $+2$-replica bounded overshoot at every scale, scale-up
+reaction times are 66--86~s, and 100\% connection preservation through DROP~1 is
+maintained with no parameter re-tuning and no OS-level TCP ceiling.
 
 Comparative baseline evaluations (Experiments~D and~E) delivered a nuanced finding: both
 HPA with a custom connection-count metric (\texttt{stabilizationWindowSeconds:~300}) and
