@@ -1,0 +1,7 @@
+{
+  "tag": "target_cd120_T200_s15_st2_g90_c800", "sweep": "target",
+  "cooldown": 120, "target": 200, "scrape": 15, "step": 2,
+  "gap": 90, "clients": 800,
+  "min_replicas": 2, "max_replicas": 6, "expected_replicas": 4,
+  "cycle1": 150, "cycle2": 150, "final_drop": 270
+}

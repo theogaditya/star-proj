@@ -1,0 +1,1416 @@
+1781615341
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615346
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615351
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615356
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615361
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615367
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615372
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615377
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          113m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          113m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615382
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615387
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615392
+NAME                               READY   STATUS    RESTARTS   AGE    IP           NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7   stateful-sens-worker   <none>           <none>
+1781615397
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3s     10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3s     10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615402
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          8s     10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          8s     10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615407
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          13s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          13s    10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615412
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          18s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3s     10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          18s    10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615417
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          23s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          8s     10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          23s    10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615422
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          28s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          13s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          28s    10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615427
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          33s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          18s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3s     10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          33s    10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615432
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          38s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          23s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          8s     10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          38s    10.244.1.171   stateful-sens-worker   <none>           <none>
+1781615437
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          114m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          43s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          28s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          13s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          114m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          43s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3s     10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615442
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          48s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          33s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          18s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          48s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          8s     10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615447
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          53s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          38s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          23s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3s     10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          53s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          13s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615452
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          59s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          44s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          29s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          9s     10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          59s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          19s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615458
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          64s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          49s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          34s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          14s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          64s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          24s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615463
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          69s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          54s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          39s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          19s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          69s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          29s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615468
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          74s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          59s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          44s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          24s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          74s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          34s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615473
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          79s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          64s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          49s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          29s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          79s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          39s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615478
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          84s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          69s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          54s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          34s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          84s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          44s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615483
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          89s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          74s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          59s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          39s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          89s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          49s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615488
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          94s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          79s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          64s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          44s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          94s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          54s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615493
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          99s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          84s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          69s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          49s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          99s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          59s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615498
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          115m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          104s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          89s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          74s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          54s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          115m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          104s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          64s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615503
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          109s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          94s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          79s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          59s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          109s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          69s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615508
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          114s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          99s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          84s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          64s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          114s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          74s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615513
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          119s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          104s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          89s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          69s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          119s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          79s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615518
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m4s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          109s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          94s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          74s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m4s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          84s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615523
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m9s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          114s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          99s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          79s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m   10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m9s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          89s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615528
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m14s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          119s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          104s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          84s     10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m14s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          94s     10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615533
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m19s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m4s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          109s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          89s     10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m19s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          99s     10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615538
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m24s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m9s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          114s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          94s     10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m24s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          104s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615543
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m29s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m14s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          119s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          99s     10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m29s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          109s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615548
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m34s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m19s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m4s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          104s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m34s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          114s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615553
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m40s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m25s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m10s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          110s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m40s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m      10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615559
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          116m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m45s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m30s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m15s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          115s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          116m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m45s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m5s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615564
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m50s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m35s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m20s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m      10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m50s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m10s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615569
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          2m55s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m40s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m25s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m5s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          2m55s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m15s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615574
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m      10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m45s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m30s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m10s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m      10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m20s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615579
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m5s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m50s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m35s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m15s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m5s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m25s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615584
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m10s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          2m55s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m40s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m20s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m10s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m30s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615589
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m15s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m      10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m45s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m25s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m15s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m35s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615594
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m20s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m5s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m50s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m30s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m20s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m40s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615599
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m25s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m10s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          2m55s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m35s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m25s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m45s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615604
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m30s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m15s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m      10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m40s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m30s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m50s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615609
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m35s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m20s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m5s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m45s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m35s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          2m55s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615614
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m40s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m25s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m10s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m50s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m40s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m      10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615619
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          117m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m45s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m30s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m15s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          2m55s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          117m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m45s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m5s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615624
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m50s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m35s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m20s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m      10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m50s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m10s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615629
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          3m55s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m40s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m25s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m5s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          3m55s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m15s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615634
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m      10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m45s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m30s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m10s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m      10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m20s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615639
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m5s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m50s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m35s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m15s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m5s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m25s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615644
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m10s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          3m55s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m40s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m20s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m10s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m30s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615649
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m15s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m      10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m45s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m25s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m15s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m35s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615654
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m21s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m6s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m51s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m31s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m21s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m41s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615660
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m26s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m11s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          3m56s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m36s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m26s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m46s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615665
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m31s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m16s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m1s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m41s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m31s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m51s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615670
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m36s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m21s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m6s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m46s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m36s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          3m56s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615675
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          118m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m41s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m26s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m11s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m51s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          118m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m41s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m1s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615680
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m46s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m31s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m16s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          3m56s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m46s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m6s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615685
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m51s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m36s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m21s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          4m1s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m51s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m11s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615690
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          4m56s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m41s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m26s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          4m6s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          4m56s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m16s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615695
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          5m1s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m46s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m31s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          4m11s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          5m1s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m21s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615700
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          5m6s    10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m51s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m36s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          4m16s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          5m6s    10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m26s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615705
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          5m11s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          4m56s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m41s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          4m21s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          5m11s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m31s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615710
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          5m16s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          5m1s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m46s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          4m26s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          5m16s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m36s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615715
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running   0          5m21s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Running   0          5m6s    10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running   0          4m51s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Running   0          4m31s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running   0          5m21s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running   0          4m41s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615720
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Running       0          5m26s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Terminating   0          5m11s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running       0          4m56s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Terminating   0          4m36s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Running       0          5m26s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running       0          4m46s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615725
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Terminating   0          5m31s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Terminating   0          5m16s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Running       0          5m1s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Terminating   0          4m41s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Terminating   0          5m31s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Running       0          4m51s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615730
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Terminating   0          5m36s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Terminating   0          5m21s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Terminating   0          5m6s    10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Terminating   0          4m46s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Terminating   0          5m36s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Terminating   0          4m56s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615735
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          119m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Terminating   0          5m41s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Terminating   0          5m26s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Terminating   0          5m11s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Terminating   0          4m51s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          119m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Terminating   0          5m41s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Terminating   0          5m1s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615740
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          120m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running       0          0s      10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Terminating   0          5m46s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Terminating   0          5m31s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Terminating   0          5m16s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Terminating   0          4m56s   10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          120m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Terminating   0          5m46s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Terminating   0          5m6s    10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615745
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-66tqg   1/1     Running       0          0s      10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          120m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running       0          5s      10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Terminating   0          5m51s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-dkcqj   1/1     Terminating   0          5m36s   10.244.1.172   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Terminating   0          5m21s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-nczqm   1/1     Terminating   0          5m1s    10.244.1.175   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          120m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Terminating   0          5m51s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Terminating   0          5m11s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615750
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-66tqg   1/1     Running       0          6s      10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          120m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running       0          11s     10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-c62wb   1/1     Terminating   0          5m57s   10.244.1.170   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Terminating   0          5m27s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          120m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-vz2qh   1/1     Terminating   0          5m57s   10.244.1.171   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Terminating   0          5m17s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615756
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running       0          1s      10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running       0          11s     10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          120m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running       0          16s     10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-n696r   1/1     Terminating   0          5m32s   10.244.1.173   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          120m    10.244.1.7     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-xnwvh   1/1     Terminating   0          5m22s   10.244.1.174   stateful-sens-worker   <none>           <none>
+1781615761
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          6s     10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          16s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          21s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615766
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          11s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          21s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          26s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          1s     10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615771
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          16s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          26s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          31s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          1s     10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          6s     10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615776
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          21s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          31s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          36s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          6s     10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          11s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615781
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          26s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          36s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          41s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          11s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          1s     10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          16s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615786
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          31s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          41s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          46s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          16s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          6s     10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          21s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615791
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          36s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          46s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          51s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          21s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          11s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          26s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615796
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          41s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          51s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          120m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          56s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          26s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          16s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          31s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          120m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615801
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          46s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          56s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          61s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          31s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          21s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          36s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615806
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          51s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          61s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          66s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          36s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          26s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          41s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615811
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          56s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          66s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          71s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          41s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          31s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          46s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615816
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          61s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          71s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          76s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          46s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          36s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          51s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615821
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          66s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          76s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          81s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          51s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          41s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          56s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615826
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          71s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          81s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          86s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          56s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          46s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          61s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615831
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          76s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          86s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          91s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          61s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          51s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          66s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615836
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          81s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          91s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          96s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          66s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          56s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          71s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615841
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          86s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          96s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          101s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          71s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          61s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          76s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615846
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          92s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          102s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          107s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          77s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          67s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          82s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615852
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          97s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          107s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          112s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          82s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          72s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          87s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615857
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          102s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          112s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          121m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          117s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          87s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          77s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          92s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          121m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615862
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          107s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          117s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m2s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          92s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          82s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          97s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615867
+NAME                               READY   STATUS    RESTARTS   AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          112s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m2s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m   10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m7s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          97s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          87s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          102s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m   10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615872
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          117s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m7s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m12s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          102s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          92s     10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          107s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615877
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m2s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m12s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m17s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          107s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          97s     10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          112s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615882
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m7s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m17s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m22s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          112s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          102s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          117s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615887
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m12s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m22s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m27s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          117s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          107s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m2s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615892
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m17s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m27s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m32s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m2s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          112s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m7s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615897
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m22s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m32s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m37s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m7s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          117s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m12s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615902
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m27s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m37s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m42s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m12s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m2s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m17s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615907
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m32s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m42s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m47s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m17s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m7s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m22s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615912
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m37s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m47s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m52s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m22s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m12s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m27s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615917
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m42s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m52s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          122m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          2m57s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m27s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m17s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m32s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          122m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615922
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m47s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          2m57s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m2s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m32s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m22s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m37s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615927
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m52s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m2s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m7s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m37s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m27s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m42s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615932
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          2m57s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m7s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m12s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m42s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m32s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m47s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615937
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m2s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m12s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m17s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m47s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m37s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m52s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615942
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m7s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m17s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m22s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m52s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m42s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          2m57s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615947
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m13s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m23s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m28s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          2m58s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m48s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m3s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615953
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m18s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m28s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m33s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m3s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m53s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m8s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615958
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m23s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m33s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m38s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m8s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          2m58s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m13s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615963
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m28s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m38s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m43s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m13s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m3s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m18s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615968
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m33s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m43s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m48s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m18s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m8s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m23s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615973
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m38s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m48s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m53s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m23s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m13s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m28s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615978
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m43s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m53s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          123m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          3m58s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m28s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m18s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m33s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          123m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615983
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m48s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          3m58s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m3s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m33s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m23s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m38s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615988
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m53s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m3s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m8s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m38s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m28s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m43s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615993
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          3m58s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m8s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m13s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m43s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m33s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m48s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781615998
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m3s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m13s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m18s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m48s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m38s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m53s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616003
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m8s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m18s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m23s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m53s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m43s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          3m58s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616008
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m13s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m23s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m28s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          3m58s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m48s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m3s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616013
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m18s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m28s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m33s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m3s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m53s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m8s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616018
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m23s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m33s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m38s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m8s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          3m58s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m13s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616023
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m28s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m38s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m43s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m13s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m3s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m18s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616028
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m33s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m43s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m48s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m18s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m8s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m23s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616033
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m38s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m48s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m53s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m23s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m13s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m28s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616038
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m43s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m53s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          124m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          4m58s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m28s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m18s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m33s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          124m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616043
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m49s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          4m59s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          5m4s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m34s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m24s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m39s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616049
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m54s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          5m4s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          5m9s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m39s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m29s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m44s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616054
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          4m59s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          5m9s    10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          5m14s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m44s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m34s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m49s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616059
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          5m4s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          5m14s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          5m19s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m49s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m39s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m54s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616064
+NAME                               READY   STATUS    RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running   0          5m9s    10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running   0          5m19s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running   0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running   0          5m24s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Running   0          4m54s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Running   0          4m44s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running   0          4m59s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running   0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616069
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Running       0          5m14s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Running       0          5m24s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running       0          5m29s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Terminating   0          4m59s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Terminating   0          4m49s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running       0          5m4s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616074
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Terminating   0          5m19s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Terminating   0          5m29s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Running       0          5m34s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Terminating   0          5m4s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Terminating   0          4m54s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Running       0          5m9s    10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616079
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Terminating   0          5m24s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Terminating   0          5m34s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Terminating   0          5m39s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Terminating   0          5m9s    10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Terminating   0          4m59s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Terminating   0          5m14s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616084
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Terminating   0          5m29s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Terminating   0          5m39s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Terminating   0          5m44s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Terminating   0          5m14s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Terminating   0          5m4s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Terminating   0          5m19s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616089
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Terminating   0          5m34s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Terminating   0          5m44s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Terminating   0          5m49s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Terminating   0          5m19s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Terminating   0          5m9s    10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Terminating   0          5m24s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616094
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Terminating   0          5m39s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Terminating   0          5m49s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Terminating   0          5m54s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-rv74c   1/1     Terminating   0          5m24s   10.244.1.181   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-sftpz   1/1     Terminating   0          5m14s   10.244.1.182   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Terminating   0          5m29s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616099
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-5cccz   1/1     Terminating   0          5m44s   10.244.1.179   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-66tqg   1/1     Terminating   0          5m54s   10.244.1.178   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          125m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Terminating   0          5m59s   10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Terminating   0          5m34s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          125m    10.244.1.7     stateful-sens-worker   <none>           <none>
+1781616104
+NAME                               READY   STATUS        RESTARTS   AGE     IP             NODE                   NOMINATED NODE   READINESS GATES
+websocket-server-56c97f4c7-6q5vs   1/1     Running       0          126m    10.244.1.8     stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-9vhts   1/1     Terminating   0          6m4s    10.244.1.177   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-svnb6   1/1     Terminating   0          5m39s   10.244.1.180   stateful-sens-worker   <none>           <none>
+websocket-server-56c97f4c7-t7zg4   1/1     Running       0          126m    10.244.1.7     stateful-sens-worker   <none>           <none>

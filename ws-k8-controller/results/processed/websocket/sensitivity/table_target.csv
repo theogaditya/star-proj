@@ -1,0 +1,5 @@
+tag,sweep,cooldown,target,scrape,step,gap,clients,expected_replicas,scale_up_s,replicas_at_gap_start,min_replicas_gap,safe,scaledown_reaction_s,scaledown_duration_s,max_step_down,blast_radius_conns,peak_replicas,peak_connections
+target_cd120_T100_s15_st2_g90_c800,target,120,100,15,2,90,800,8,56,8,8,1,83,164,2,200,10,984.0
+target_cd120_T150_s15_st2_g90_c800,target,120,150,15,2,90,800,6,56,6,6,1,83,159,2,300,7,979.0
+target_cd120_T200_s15_st2_g90_c800,target,120,200,15,2,90,800,4,31,4,4,1,84,155,2,400,5,891.0
+target_cd120_T50_s15_st2_g90_c800,target,120,50,15,2,90,800,16,71,16,16,1,88,179,2,100,18,960.0

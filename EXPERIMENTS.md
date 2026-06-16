@@ -18,7 +18,7 @@ All commands run from `ws-k8-controller/`. Requires: docker, kind, kubectl, make
 - Logs: `ws-k8-controller/logs/<experiment>_<timestamp>.log`
 - Raw data: `ws-k8-controller/results/raw/...`
 - Tables + plots: `ws-k8-controller/results/processed/...` (auto-copied to `Paper-2-StatefulAutoscaler/figures/`)
-- Key plot: `figures/sensitivity/safe_zone_boundary.png` (safe-zone boundary)
+- Key plot: `figures/sensitivity/safe_zone_boundary.png` (observed safe operating region: cooldown–gap combinations)
 - After runs, fill the `XX` placeholders in `Paper-2-StatefulAutoscaler/main.tex` from the generated `table_*.csv` files.
 
 ## If an experiment fails

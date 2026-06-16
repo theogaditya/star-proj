@@ -1,0 +1,7 @@
+{
+  "tag": "scrape_cd120_T100_s30_st2_g90_c800", "sweep": "scrape",
+  "cooldown": 120, "target": 100, "scrape": 30, "step": 2,
+  "gap": 90, "clients": 800,
+  "min_replicas": 2, "max_replicas": 10, "expected_replicas": 8,
+  "cycle1": 150, "cycle2": 150, "final_drop": 270
+}
