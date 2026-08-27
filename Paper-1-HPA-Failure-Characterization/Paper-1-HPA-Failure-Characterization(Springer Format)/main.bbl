@@ -1,0 +1,152 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem{liu2023prediction}
+Toward optimal load prediction and customizable autoscaling scheme for kubernetes.
+\newblock Mathematics \textbf{11}(12), 2675 (2023).
+\newblock \doi{10.3390/math11122675}
+
+\bibitem{ahmad2024smarthpa}
+Ahmad, H., Treude, C., Wagner, M., Szabo, C.: Smart {HPA}: A resource-efficient horizontal pod auto-scaler for microservice architectures.
+\newblock In: Proceedings of the IEEE International Conference on Software Architecture (ICSA), pp. 46--57. IEEE (2024).
+\newblock \doi{10.1109/ICSA59870.2024.00013}
+
+\bibitem{ali2024cmsweb}
+Ali, A., Imran, M., Kuznetsov, V., Trigazis, S., Pervaiz, A., Pfeiffer, A., Mascheroni, M.: Implementation of new security features in cmsweb kubernetes cluster at cern.
+\newblock Cluster Computing  (2024).
+\newblock \doi{10.1007/s10586-024-04626-6}
+
+\bibitem{burns2016borg}
+Burns, B., Grant, B., Oppenheimer, D., Brewer, E., Wilkes, J.: Borg, omega, and kubernetes \textbf{14}(1), 70--93 (2016).
+\newblock \doi{10.1145/2898442.2898444}
+
+\bibitem{casalicchio2019performance}
+Casalicchio, E.: A study on performance measures for auto-scaling cpu-intensive containerized applications.
+\newblock Cluster Computing \textbf{22}, 995--1006 (2019).
+\newblock \doi{10.1007/s10586-018-02890-1}
+
+\bibitem{casalicchio2017auto}
+Casalicchio, E., Perciballi, V.: Auto-scaling of containers: the impact of relative and absolute metrics.
+\newblock In: 2017 IEEE 2nd International Workshops on Foundations and Applications of Self-* Systems (FAS*W), pp. 207--214. IEEE, New York, NY, USA (2017).
+\newblock \doi{10.1109/FAS-W.2017.149}
+
+\bibitem{dickel2019evaluation}
+Dickel, H., Podolskiy, V., Gerndt, M.: Evaluation of autoscaling metrics for (stateful) {IoT} gateways.
+\newblock In: 2019 IEEE 12th Conference on Service-Oriented Computing and Applications (SOCA), pp. 17--24. IEEE, New York, NY, USA (2019).
+\newblock \doi{10.1109/SOCA.2019.00011}
+
+\bibitem{entrialgo2024joint}
+Entrialgo, J., Garc\'ia, M., Garc\'ia, J., L\'opez, J.M.: Joint autoscaling of containers and virtual machines for cost optimization in container clusters.
+\newblock Journal of Grid Computing \textbf{22}, 17 (2024).
+\newblock \doi{10.1007/s10723-023-09732-4}
+
+\bibitem{websocket_rfc}
+Fette, I., Melnikov, A.: {The WebSocket Protocol}.
+\newblock RFC 6455, IETF (2011).
+\newblock \doi{10.17487/RFC6455}
+
+\bibitem{hellerstein2004feedback}
+Hellerstein, J.L., Diao, Y., Parekh, S., Tilbury, D.M.: Feedback Control of Computing Systems.
+\newblock John Wiley \& Sons, Hoboken, NJ, USA (2004)
+
+\bibitem{herbst2013elasticity}
+Herbst, N.R., Kounev, S., Reussner, R.: Elasticity in cloud computing: What it is, and what it is not.
+\newblock In: Proceedings of the 10th International Conference on Autonomic Computing (ICAC), pp. 23--27. USENIX Association, Berkeley, CA, USA (2013)
+
+\bibitem{hightower2017kubernetes}
+Hightower, K., Burns, B., Beda, J.: Kubernetes: Up and Running.
+\newblock O'Reilly Media, Sebastopol, CA (2017)
+
+\bibitem{khaleq2023intelligent}
+Khaleq, A.A., Ra, I.: Intelligent microservices autoscaling module using reinforcement learning.
+\newblock Cluster Computing \textbf{26}(5), 2789--2800 (2023).
+\newblock \doi{10.1007/s10586-023-03999-8}
+
+\bibitem{k8s_container_lifecycle_hooks}
+{Kubernetes Authors}: Container lifecycle hooks - kubernetes documentation.
+\newblock \url{https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{k8s_hpa_docs}
+{Kubernetes Authors}: Horizontal pod autoscaling - kubernetes documentation.
+\newblock \url{https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{k8s_pod_lifecycle}
+{Kubernetes Authors}: Pod lifecycle - kubernetes documentation.
+\newblock \url{https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{kind_docs}
+{Kubernetes SIGs}: kind - kubernetes in docker.
+\newblock \url{https://kind.sigs.k8s.io/} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{prometheus_adapter}
+{Kubernetes SIGs}: Kubernetes custom metrics adapter for {Prometheus}.
+\newblock \url{https://github.com/kubernetes-sigs/prometheus-adapter} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{k8s_metrics_server}
+{Kubernetes SIGs}: Metrics server.
+\newblock \url{https://github.com/kubernetes-sigs/metrics-server} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{lorido2014auto}
+Lorido-Botr{\'a}n, T., Miguel-Alonso, J., Lozano, J.A.: A review of auto-scaling techniques for elastic applications in cloud environments.
+\newblock Journal of Grid Computing \textbf{12}(4), 559--592 (2014).
+\newblock \doi{10.1007/s10723-014-9314-7}
+
+\bibitem{medel2024characterising}
+Medel, V., Tolosana-Calasanz, R., \'{A}ngel Ba\~{n}ares, J., Rana, O.F.: Characterising resource management performance in kubernetes.
+\newblock Future Generation Computer Systems  (2024).
+\newblock Accepted / published in 2024
+
+\bibitem{merkel2014docker}
+Merkel, D.: Docker: Lightweight linux containers for consistent development and deployment \textbf{2014}(239) (2014)
+
+\bibitem{nguyen2020hpa}
+Nguyen, T.T., Yeom, Y., Kim, T., Park, D.H., Kim, S.: {Horizontal Pod Autoscaler} in {Kubernetes} for elastic container orchestration.
+\newblock Sensors \textbf{20}(16), 4621 (2020).
+\newblock \doi{10.3390/s20164621}
+
+\bibitem{pozdniakova2024sla}
+Pozdniakova, O., Ma\v{z}eika, D., Cholomskis, A.: Sla-adaptive threshold adjustment for a kubernetes {Horizontal Pod Autoscaler}.
+\newblock Electronics \textbf{13}(7), 1242 (2024).
+\newblock \doi{10.3390/electronics13071242}
+
+\bibitem{prometheus_docs}
+{Prometheus Authors}: Prometheus documentation.
+\newblock \url{https://prometheus.io/docs/introduction/overview/} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{prometheus_client_python}
+{Prometheus Authors}: Prometheus python client.
+\newblock \url{https://github.com/prometheus/client_python} (2024).
+\newblock Accessed: July 2026
+
+\bibitem{qu2018auto}
+Qu, C., Calheiros, R.N., Buyya, R.: Auto-scaling web applications in clouds: A taxonomy and survey.
+\newblock ACM Computing Surveys \textbf{51}(4), 1--33 (2018).
+\newblock \doi{10.1145/3148149}
+
+\bibitem{rossi2019horizontal}
+Rossi, F., Nardelli, M., Cardellini, V.: Horizontal and vertical scaling of container-based applications using reinforcement learning.
+\newblock In: 2019 IEEE 12th International Conference on Cloud Computing (CLOUD), pp. 329--338. IEEE, New York, NY, USA (2019).
+\newblock \doi{10.1109/CLOUD.2019.00061}
+
+\bibitem{tedeschi2021cmsweb}
+Tedeschi, M., Imran, M., Kuznetsov, V., Trendafilov, T., Ciangottini, D., Legger, F., Magini, N.: Migration of cmsweb cluster at cern to kubernetes: A comprehensive study.
+\newblock Cluster Computing  (2021).
+\newblock \doi{10.1007/s10586-021-03325-0}
+
+\bibitem{zhou2024ahpa}
+Zhou, Z., Zhang, C., Ma, L., et~al.: {AHPA}: Adaptive horizontal pod autoscaling systems on alibaba cloud container service for kubernetes.
+\newblock In: Proceedings of the AAAI Conference on Artificial Intelligence, pp. 15621--15629 (2024).
+\newblock \doi{10.1609/aaai.v37i13.26852}
+
+\end{thebibliography}

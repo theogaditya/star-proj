@@ -1,0 +1,2932 @@
+% Encoding: UTF-8
+
+@InCollection{Draper1987,
+  author   = {Joan E. Draper},
+  title    = {Paris by the Lake: Sources of {B}urnham's Plan of {C}hicago},
+  pages    = {107--19},
+  crossref = {Zukowsky1987},
+}
+
+@InCollection{Harrington1987,
+  author   = {Elaine Harrington},
+  title    = {International Influences on {H}enry {H}obson {R}ichardson's {G}lessner {H}ouse},
+  pages    = {189--207},
+  crossref = {Zukowsky1987},
+}
+
+@InProceedings{youseff2008toward,
+  author       = {Youseff, Lamia and Butrico, Maria and Da Silva, Dilma},
+  title        = {Toward a unified ontology of cloud computing},
+  booktitle    = {Grid Computing Environments Workshop, 2008. GCE'08},
+  year         = {2008},
+  pages        = {1--10},
+  organization = {IEEE},
+}
+
+@Article{garg2013framework,
+  author    = {Garg, Saurabh Kumar and Versteeg, Steve and Buyya, Rajkumar},
+  title     = {A framework for ranking of cloud computing services},
+  journal   = {Future Generation Computer Systems},
+  year      = {2013},
+  volume    = {29},
+  number    = {4},
+  pages     = {1012--1023},
+  publisher = {Elsevier},
+}
+
+@Article{kumar2017prioritizing,
+  author    = {Kumar, Rakesh Ranjan and Mishra, Siba and Kumar, Chiranjeev},
+  title     = {Prioritizing the solution of cloud service selection using integrated MCDM methods under Fuzzy environment},
+  journal   = {The Journal of Supercomputing},
+  year      = {2017},
+  volume    = {73},
+  number    = {11},
+  pages     = {4652--4682},
+  publisher = {Springer},
+}
+
+@InProceedings{zhang2012declarative,
+  author       = {Zhang, Miranda and Ranjan, Rajiv and Nepal, Surya and Menzel, Michael and Haller, Armin},
+  title        = {A declarative recommender system for cloud infrastructure services selection},
+  booktitle    = {International Conference on Grid Economics and Business Models},
+  year         = {2012},
+  pages        = {102--113},
+  organization = {Springer},
+}
+
+@Article{jatoth2017evaluating,
+  author    = {Jatoth, Chandrashekar and Gangadharan, GR and Fiore, Ugo},
+  title     = {Evaluating the efficiency of cloud services using modified data envelopment analysis and modified super-efficiency data envelopment analysis},
+  journal   = {Soft Computing},
+  year      = {2017},
+  volume    = {21},
+  number    = {23},
+  pages     = {7221--7234},
+  publisher = {Springer},
+}
+
+@Article{sun2016cloud,
+  author    = {Sun, Le and Ma, Jiangang and Zhang, Yanchun and Dong, Hai and Hussain, Farookh Khadeer},
+  title     = {Cloud-FuSeR: Fuzzy ontology and MCDM based cloud service selection},
+  journal   = {Future Generation Computer Systems},
+  year      = {2016},
+  volume    = {57},
+  pages     = {42--55},
+  publisher = {Elsevier},
+}
+
+@Article{jatoth2018selcloud,
+  author    = {Jatoth, Chandrashekar and Gangadharan, GR and Fiore, Ugo and Buyya, Rajkumar},
+  title     = {SELCLOUD: a hybrid multi-criteria decision-making model for selection of cloud services},
+  journal   = {Soft Computing},
+  year      = {2018},
+  pages     = {1--15},
+  publisher = {Springer},
+}
+
+@InProceedings{wagner2012multi,
+  author       = {Wagner, Florian and Klein, Adrian and Kl{\"o}pper, Benjamin and Ishikawa, Fuyuki and Honiden, Shinichi},
+  title        = {Multi-objective service composition with time-and input-dependent QoS},
+  booktitle    = {Web Services (ICWS), 2012 IEEE 19th International Conference on},
+  year         = {2012},
+  pages        = {234--241},
+  organization = {IEEE},
+}
+
+@Article{luo2013business,
+  author    = {Luo, Yihang and Fan, Yushun and Wang, Haoyi},
+  title     = {Business correlation-aware modelling and services selection in business service ecosystem},
+  journal   = {International Journal of Computer Integrated Manufacturing},
+  year      = {2013},
+  volume    = {26},
+  number    = {8},
+  pages     = {772--785},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{kang2013web,
+  author    = {Kang, Guosheng and Liu, Jianxun and Tang, Mingdong and Cao, Buqing},
+  title     = {Web service selection algorithm based on principal component analysis},
+  journal   = {Journal of Electronics (China)},
+  year      = {2013},
+  volume    = {30},
+  number    = {2},
+  pages     = {204--212},
+  publisher = {Springer},
+}
+
+@Article{qi2016weighted,
+  author    = {Qi, Lianyong and Dou, Wanchun and Chen, Jinjun},
+  title     = {Weighted principal component analysis-based service selection method for multimedia services in cloud},
+  journal   = {Computing},
+  year      = {2016},
+  volume    = {98},
+  number    = {1-2},
+  pages     = {195--214},
+  publisher = {Springer},
+}
+
+@InCollection{hwang1981methods,
+  author    = {Hwang, Ching-Lai and Yoon, Kwangsun},
+  title     = {Methods for multiple attribute decision making},
+  booktitle = {Multiple attribute decision making},
+  publisher = {Springer},
+  year      = {1981},
+  pages     = {58--191},
+}
+
+@Article{boran2009multi,
+  author    = {Boran, Fatih Emre and Gen{\c{c}}, Serkan and Kurt, Mustafa and Akay, Diyar},
+  title     = {A multi-criteria intuitionistic fuzzy group decision making for supplier selection with TOPSIS method},
+  journal   = {Expert Systems with Applications},
+  year      = {2009},
+  volume    = {36},
+  number    = {8},
+  pages     = {11363--11368},
+  publisher = {Elsevier},
+}
+
+@Article{behzadian2012state,
+  author    = {Behzadian, Majid and Otaghsara, S Khanmohammadi and Yazdani, Morteza and Ignatius, Joshua},
+  title     = {A state-of the-art survey of TOPSIS applications},
+  journal   = {Expert Systems with Applications},
+  year      = {2012},
+  volume    = {39},
+  number    = {17},
+  pages     = {13051--13069},
+  publisher = {Elsevier},
+}
+
+@Article{mell2011nist,
+  author    = {Mell, Peter and Grance, Tim and others},
+  title     = {The NIST definition of cloud computing},
+  year      = {2011},
+  publisher = {Computer Security Division, Information Technology Laboratory, National Institute of Standards and Technology Gaithersburg},
+}
+
+@Article{buyya2009cloud,
+  author    = {Buyya, Rajkumar and Yeo, Chee Shin and Venugopal, Srikumar and Broberg, James and Brandic, Ivona},
+  title     = {Cloud computing and emerging IT platforms: Vision, hype, and reality for delivering computing as the 5th utility},
+  journal   = {Future Generation computer systems},
+  year      = {2009},
+  volume    = {25},
+  number    = {6},
+  pages     = {599--616},
+  publisher = {Elsevier},
+}
+
+@InProceedings{buyya2008market,
+  author       = {Buyya, Rajkumar and Yeo, Chee Shin and Venugopal, Srikumar},
+  title        = {Market-oriented cloud computing: Vision, hype, and reality for delivering it services as computing utilities},
+  booktitle    = {High Performance Computing and Communications, 2008. HPCC'08. 10th IEEE International Conference on},
+  year         = {2008},
+  pages        = {5--13},
+  organization = {Ieee},
+}
+
+@InProceedings{ur2011towards,
+  author       = {ur Rehman, Zia and Hussain, Farookh K and Hussain, Omar K},
+  title        = {Towards multi-criteria cloud service selection},
+  booktitle    = {Innovative Mobile and Internet Services in Ubiquitous Computing (IMIS), 2011 Fifth International Conference on},
+  year         = {2011},
+  pages        = {44--48},
+  organization = {IEEE},
+}
+
+@Article{rezaei2015best,
+  author    = {Rezaei, Jafar},
+  title     = {Best-worst multi-criteria decision-making method},
+  journal   = {Omega},
+  year      = {2015},
+  volume    = {53},
+  pages     = {49--57},
+  publisher = {Elsevier},
+}
+
+@Article{rezaei2016supplier,
+  author    = {Rezaei, Jafar and Nispeling, Thomas and Sarkis, Joseph and Tavasszy, Lori},
+  title     = {A supplier selection life cycle approach integrating traditional and environmental criteria using the best worst method},
+  journal   = {Journal of Cleaner Production},
+  year      = {2016},
+  volume    = {135},
+  pages     = {577--588},
+  publisher = {Elsevier},
+}
+
+@Article{salimi2016measuring,
+  author    = {Salimi, Negin and Rezaei, Jafar},
+  title     = {Measuring efficiency of university-industry Ph. D. projects using best worst method},
+  journal   = {Scientometrics},
+  year      = {2016},
+  volume    = {109},
+  number    = {3},
+  pages     = {1911--1938},
+  publisher = {Springer},
+}
+
+@InProceedings{gupta2016compute,
+  author       = {Gupta, Indrajeet and Kumar, Madhu Sudan and Jana, Prasanta K},
+  title        = {Compute-intensive workflow scheduling in multi-cloud environment},
+  booktitle    = {Advances in Computing, Communications and Informatics (ICACCI), 2016 International Conference on},
+  year         = {2016},
+  pages        = {315--321},
+  organization = {IEEE},
+}
+
+@Article{Alb05,
+  author  = {Albiston, Catherine R.},
+  title   = {Bargaining in the Shadow of Social Institutions: Competing Discourses and Social Change in the Workplace Mobilization of Civil Rights},
+  journal = {Law and Society Review},
+  year    = {2005},
+  volume  = {39},
+  number  = {1},
+  pages   = {11--47},
+}
+
+@Article{Blair1977,
+  author  = {Blair, Walter},
+  title   = {Americanized Comic Braggarts},
+  journal = {Critical Inquiry},
+  year    = {1977},
+  volume  = {4},
+  number  = {2},
+  pages   = {331--49},
+}
+
+@Article{ChoGul08,
+  author  = {Choi, Stephen J. and Gulati, G. Mitu},
+  title   = {Bias in Judicial Citations: A Window into the Behavior of Judges?},
+  journal = {Journal of Legal Studies},
+  year    = {2008},
+  volume  = {37},
+  number  = {January},
+  pages   = {87--129},
+}
+
+@Article{Edelman1992,
+  author  = {Lauren B. Edelman},
+  title   = {Legal Ambiguity and Symbolic Structures: Organizational Mediation of Civil Rights Law},
+  journal = {American Journal of Sociology},
+  year    = {1992},
+  volume  = {97},
+  number  = {6},
+  pages   = {1531--76},
+}
+
+@Article{EdelmanFullerMara2001,
+  author  = {Lauren B. Edelman and Sally Riggs Fuller and Iona Mara-Drita},
+  title   = {Diversity Rhetoric and the Managerialization of the Law},
+  journal = {American Journal of Sociology},
+  year    = {2001},
+  volume  = {106},
+  number  = {6},
+  pages   = {1589--641},
+}
+
+@Article{EdelmanPetterson1999,
+  author  = {Lauren B. Edelman and S.~M. Petterson},
+  title   = {Symbols and Substance in Organizational Response to Civil Rights Law},
+  journal = {Research in Social Stratification and Mobility},
+  year    = {1999},
+  volume  = {17},
+  pages   = {107--35},
+}
+
+@Article{EdelmanUggenErlanger1999,
+  author  = {Lauren B. Edelman and Christopher Uggen and Howard S. Erlanger},
+  title   = {The Endogeneity of Legal Regulation: Grievance Procedures as Rational Myth},
+  journal = {American Journal of Sociology},
+  year    = {1999},
+  volume  = {105},
+  number  = {2},
+  pages   = {406--54},
+}
+
+@Article{FogJEE04,
+  author  = {Robert William Fogel},
+  title   = {Technophysio Evolution and the Measurement of Economic Growth},
+  journal = {Journal of Evolutionary Economics},
+  year    = {2004},
+  volume  = {14},
+  number  = {2},
+  pages   = {217--21},
+}
+
+@Article{Mno79,
+  author  = {Mnookin, Robert and Lewis Kornhauser},
+  title   = {Bargaining in the Shadow of the Law: The Case of Divorce},
+  journal = {Yale Law Journal},
+  year    = {1979},
+  volume  = {88},
+  number  = {5},
+  pages   = {950--97},
+}
+
+@Article{Mor08,
+  author  = {Morasse, S{\'e}bastien and Helga Guderley and Julian J. Dodson},
+  title   = {Paternal Reproductive Strategy Influences Metabolic Capacities and Muscle Development of {A}tlantic Salmon (\emph{Salmo salar} L.) Embryos},
+  journal = {Physiological and Biochemical Zoology},
+  year    = {2008},
+  volume  = {81},
+  number  = {4},
+  pages   = {402--13},
+}
+
+@Article{Sch87,
+  author  = {Schuman, Howard and Jacqueline Scott},
+  title   = {Problems in the Use of Survey Questions to Measure Public Opinion},
+  journal = {Science},
+  year    = {1987},
+  volume  = {236},
+  pages   = {957--59},
+}
+
+@Article{Sch89,
+  author  = {Schuman, Howard and Jacqueline Scott},
+  title   = {Generations and Collective Memories},
+  journal = {American Sociological Review},
+  year    = {1989},
+  volume  = {54},
+  pages   = {359--81},
+}
+
+@Book{Bro02,
+  title     = {The Nature of Diversity: An Evolutionary Voyage of Discovery},
+  publisher = {University of Chicago Press},
+  year      = {2002},
+  author    = {Brooks, Daniel R. and McLennan, Deborah A.},
+  address   = {Chicago},
+}
+
+@Book{Bro86,
+  title     = {Evolution as Entropy},
+  publisher = {University of Chicago Press},
+  year      = {1986},
+  author    = {Brooks, Daniel R. and Wiley, E. O.},
+  address   = {Chicago},
+  edition   = {Second},
+}
+
+@Book{FogEHPD04,
+  title     = {The Escape from Hunger and Premature Death, 1700--2100: {E}urope, {A}merica, and the {T}hird {W}orld},
+  publisher = {Cambridge University Press},
+  year      = {2004},
+  author    = {Robert William Fogel},
+  address   = {New York},
+}
+
+@Book{Fow89,
+  title     = {The {C}ahokia Atlas: A Historical Atlas of {C}ahokia Archaeology},
+  publisher = {Illinois Historic Preservation Agency},
+  year      = {1989},
+  author    = {Fowler, Melvin L.},
+  number    = {6},
+  series    = {Studies in Illinois Archaeology},
+  address   = {Springfield},
+}
+
+@Book{Gre08,
+  title     = {Of Prairie, Woods, and Water: Two Centuries of {C}hicago Nature Writing},
+  publisher = {University of Chicago Press},
+  year      = {2008},
+  editor    = {Greenberg, Joel},
+  address   = {Chicago},
+}
+
+@Book{Grenier1998,
+  title     = {Les larmes d'{U}lysse},
+  publisher = {Gallimard},
+  year      = {1998},
+  author    = {Grenier, Roger},
+  series    = {Collection l'un et l'autre},
+  address   = {Paris},
+}
+
+@Book{Kogan1974,
+  title     = {The First Century: The {C}hicago {B}ar {A}ssociation, 1874--1974},
+  publisher = {Rand McNally},
+  year      = {1974},
+  author    = {Kogan, Herman},
+  address   = {Chicago},
+}
+
+@Book{KoganWendt1958,
+  title     = {Chicago: A Pictorial History},
+  publisher = {Dutton},
+  year      = {1958},
+  author    = {Kogan, Herman and Wendt, Lloyd},
+  address   = {New York},
+}
+
+@Book{Lev05,
+  title     = {Freakonomics: A Rogue Economist Explores the Hidden Side of Everything},
+  publisher = {William Morrow},
+  year      = {2005},
+  author    = {Levitt, Steven D. and Stephen J. Dubner},
+  address   = {New York},
+}
+
+@Book{Pelikan1971,
+  title     = {The Emergence of the Catholic Tradition (100--600)},
+  publisher = {University of Chicago Press},
+  year      = {1971},
+  author    = {Pelikan, Jaroslav},
+  volume    = {1},
+  series    = {The {C}hristian Tradition: A History of the Development of Doctrine},
+  address   = {Chicago},
+}
+
+@Book{Pollan2006,
+  title     = {The Omnivore's Dilemma: A Natural History of Four Meals},
+  publisher = {Penguin},
+  year      = {2006},
+  author    = {Pollan, Michael},
+  address   = {New York},
+}
+
+@Book{Sol99,
+  title     = {Georgia: Art and Civilization through the Ages},
+  publisher = {Philip Wilson},
+  year      = {1999},
+  editor    = {Soltes, Ori Z.},
+  address   = {London},
+}
+
+@Book{Str00,
+  title     = {The Elements of Style},
+  publisher = {Allyn and Bacon},
+  year      = {2000},
+  author    = {Strunk, Jr., William and E. B. White},
+  address   = {New York},
+  edition   = {Fourth},
+}
+
+@Book{Wei02,
+  title     = {\emph{Arabidopsis}: A Laboratory Manual},
+  publisher = {Cold Spring Harbor Laboratory Press},
+  year      = {2002},
+  author    = {Weigel, Detlef and Jane Glazebrook},
+  address   = {Cold Spring Harbor, NY},
+}
+
+@Book{Wau50,
+  title     = {A Tentative Sequence of Pre-Classic Ceramics in Middle {A}merica},
+  publisher = {Tulane University},
+  year      = {1950},
+  author    = {Robert Wauchope},
+  volume    = {1},
+  series    = {Middle {A}merican Research Records},
+  address   = {New Orleans, LA},
+}
+
+@Book{Woodward1977,
+  title     = {The All-{A}merican Map: Wax Engraving and Its Influence on Cartography},
+  publisher = {University of Chicago Press},
+  year      = {1977},
+  author    = {David Woodward},
+  address   = {Chicago},
+}
+
+@Book{Woodward1996,
+  title     = {Catalogue of Watermarks in {I}talian Printed Maps, ca.~1540--1600},
+  publisher = {University of Chicago Press},
+  year      = {1996},
+  author    = {David Woodward},
+  address   = {Chicago},
+}
+
+@Book{Zukowsky1987,
+  title     = {Chicago Architecture, 1872--1922: Birth of a Metropolis},
+  publisher = {Prestel-Verlag in association with the Art Institute of Chicago},
+  year      = {1987},
+  editor    = {John Zukowsky},
+  address   = {Munich},
+}
+
+@InCollection{Ell68,
+  author    = {Ellet, Elizabeth F. L.},
+  title     = {By Rail and Stage to Galena},
+  booktitle = {Prairie State: Impressions of {I}llinois, 1673--1967, by Travelers and Other Observers},
+  publisher = {University of Chicago Press},
+  year      = {1968},
+  editor    = {Paul M. Angle},
+  pages     = {271--79},
+  address   = {Chicago},
+}
+
+@InCollection{Kelly2010,
+  author    = {Kelly, John D.},
+  title     = {Seeing Red: {M}ao Fetishism, {P}ax {A}mericana, and the Moral Economy of War},
+  booktitle = {Anthropology and Global Counterinsurgency},
+  publisher = {University of Chicago Press},
+  year      = {2010},
+  editor    = {John D. Kelly and Beatrice Jauregui and Sean T. Mitchell and Jeremy Walton},
+  pages     = {67-–83},
+  address   = {Chicago},
+}
+
+@InCollection{Sam06,
+  author    = {Samples, John},
+  title     = {The Origins of Modern Campaign Finance Law},
+  booktitle = {The Fallacy of Campaign Finance Reform},
+  publisher = {University of Chicago Press},
+  year      = {2006},
+  chapter   = {7},
+  address   = {Chicago},
+}
+
+@Manual{UCP2012,
+  title        = {The Chicago Manual of Style},
+  author       = {{University of Chicago Press}},
+  organization = {University of Chicago Press},
+  address      = {Chicago},
+  edition      = {16},
+  year         = {2012},
+}
+
+@PhdThesis{Cho08,
+  author = {Choi, Mihwa},
+  title  = {Contesting \emph{Imaginaires} in Death Rituals during the Northern {S}ong Dynasty},
+  school = {University of Chicago},
+  year   = {2008},
+  note   = {ProQuest (A\,AT\,3300426)},
+}
+
+@Presentation{Ade09,
+  author       = {Adelman, Rachel},
+  title        = {`Such Stuff as Dreams Are Made On': {G}od's {F}ootstool in the {A}ramaic {T}argumim and {M}idrashic Tradition},
+  month        = nov #{~21–-24},
+  year         = {2009},
+  address      = {New Orleans, Louisiana},
+  organization = {Paper presented at the annual meeting for the Society of Biblical Literature},
+}
+
+@Presentation{Tep05,
+  author       = {Teplin, Linda A. and Gary M. McClelland and Karen M. Abram and Jason J. Washburn},
+  title        = {Early Violent Death in Delinquent Youth: A Prospective Longitudinal Study},
+  month        = mar,
+  year         = {2005},
+  address      = {La Jolla, CA},
+  organization = {Paper presented at the Annual Meeting of the American Psychology-Law Society},
+}
+
+@Unpublished{Roh08,
+  author = {Rohde, Hannah and Roger Levy and Andrew Kehler},
+  title  = {Implicit Causality Biases Influence Relative Clause Attachment},
+  note   = {Poster presented at the 21st CUNY Conference on Human Sentence Processing, Chapel Hill, NC, March},
+  year   = {2008},
+}
+
+@Unpublished{Stearns:1864,
+  author = {Stearns, A. A.},
+  title  = {Armory {S}quare {H}ospital Nursing Diary},
+  note   = {70 leaves. Located at: History of Medicine Division, National Library of Medicine, Bethesda, MD; MS B 372},
+  year   = {1864},
+}
+
+@Article{baranwal2016cloud,
+  author    = {Baranwal, Gaurav and Vidyarthi, Deo Prakash},
+  title     = {A cloud service selection model using improved ranked voting method},
+  journal   = {Concurrency and Computation: Practice and Experience},
+  year      = {2016},
+  volume    = {28},
+  number    = {13},
+  pages     = {3540--3567},
+  publisher = {Wiley Online Library},
+}
+
+@Article{abdel2018nmcda,
+  author    = {Abdel-Basset, Mohamed and Mohamed, Mai and Chang, Victor},
+  title     = {NMCDA: A framework for evaluating cloud computing services},
+  journal   = {Future Generation Computer Systems},
+  year      = {2018},
+  volume    = {86},
+  pages     = {12--29},
+  publisher = {Elsevier},
+}
+
+@Article{Garg2013,
+  author    = {Garg, Saurabh Kumar and Versteeg, Steve and Buyya, Rajkumar},
+  title     = {A framework for ranking of cloud computing services},
+  journal   = {Future Generation Computer Systems},
+  year      = {2013},
+  volume    = {29},
+  number    = {4},
+  pages     = {1012--1023},
+  publisher = {Elsevier},
+}
+
+@Article{yadav2018two,
+  author    = {Yadav, Neeraj and Goraya, Major Singh},
+  title     = {Two-way ranking based service mapping in cloud environment},
+  journal   = {Future Generation Computer Systems},
+  year      = {2018},
+  volume    = {81},
+  pages     = {53--66},
+  publisher = {Elsevier},
+}
+
+@Article{Abdel-Basset2018,
+  author    = {Abdel-Basset, Mohamed and Mohamed, Mai and Chang, Victor},
+  title     = {NMCDA: A framework for evaluating cloud computing services},
+  journal   = {Future Generation Computer Systems},
+  year      = {2018},
+  volume    = {86},
+  pages     = {12--29},
+  publisher = {Elsevier},
+}
+
+@Article{Sun2016a,
+  author    = {Sun, Le and Ma, Jiangang and Zhang, Yanchun and Dong, Hai and Hussain, Farookh Khadeer},
+  title     = {Cloud-FuSeR: Fuzzy ontology and MCDM based cloud service selection},
+  journal   = {Future Generation Computer Systems},
+  year      = {2016},
+  volume    = {57},
+  pages     = {42--55},
+  publisher = {Elsevier},
+}
+
+@Article{wibowo2016evaluation,
+  author    = {Wibowo, Santoso and Deng, Hepu and Xu, Wei},
+  title     = {Evaluation of cloud services: A fuzzy multi-criteria group decision making method},
+  journal   = {Algorithms},
+  year      = {2016},
+  volume    = {9},
+  number    = {4},
+  pages     = {84},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+}
+
+@Article{jatoth2018qos,
+  author    = {Jatoth, Chandrashekar and Gangadharan, GR and Fiore, Ugo and Buyya, Rajkumar},
+  title     = {QoS-aware Big service composition using MapReduce based evolutionary algorithm with guided mutation},
+  journal   = {Future Generation Computer Systems},
+  year      = {2018},
+  volume    = {86},
+  pages     = {1008--1018},
+  publisher = {Elsevier},
+}
+
+@Article{ahmed2018towards,
+  author    = {Ahmed, Firas D and Majid, Mazlina Abdul},
+  title     = {Towards agent-based petri net decision making modelling for cloud service composition: A literature survey},
+  journal   = {Journal of Network and Computer Applications},
+  year      = {2018},
+  publisher = {Elsevier},
+}
+
+@Article{ur2014parallel,
+  author    = {ur Rehman, Zia and Hussain, Omar Khadeer and Hussain, Farookh Khadeer},
+  title     = {Parallel cloud service selection and ranking based on QoS history},
+  journal   = {International Journal of Parallel Programming},
+  year      = {2014},
+  volume    = {42},
+  number    = {5},
+  pages     = {820--852},
+  publisher = {Springer},
+}
+
+@Article{zheng2013qos,
+  author    = {Zheng, Zibin and Wu, Xinmiao and Zhang, Yilei and Lyu, Michael R and Wang, Jianmin},
+  title     = {QoS ranking prediction for cloud services},
+  journal   = {IEEE transactions on parallel and distributed systems},
+  year      = {2013},
+  volume    = {24},
+  number    = {6},
+  pages     = {1213--1222},
+  publisher = {IEEE},
+}
+
+@Article{huo2015discrete,
+  author    = {Huo, Ying and Zhuang, Yi and Gu, Jingjing and Ni, Siru and Xue, Yu},
+  title     = {Discrete gbest-guided artificial bee colony algorithm for cloud service composition},
+  journal   = {Applied Intelligence},
+  year      = {2015},
+  volume    = {42},
+  number    = {4},
+  pages     = {661--678},
+  publisher = {Springer},
+}
+
+@Article{noor2013trust,
+  author    = {Noor, Talal H and Sheng, Quan Z and Zeadally, Sherali and Yu, Jian},
+  title     = {Trust management of services in cloud environments: Obstacles and solutions},
+  journal   = {ACM Computing Surveys (CSUR)},
+  year      = {2013},
+  volume    = {46},
+  number    = {1},
+  pages     = {12},
+  publisher = {ACM},
+}
+
+@Article{somu2017rough,
+  author    = {Somu, Nivethitha and Kirthivasan, Kannan and Sriram, VS Shankar},
+  title     = {A rough set-based hypergraph trust measure parameter selection technique for cloud service selection},
+  journal   = {The Journal of Supercomputing},
+  year      = {2017},
+  volume    = {73},
+  number    = {10},
+  pages     = {4535--4559},
+  publisher = {Springer},
+}
+
+@Article{sidhu2017improved,
+  author    = {Sidhu, Jagpreet and Singh, Sarbjeet},
+  title     = {Improved topsis method based trust evaluation framework for determining trustworthiness of cloud service providers},
+  journal   = {Journal of Grid Computing},
+  year      = {2017},
+  volume    = {15},
+  number    = {1},
+  pages     = {81--105},
+  publisher = {Springer},
+}
+
+@Article{somu2017computational,
+  author    = {Somu, Nivethitha and Kirthivasan, Kannan and VS, Shankar Sriram},
+  title     = {A computational model for ranking cloud service providers using hypergraph based techniques},
+  journal   = {Future Generation Computer Systems},
+  year      = {2017},
+  volume    = {68},
+  pages     = {14--30},
+  publisher = {Elsevier},
+}
+
+@Article{wang2016qos,
+  author    = {Wang, Puwei and Du, Xiaoyong},
+  title     = {QoS-aware service selection using an incentive mechanism},
+  journal   = {IEEE Transactions on Services Computing},
+  year      = {2016},
+  publisher = {IEEE},
+}
+
+@Article{wang2017efficient,
+  author    = {Wang, Shangguang and Huang, Lin and Sun, Lei and Hsu, Ching-Hsien and Yang, Fangchun},
+  title     = {Efficient and reliable service selection for heterogeneous distributed software systems},
+  journal   = {Future Generation Computer Systems},
+  year      = {2017},
+  volume    = {74},
+  pages     = {158--167},
+  publisher = {Elsevier},
+}
+
+@Article{hwang2015service,
+  author    = {Hwang, San-Yih and Hsu, Chien-Ching and Lee, Chien-Hsiang},
+  title     = {Service selection for web services with probabilistic QoS},
+  journal   = {IEEE transactions on services computing},
+  year      = {2015},
+  number    = {1},
+  pages     = {1--1},
+  publisher = {IEEE},
+}
+
+@Article{Kang2013a,
+  author    = {Kang, Guosheng and Liu, Jianxun and Tang, Mingdong and Cao, Buqing},
+  title     = {Web service selection algorithm based on principal component analysis},
+  journal   = {Journal of Electronics (China)},
+  year      = {2013},
+  volume    = {30},
+  number    = {2},
+  pages     = {204--212},
+  publisher = {Springer},
+}
+
+@Article{Qi2016b,
+  author    = {Qi, Lianyong and Dou, Wanchun and Chen, Jinjun},
+  title     = {Weighted principal component analysis-based service selection method for multimedia services in cloud},
+  journal   = {Computing},
+  year      = {2016},
+  volume    = {98},
+  number    = {1-2},
+  pages     = {195--214},
+  publisher = {Springer},
+}
+
+@Article{Buyya2009,
+  author    = {Buyya, Rajkumar and Yeo, Chee Shin and Venugopal, Srikumar and Broberg, James and Brandic, Ivona},
+  title     = {Cloud computing and emerging IT platforms: Vision, hype, and reality for delivering computing as the 5th utility},
+  journal   = {Future Generation computer systems},
+  year      = {2009},
+  volume    = {25},
+  number    = {6},
+  pages     = {599--616},
+  publisher = {Elsevier},
+}
+
+@Article{armbrust2010view,
+  author    = {Armbrust, Michael and Fox, Armando and Griffith, Rean and Joseph, Anthony D and Katz, Randy and Konwinski, Andy and Lee, Gunho and Patterson, David and Rabkin, Ariel and Stoica, Ion and others},
+  title     = {A view of cloud computing},
+  journal   = {Communications of the ACM},
+  year      = {2010},
+  volume    = {53},
+  number    = {4},
+  pages     = {50--58},
+  publisher = {ACM},
+}
+
+@Article{saaty2004fundamentals,
+  author    = {Saaty, Thomas L},
+  title     = {Fundamentals of the analytic network process—Dependence and feedback in decision-making with a single network},
+  journal   = {Journal of Systems science and Systems engineering},
+  year      = {2004},
+  volume    = {13},
+  number    = {2},
+  pages     = {129--157},
+  publisher = {Springer},
+}
+
+@Article{saaty1977scaling,
+  author    = {Saaty, Thomas L},
+  title     = {A scaling method for priorities in hierarchical structures},
+  journal   = {Journal of mathematical psychology},
+  year      = {1977},
+  volume    = {15},
+  number    = {3},
+  pages     = {234--281},
+  publisher = {Elsevier},
+}
+
+@Article{churchman1954approximate,
+  author    = {Churchman, C West and Ackoff, Russell L},
+  title     = {An approximate measure of value},
+  journal   = {Journal of the Operations Research Society of America},
+  year      = {1954},
+  volume    = {2},
+  number    = {2},
+  pages     = {172--187},
+  publisher = {INFORMS},
+}
+
+@Article{Jatoth2017a,
+  author    = {Jatoth, Chandrashekar and Gangadharan, GR and Fiore, Ugo},
+  title     = {Evaluating the efficiency of cloud services using modified data envelopment analysis and modified super-efficiency data envelopment analysis},
+  journal   = {Soft Computing},
+  year      = {2017},
+  volume    = {21},
+  number    = {23},
+  pages     = {7221--7234},
+  publisher = {Springer},
+}
+
+@Article{Mell2011,
+  author    = {Mell, Peter and Grance, Tim and others},
+  title     = {The NIST definition of cloud computing},
+  year      = {2011},
+  publisher = {Computer Security Division, Information Technology Laboratory, National~…},
+}
+
+@Article{liu2011nist,
+  author  = {Liu, Fang and Tong, Jin and Mao, Jian and Bohn, Robert and Messina, John and Badger, Lee and Leaf, Dawn},
+  title   = {NIST cloud computing reference architecture},
+  journal = {NIST special publication},
+  year    = {2011},
+  volume  = {500},
+  number  = {2011},
+  pages   = {1--28},
+}
+
+@Article{fox2009above,
+  author  = {Fox, Armando and Griffith, Rean and Joseph, Anthony and Katz, Randy and Konwinski, Andrew and Lee, Gunho and Patterson, David and Rabkin, Ariel and Stoica, Ion},
+  title   = {Above the clouds: A berkeley view of cloud computing},
+  journal = {Dept. Electrical Eng. and Comput. Sciences, University of California, Berkeley, Rep. UCB/EECS},
+  year    = {2009},
+  volume  = {28},
+  number  = {13},
+  pages   = {2009},
+}
+
+@Article{karimi2017qos,
+  author    = {Karimi, Mohammad Bagher and Isazadeh, Ayaz and Rahmani, Amir Masoud},
+  title     = {QoS-aware service composition in cloud computing using data mining techniques and genetic algorithm},
+  journal   = {The Journal of Supercomputing},
+  year      = {2017},
+  volume    = {73},
+  number    = {4},
+  pages     = {1387--1415},
+  publisher = {Springer},
+}
+
+@Article{wang2013particle,
+  author    = {Wang, Shangguang and Sun, Qibo and Zou, Hua and Yang, Fangchun},
+  title     = {Particle swarm optimization with skyline operator for fast cloud-based web service composition},
+  journal   = {Mobile Networks and Applications},
+  year      = {2013},
+  volume    = {18},
+  number    = {1},
+  pages     = {116--121},
+  publisher = {Springer},
+}
+
+@Article{wang2015genetic,
+  author    = {Wang, Dandan and Yang, Yang and Mi, Zhenqiang},
+  title     = {A genetic-based approach to web service composition in geo-distributed cloud environment},
+  journal   = {Computers \& Electrical Engineering},
+  year      = {2015},
+  volume    = {43},
+  pages     = {129--141},
+  publisher = {Elsevier},
+}
+
+@Article{tang2015selecting,
+  author    = {Tang, Changlong and Liu, Jiqiang},
+  title     = {Selecting a trusted cloud service provider for your SaaS program},
+  journal   = {Computers \& Security},
+  year      = {2015},
+  volume    = {50},
+  pages     = {60--73},
+  publisher = {Elsevier},
+}
+
+@Article{goscinski2010toward,
+  author    = {Goscinski, Andrzej and Brock, Michael},
+  title     = {Toward dynamic and attribute based publication, discovery and selection for cloud computing},
+  journal   = {Future generation computer systems},
+  year      = {2010},
+  volume    = {26},
+  number    = {7},
+  pages     = {947--970},
+  publisher = {Elsevier},
+}
+
+@Article{ding2014combining,
+  author    = {Ding, Shuai and Yang, Shanlin and Zhang, Youtao and Liang, Changyong and Xia, Chengyi},
+  title     = {Combining QoS prediction and customer satisfaction estimation to solve cloud service trustworthiness evaluation problems},
+  journal   = {Knowledge-Based Systems},
+  year      = {2014},
+  volume    = {56},
+  pages     = {216--225},
+  publisher = {Elsevier},
+}
+
+@Article{qu2015cccloud,
+  author    = {Qu, Lie and Wang, Yan and Orgun, Mehmet A and Liu, Ling and Liu, Huan and Bouguettaya, Athman},
+  title     = {CCCloud: Context-aware and credible cloud service selection based on subjective assessment and objective assessment},
+  journal   = {IEEE Transactions on Services Computing},
+  year      = {2015},
+  volume    = {8},
+  number    = {3},
+  pages     = {369--383},
+  publisher = {IEEE},
+}
+
+@Article{qi2015context,
+  author    = {Qi, Lianyong and Dou, Wanchun and Zhou, Yuming and Yu, Jiguo and Hu, Chunhua},
+  title     = {A context-aware service evaluation approach over big data for cloud applications},
+  journal   = {IEEE Transactions on Cloud Computing},
+  year      = {2015},
+  publisher = {IEEE},
+}
+
+@Article{gillam2014benchmarking,
+  author    = {Gillam, Lee and Li, Bin and O'Loughlin, John},
+  title     = {Benchmarking cloud performance for service level agreement parameters},
+  journal   = {Int. J. of Cloud Computing},
+  year      = {2014},
+  volume    = {3},
+  number    = {1},
+  pages     = {3--23},
+  publisher = {Inderscience},
+}
+
+@Article{calheiros2011cloudsim,
+  author    = {Calheiros, Rodrigo N and Ranjan, Rajiv and Beloglazov, Anton and De Rose, C{\'e}sar AF and Buyya, Rajkumar},
+  title     = {CloudSim: a toolkit for modeling and simulation of cloud computing environments and evaluation of resource provisioning algorithms},
+  journal   = {Software: Practice and experience},
+  year      = {2011},
+  volume    = {41},
+  number    = {1},
+  pages     = {23--50},
+  publisher = {Wiley Online Library},
+}
+
+@Article{kryszkiewicz1998rough,
+  author    = {Kryszkiewicz, Marzena},
+  title     = {Rough set approach to incomplete information systems},
+  journal   = {Information sciences},
+  year      = {1998},
+  volume    = {112},
+  number    = {1-4},
+  pages     = {39--49},
+  publisher = {Elsevier},
+}
+
+@Article{wang2014towards,
+  author    = {Wang, Shangguang and Liu, Zhipiao and Sun, Qibo and Zou, Hua and Yang, Fangchun},
+  title     = {Towards an accurate evaluation of quality of cloud service in service-oriented cloud computing},
+  journal   = {Journal of Intelligent Manufacturing},
+  year      = {2014},
+  volume    = {25},
+  number    = {2},
+  pages     = {283--291},
+  publisher = {Springer},
+}
+
+@Article{li1998uncertainty,
+  author    = {Li, Deyi and Cheung, David and Shi, Xuemei and Ng, Vincent},
+  title     = {Uncertainty reasoning based on cloud models in controllers},
+  journal   = {Computers \& Mathematics with Applications},
+  year      = {1998},
+  volume    = {35},
+  number    = {3},
+  pages     = {99--123},
+  publisher = {Elsevier},
+}
+
+@Article{grau2008owl,
+  author    = {Grau, Bernardo Cuenca and Horrocks, Ian and Motik, Boris and Parsia, Bijan and Patel-Schneider, Peter and Sattler, Ulrike},
+  title     = {OWL 2: The next step for OWL},
+  journal   = {Web Semantics: science, services and agents on the World Wide Web},
+  year      = {2008},
+  volume    = {6},
+  number    = {4},
+  pages     = {309--322},
+  publisher = {Elsevier},
+}
+
+@Article{horrocks2004swrl,
+  author  = {Horrocks, Ian and Patel-Schneider, Peter F and Boley, Harold and Tabet, Said and Grosof, Benjamin and Dean, Mike and others},
+  title   = {SWRL: A semantic web rule language combining OWL and RuleML},
+  journal = {W3C Member submission},
+  year    = {2004},
+  volume  = {21},
+  number  = {79},
+  pages   = {1--31},
+}
+
+@Article{mezni2017multi,
+  author    = {Mezni, Haithem and Sellami, Mokhtar},
+  title     = {Multi-cloud service composition using formal concept analysis},
+  journal   = {Journal of Systems and Software},
+  year      = {2017},
+  volume    = {134},
+  pages     = {138--152},
+  publisher = {Elsevier},
+}
+
+@Article{ma2016toward,
+  author    = {Ma, Hua and Hu, Zhigang and Li, Keqin and Zhang, Hongyu},
+  title     = {Toward trustworthy cloud service selection: A time-aware approach using interval neutrosophic set},
+  journal   = {Journal of Parallel and Distributed Computing},
+  year      = {2016},
+  volume    = {96},
+  pages     = {75--94},
+  publisher = {Elsevier},
+}
+
+@Article{li2013resource,
+  author    = {Li, Wenfeng and Zhong, Ye and Wang, Xun and Cao, Yulian},
+  title     = {Resource virtualization and service selection in cloud logistics},
+  journal   = {Journal of Network and Computer Applications},
+  year      = {2013},
+  volume    = {36},
+  number    = {6},
+  pages     = {1696--1704},
+  publisher = {Elsevier},
+}
+
+@Article{kennedy2010particle,
+  author    = {Kennedy, James},
+  title     = {Particle swarm optimization},
+  journal   = {Encyclopedia of machine learning},
+  year      = {2010},
+  pages     = {760--766},
+  publisher = {Springer},
+}
+
+@Article{jahani2016cloud,
+  author    = {Jahani, Arezoo and Khanli, Leyli Mohammad},
+  title     = {Cloud service ranking as a multi objective optimization problem},
+  journal   = {The Journal of Supercomputing},
+  year      = {2016},
+  volume    = {72},
+  number    = {5},
+  pages     = {1897--1926},
+  publisher = {Springer},
+}
+
+@Article{seghir2018hybrid,
+  author    = {Seghir, Fateh and Khababa, Abdellah},
+  title     = {A hybrid approach using genetic and fruit fly optimization algorithms for QoS-aware cloud service composition},
+  journal   = {Journal of Intelligent Manufacturing},
+  year      = {2018},
+  volume    = {29},
+  number    = {8},
+  pages     = {1773--1792},
+  publisher = {Springer},
+}
+
+@Article{ye2016long,
+  author    = {Ye, Zhen and Mistry, Sajib and Bouguettaya, Athman and Dong, Hai},
+  title     = {Long-term QoS-aware cloud service composition using multivariate time series analysis},
+  journal   = {IEEE Transactions on Services Computing},
+  year      = {2016},
+  volume    = {9},
+  number    = {3},
+  pages     = {382--393},
+  publisher = {IEEE},
+}
+
+@Article{ghosh2015selcsp,
+  author    = {Ghosh, Nirnay and Ghosh, Soumya K and Das, Sajal K},
+  title     = {SelCSP: A framework to facilitate selection of cloud service providers},
+  journal   = {IEEE transactions on cloud computing},
+  year      = {2015},
+  volume    = {3},
+  number    = {1},
+  pages     = {66--79},
+  publisher = {IEEE},
+}
+
+@Article{marudhadevi2014trust,
+  author    = {Marudhadevi, D and Dhatchayani, V Neelaya and Sriram, VS Shankar},
+  title     = {A trust evaluation model for cloud computing using service level agreement},
+  journal   = {The Computer Journal},
+  year      = {2014},
+  volume    = {58},
+  number    = {10},
+  pages     = {2225--2232},
+  publisher = {Oxford University Press},
+}
+
+@Article{somu2018improved,
+  author    = {Somu, Nivethitha and MR, Gauthama Raman and Kalpana, V and Kirthivasan, Kannan and VS, Shankar Sriram},
+  title     = {An improved robust heteroscedastic probabilistic neural network based trust prediction approach for cloud service selection},
+  journal   = {Neural Networks},
+  year      = {2018},
+  volume    = {108},
+  pages     = {339--354},
+  publisher = {Elsevier},
+}
+
+@Article{tang2017towards,
+  author    = {Tang, Mingdong and Dai, Xiaoling and Liu, Jianxun and Chen, Jinjun},
+  title     = {Towards a trust evaluation middleware for cloud service selection},
+  journal   = {Future Generation Computer Systems},
+  year      = {2017},
+  volume    = {74},
+  pages     = {302--312},
+  publisher = {Elsevier},
+}
+
+@Article{fan2014novel,
+  author    = {Fan, Wenjuan and Perros, Harry},
+  title     = {A novel trust management framework for multi-cloud environments based on trust service providers},
+  journal   = {Knowledge-Based Systems},
+  year      = {2014},
+  volume    = {70},
+  pages     = {392--406},
+  publisher = {Elsevier},
+}
+
+@Article{singh2017compliance,
+  author    = {Singh, Sarbjeet and Sidhu, Jagpreet},
+  title     = {Compliance-based multi-dimensional trust evaluation system for determining trustworthiness of cloud service providers},
+  journal   = {Future Generation Computer Systems},
+  year      = {2017},
+  volume    = {67},
+  pages     = {109--132},
+  publisher = {Elsevier},
+}
+
+@Article{alhanahnah2018context,
+  author    = {Alhanahnah, Mohannad and Bertok, Peter and Tari, Zahir and Alouneh, Sahel},
+  title     = {Context-aware multifaceted trust framework for evaluating trustworthiness of cloud providers},
+  journal   = {Future Generation Computer Systems},
+  year      = {2018},
+  volume    = {79},
+  pages     = {488--499},
+  publisher = {Elsevier},
+}
+
+@Article{pan2015trust,
+  author    = {Pan, Yuchen and Ding, Shuai and Fan, Wenjuan and Li, Jing and Yang, Shanlin},
+  title     = {Trust-enhanced cloud service selection model based on QoS analysis},
+  journal   = {PloS one},
+  year      = {2015},
+  volume    = {10},
+  number    = {11},
+  pages     = {e0143448},
+  publisher = {Public Library of Science},
+}
+
+@Article{mehdi2016trust,
+  author    = {Mehdi, Mohamad and Bouguila, Nizar and Bentahar, Jamal},
+  title     = {Trust and reputation of web services through qos correlation lens},
+  journal   = {IEEE Transactions on Services Computing},
+  year      = {2016},
+  volume    = {9},
+  number    = {6},
+  pages     = {968--981},
+  publisher = {IEEE},
+}
+
+@Article{kleijnen2005overview,
+  author    = {Kleijnen, Jack PC},
+  title     = {An overview of the design and analysis of simulation experiments for sensitivity analysis},
+  journal   = {European Journal of Operational Research},
+  year      = {2005},
+  volume    = {164},
+  number    = {2},
+  pages     = {287--300},
+  publisher = {Elsevier},
+}
+
+@Article{christopher2002identification,
+  author    = {Christopher Frey, H and Patil, Sumeet R},
+  title     = {Identification and review of sensitivity analysis methods},
+  journal   = {Risk analysis},
+  year      = {2002},
+  volume    = {22},
+  number    = {3},
+  pages     = {553--578},
+  publisher = {Wiley Online Library},
+}
+
+@Article{yong2006plant,
+  author    = {Yong, Deng},
+  title     = {Plant location selection based on fuzzy TOPSIS},
+  journal   = {The International Journal of Advanced Manufacturing Technology},
+  year      = {2006},
+  volume    = {28},
+  number    = {7-8},
+  pages     = {839--844},
+  publisher = {Springer},
+}
+
+@Article{amiri2010project,
+  author    = {Amiri, Morteza Pakdin},
+  title     = {Project selection for oil-fields development by using the AHP and fuzzy TOPSIS methods},
+  journal   = {Expert systems with applications},
+  year      = {2010},
+  volume    = {37},
+  number    = {9},
+  pages     = {6218--6224},
+  publisher = {Elsevier},
+}
+
+@Article{yu2011rank,
+  author    = {Yu, Xiaobing and Guo, Shunsheng and Guo, Jun and Huang, Xiaorong},
+  title     = {Rank B2C e-commerce websites in e-alliance based on AHP and fuzzy TOPSIS},
+  journal   = {Expert Systems with Applications},
+  year      = {2011},
+  volume    = {38},
+  number    = {4},
+  pages     = {3550--3557},
+  publisher = {Elsevier},
+}
+
+@Article{sodhi2012simplified,
+  author  = {Sodhi, Balwinder and T V, Prabhakar},
+  title   = {A simplified description of Fuzzy TOPSIS},
+  journal = {arXiv preprint arXiv:1205.5098},
+  year    = {2012},
+}
+
+@Article{heilig2016cloud,
+  author    = {Heilig, Leonard and Lalla-Ruiz, Eduardo and Vo{\ss}, Stefan},
+  title     = {A cloud brokerage approach for solving the resource management problem in multi-cloud environments},
+  journal   = {Computers \& Industrial Engineering},
+  year      = {2016},
+  volume    = {95},
+  pages     = {16--26},
+  publisher = {Elsevier},
+}
+
+@Article{pearson1901principal,
+  author  = {Pearson, Karl},
+  title   = {Principal components analysis},
+  journal = {The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science},
+  year    = {1901},
+  volume  = {6},
+  number  = {2},
+  pages   = {559},
+}
+
+@Article{wold1987principal,
+  author    = {Wold, Svante and Esbensen, Kim and Geladi, Paul},
+  title     = {Principal component analysis},
+  journal   = {Chemometrics and intelligent laboratory systems},
+  year      = {1987},
+  volume    = {2},
+  number    = {1-3},
+  pages     = {37--52},
+  publisher = {Elsevier},
+}
+
+@Article{stewart1997shannon,
+  author    = {Stewart, Jeffrey J and Lee, Connie Y and Ibrahim, Saleh and Watts, Perry and Shlomchik, Mark and Weigert, Martin and Litwin, Samuel},
+  title     = {A Shannon entropy analysis of immunoglobulin and T cell receptor},
+  journal   = {Molecular immunology},
+  year      = {1997},
+  volume    = {34},
+  number    = {15},
+  pages     = {1067--1082},
+  publisher = {Elsevier},
+}
+
+@Article{Rezaei2015,
+  author    = {Rezaei, Jafar},
+  title     = {Best-worst multi-criteria decision-making method},
+  journal   = {Omega},
+  year      = {2015},
+  volume    = {53},
+  pages     = {49--57},
+  publisher = {Elsevier},
+}
+
+@Article{satty2001models,
+  author  = {Satty, Thomas L and Vargas, Luis G},
+  title   = {Models, methods, concepts and applications of the analytic hierarchy process},
+  journal = {Int. Ser. Oper. Res. Management Sci},
+  year    = {2001},
+  volume  = {34},
+  pages   = {1--352},
+}
+
+@Article{kulak2005fuzzy,
+  author    = {Kulak, Osman and Kahraman, Cengiz},
+  title     = {Fuzzy multi-attribute selection among transportation companies using axiomatic design and analytic hierarchy process},
+  journal   = {Information Sciences},
+  year      = {2005},
+  volume    = {170},
+  number    = {2-4},
+  pages     = {191--210},
+  publisher = {Elsevier},
+}
+
+@Article{Behzadian2012,
+  author    = {Behzadian, Majid and Otaghsara, S Khanmohammadi and Yazdani, Morteza and Ignatius, Joshua},
+  title     = {A state-of the-art survey of TOPSIS applications},
+  journal   = {Expert Systems with applications},
+  year      = {2012},
+  volume    = {39},
+  number    = {17},
+  pages     = {13051--13069},
+  publisher = {Elsevier},
+}
+
+@Article{lin2008using,
+  author    = {Lin, Ming-Chyuan and Wang, Chen-Cheng and Chen, Ming-Shi and Chang, C Alec},
+  title     = {Using AHP and TOPSIS approaches in customer-driven product design process},
+  journal   = {Computers in industry},
+  year      = {2008},
+  volume    = {59},
+  number    = {1},
+  pages     = {17--31},
+  publisher = {Elsevier},
+}
+
+@Article{chang1996applications,
+  author    = {Chang, Da-Yong},
+  title     = {Applications of the extent analysis method on fuzzy AHP},
+  journal   = {European journal of operational research},
+  year      = {1996},
+  volume    = {95},
+  number    = {3},
+  pages     = {649--655},
+  publisher = {Elsevier},
+}
+
+@Article{kahraman2003multi,
+  author    = {Kahraman, Cengiz and Cebeci, Ufuk and Ulukan, Ziya},
+  title     = {Multi-criteria supplier selection using fuzzy AHP},
+  journal   = {Logistics information management},
+  year      = {2003},
+  volume    = {16},
+  number    = {6},
+  pages     = {382--394},
+  publisher = {MCB UP Ltd},
+}
+
+@Article{leung2000consistency,
+  author    = {Leung, Lawrence C and Cao, D},
+  title     = {On consistency and ranking of alternatives in fuzzy AHP},
+  journal   = {European Journal of Operational Research},
+  year      = {2000},
+  volume    = {124},
+  number    = {1},
+  pages     = {102--113},
+  publisher = {Elsevier},
+}
+
+@Article{Kumar2017,
+  author    = {Kumar, Rakesh Ranjan and Mishra, Siba and Kumar, Chiranjeev},
+  title     = {Prioritizing the solution of cloud service selection using integrated MCDM methods under Fuzzy environment},
+  journal   = {The Journal of Supercomputing},
+  year      = {2017},
+  volume    = {73},
+  number    = {11},
+  pages     = {4652--4682},
+  publisher = {Springer},
+}
+
+@Article{menzel2014cloudgenius,
+  author    = {Menzel, Michael and Ranjan, Rajiv and Wang, Lizhe and Khan, Samee U and Chen, Jinjun},
+  title     = {CloudGenius: a hybrid decision support method for automating the migration of web application clusters to public clouds},
+  journal   = {IEEE Transactions on Computers},
+  year      = {2014},
+  volume    = {64},
+  number    = {5},
+  pages     = {1336--1348},
+  publisher = {IEEE},
+}
+
+@Article{ramachandran2014selecting,
+  author    = {Ramachandran, N and Sivaprakasam, P and Thangamani, G and Anand, G},
+  title     = {Selecting a Suitable Cloud Computing Technology Deployment Model for an Academic Institute: A Case Study.},
+  journal   = {Campus-Wide Information Systems},
+  year      = {2014},
+  volume    = {31},
+  number    = {5},
+  pages     = {319--345},
+  publisher = {ERIC},
+}
+
+@Article{ma2014user,
+  author    = {Ma, Hua and Hu, Zhigang and Yang, Liu and Song, Tie},
+  title     = {User feature-aware trustworthiness measurement of cloud services via evidence synthesis for potential users},
+  journal   = {Journal of Visual Languages \& Computing},
+  year      = {2014},
+  volume    = {25},
+  number    = {6},
+  pages     = {791--799},
+  publisher = {Elsevier},
+}
+
+@Article{patiniotakis2015pulsar,
+  author    = {Patiniotakis, Ioannis and Verginadis, Yiannis and Mentzas, Gregoris},
+  title     = {PuLSaR: preference-based cloud service selection for cloud service brokers},
+  journal   = {Journal of Internet Services and Applications},
+  year      = {2015},
+  volume    = {6},
+  number    = {1},
+  pages     = {26},
+  publisher = {SpringerOpen},
+}
+
+@Article{lee2016hybrid,
+  author    = {Lee, Sangwon and Seo, Kwang-Kyu},
+  title     = {A hybrid multi-criteria decision-making model for a cloud service selection problem using BSC, fuzzy Delphi method and fuzzy AHP},
+  journal   = {Wireless Personal Communications},
+  year      = {2016},
+  volume    = {86},
+  number    = {1},
+  pages     = {57--75},
+  publisher = {Springer},
+}
+
+@Article{low2012criteria,
+  author    = {Low, Chinyao and Chen, Ya Hsueh},
+  title     = {Criteria for the evaluation of a cloud-based hospital information system outsourcing provider},
+  journal   = {Journal of medical systems},
+  year      = {2012},
+  volume    = {36},
+  number    = {6},
+  pages     = {3543--3553},
+  publisher = {Springer},
+}
+
+@Article{Sun2016,
+  author    = {Sun, Le and Ma, Jiangang and Zhang, Yanchun and Dong, Hai and Hussain, Farookh Khadeer},
+  title     = {Cloud-FuSeR: Fuzzy ontology and MCDM based cloud service selection},
+  journal   = {Future Generation Computer Systems},
+  year      = {2016},
+  volume    = {57},
+  pages     = {42--55},
+  publisher = {Elsevier},
+}
+
+@Article{atacs2014performance,
+  author    = {Ata{\c{s}}, G{\"u}ltekin and Gungor, Vehbi Cagri},
+  title     = {Performance evaluation of cloud computing platforms using statistical methods},
+  journal   = {Computers \& Electrical Engineering},
+  year      = {2014},
+  volume    = {40},
+  number    = {5},
+  pages     = {1636--1649},
+  publisher = {Elsevier},
+}
+
+@Article{kumar2018novel,
+  author    = {Kumar, Rakesh Ranjan and Mishra, Siba and Kumar, Chiranjeev},
+  title     = {A novel framework for cloud service evaluation and selection using hybrid MCDM methods},
+  journal   = {Arabian Journal for Science and Engineering},
+  year      = {2018},
+  volume    = {43},
+  number    = {12},
+  pages     = {7015--7030},
+  publisher = {Springer},
+}
+
+@Article{gui2014service,
+  author    = {Gui, Zhipeng and Yang, Chaowei and Xia, Jizhe and Huang, Qunying and Liu, Kai and Li, Zhenlong and Yu, Manzhu and Sun, Min and Zhou, Nanyin and Jin, Baoxuan},
+  title     = {A service brokering and recommendation mechanism for better selecting cloud services},
+  journal   = {PloS one},
+  year      = {2014},
+  volume    = {9},
+  number    = {8},
+  pages     = {e105297},
+  publisher = {Public Library of Science},
+}
+
+@Article{saaty2015decision,
+  author    = {Saaty, Thomas L and Ergu, Daji},
+  title     = {When is a decision-making method trustworthy? Criteria for evaluating multi-criteria decision-making methods},
+  journal   = {International Journal of Information Technology \& Decision Making},
+  year      = {2015},
+  volume    = {14},
+  number    = {06},
+  pages     = {1171--1187},
+  publisher = {World Scientific},
+}
+
+@Article{ergu2014framework,
+  author    = {Ergu, Daji and Peng, Yi},
+  title     = {A framework for SaaS software packages evaluation and selection with virtual team and BOCR of analytic network process},
+  journal   = {The Journal of Supercomputing},
+  year      = {2014},
+  volume    = {67},
+  number    = {1},
+  pages     = {219--238},
+  publisher = {Springer},
+}
+
+@Article{choi2014quality,
+  author    = {Choi, Cheol-Rim and Jeong, Hwa-Young},
+  title     = {Quality evaluation and best service choice for cloud computing based on user preference and weights of attributes using the analytic network process},
+  journal   = {Electronic Commerce Research},
+  year      = {2014},
+  volume    = {14},
+  number    = {3},
+  pages     = {245--270},
+  publisher = {Springer},
+}
+
+@Article{das2011selection,
+  author    = {Das, Shaswata and Chakraborty, Shankar},
+  title     = {Selection of non-traditional machining processes using analytic network process},
+  journal   = {Journal of Manufacturing Systems},
+  year      = {2011},
+  volume    = {30},
+  number    = {1},
+  pages     = {41--53},
+  publisher = {Elsevier},
+}
+
+@Article{Ding2014,
+  author    = {Ding, Shuai and Yang, Shanlin and Zhang, Youtao and Liang, Changyong and Xia, Chengyi},
+  title     = {Combining QoS prediction and customer satisfaction estimation to solve cloud service trustworthiness evaluation problems},
+  journal   = {Knowledge-Based Systems},
+  year      = {2014},
+  volume    = {56},
+  pages     = {216--225},
+  publisher = {Elsevier},
+}
+
+@Article{limam2010assessing,
+  author    = {Limam, Noura and Boutaba, Raouf},
+  title     = {Assessing software service quality and trustworthiness at selection time},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2010},
+  volume    = {36},
+  number    = {4},
+  pages     = {559--574},
+  publisher = {IEEE},
+}
+
+@Article{Churchman1954,
+  author    = {Churchman, C West and Ackoff, Russell L},
+  title     = {An approximate measure of value},
+  journal   = {Journal of the Operations Research Society of America},
+  year      = {1954},
+  volume    = {2},
+  number    = {2},
+  pages     = {172--187},
+  publisher = {INFORMS},
+}
+
+@Article{mouratidis2013framework,
+  author    = {Mouratidis, Haralambos and Islam, Shareeful and Kalloniatis, Christos and Gritzalis, Stefanos},
+  title     = {A framework to support selection of cloud providers based on security and privacy requirements},
+  journal   = {Journal of Systems and Software},
+  year      = {2013},
+  volume    = {86},
+  number    = {9},
+  pages     = {2276--2293},
+  publisher = {Elsevier},
+}
+
+@Article{Alabool2013,
+  author  = {Alabool, Hamzeh Mohammd and Mahmood, Ahmad Kamil},
+  title   = {Trust-based service selection in public cloud computing using fuzzy modified VIKOR method},
+  journal = {Australian Journal of Basic and Applied Sciences},
+  year    = {2013},
+  volume  = {7},
+  number  = {9},
+  pages   = {211--220},
+}
+
+@Article{yu2006soft,
+  author    = {Yu, Rachung and Tzeng, Gwo-Hshiung},
+  title     = {A soft computing method for multi-criteria decision making with dependence and feedback},
+  journal   = {Applied mathematics and computation},
+  year      = {2006},
+  volume    = {180},
+  number    = {1},
+  pages     = {63--75},
+  publisher = {Elsevier},
+}
+
+@Article{liu2016decision,
+  author    = {Liu, Sen and Chan, Felix TS and Ran, Wenxue},
+  title     = {Decision making for the selection of cloud vendor: An improved approach under group decision-making with integrated weights and objective/subjective attributes},
+  journal   = {Expert Systems with Applications},
+  year      = {2016},
+  volume    = {55},
+  pages     = {37--47},
+  publisher = {Elsevier},
+}
+
+@Article{Jatoth2017,
+  author    = {Jatoth, Chandrashekar and Gangadharan, GR and Fiore, Ugo},
+  title     = {Evaluating the efficiency of cloud services using modified data envelopment analysis and modified super-efficiency data envelopment analysis},
+  journal   = {Soft Computing},
+  year      = {2017},
+  volume    = {21},
+  number    = {23},
+  pages     = {7221--7234},
+  publisher = {Springer},
+}
+
+@Article{tripathi2017integration,
+  author    = {Tripathi, Atul and Pathak, Isha and Vidyarthi, Deo Prakash},
+  title     = {Integration of analytic network process with service measurement index framework for cloud service provider selection},
+  journal   = {Concurrency and Computation: Practice and Experience},
+  year      = {2017},
+  volume    = {29},
+  number    = {12},
+  pages     = {e4144},
+  publisher = {Wiley Online Library},
+}
+
+@Article{Jatoth2018,
+  author    = {Jatoth, Chandrashekar and Gangadharan, GR and Fiore, Ugo and Buyya, Rajkumar},
+  title     = {SELCLOUD: a hybrid multi-criteria decision-making model for selection of cloud services},
+  journal   = {Soft Computing},
+  year      = {2018},
+  pages     = {1--15},
+  publisher = {Springer},
+}
+
+@Article{Jahani2016,
+  author    = {Jahani, Arezoo and Khanli, Leyli Mohammad},
+  title     = {Cloud service ranking as a multi objective optimization problem},
+  journal   = {The Journal of Supercomputing},
+  year      = {2016},
+  volume    = {72},
+  number    = {5},
+  pages     = {1897--1926},
+  publisher = {Springer},
+}
+
+@Article{halabi2017towards,
+  author    = {Halabi, Talal and Bellaiche, Martine},
+  title     = {Towards quantification and evaluation of security of Cloud Service Providers},
+  journal   = {Journal of Information Security and Applications},
+  year      = {2017},
+  volume    = {33},
+  pages     = {55--65},
+  publisher = {Elsevier},
+}
+
+@Article{Ma2016,
+  author    = {Ma, Hua and Hu, Zhigang and Li, Keqin and Zhang, Hongyu},
+  title     = {Toward trustworthy cloud service selection: A time-aware approach using interval neutrosophic set},
+  journal   = {Journal of Parallel and Distributed Computing},
+  year      = {2016},
+  volume    = {96},
+  pages     = {75--94},
+  publisher = {Elsevier},
+}
+
+@Article{subramanian2016cloud,
+  author    = {Subramanian, Thiruselvan and Savarimuthu, Nickolas},
+  title     = {Cloud service evaluation and selection using fuzzy hybrid MCDM approach in marketplace},
+  journal   = {International Journal of Fuzzy System Applications (IJFSA)},
+  year      = {2016},
+  volume    = {5},
+  number    = {2},
+  pages     = {118--153},
+  publisher = {IGI Global},
+}
+
+@Article{Luo2013,
+  author    = {Luo, Yihang and Fan, Yushun and Wang, Haoyi},
+  title     = {Business correlation-aware modelling and services selection in business service ecosystem},
+  journal   = {International Journal of Computer Integrated Manufacturing},
+  year      = {2013},
+  volume    = {26},
+  number    = {8},
+  pages     = {772--785},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{Kang2013,
+  author    = {Kang, Guosheng and Liu, Jianxun and Tang, Mingdong and Cao, Buqing},
+  title     = {Web service selection algorithm based on principal component analysis},
+  journal   = {Journal of Electronics (China)},
+  year      = {2013},
+  volume    = {30},
+  number    = {2},
+  pages     = {204--212},
+  publisher = {Springer},
+}
+
+@Article{Qi2016,
+  author    = {Qi, Lianyong and Dou, Wanchun and Chen, Jinjun},
+  title     = {Weighted principal component analysis-based service selection method for multimedia services in cloud},
+  journal   = {Computing},
+  year      = {2016},
+  volume    = {98},
+  number    = {1-2},
+  pages     = {195--214},
+  publisher = {Springer},
+}
+
+@Article{foster2008cloud,
+  author  = {Foster, Ian and Zhao, Yong and Raicu, Ioan and Lu, Shiyong},
+  title   = {Cloud computing and grid computing 360-degree compared},
+  journal = {arXiv preprint arXiv:0901.0131},
+  year    = {2008},
+}
+
+@Article{marston2011cloud,
+  author    = {Marston, Sean and Li, Zhi and Bandyopadhyay, Subhajyoti and Zhang, Juheng and Ghalsasi, Anand},
+  title     = {Cloud computing The business perspective},
+  journal   = {Decision support systems},
+  year      = {2011},
+  volume    = {51},
+  number    = {1},
+  pages     = {176--189},
+  publisher = {Elsevier},
+}
+
+@Article{limbani2012proposed,
+  author  = {Limbani, Dhaval and Oza, Bhavesh},
+  title   = {A proposed service broker strategy in cloudanalyst for cost-effective data center selection},
+  journal = {International Journal of Engineering Research and Applications, India},
+  year    = {2012},
+  volume  = {2},
+  number  = {1},
+  pages   = {793--797},
+}
+
+@Article{you2017operation,
+  author    = {You, Peipei and Guo, Sen and Zhao, Haoran and Zhao, Huiru},
+  title     = {Operation performance evaluation of power grid enterprise using a hybrid BWM-TOPSIS method},
+  journal   = {Sustainability},
+  year      = {2017},
+  volume    = {9},
+  number    = {12},
+  pages     = {2329},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+}
+
+@Article{Qi2016a,
+  author    = {Qi, Lianyong and Dou, Wanchun and Chen, Jinjun},
+  title     = {Weighted principal component analysis-based service selection method for multimedia services in cloud},
+  journal   = {Computing},
+  year      = {2016},
+  volume    = {98},
+  number    = {1-2},
+  pages     = {195--214},
+  publisher = {Springer},
+}
+
+@Article{saaty1982analytic,
+  author    = {Saaty, Thomas L},
+  title     = {The analytic hierarchy process: A new approach to deal with fuzziness in architecture},
+  journal   = {Architectural Science Review},
+  year      = {1982},
+  volume    = {25},
+  number    = {3},
+  pages     = {64--69},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{saltelli2004sensitivity,
+  author    = {Saltelli, Andrea and Tarantola, Stefano and Campolongo, Francesca and Ratto, Marco},
+  title     = {Sensitivity analysis in practice: a guide to assessing scientific models},
+  journal   = {Chichester, England},
+  year      = {2004},
+  publisher = {Wiley Online Library},
+}
+
+@Article{zyoud2017bibliometric,
+  author    = {Zyoud, Shaher H and Fuchs-Hanusch, Daniela},
+  title     = {A bibliometric-based survey on AHP and TOPSIS techniques},
+  journal   = {Expert Systems with Applications},
+  year      = {2017},
+  volume    = {78},
+  pages     = {158--181},
+  publisher = {Elsevier},
+}
+
+@Article{saaty2008decision,
+  author    = {Saaty, Thomas L},
+  title     = {Decision making with the analytic hierarchy process},
+  journal   = {International journal of services sciences},
+  year      = {2008},
+  volume    = {1},
+  number    = {1},
+  pages     = {83--98},
+  publisher = {Inderscience Publishers},
+}
+
+@Article{bellman1970decision,
+  author    = {Bellman, Richard E and Zadeh, Lotfi Asker},
+  title     = {Decision-making in a fuzzy environment},
+  journal   = {Management science},
+  year      = {1970},
+  volume    = {17},
+  number    = {4},
+  pages     = {B--141},
+  publisher = {INFORMS},
+}
+
+@Article{Kahraman2003,
+  author    = {Kahraman, Cengiz and Cebeci, Ufuk and Ulukan, Ziya},
+  title     = {Multi-criteria supplier selection using fuzzy AHP},
+  journal   = {Logistics information management},
+  year      = {2003},
+  volume    = {16},
+  number    = {6},
+  pages     = {382--394},
+  publisher = {MCB UP Ltd},
+}
+
+@Article{yang2007multiple,
+  author    = {Yang, Taho and Hung, Chih-Ching},
+  title     = {Multiple-attribute decision making methods for plant layout design problem},
+  journal   = {Robotics and computer-integrated manufacturing},
+  year      = {2007},
+  volume    = {23},
+  number    = {1},
+  pages     = {126--137},
+  publisher = {Elsevier},
+}
+
+@Article{becsikcci2016application,
+  author    = {Be{\c{s}}ik{\c{c}}i, E Bal and Kececi, T and Arslan, O and Turan, O},
+  title     = {An application of fuzzy-AHP to ship operational energy efficiency measures},
+  journal   = {Ocean Engineering},
+  year      = {2016},
+  volume    = {121},
+  pages     = {392--402},
+  publisher = {Elsevier},
+}
+
+@Article{ghassemi2013hybrid,
+  author    = {Ghassemi, Seyed Ali and Danesh, Shahnaz},
+  title     = {A hybrid fuzzy multi-criteria decision making approach for desalination process selection},
+  journal   = {Desalination},
+  year      = {2013},
+  volume    = {313},
+  pages     = {44--50},
+  publisher = {Elsevier},
+}
+
+@Article{sirisawat2018fuzzy,
+  author    = {Sirisawat, Pornwasin and Kiatcharoenpol, Tossapol},
+  title     = {Fuzzy AHP-TOPSIS approaches to prioritizing solutions for reverse logistics barriers},
+  journal   = {Computers \& Industrial Engineering},
+  year      = {2018},
+  volume    = {117},
+  pages     = {303--318},
+  publisher = {Elsevier},
+}
+
+@Article{kumar2018multi,
+  author    = {Kumar, Rakesh Ranjan and Kumar, Chiranjeev},
+  title     = {A Multi Criteria Decision Making Method for Cloud Service Selection and Ranking},
+  journal   = {International Journal of Ambient Computing and Intelligence (IJACI)},
+  year      = {2018},
+  volume    = {9},
+  number    = {3},
+  pages     = {1--14},
+  publisher = {IGI Global},
+}
+
+@Article{sun2014cloud,
+  author    = {Sun, Le and Dong, Hai and Hussain, Farookh Khadeer and Hussain, Omar Khadeer and Chang, Elizabeth},
+  title     = {Cloud service selection: State-of-the-art and future research directions},
+  journal   = {Journal of Network and Computer Applications},
+  year      = {2014},
+  volume    = {45},
+  pages     = {134--150},
+  publisher = {Elsevier},
+}
+
+@Book{erl1900service,
+  title     = {Service-oriented architecture: concepts, technology, and design},
+  publisher = {Pearson Education India},
+  year      = {1900},
+  author    = {Erl, Thomas},
+}
+
+@Book{ranjan2011cloud,
+  title     = {Cloud computing: methodology, systems, and applications},
+  publisher = {CRC Press},
+  year      = {2011},
+  author    = {Ranjan, Rajiv and Wang, Lizhe and Chen, Jinjun and Benatallah, Boualem},
+}
+
+@Book{hwang2012multiple,
+  title     = {Multiple attribute decision making: methods and applications a state-of-the-art survey},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Hwang, Ching-Lai and Yoon, Kwangsun},
+  volume    = {186},
+}
+
+@Book{puterman2014markov,
+  title     = {Markov decision processes: discrete stochastic dynamic programming},
+  publisher = {John Wiley \& Sons},
+  year      = {2014},
+  author    = {Puterman, Martin L},
+}
+
+@Book{segaran2009programming,
+  title     = {Programming the Semantic Web: Build Flexible Applications with Graph Data},
+  publisher = {" O'Reilly Media, Inc."},
+  year      = {2009},
+  author    = {Segaran, Toby and Evans, Colin and Taylor, Jamie},
+}
+
+@InCollection{triantaphyllou2000multi,
+  author    = {Triantaphyllou, Evangelos},
+  title     = {Multi-criteria decision making methods},
+  booktitle = {Multi-criteria decision making methods: A comparative study},
+  publisher = {Springer},
+  year      = {2000},
+  pages     = {5--21},
+}
+
+@InCollection{saaty2012principal,
+  author    = {Saaty, Thomas L and Vargas, Luis G},
+  title     = {Why is the Principal Eigenvector Necessary?},
+  booktitle = {Models, Methods, Concepts \& Applications of the Analytic Hierarchy Process},
+  publisher = {Springer},
+  year      = {2012},
+  pages     = {63--70},
+}
+
+@InCollection{huang2012evaluating,
+  author    = {Huang, Chi-Yo and Hsu, Pei-Chu and Tzeng, Gwo-Hshiung},
+  title     = {Evaluating cloud computing based telecommunications service quality enhancement by using a new hybrid MCDM model},
+  booktitle = {Intelligent Decision Technologies},
+  publisher = {Springer},
+  year      = {2012},
+  pages     = {519--536},
+}
+
+@InCollection{Triantaphyllou2000,
+  author    = {Triantaphyllou, Evangelos},
+  title     = {Multi-criteria decision making methods},
+  booktitle = {Multi-criteria decision making methods: A comparative study},
+  publisher = {Springer},
+  year      = {2000},
+  pages     = {5--21},
+}
+
+@InProceedings{godse2009approach,
+  author       = {Godse, Manish and Mulik, Shrikant},
+  title        = {An approach for selecting software-as-a-service (SaaS) product},
+  booktitle    = {Cloud Computing, 2009. CLOUD'09. IEEE International Conference on},
+  year         = {2009},
+  pages        = {155--158},
+  organization = {IEEE},
+}
+
+@InProceedings{ur2013multi,
+  author       = {ur Rehman, Zia and Hussain, Omar Khadeer and Hussain, Farookh Khadeer},
+  title        = {Multi-criteria IaaS service selection based on QoS history},
+  booktitle    = {Advanced Information Networking and Applications (AINA), 2013 IEEE 27th International Conference on},
+  year         = {2013},
+  pages        = {1129--1135},
+  organization = {IEEE},
+}
+
+@InProceedings{shivakumar2013ranking,
+  author       = {Shivakumar, Uppala and Ravi, Vadlamani and Gangadharan, GR},
+  title        = {Ranking cloud services using fuzzy multi-attribute decision making},
+  booktitle    = {Fuzzy Systems (FUZZ), 2013 IEEE International Conference on},
+  year         = {2013},
+  pages        = {1--8},
+  organization = {IEEE},
+}
+
+@InProceedings{tajvidi2014fuzzy,
+  author       = {Tajvidi, Masoumeh and Ranjan, Rajiv and Kolodziej, Joanna and Wang, Lizhe},
+  title        = {Fuzzy cloud service selection framework},
+  booktitle    = {Cloud Networking (CloudNet), 2014 IEEE 3rd International Conference on},
+  year         = {2014},
+  pages        = {443--448},
+  organization = {IEEE},
+}
+
+@InProceedings{jung2013cloudadvisor,
+  author       = {Jung, Gueyoung and Mukherjee, Tridib and Kunde, Shruti and Kim, Hyunjoo and Sharma, Naveen and Goetz, Frank},
+  title        = {Cloudadvisor: A recommendation-as-a-service platform for cloud configuration and pricing},
+  booktitle    = {Services (SERVICES), 2013 IEEE Ninth World Congress on},
+  year         = {2013},
+  pages        = {456--463},
+  organization = {IEEE},
+}
+
+@InProceedings{Buyya2008,
+  author       = {Buyya, Rajkumar and Yeo, Chee Shin and Venugopal, Srikumar},
+  title        = {Market-oriented cloud computing: Vision, hype, and reality for delivering it services as computing utilities},
+  booktitle    = {High Performance Computing and Communications, 2008. HPCC'08. 10th IEEE International Conference on},
+  year         = {2008},
+  pages        = {5--13},
+  organization = {Ieee},
+}
+
+@InProceedings{zheng2010cloudrank,
+  author    = {Zheng, Zibin and Zhang, Yilei and Lyu, Michael R},
+  title     = {CloudRank: A QoS-Driven Component Ranking Framework for Cloud Computing.},
+  booktitle = {SRDS},
+  year      = {2010},
+  pages     = {184--193},
+}
+
+@InProceedings{ye2011genetic,
+  author       = {Ye, Zhen and Zhou, Xiaofang and Bouguettaya, Athman},
+  title        = {Genetic algorithm based QoS-aware service compositions in cloud computing},
+  booktitle    = {International Conference on Database Systems for Advanced Applications},
+  year         = {2011},
+  pages        = {321--334},
+  organization = {Springer},
+}
+
+@InProceedings{qu2014context,
+  author       = {Qu, Lie and Wang, Yan and Orgun, Mehmet A and Liu, Ling and Bouguettaya, Athman},
+  title        = {Context-aware cloud service selection based on comparison and aggregation of user subjective assessment and objective performance assessment},
+  booktitle    = {2014 IEEE International Conference on Web Services},
+  year         = {2014},
+  pages        = {81--88},
+  organization = {IEEE},
+}
+
+@InProceedings{qian2013proximity,
+  author       = {Qian, Hangwei and Lv, Qian},
+  title        = {Proximity-aware cloud selection and virtual machine allocation in iaas cloud platforms},
+  booktitle    = {2013 IEEE Seventh International Symposium on Service-Oriented System Engineering},
+  year         = {2013},
+  pages        = {403--408},
+  organization = {IEEE},
+}
+
+@InProceedings{siegel2012cloud,
+  author       = {Siegel, Jane and Perdue, Jeff},
+  title        = {Cloud services measures for global use: the service measurement index (SMI)},
+  booktitle    = {2012 Annual SRII Global Conference},
+  year         = {2012},
+  pages        = {411--415},
+  organization = {IEEE},
+}
+
+@InProceedings{ruiz2011automated,
+  author       = {Ruiz-Alvarez, Arkaitz and Humphrey, Marty},
+  title        = {An automated approach to cloud storage service selection},
+  booktitle    = {Proceedings of the 2nd international workshop on Scientific cloud computing},
+  year         = {2011},
+  pages        = {39--48},
+  organization = {ACM},
+}
+
+@InProceedings{habib2011towards,
+  author       = {Habib, Sheikh Mahbub and Ries, Sebastian and Muhlhauser, Max},
+  title        = {Towards a trust management system for cloud computing},
+  booktitle    = {2011IEEE 10th International Conference on Trust, Security and Privacy in Computing and Communications},
+  year         = {2011},
+  pages        = {933--939},
+  organization = {IEEE},
+}
+
+@InProceedings{noor2011trust,
+  author       = {Noor, Talal H and Sheng, Quan Z},
+  title        = {Trust as a service: A framework for trust management in cloud environments},
+  booktitle    = {International Conference on Web Information Systems Engineering},
+  year         = {2011},
+  pages        = {314--321},
+  organization = {Springer},
+}
+
+@InProceedings{chen2014multi,
+  author       = {Chen, Hsin-Kai and Lin, Cheng-Yuan and Chen, Jian-Hung},
+  title        = {A multi-objective evolutionary approach for cloud service provider selection problems with dynamic demands},
+  booktitle    = {European Conference on the Applications of Evolutionary Computation},
+  year         = {2014},
+  pages        = {841--852},
+  organization = {Springer},
+}
+
+@InProceedings{cooper2010benchmarking,
+  author       = {Cooper, Brian F and Silberstein, Adam and Tam, Erwin and Ramakrishnan, Raghu and Sears, Russell},
+  title        = {Benchmarking cloud serving systems with YCSB},
+  booktitle    = {Proceedings of the 1st ACM symposium on Cloud computing},
+  year         = {2010},
+  pages        = {143--154},
+  organization = {ACM},
+}
+
+@InProceedings{lenk2011you,
+  author       = {Lenk, Alexander and Menzel, Michael and Lipsky, Johannes and Tai, Stefan and Offermann, Philipp},
+  title        = {What are you paying for? performance benchmarking for infrastructure-as-a-service offerings},
+  booktitle    = {2011 IEEE 4th International Conference on Cloud Computing},
+  year         = {2011},
+  pages        = {484--491},
+  organization = {IEEE},
+}
+
+@InProceedings{noor2011credibility,
+  author       = {Noor, Talal H and Sheng, Quan Z},
+  title        = {Credibility-based trust management for services in cloud environments},
+  booktitle    = {International Conference on Service-Oriented Computing},
+  year         = {2011},
+  pages        = {328--343},
+  organization = {Springer},
+}
+
+@InProceedings{qu2014evaluating,
+  author       = {Qu, Lie and Wang, Yan and Orgun, Mehmet and Wong, Duncan S and Bouguettaya, Athman},
+  title        = {Evaluating cloud user's credibility of providing subjective assessment or objective assessment for cloud services},
+  booktitle    = {International Conference on Service-Oriented Computing},
+  year         = {2014},
+  pages        = {453--461},
+  organization = {Springer},
+}
+
+@InProceedings{Rehman2011,
+  author       = {ur Rehman, Zia and Hussain, Farookh K and Hussain, Omar K},
+  title        = {Towards multi-criteria cloud service selection},
+  booktitle    = {2011 Fifth International Conference on Innovative Mobile and Internet Services in Ubiquitous Computing},
+  year         = {2011},
+  pages        = {44--48},
+  organization = {Ieee},
+}
+
+@InProceedings{ur2012iaas,
+  author       = {ur Rehman, Zia and Hussain, Omar K and Hussain, Farookh K},
+  title        = {Iaas cloud selection using MCDM methods},
+  booktitle    = {2012 IEEE Ninth international conference on e-business engineering},
+  year         = {2012},
+  pages        = {246--251},
+  organization = {IEEE},
+}
+
+@InProceedings{gonccalves2015multi,
+  author       = {Gon{\c{c}}alves Junior, Ronaldo and Rolim, Tiago and Sampaio, Am{\'e}rico and Mendon{\c{c}}a, Nabor C},
+  title        = {A multi-criteria approach for assessing cloud deployment options based on non-functional requirements},
+  booktitle    = {Proceedings of the 30th Annual ACM Symposium on Applied Computing},
+  year         = {2015},
+  pages        = {1383--1389},
+  organization = {ACM},
+}
+
+@InProceedings{achar2014broker,
+  author       = {Achar, Raghavendra and Thilagam, P Santhi},
+  title        = {A broker based approach for cloud provider selection},
+  booktitle    = {2014 International Conference on Advances in Computing, Communications and Informatics (ICACCI)},
+  year         = {2014},
+  pages        = {1252--1257},
+  organization = {IEEE},
+}
+
+@InProceedings{sahri2014dbaas,
+  author       = {Sahri, Soror and Moussa, Rim and Long, Darrell DE and Benbernou, Salima},
+  title        = {DBaaS-Expert: A recommender for the selection of the right cloud database},
+  booktitle    = {International Symposium on Methodologies for Intelligent Systems},
+  year         = {2014},
+  pages        = {315--324},
+  organization = {Springer},
+}
+
+@InProceedings{sun2014hybrid,
+  author       = {Sun, Le and Dong, Hai and Hussain, Farookh Khadeer and Hussain, Omar Khadeer and Ma, Jiangang and Zhang, Yanchun},
+  title        = {A hybrid fuzzy framework for cloud service selection},
+  booktitle    = {2014 IEEE International Conference on Web Services},
+  year         = {2014},
+  pages        = {313--320},
+  organization = {IEEE},
+}
+
+@InProceedings{le2014multicriteria,
+  author       = {Le, Sun and Dong, Hai and Hussain, Farookh Khadeer and Hussain, Omar Khadeer and Ma, Jiangang and Zhang, Yanchun},
+  title        = {Multicriteria decision making with fuzziness and criteria interdependence in cloud service selection},
+  booktitle    = {2014 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)},
+  year         = {2014},
+  pages        = {1929--1936},
+  organization = {IEEE},
+}
+
+@InProceedings{harnisch2013evaluating,
+  author       = {Harnisch, Stefan and Buxmann, Peter},
+  title        = {Evaluating cloud services using methods of supplier selection},
+  booktitle    = {International Conference on Business Information Systems},
+  year         = {2013},
+  pages        = {1--13},
+  organization = {Springer},
+}
+
+@InProceedings{saripalli2011madmac,
+  author       = {Saripalli, Prasad and Pingali, Gopal},
+  title        = {MADMAC: multiple attribute decision methodology for adoption of clouds},
+  booktitle    = {2011 IEEE 4th International Conference on Cloud Computing},
+  year         = {2011},
+  pages        = {316--323},
+  organization = {IEEE},
+}
+
+@InProceedings{karim2013end,
+  author       = {Karim, Raed and Ding, Chen and Miri, Ali},
+  title        = {An end-to-end QoS mapping approach for cloud service selection},
+  booktitle    = {2013 IEEE Ninth World Congress on Services},
+  year         = {2013},
+  pages        = {341--348},
+  organization = {IEEE},
+}
+
+@InProceedings{karim2014end,
+  author       = {Karim, Raed and Ding, Chen and Miri, Ali and Liu, Xumin},
+  title        = {End-to-end QoS mapping and aggregation for selecting cloud services},
+  booktitle    = {2014 International Conference on Collaboration Technologies and Systems (CTS)},
+  year         = {2014},
+  pages        = {515--522},
+  organization = {IEEE},
+}
+
+@InProceedings{qu2013cloud,
+  author       = {Qu, Lie and Wang, Yan and Orgun, Mehmet A},
+  title        = {Cloud service selection based on the aggregation of user feedback and quantitative performance assessment},
+  booktitle    = {2013 IEEE International Conference on Services Computing},
+  year         = {2013},
+  pages        = {152--159},
+  organization = {IEEE},
+}
+
+@InProceedings{qu2014cloud,
+  author       = {Qu, Lie and Wang, Yan and Orgun, Mehmet A and Liu, Ling and Bouguettaya, Athman},
+  title        = {Cloud service selection based on contextual subjective assessment and objective assessment},
+  booktitle    = {Proceedings of the 2014 international conference on Autonomous agents and multi-agent systems},
+  year         = {2014},
+  pages        = {1483--1484},
+  organization = {International Foundation for Autonomous Agents and Multiagent Systems},
+}
+
+@InProceedings{hans2013qos,
+  author       = {Hans, Ronny and Lampe, Ulrich and Steinmetz, Ralf},
+  title        = {QoS-aware, cost-efficient selection of cloud data centers},
+  booktitle    = {2013 IEEE Sixth International Conference on Cloud Computing},
+  year         = {2013},
+  pages        = {946--947},
+  organization = {IEEE},
+}
+
+@InProceedings{hans2015setting,
+  author    = {Hans, Ronny and Steffen, David and Lampe, Ulrich and Richerzhagen, Bj{\"o}rn and Steinmetz, Ralf},
+  title     = {Setting Priorities-A Heuristic Approach for Cloud Data Center Selection.},
+  booktitle = {CLOSER},
+  year      = {2015},
+  pages     = {221--228},
+}
+
+@InProceedings{qian2013css,
+  author       = {Qian, Hangwei and Zu, Hualong and Cao, Chenghua and Wang, Qixin},
+  title        = {CSS: Facilitate the cloud service selection in IaaS platforms},
+  booktitle    = {2013 International Conference on Collaboration Technologies and Systems (CTS)},
+  year         = {2013},
+  pages        = {347--354},
+  organization = {IEEE},
+}
+
+@InProceedings{zhang2015genetic,
+  author       = {Zhang, Miao and Liu, Li and Liu, Songtao},
+  title        = {Genetic algorithm based QoS-aware service composition in multi-cloud},
+  booktitle    = {2015 IEEE Conference on Collaboration and Internet Computing (CIC)},
+  year         = {2015},
+  pages        = {113--118},
+  organization = {IEEE},
+}
+
+@InProceedings{noor2013cloud,
+  author       = {Noor, Talal H and Sheng, Quan Z and Ngu, Anne HH and Alfazi, Abdullah and Law, Jeriel},
+  title        = {Cloud armor: a platform for credibility-based trust management of cloud services},
+  booktitle    = {Proceedings of the 22nd ACM International Conference on Information \& Knowledge Management},
+  year         = {2013},
+  pages        = {2509--2512},
+  organization = {ACM},
+}
+
+@InProceedings{noor2013reputation,
+  author       = {Noor, Talal H and Sheng, Quan Z and Alfazi, Abdullah},
+  title        = {Reputation attacks detection for effective trust assessment among cloud services},
+  booktitle    = {2013 12th IEEE International Conference on Trust, Security and Privacy in Computing and Communications},
+  year         = {2013},
+  pages        = {469--476},
+  organization = {IEEE},
+}
+
+@InProceedings{de2006web,
+  author       = {De Bruijn, Jos and Lausen, Holger and Polleres, Axel and Fensel, Dieter},
+  title        = {The web service modeling language WSML: an overview},
+  booktitle    = {European Semantic Web Conference},
+  year         = {2006},
+  pages        = {590--604},
+  organization = {Springer},
+}
+
+@InProceedings{wittern2012cloud,
+  author       = {Wittern, Erik and Kuhlenkamp, J{\"o}rn and Menzel, Michael},
+  title        = {Cloud service selection based on variability modeling},
+  booktitle    = {International Conference on Service-Oriented Computing},
+  year         = {2012},
+  pages        = {127--141},
+  organization = {Springer},
+}
+
+@InProceedings{Zhang2012,
+  author       = {Zhang, Miranda and Ranjan, Rajiv and Nepal, Surya and Menzel, Michael and Haller, Armin},
+  title        = {A declarative recommender system for cloud infrastructure services selection},
+  booktitle    = {International Conference on Grid Economics and Business Models},
+  year         = {2012},
+  pages        = {102--113},
+  organization = {Springer},
+}
+
+@InProceedings{ngan2012owl,
+  author       = {Ngan, Le Duy and Kanagasabai, Rajaraman},
+  title        = {Owl-s based semantic cloud service broker},
+  booktitle    = {2012 IEEE 19th International Conference on Web Services},
+  year         = {2012},
+  pages        = {560--567},
+  organization = {IEEE},
+}
+
+@InProceedings{saaty1999fundamentals,
+  author    = {Saaty, Thomas L},
+  title     = {Fundamentals of the analytic network process},
+  booktitle = {Proceedings of the 5th international symposium on the analytic hierarchy process},
+  year      = {1999},
+  pages     = {12--14},
+}
+
+@InProceedings{yuen2012software,
+  author       = {Yuen, Kevin Kam Fung},
+  title        = {Software-as-a-Service evaluation in cloud paradigm: Primitive cognitive network process approach},
+  booktitle    = {2012 IEEE International Conference on Signal Processing, Communication and Computing (ICSPCC 2012)},
+  year         = {2012},
+  pages        = {119--124},
+  organization = {IEEE},
+}
+
+@InProceedings{yiming2011saas,
+  author       = {Yiming, Chen and Yiwei, Zhu},
+  title        = {SaaS vendor selection basing on analytic hierarchy process},
+  booktitle    = {2011 Fourth International Joint Conference on Computational Sciences and Optimization},
+  year         = {2011},
+  pages        = {511--515},
+  organization = {IEEE},
+}
+
+@InProceedings{ribas2014assessing,
+  author       = {Ribas, Maristella and Lima, Alberto S and Souza, Neuman and Moura, Ant{\~a}o and Sousa, Fl{\'a}vio RC and Fenner, Germano},
+  title        = {Assessing cloud computing SaaS adoption for enterprise applications using a Petri net MCDM framework},
+  booktitle    = {2014 IEEE Network Operations and Management Symposium (NOMS)},
+  year         = {2014},
+  pages        = {1--6},
+  organization = {IEEE},
+}
+
+@InProceedings{boussoualim2015evaluation,
+  author       = {Boussoualim, Nacera and Aklouf, Youcef},
+  title        = {Evaluation and selection of SaaS product based on user preferences},
+  booktitle    = {2015 Third International Conference on Technological Advances in Electrical, Electronics and Computer Engineering (TAEECE)},
+  year         = {2015},
+  pages        = {299--308},
+  organization = {Ieee},
+}
+
+@InProceedings{sun2013consumer,
+  author       = {Sun, Mingrui and Zang, Tianyi and Xu, Xiaofei and Wang, Rongjie},
+  title        = {Consumer-centered cloud services selection using AHP},
+  booktitle    = {2013 International Conference on Service Sciences (ICSS)},
+  year         = {2013},
+  pages        = {1--6},
+  organization = {IEEE},
+}
+
+@InProceedings{gupta2015risk,
+  author       = {Gupta, Smrati and Muntes-Mulero, Victor and Matthews, Peter and Dominiak, Jacek and Omerovic, Aida and Aranda, Jordi and Seycek, Stepan},
+  title        = {Risk-driven framework for decision support in cloud service selection},
+  booktitle    = {2015 15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing},
+  year         = {2015},
+  pages        = {545--554},
+  organization = {IEEE},
+}
+
+@InProceedings{patiniotakis2013managing,
+  author       = {Patiniotakis, Ioannis and Rizou, Stamatia and Verginadis, Yiannis and Mentzas, Gregoris},
+  title        = {Managing imprecise criteria in cloud service ranking with a fuzzy multi-criteria decision making method},
+  booktitle    = {European Conference on Service-Oriented and Cloud Computing},
+  year         = {2013},
+  pages        = {34--48},
+  organization = {Springer},
+}
+
+@InProceedings{khan2015towards,
+  author       = {Khan, Muhammad Zubair and Qamar, Usman},
+  title        = {Towards service evaluation and ranking model for cloud infrastructure selection},
+  booktitle    = {2015 IEEE 12th Intl Conf on Ubiquitous Intelligence and Computing and 2015 IEEE 12th Intl Conf on Autonomic and Trusted Computing and 2015 IEEE 15th Intl Conf on Scalable Computing and Communications and Its Associated Workshops (UIC-ATC-ScalCom)},
+  year         = {2015},
+  pages        = {1282--1287},
+  organization = {IEEE},
+}
+
+@InProceedings{karami2012fuzzy,
+  author       = {Karami, Amir and Guo, Zhiling},
+  title        = {A fuzzy logic multi-criteria decision framework for selecting it service providers},
+  booktitle    = {2012 45th Hawaii International Conference on System Sciences},
+  year         = {2012},
+  pages        = {1118--1127},
+  organization = {IEEE},
+}
+
+@InProceedings{garg2015modeling,
+  author       = {Garg, Radhika and Naudts, Bram and Verbrugge, Sofie and Stiller, Burkhard},
+  title        = {Modeling legal and regulative requirements for ranking alternatives of cloud-based services},
+  booktitle    = {2015 IEEE Eighth International Workshop on Requirements Engineering and Law (RELAW)},
+  year         = {2015},
+  pages        = {25--32},
+  organization = {IEEE},
+}
+
+@InProceedings{cavalcante2012optimizing,
+  author       = {Cavalcante, Everton and Batista, Thais and Lopes, Frederico and Delicato, Flavia C and Pires, Paulo F and Rodriguez, Noemi and de Moura, Ana L{\'u}cia and Mendes, Reginaldo},
+  title        = {Optimizing services selection in a cloud multiplatform scenario},
+  booktitle    = {2012 IEEE Latin America Conference on Cloud Computing and Communications (LatinCloud)},
+  year         = {2012},
+  pages        = {31--36},
+  organization = {IEEE},
+}
+
+@InProceedings{han2009efficient,
+  author       = {Han, Seung-Min and Hassan, Mohammad Mehedi and Yoon, Chang-Woo and Huh, Eui-Nam},
+  title        = {Efficient service recommendation system for cloud computing market},
+  booktitle    = {Proceedings of the 2nd international conference on interaction sciences: information technology, culture and human},
+  year         = {2009},
+  pages        = {839--845},
+  organization = {ACM},
+}
+
+@InProceedings{salama2012integrated,
+  author       = {Salama, Maria and Shawish, Ahmed and Zeid, Amir and Kouta, Mohamed},
+  title        = {Integrated QoS utility-based model for cloud computing service provider selection},
+  booktitle    = {2012 IEEE 36th Annual Computer Software and Applications Conference Workshops},
+  year         = {2012},
+  pages        = {45--50},
+  organization = {IEEE},
+}
+
+@InProceedings{zeng2009cloud,
+  author       = {Zeng, Wenying and Zhao, Yuelong and Zeng, Junwei},
+  title        = {Cloud service and service selection algorithm research},
+  booktitle    = {Proceedings of the first ACM/SIGEVO Summit on Genetic and Evolutionary Computation},
+  year         = {2009},
+  pages        = {1045--1048},
+  organization = {ACM},
+}
+
+@InProceedings{oh2011reusability,
+  author       = {Oh, Sang Hun and La, Hyun Jung and Kim, Soo Dong},
+  title        = {A reusability evaluation suite for cloud services},
+  booktitle    = {2011 IEEE 8th International Conference on e-Business Engineering},
+  year         = {2011},
+  pages        = {111--118},
+  organization = {IEEE},
+}
+
+@InProceedings{reixa2012cloud,
+  author       = {Reixa, Miguel and Costa, Carlos and Aparicio, Manuela},
+  title        = {Cloud services evaluation framework},
+  booktitle    = {Proceedings of the Workshop on Open Source and Design of Communication},
+  year         = {2012},
+  pages        = {61--69},
+  organization = {ACM},
+}
+
+@InProceedings{Mu2014,
+  author       = {Mu, Bin and Li, Su and Yuan, Shijin},
+  title        = {QoS-aware cloud service selection based on uncertain user preference},
+  booktitle    = {International Conference on Rough Sets and Knowledge Technology},
+  year         = {2014},
+  pages        = {589--600},
+  organization = {Springer},
+}
+
+@InProceedings{Wagner2012,
+  author       = {Wagner, Florian and Klein, Adrian and Kl{\"o}pper, Benjamin and Ishikawa, Fuyuki and Honiden, Shinichi},
+  title        = {Multi-objective service composition with time-and input-dependent QoS},
+  booktitle    = {2012 IEEE 19th International Conference on Web Services},
+  year         = {2012},
+  pages        = {234--241},
+  organization = {IEEE},
+}
+
+@InProceedings{sundareswaran2012brokerage,
+  author       = {Sundareswaran, Smitha and Squicciarini, Anna and Lin, Dan},
+  title        = {A brokerage-based approach for cloud service selection},
+  booktitle    = {2012 IEEE Fifth International Conference on Cloud Computing},
+  year         = {2012},
+  pages        = {558--565},
+  organization = {IEEE},
+}
+
+@InProceedings{badidi2013cloud,
+  author       = {Badidi, Elarbi},
+  title        = {A cloud service broker for SLA-based SaaS provisioning},
+  booktitle    = {International Conference on Information Society (i-Society 2013)},
+  year         = {2013},
+  pages        = {61--66},
+  organization = {IEEE},
+}
+
+@InProceedings{Ngan2012,
+  author       = {Ngan, Le Duy and Kanagasabai, Rajaraman},
+  title        = {Owl-s based semantic cloud service broker},
+  booktitle    = {2012 IEEE 19th International Conference on Web Services},
+  year         = {2012},
+  pages        = {560--567},
+  organization = {IEEE},
+}
+
+@InProceedings{kumar2016evaluation,
+  author       = {Kumar, Rakesh Ranjan and Kumar, Chiranjeev},
+  title        = {An evaluation system for cloud service selection using fuzzy AHP},
+  booktitle    = {2016 11th International Conference on Industrial and Information Systems (ICIIS)},
+  year         = {2016},
+  pages        = {821--826},
+  organization = {IEEE},
+}
+
+@Misc{csmiccloud,
+  author = {CSMIC, CMU},
+  title  = {Cloud Services Measures for Global Use: The Service Measurement Index (SMI)},
+}
+
+@Misc{hwangcl1981multipleattributedecisionmaking,
+  author    = {HwangCL, YoonK},
+  title     = {Multipleattributedecisionmaking: methodsandapplications},
+  year      = {1981},
+  publisher = {Germany: Springer},
+}
+
+@Misc{alexatop1k,
+  author = {{Amazon Web Services}},
+  title  = {https://aws.amazon.com/ec2},
+  url    = {https://aws.amazon.com/ec2},
+}
+
+@Misc{rackspace1k,
+  author = {{Rackspace}},
+  title  = {https://www.rackspace.com/},
+}
+
+@Misc{digitalocean1k,
+  author = {{DigitalOcean}},
+  title  = {https://www.digitalocean.com/},
+}
+
+@Misc{microsoft,
+  author = {{Microsoft Azure}},
+  title  = {https://azure.microsoft.com},
+}
+
+@Misc{googletop1k,
+  author = {{Google App Engine}},
+  title  = {https://cloud.google.com/appengine/},
+  url    = {https://cloud.google.com/appengine/},
+}
+
+@Misc{salesforcetop1k,
+  author = {{Google App Engine}},
+  title  = {https://www.salesforce.com},
+  url    = {https://www.salesforce.com},
+}
+
+@Misc{googledoc,
+  author = {{Google App Engine}},
+  title  = {https://www.google.com/docs/about/},
+  url    = {https://www.google.com/docs/about/},
+}
+
+@Misc{christensen2001web,
+  author    = {Christensen, Erik and Curbera, Francisco and Meredith, Greg and Weerawarana, Sanjiva and others},
+  title     = {Web services description language (WSDL) 1.1},
+  year      = {2001},
+  publisher = {Citeseer},
+}
+
+@Misc{al2008qws,
+  author  = {Al-Masri, Eyhab and Mahmoud, Qusay H},
+  title   = {The qws dataset},
+  year    = {2008},
+  journal = {2013-03-12]. http:∥ www. uoguelph. ca/\~{} qmahmoud/qws/index html},
+}
+
+@Misc{karayalcin1982analytic,
+  author    = {Karayalcin, Ilhami I},
+  title     = {The analytic hierarchy process: Planning, priority setting, resource allocation: Thomas L. SAATY McGraw-Hill, New York, 1980, xiii+ 287 pages,{\pounds} 15.65},
+  year      = {1982},
+  publisher = {North-Holland},
+}
+
+@Online{15.2,
+  title        = {Cloud {H}armony {R}eports},
+  howpublished = {\url{http://static.lindsberget.se/state-of-the-cloud-compute-0714.pdf}},
+  note         = {[Online; Accessed 12-March-2017]},
+}
+
+@Article{alabool2018cloud,
+  author    = {Alabool, Hamzeh and Kamil, Ahmad and Arshad, Noreen and Alarabiat, Deemah},
+  title     = {Cloud service evaluation method-based Multi-Criteria Decision-Making: A systematic literature review},
+  journal   = {Journal of Systems and Software},
+  year      = {2018},
+  volume    = {139},
+  pages     = {161--188},
+  publisher = {Elsevier},
+}
+
+@Article{hussain2019novel,
+  author    = {Hussain, Abid and Chun, Jin and Khan, Maria},
+  title     = {A novel framework towards viable Cloud Service Selection as a Service (CSSaaS) under a fuzzy environment},
+  journal   = {Future Generation Computer Systems},
+  year      = {2019},
+  publisher = {Elsevier},
+}
+
+@Article{alabool2016novel,
+  author    = {Alabool, Hamzeh Mohammad and Mahmood, Ahmad Kamil Bin},
+  title     = {A novel evaluation framework for improving trust level of Infrastructure as a Service},
+  journal   = {Cluster Computing},
+  year      = {2016},
+  volume    = {19},
+  number    = {1},
+  pages     = {389--410},
+  publisher = {Springer},
+}
+
+@Article{sun2017influence,
+  author    = {Sun, Le},
+  title     = {An influence diagram based cloud service selection approach in dynamic cloud marketplaces},
+  journal   = {Cluster Computing},
+  year      = {2017},
+  pages     = {1--10},
+  publisher = {Springer},
+}
+
+@InProceedings{kaveri2017fpromethee,
+  author       = {Kaveri, B Akshya and Gireesha, O and Somu, Nivethitha and Raman, MR Gauthama and Sriram, VS Shankar},
+  title        = {E-FPROMETHEE: An entropy based fuzzy multi criteria decision making service ranking approach for cloud service selection},
+  booktitle    = {International Conference on Intelligent Information Technologies},
+  year         = {2017},
+  pages        = {224--238},
+  organization = {Springer},
+}
+
+@InProceedings{sachdeva2016selecting,
+  author       = {Sachdeva, Nitin and Kapur, PK and Singh, Gurinder},
+  title        = {Selecting appropriate cloud solution for managing big data projects using hybrid AHP-entropy based assessment},
+  booktitle    = {2016 International Conference on Innovation and Challenges in Cyber Security (ICICCS-INBUSH)},
+  year         = {2016},
+  pages        = {135--140},
+  organization = {IEEE},
+}
+
+@InProceedings{kumar2017designing,
+  author       = {Kumar, Rakesh Ranjan and Kumar, Chiranjeev},
+  title        = {Designing an efficient methodology based on Entropy-TOPSIS for evaluating efficiency of cloud services},
+  booktitle    = {Proceedings of the 7th International Conference on Computer and Communication Technology},
+  year         = {2017},
+  pages        = {117--122},
+  organization = {ACM},
+}
+
+@Article{shameem2020taxonomical,
+  author    = {Shameem, Mohammad and Kumar, Rakesh Ranjan and Nadeem, Mohammad and Khan, Arif Ali},
+  title     = {Taxonomical classification of barriers for scaling agile methods in global software development environment using fuzzy analytic hierarchy process},
+  journal   = {Applied Soft Computing},
+  year      = {2020},
+  volume    = {90},
+  pages     = {106122},
+  publisher = {Elsevier},
+}
+
+@Article{khan2019fuzzy,
+  author    = {Khan, Arif Ali and Shameem, Mohammad and Kumar, Rakesh Ranjan and Hussain, Shahid and Yan, Xuefeng},
+  title     = {Fuzzy AHP based prioritization and taxonomy of software process improvement success factors in global software development},
+  journal   = {Applied Soft Computing},
+  year      = {2019},
+  volume    = {83},
+  pages     = {105648},
+  publisher = {Elsevier},
+}
+
+@InProceedings{Kumar2016,
+  author       = {Kumar, Rakesh Ranjan and Kumar, Chiranjeev},
+  title        = {An evaluation system for cloud service selection using fuzzy AHP},
+  booktitle    = {2016 11th International Conference on Industrial and Information Systems (ICIIS)},
+  year         = {2016},
+  pages        = {821--826},
+  organization = {IEEE},
+}
+
+@InProceedings{Kumar2017a,
+  author    = {Kumar, Rakesh Ranjan and Kumar, Chiranjeev},
+  title     = {Designing an efficient methodology based on Entropy-TOPSIS for evaluating efficiency of cloud services},
+  booktitle = {Proceedings of the 7th International Conference on Computer and Communication Technology},
+  year      = {2017},
+  pages     = {117--122},
+}
+
+@InProceedings{khanam2018qos,
+  author       = {Khanam, Rashda and Kumar, Rakesh Ranjan and Kumar, Chiranjeev},
+  title        = {QoS based cloud service composition with optimal set of services using PSO},
+  booktitle    = {2018 4th International Conference on Recent Advances in Information Technology (RAIT)},
+  year         = {2018},
+  pages        = {1--6},
+  organization = {IEEE},
+}
+
+@Article{sun2019influence,
+  author    = {Sun, Le},
+  title     = {An influence diagram based cloud service selection approach in dynamic cloud marketplaces},
+  journal   = {Cluster Computing},
+  year      = {2019},
+  pages     = {1--10},
+  publisher = {Springer},
+}
+
+@Article{hussain2020novel,
+  author    = {Hussain, Abid and Chun, Jin and Khan, Maria},
+  title     = {A novel customer-centric Methodology for Optimal Service Selection (MOSS) in a cloud environment},
+  journal   = {Future Generation Computer Systems},
+  year      = {2020},
+  volume    = {105},
+  pages     = {562--580},
+  publisher = {Elsevier},
+}
+
+@Article{Abdel-Basset2018a,
+  author    = {Abdel-Basset, Mohamed and Mohamed, Mai and Chang, Victor},
+  title     = {NMCDA: A framework for evaluating cloud computing services},
+  journal   = {Future Generation Computer Systems},
+  year      = {2018},
+  volume    = {86},
+  pages     = {12--29},
+  publisher = {Elsevier},
+}
+
+@Article{wang2011mathematical,
+  author    = {Wang, Zhoujing and Li, Kevin W and Xu, Jianhui},
+  title     = {A mathematical programming approach to multi-attribute decision making with interval-valued intuitionistic fuzzy assessment information},
+  journal   = {Expert Systems with Applications},
+  year      = {2011},
+  volume    = {38},
+  number    = {10},
+  pages     = {12462--12469},
+  publisher = {Elsevier},
+}
+
+@Article{lu2018novel,
+  author    = {Lu, Lilei and Yuan, Yuyu},
+  title     = {A novel TOPSIS evaluation scheme for cloud service trustworthiness combining objective and subjective aspects},
+  journal   = {Journal of Systems and Software},
+  year      = {2018},
+  volume    = {143},
+  pages     = {71--86},
+  publisher = {Elsevier},
+}
+
+@Article{tomar2020multi,
+  author    = {Tomar, Abhinav and Jana, Prasanta K},
+  title     = {A multi-attribute decision making approach for on-demand charging scheduling in wireless rechargeable sensor networks},
+  journal   = {Computing},
+  year      = {2020},
+  pages     = {1--25},
+  publisher = {Springer},
+}
+
+@InProceedings{tomar2019mobile,
+  author       = {Tomar, Abhinav and Jana, Prasanta Kumar},
+  title        = {Mobile charging of wireless sensor networks for internet of things: a multi-attribute decision making approach},
+  booktitle    = {International Conference on Distributed Computing and Internet Technology},
+  year         = {2019},
+  pages        = {309--324},
+  organization = {Springer},
+}
+
+@Article{nivethitha2019improved,
+  author    = {Nivethitha, Somu and Raman, MR Gauthama and Gireesha, Obulaporam and Kannan, Krithivasan and Sriram, VS Shankar},
+  title     = {An improved rough set approach for optimal trust measure parameter selection in cloud environments},
+  journal   = {Soft Computing},
+  year      = {2019},
+  volume    = {23},
+  number    = {22},
+  pages     = {11979--11999},
+  publisher = {Springer},
+}
+
+@Article{goraya2020satisfaction,
+  author    = {Goraya, Major Singh and Singh, Damanpreet and others},
+  title     = {Satisfaction aware QoS-based bidirectional service mapping in cloud environment},
+  journal   = {Cluster Computing},
+  year      = {2020},
+  pages     = {1--21},
+  publisher = {Springer},
+}
+
+@Article{mei2019improved,
+  author    = {Mei, Yanlan and Xie, Kefan},
+  title     = {An improved TOPSIS method for metro station evacuation strategy selection in interval type-2 fuzzy environment},
+  journal   = {Cluster Computing},
+  year      = {2019},
+  volume    = {22},
+  number    = {2},
+  pages     = {2781--2792},
+  publisher = {Springer},
+}
+
+@Article{maroc2021cloud,
+  author    = {Maroc, Sarah and Zhang, Jian Biao},
+  title     = {Cloud services security-driven evaluation for multiple tenants},
+  journal   = {Cluster Computing},
+  year      = {2021},
+  volume    = {24},
+  number    = {2},
+  pages     = {1103--1121},
+  publisher = {Springer},
+}
+
+@Article{nejat2021efficient,
+  author    = {Nejat, Mohammad Hossein and Motameni, Homayun and Vahdat-Nejad, Hamed and Barzegar, Behnam},
+  title     = {Efficient cloud service ranking based on uncertain user requirements},
+  journal   = {Cluster Computing},
+  year      = {2021},
+  pages     = {1--18},
+  publisher = {Springer},
+}
+
+@Article{kumar2021ccs,
+  author    = {Kumar, Rakesh Ranjan and Kumari, Binita and Kumar, Chiranjeev},
+  title     = {CCS-OSSR: a framework based on hybrid MCDM for optimal service selection and ranking of cloud computing services},
+  journal   = {Cluster Computing},
+  year      = {2021},
+  volume    = {24},
+  number    = {2},
+  pages     = {867--883},
+  publisher = {Springer},
+}
+
+@Article{nejat2022efficient,
+  author    = {Nejat, Mohammad Hossein and Motameni, Homayun and Vahdat-Nejad, Hamed and Barzegar, Behnam},
+  title     = {Efficient cloud service ranking based on uncertain user requirements},
+  journal   = {Cluster Computing},
+  year      = {2022},
+  volume    = {25},
+  number    = {1},
+  pages     = {485--502},
+  publisher = {Springer},
+}
+
+@Article{Goraya2020,
+  author    = {Goraya, Major Singh and Singh, Damanpreet and others},
+  title     = {Satisfaction aware QoS-based bidirectional service mapping in cloud environment},
+  journal   = {Cluster Computing},
+  year      = {2020},
+  volume    = {23},
+  number    = {4},
+  pages     = {2991--3011},
+  publisher = {Springer},
+}
+
+@Article{hazra2022cooperative,
+  author    = {Hazra, Abhishek and Donta, Praveen Kumar and Amgoth, Tarachand and Dustdar, Schahram},
+  title     = {Cooperative Transmission Scheduling and Computation Offloading with Collaboration of Fog and Cloud for Industrial IoT Applications},
+  journal   = {IEEE Internet of Things Journal},
+  year      = {2022},
+  publisher = {IEEE},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

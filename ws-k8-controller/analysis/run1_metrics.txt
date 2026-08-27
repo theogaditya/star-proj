@@ -1,0 +1,11 @@
+Experiment C — Run 1 Per-Run Metrics (extracted from processed data)
+======================================================================
+  Pod-seconds:           92291
+  Scale-up reaction (s): 20.0
+  Scale-down reaction (s): 123.0
+  Peak connections:      867
+  Peak replicas:         10
+
+Note: Run 1 pod-seconds elevated (92,291) due to test-harness artefact
+(residual replicas from prior cluster invocation).
+Correctness metrics (scale-up, scale-down, peak connections) are valid.

@@ -25,7 +25,12 @@ from matplotlib.patches import FancyArrowPatch
 # ── Styling ───────────────────────────────────────────────────────
 plt.rcParams.update({
     "font.family": "sans-serif",
-    "font.size": 10,
+    "font.size": 14,
+    "axes.titlesize": 16,
+    "axes.labelsize": 14,
+    "legend.fontsize": 12,
+    "xtick.labelsize": 12,
+    "ytick.labelsize": 12,
     "axes.grid": True,
     "grid.alpha": 0.25,
     "axes.facecolor": "#f8f9fa",
@@ -122,7 +127,7 @@ def add_phase_markers(ax, phases, y_max, mode="exp_a"):
         if key in phases:
             t = phases[key]
             ax.axvline(x=t, color=color, linestyle="--", linewidth=1.5, alpha=0.8)
-            ax.text(t + 5, y_max * 0.92, label, fontsize=7.5, color=color,
+            ax.text(t + 5, y_max * 0.92, label, fontsize=10, color=color,
                     va="top", ha="left", fontweight="bold",
                     bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.85, edgecolor=color))
 
@@ -224,9 +229,9 @@ def plot_single(rows, title, out, perpod_path=None, phases_path=None, mode="exp_
     else:
         axes[-1].set_xlabel("Time (s)")
 
-    fig.suptitle(title, fontsize=14, fontweight="bold", y=0.98)
+    fig.suptitle(title, fontsize=18, fontweight="bold", y=0.98)
     plt.tight_layout()
-    plt.savefig(out, dpi=150, bbox_inches="tight")
+    plt.savefig(out, dpi=300, bbox_inches="tight")
     print(f"[✓] Saved {out}")
     plt.close()
 
@@ -280,9 +285,9 @@ def plot_comparison(rows_hpa, rows_star, out):
             ax.set_xlabel("Time (s)")
 
     fig.suptitle("Experiment-C MQTT: Idle Connections — HPA vs StatefulAutoscaler",
-                 fontsize=13, fontweight="bold", y=0.98)
+                 fontsize=18, fontweight="bold", y=0.98)
     plt.tight_layout()
-    plt.savefig(out, dpi=150, bbox_inches="tight")
+    plt.savefig(out, dpi=300, bbox_inches="tight")
     print(f"[✓] Saved {out}")
     plt.close()
 

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: spmpsci.bst
+Database file #1: reference.bib
+Warning--to sort, need author or key in liu2023prediction
+Warning--empty author in liu2023prediction
+Warning--empty journal in burns2016borg
+Warning--empty journal in merkel2014docker
+You've used 30 entries,
+            2945 wiz_defined-function locations,
+            776 strings with 10205 characters,
+and the built_in function-call counts, 14024 in all, are:
+= -- 1122
+> -- 464
+< -- 6
++ -- 194
+- -- 162
+* -- 810
+:= -- 1861
+add.period$ -- 59
+call.type$ -- 30
+change.case$ -- 189
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 1262
+empty$ -- 1301
+format.name$ -- 181
+if$ -- 3033
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 288
+newline$ -- 152
+num.names$ -- 58
+pop$ -- 549
+preamble$ -- 1
+purify$ -- 140
+quote$ -- 0
+skip$ -- 319
+stack$ -- 0
+substring$ -- 487
+swap$ -- 706
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 4
+while$ -- 83
+width$ -- 32
+write$ -- 345
+(There were 4 warnings)

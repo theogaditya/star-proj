@@ -58,12 +58,12 @@ ALPHAS     = [1.0, 0.75, 0.55, 0.40, 0.25]   # per-run alpha (most recent darkes
 RUN_COLORS = ["#2c3e50", "#2980b9", "#27ae60", "#e67e22", "#8e44ad"]
 
 plt.rcParams.update({
-    "font.size": 10,
-    "axes.titlesize": 10,
-    "axes.labelsize": 9,
-    "legend.fontsize": 8,
-    "xtick.labelsize": 8,
-    "ytick.labelsize": 8,
+    "font.size": 14,
+    "axes.titlesize": 16,
+    "axes.labelsize": 14,
+    "legend.fontsize": 12,
+    "xtick.labelsize": 12,
+    "ytick.labelsize": 12,
 })
 
 # ---------------------------------------------------------------------------
@@ -101,7 +101,7 @@ def _rep_col(df: pd.DataFrame) -> str:
 def _savefig(fig: plt.Figure, *dest_dirs: str, fname: str) -> None:
     for d in dest_dirs:
         _mkdir(d)
-        fig.savefig(os.path.join(d, fname), dpi=150, bbox_inches="tight")
+        fig.savefig(os.path.join(d, fname), dpi=300, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -310,13 +310,13 @@ def plot_comparison_c_vs_d() -> None:
         ax2.set_ylabel("Replica Count", color=COL_REP)
         ax.tick_params(axis="y", labelcolor=COL_CONN)
         ax2.tick_params(axis="y", labelcolor=COL_REP)
-        ax.set_title(title, fontsize=9)
+        ax.set_title(title, fontsize=12)
         ax.grid(True, linestyle=":", alpha=0.4)
 
     fig.suptitle(
         "C vs. D: Both controllers hold 8 replicas through DROP\u202f1 (\u223c50\u202fs zero-window).\n"
         "Key differences: scale-up latency (C\u202f22\u202fs vs. D\u202f54\u202fs) and CYCLE\u202f2 transition (C dips to\u202f5\u20116; D flat at\u202f8)",
-        fontsize=9.5, y=1.01,
+        fontsize=14, y=1.01,
     )
     fig.tight_layout()
 
@@ -345,7 +345,7 @@ def plot_failure_comparative() -> None:
         rep_df  = pd.read_csv(os.path.join(proc, "replicas.csv"))  if os.path.exists(os.path.join(proc, "replicas.csv"))  else pd.DataFrame()
 
         if conn_df.empty or rep_df.empty:
-            ax.set_title(title + "\n[data missing]", fontsize=8)
+            ax.set_title(title + "\n[data missing]", fontsize=12)
             continue
 
         t0 = min(conn_df["timestamp"].min(), rep_df["timestamp"].min())
@@ -360,16 +360,16 @@ def plot_failure_comparative() -> None:
         ax2.step(rep_df["t"], rep_df[rep_col],
                  where="post", color=COL_REP, linewidth=1.5, label="Replicas")
 
-        ax.set_xlabel("Elapsed Time (s)", fontsize=8)
-        ax.set_ylabel("Connections", color=COL_CONN, fontsize=8)
-        ax2.set_ylabel("Replicas", color=COL_REP, fontsize=8)
-        ax.tick_params(axis="y", labelcolor=COL_CONN, labelsize=7)
-        ax2.tick_params(axis="y", labelcolor=COL_REP,  labelsize=7)
-        ax.set_title(title, fontsize=8.5)
+        ax.set_xlabel("Elapsed Time (s)", fontsize=12)
+        ax.set_ylabel("Connections", color=COL_CONN, fontsize=12)
+        ax2.set_ylabel("Replicas", color=COL_REP, fontsize=12)
+        ax.tick_params(axis="y", labelcolor=COL_CONN, labelsize=10)
+        ax2.tick_params(axis="y", labelcolor=COL_REP,  labelsize=10)
+        ax.set_title(title, fontsize=13)
         ax.grid(True, linestyle=":", alpha=0.4)
 
     fig.suptitle("Failure Scenario Analysis: StatefulAutoscaler Robustness Under Adversarial Conditions",
-                 fontsize=9, y=1.02)
+                 fontsize=14, y=1.02)
     fig.tight_layout()
 
     out_proc  = _mkdir(SINGLE_BASE)
